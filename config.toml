@@ -1,8 +1,8 @@
 ############################ Default configuration #########################
-baseURL = "https://hugoabernier.github.io/blog/"
+baseURL = "https://hugoabernier.github.io/"
 
 # site title 
-title = "Tahoe Ninjas"
+title = "Hugo Bernier"
 
 # theme
 theme = "northendlab"
@@ -33,7 +33,7 @@ favicon = "images/favicon.svg"
 
 home = "Home"
 # Meta data
-description = "Discover the ancient art of SharePointjutsu"
+description = "Hugo Bernier's blog"
 author = "Hugo Bernier"
 
 # Google Analitycs
