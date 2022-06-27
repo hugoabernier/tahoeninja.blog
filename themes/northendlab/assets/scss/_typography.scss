@@ -85,3 +85,11 @@ small,
 .text_small {
   font-size: 0.8rem;
 }
+
+h2.h4 {
+  font-weight: 700;
+}
+
+.section-title > h2.h4 {
+  color: $primary-color;
+}

@@ -63,7 +63,7 @@ google_tag_manager = "G-MZXEZTBHL2" # example: G-XXXXXXXXXX
 ######################## Site Variables #########################
 [params.variables]
 # Color Variables
-primary_color = "#56642A"
+primary_color = "#3B4507"
 secondary_color = "#849531"
 text_color = "#444"
 text_color_dark = "#222222"
