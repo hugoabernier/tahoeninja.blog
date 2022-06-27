@@ -13,7 +13,8 @@ summaryLength = "10"
 # disqus short name
 # disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 # google analytics
-googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+google_tag_manager = "G-MWQ05C5D5E" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+clarityProjectID = "ci586abdwh"
 
 # disable language
 disableLanguages = [""] # desable language from here
@@ -36,9 +37,7 @@ home = "Home"
 description = "Hugo Bernier's blog"
 author = "Hugo Bernier"
 
-# Google Analitycs
-# googleAnalitycsID = "320775101"
-clarityProjectID = "ci586abdwh"
+
 
 # copyright
 copyright = "&copy; Copyright 2022, Hugo Bernier | Opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
