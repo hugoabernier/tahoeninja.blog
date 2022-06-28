@@ -93,3 +93,11 @@ h2.h4 {
 .section-title > h2.h4 {
   color: $primary-color;
 }
+
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  padding-top: 1.5rem;
+}

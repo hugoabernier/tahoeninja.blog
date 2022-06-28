@@ -102,7 +102,7 @@ Use Fiddler to capture your workstation’s network traffic and diagnose issues.
 
 ### [CLI for Microsoft 365 CLI](https://pnp.github.io/cli-microsoft365/)
 
-A command-line interface that lets you do tons of stuff in Office 365 and SPFx solutions. To install, use your **Node.js command prompt** and type the following:
+A command-line interface that lets you do tons of stuff in Microsoft 365 and SPFx solutions. To install, use your **Node.js command prompt** and type the following:
 
     npm i -g @pnp/cli-microsoft365
 
@@ -184,10 +184,6 @@ CodeTour is an awesome Visual Studio Code extension, which allows you to record 
 
 ## Nice to have
 
-### [TeraCopy](http://codesector.com/teracopy)
-
-If you’ve ever copied your SPFx project files, you know how frustratingly slow Windows can be. TeraCopy is insanely fast (so fast that you’ll think it didn’t work at first). Don’t take my word for it: next time you have to copy your SPFx project files, start your copy with Windows. Then, [download TeraCopy for Windows](http://codesector.com/teracopy), install it, and copy the exact same files using TeraCopy to a separate folder. Then go have a coffee, tell your co-workers that they should install TeraCopy, and go back to your desk. _Windows will still be copying the first set of files_. ![TeraCopy](http://codesector.com/img/teracopy/errors.png)
-
 ### [Zoomit](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit)
 
 Be a considerate presenter! If you do presentations and show your code, you should consider installing this tool. Those people in the back of the room (who sat in the back so that they can exit quickly if they find you boring) may not exit so fast if they can actually see what you’re doing.
@@ -210,7 +206,7 @@ Like SnagIt, I used to avoid it because I was too cheap to pay for the license�
 
 ### [ScreenToGif](https://www.screentogif.com/)
 
-Do everyone a favour and show an animated GIF of what your SPFx solutions can do in the README.MD file. It saves them having to install your solution to see what it does. This tool is a screen, webcam and sketchboard recorder with an integrated editor that makes it super-easy to create animated GIFs. Available as a Microsoft Store App or a WPF install. ![ScreenToGif](../../images/post/uploads/2019/03/image-1562122087546.png)
+Do everyone a favor and show an animated GIF of what your SPFx solutions can do in the README.MD file. It saves them having to install your solution to see what it does. This tool is a screen, webcam and sketchboard recorder with an integrated editor that makes it super-easy to create animated GIFs. Available as a Microsoft Store App or a WPF install. ![ScreenToGif](../../images/post/uploads/2019/03/image-1562122087546.png)
 
 ## Browser Extensions
 
@@ -242,7 +238,6 @@ Not so much a developer-focused extension, but a very useful one nevertheless. S
 
 ## Websites
 
-
 ### [PnP Home](https://pnp.github.io/)
 
 Can’t keep up with all the new things that the Microsoft 365 PnP community members are doing? You can find everything in one convenient place. ![PnP Home](../../images/post/uploads/2019/03/image-1594304691913.png)
@@ -255,17 +250,13 @@ Get inspired with cool looking SharePoint sites. ![SharePoint Look Book](../../i
 
 Learn how to create great looking SharePoint solutions. ![SharePoint Design Guidance](https://spdesign.azurewebsites.net/images/illustration.png?v=1)
 
-### [Office Fluent UI](https://developer.microsoft.com/en-us/fluentui#/)
+### [Fluent UI](https://developer.microsoft.com/en-us/fluentui#/)
 
-See what components are at your disposal when building awesome Office 365 solutions.
-
-### [SharePoint Dev Platform Uservoice](https://sharepoint.uservoice.com/forums/329220-sharepoint-dev-platform)
-
-Request new features and see what the team is working on.
+See what components are at your disposal when building awesome Microsoft 365 solutions.
 
 ### [PnP/PnPJS](https://pnp.github.io/pnpjs/)
 
-PnPjs is a collection of fluent libraries for consuming SharePoint, Graph, and Office 365 REST APIs in a type-safe way. You can use it within SharePoint Framework, Nodejs, or any JavaScript project. This an open source initiative and we encourage contributions and constructive feedback from the community.
+PnPjs is a collection of fluent libraries for consuming SharePoint, Graph, and Microsoft 365 REST APIs in a type-safe way. You can use it within SharePoint Framework, Nodejs, or any JavaScript project. This an open source initiative and we encourage contributions and constructive feedback from the community.
 
 ### [Reusable property pane controls for the SharePoint Framework solutions](https://sharepoint.github.io/sp-dev-fx-property-controls/)
 
@@ -291,7 +282,7 @@ If you don’t want to install [**ScreenToGif**](https://www.screentogif.com/) b
 
 ### [Microsoft Fluent UI](https://github.com/microsoft/fluentui)
 
-When I want to learn how to create awesome React components, I take my inspiration from Office UI Fabric Microsoft Fluent UI.
+When I want to learn how to create awesome React components, I take my inspiration from Microsoft Fluent UI.
 
 ### [SP Dev FX WebParts](https://github.com/PnP/sp-dev-fx-webparts)
 

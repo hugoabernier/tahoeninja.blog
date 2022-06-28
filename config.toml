@@ -7,7 +7,7 @@ title = "Hugo Bernier"
 # theme
 theme = "northendlab"
 # post pagination
-paginate = "5"
+paginate = "10"
 # post excerpt
 summaryLength = "10"
 # disqus short name
@@ -63,12 +63,13 @@ google_tag_manager = "G-MZXEZTBHL2" # example: G-XXXXXXXXXX
 ######################## Site Variables #########################
 [params.variables]
 # Color Variables
-primary_color = "#3B4507"
-secondary_color = "#849531"
-text_color = "#444"
-text_color_dark = "#222222"
+# Using this palette https://coolors.co/palette/111f73-3e92cc-fffaff
+primary_color = "#21488a"
+secondary_color = "#f1f4f7"
+text_color = "#333"
+text_color_dark = "#222"
 body_color = "#fff"
-border_color = "#92A332"
+border_color = "#3e92cc"
 black = "#000"
 white = "#fff"
 light = "#F8F8F8"
@@ -146,7 +147,7 @@ link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
 [[params.plugins.js]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
 attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
 
 
@@ -154,12 +155,15 @@ attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
 [[params.social]]
 icon = "fab fa-twitter" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://twitter.com/bernierh"
+title = "Twitter"
 [[params.social]]
 icon = "fab fa-github" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://github.com/hugoabernier"
+title = "GitHub"
 [[params.social]]
 icon = "fab fa-linkedin" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://twitter.com/bernierh"
+title = "LinkedIn"
 
 ################################### English language #####################################
 [Languages.en]
@@ -184,12 +188,15 @@ bio = "World's laziest developer. Autistic. ADHD. Microsoft employee. Powered by
 [[params.social_profile]]
 icon = "fab fa-twitter" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://twitter.com/bernierh"
+title = "Twitter"
 [[params.social_profile]]
 icon = "fab fa-github" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://github.com/hugoabernier"
+title = "GitHub"
 [[params.social_profile]]
 icon = "fab fa-linkedin" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://github.com/hugoabernier"
+title = "LinkedIn"
 
 ######################## call to action ###############################
 [params.cta]

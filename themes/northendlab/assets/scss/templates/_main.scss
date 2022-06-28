@@ -462,7 +462,8 @@
     td {
       padding: .75rem;
       vertical-align: top;
-      border: 1px solid #dee2e6
+      border: 1px solid #dee2e6;
+      color: #000;
     }
 
     thead {
@@ -482,6 +483,7 @@
   blockquote {
     padding: 20px;
     background: $light;
+    color: #000;
     border-left: 3px solid $primary-color;
 
     p {
@@ -491,6 +493,9 @@
     }
   }
 
+  kbd {
+    background-color:  $primary-color;
+  }
 
   pre {
     padding: 10px 20px;
@@ -505,6 +510,9 @@
 
   a {
     color: $primary-color;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: from-font;
 
     &:hover {
       text-decoration: underline;
