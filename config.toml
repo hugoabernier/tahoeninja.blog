@@ -2,7 +2,7 @@
 baseURL = "https://hugoabernier.github.io/"
 
 # site title 
-title = "Hugo Bernier"
+title = "Hugo Bernier's blog"
 
 # theme
 theme = "northendlab"
