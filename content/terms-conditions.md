@@ -2,6 +2,7 @@
 title: "Terms and Conditions"
 description: "this is meta description"
 draft: false
+sitemapExclude: true
 ---
 # Terms and Conditions
 

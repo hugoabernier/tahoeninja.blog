@@ -2,6 +2,7 @@
 title: "Privacy"
 description: "this is meta description"
 draft: false
+sitemapExclude: true
 ---
 
 # Privacy Policy
