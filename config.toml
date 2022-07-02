@@ -37,7 +37,9 @@ home = "Home"
 description = "Hugo Bernier's blog"
 author = "Hugo Bernier"
 
-
+[Author]
+name = "Hugo Bernier"
+twitter = "bernierh"
 
 # copyright
 copyright = "&copy; Copyright 2022, Hugo Bernier | Opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
