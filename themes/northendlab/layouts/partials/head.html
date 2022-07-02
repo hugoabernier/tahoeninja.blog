@@ -32,8 +32,8 @@
 {{- end -}}
 <!-- Social Media Tags -->
 {{- with .Params.share_img | default .Params.image | default .Site.Params.share_img | default .Site.Params.logo }}
-<meta property="og:image" content="{{ . | relURL }}" />
-<meta name="twitter:image" content="{{ . | relURL }}" />
+<meta property="og:image" content="{{ . | absURL }}" />
+<meta name="twitter:image" content="{{ . | absURL }}" />
 {{- end }}
 <meta name="twitter:card" content="summary_large_image" />
 {{- with .Site.Author.twitter }}
@@ -64,8 +64,10 @@
     "@type": "WebSite",
     "name": "{{ .Site.Title }}",
     "url": "{{ .Site.BaseURL}}",
+    alternateName": "Tahoe Ninjas",
     "sameAs": [
-        "https://twitter.com/bernierh"
+        "https://twitter.com/bernierh", 
+        "https://tahoeninjas.blog"
     ],
     "potentialAction": {
         "@type": "SearchAction",
