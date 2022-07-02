@@ -119,3 +119,18 @@ footer {
 // .content h6 {
 //   padding-top: 1.5rem;
 // }
+
+// .content p:first-of-type::first-letter {
+//    float: left;
+//    font-size: 91px;
+//    padding: 22px 23px 21px 25px;
+//    line-height: 69%;
+//    text-transform: capitalize;
+//    background: $primary-color;
+//    color:#fff;
+//    border-right: 15px solid rgb(255, 255, 255);
+//    border-top: 6px solid rgb(255, 255, 255);
+//    border-bottom: 2px solid rgb(255, 255, 255);
+//    border-image: initial;
+//    border-left: none;
+//  }

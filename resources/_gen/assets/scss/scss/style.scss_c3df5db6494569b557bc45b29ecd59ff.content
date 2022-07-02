@@ -218,10 +218,10 @@ select {
   background: #f1f4f7 !important; }
 
 .bg-light {
-  background: #F8F8F8 !important; }
+  background: #ecf0fa !important; }
 
 a.bg-light:hover {
-  background: rgba(248, 248, 248, 0.2) !important; }
+  background: rgba(236, 240, 250, 0.2) !important; }
 
 .text-primary {
   color: #21488a !important; }
@@ -703,7 +703,7 @@ footer img.logo {
     width: 100%;
     left: 0;
     top: 0;
-    background-color: #F8F8F8;
+    background-color: #ecf0fa;
     z-index: -1; }
 
 .card-overlapped {
@@ -839,7 +839,7 @@ footer img.logo {
     content: "";
     height: 50%;
     width: 100%;
-    background-color: #F8F8F8;
+    background-color: #ecf0fa;
     z-index: -2;
     top: 0;
     left: 0; }
@@ -983,15 +983,15 @@ footer img.logo {
     border: 1px solid #dee2e6;
     color: #000; }
   .content table thead {
-    background: #f3f3f3; }
+    background: #e4eaf8; }
   .content table tbody {
-    background: #F8F8F8; }
+    background: #ecf0fa; }
     .content table tbody td {
       text-align: left !important; }
 
 .content blockquote {
   padding: 20px;
-  background: #F8F8F8;
+  background: #ecf0fa;
   color: #000;
   border-left: 3px solid #21488a; }
   .content blockquote p {
@@ -1004,7 +1004,7 @@ footer img.logo {
 
 .content pre {
   padding: 10px 20px;
-  background: #F8F8F8; }
+  background: #ecf0fa; }
   .content pre code {
     border: 0;
     background: transparent;
@@ -1020,7 +1020,7 @@ footer img.logo {
 
 .content code {
   padding: 3px 5px;
-  background: #F8F8F8;
+  background: #ecf0fa;
   border: 1px solid #3e92cc;
   border-radius: 3px;
   color: #222; }
@@ -1039,7 +1039,7 @@ footer img.logo {
 
 .content .notices.note p {
   border-top: 30px solid #6ab0de;
-  background: #F8F8F8; }
+  background: #ecf0fa; }
 
 .content .notices.note p::after {
   content: 'Note';
@@ -1050,7 +1050,7 @@ footer img.logo {
 
 .content .notices.tip p {
   border-top: 30px solid #78C578;
-  background: #F8F8F8; }
+  background: #ecf0fa; }
 
 .content .notices.tip p::after {
   content: 'Tip';
@@ -1072,7 +1072,7 @@ footer img.logo {
 
 .content .notices.warning p {
   border-top: 30px solid #E06F6C;
-  background: #F8F8F8; }
+  background: #ecf0fa; }
 
 .content .notices.warning p::after {
   content: 'Warning';
