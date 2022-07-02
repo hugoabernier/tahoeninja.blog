@@ -1,18 +1,8 @@
 <!-- footer -->
 <footer class="py-4 bg-light border-top">
   <div class="container">
-    <div class="row justify-content-between align-items-center">
-      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
-        <a href="{{ site.BaseURL | absLangURL }}" class="d-block"><img loading="lazy" src="{{ site.Params.logo | absURL }}" class="img-fluid logo" alt="{{ site.Title }}"></a>
-      </div>
-      <div class="col-lg-4 text-center mb-4 mb-lg-0">
-        <ul class="list-inline mb-0">
-          {{ range site.Menus.footer }}
-          <li class="list-inline-item"><a class="text-dark d-block p-2" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
-          {{ end }}
-        </ul>
-      </div>
-      <div class="col-lg-4 text-lg-right text-center mb-4 mb-lg-0">
+    <div class="row text-center align-items-center">
+      <div class="mx-auto  text-center mb-4 mb-lg-0">
         <ul class="list-inline social-icon mb-0">
           {{ range site.Params.social }}
           <li class="list-inline-item"><a href="{{ .link | safeURL }}" aria-label="social-profile"><i class="{{ .icon }}"></i></a></li>

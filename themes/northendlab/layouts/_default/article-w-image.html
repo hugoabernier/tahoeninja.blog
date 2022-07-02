@@ -7,12 +7,9 @@
   <div class="col-md-6">
     <div class="card-block">
       <h2 class="h4"><a class="post-title" href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
-      <p>{{.Summary | truncate 100}}</p>
+      <p>{{.Summary}}</p>
       <div class="mt-3 post-meta">
-        <a href="{{ `about` | absLangURL }}">{{ .Params.Author | title }}</a> <span class="mx-1">|</span>
-        {{ .PublishDate.Format "Jan 2, 2006" }} <span class="mx-1">|</span> {{ range .Params.Categories }}
-        <a href="{{ `categories/` | absLangURL }}{{ . | urlize | lower }}">{{ . | title }}</a>
-        {{ end }}
+        {{ .PublishDate.Format "Jan 2, 2006" }}
       </div>
     </div>
   </div>

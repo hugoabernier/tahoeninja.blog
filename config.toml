@@ -7,7 +7,7 @@ title = "Hugo Bernier"
 # theme
 theme = "northendlab"
 # post pagination
-paginate = "10"
+#paginate = "10"
 # post excerpt
 summaryLength = "10"
 # disqus short name
@@ -102,7 +102,7 @@ font_size = "21px" # default is 16px
 
 ######################## sidebar widgets #########################
 [params.widgets]
-sidebar = ["categories", "featured-post", "tags", "social", "subscription"]
+sidebar = ["categories", "tags", "social"]
 # available widget : search,about-me,authors,categories,tags,recent-post,social,promotion,subscription
 
 # preloader
