@@ -17,7 +17,7 @@ fields:
 - type: text
   name: description
   label: description
-  description: This is meta description
+  description: A short description of the post.
 - type: list
   name: categories
   label: categories

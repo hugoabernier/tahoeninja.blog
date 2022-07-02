@@ -1,6 +1,6 @@
 ---
 title: "Terms and Conditions"
-description: "this is meta description"
+description: "Terms and conditions for Hugo Bernier's blog"
 draft: false
 sitemapExclude: true
 ---

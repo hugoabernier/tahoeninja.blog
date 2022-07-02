@@ -1,6 +1,6 @@
 ---
 title: "Search Result"
-description : "this is meta description"
+description : "Search results from Hugo Bernier's blog"
 layout: "search"
 draft: false
 sitemapExclude: true

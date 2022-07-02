@@ -1,7 +1,7 @@
 ---
 title: "Contact Us"
 draft: false
-description : "this is meta description"
+description : "Use this form to contact me about the this blog"
 image: "images/contact.svg"
 layout : contact
 aliases:
