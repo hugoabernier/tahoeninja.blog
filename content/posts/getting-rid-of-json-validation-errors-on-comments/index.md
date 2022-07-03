@@ -15,7 +15,7 @@ The only problem is: JSON files aren’t supposed to have comments. And Visual S
 
 For example, when you open the manifest for your brand new SPFx web part, you’ll find these nasty error messages:
 
-![](../../images/post/uploads/2020/08/badschema-1024x314.png)
+![Visual Studio Code showing JSON validation errors](../../images/post/uploads/2020/08/badschema-1024x314.png)
 
 An example of schema validation errors caused by comments
 
@@ -50,7 +50,7 @@ From Visual Studio Code, follow these steps:
 
 That’s it! Now you should be able to go to your manifest file and enjoy the squiggle-less JSON with comments!
 
-![](images/post/uploads/2020/08/goodschema-1024x289.png)
+![Wisual Studio Code showing JSON without validation errors](images/post/uploads/2020/08/goodschema-1024x289.png)
 
 Ahhh, no more schema validation errors!
 
