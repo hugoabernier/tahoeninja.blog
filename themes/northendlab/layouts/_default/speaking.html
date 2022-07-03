@@ -42,6 +42,7 @@ background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www
     <div class="row justify-content-center align-items-top text-center text-lg-left">
       <div class="col-lg-7">
         <div class="block content">
+          <h1 class="mb-4">{{ .Title | markdownify }}</h1>
           {{ .Content | markdownify }}
         </div>
       </div>

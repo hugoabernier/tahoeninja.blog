@@ -12,8 +12,6 @@ engagements:
   
 ---
 
-## Speaking engagements
-
 I am lucky to be able to travel all over the world to speak on topics that I feel passionate about.
 
 Feel free to [contact me](contact) me if you'd like me to speak at your event or conference. I like to have fun and engage with the audience; if you're looking for an accomplished orator, you'll have to continue looking somewhere else. 

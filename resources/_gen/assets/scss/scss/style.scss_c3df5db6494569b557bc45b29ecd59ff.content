@@ -603,7 +603,8 @@ footer img.logo {
   border: 0;
   background: #fff;
   font-size: 20px;
-  padding: 0; }
+  padding: 0;
+  height: 20px; }
   .search-box:focus {
     box-shadow: none !important;
     outline: 0; }

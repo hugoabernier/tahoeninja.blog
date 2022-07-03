@@ -67,7 +67,9 @@ compatibility:
     - image: "images/compatibility/dotnet.svg"
 ---
 
-## I’m Hugo Bernier <br> <strong>The world's laziest developer</strong>
+# I’m Hugo Bernier
+
+## The world's **laziest** developer
 
 I started working with SharePoint back when it was codenamed **Tahoe** — before it actually became SharePoint 2001. I have been working with it ever since.
 
