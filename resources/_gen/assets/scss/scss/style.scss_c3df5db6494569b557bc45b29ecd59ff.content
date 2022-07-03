@@ -1005,7 +1005,10 @@ footer img.logo {
 
 .content pre {
   padding: 10px 20px;
-  background: #ecf0fa; }
+  background: #ecf0fa;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
   .content pre code {
     border: 0;
     background: transparent;
@@ -1136,4 +1139,7 @@ footer img.logo {
 
 .tools-filter-btn .active {
   background-color: #21488a;
+  color: #fff; }
+
+.content .highlight pre code {
   color: #fff; }

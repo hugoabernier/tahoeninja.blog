@@ -40,7 +40,7 @@ A while ago, I was looking for an official list of which version of SPFx is comp
 
 I kinda forgot about it until today, when someone reached out to me and asked me if I had a SPFX/SharePoint compatibility matrix handy.
 
-As I turns out, I had created such a matrix when I wrote my [SPFX timeline](https://tahoeninjas.blog/2019/07/24/spfx-timeline/).
+As I turns out, I had created such a matrix when I wrote my [SPFX timeline](/2019/07/24/spfx-timeline/).
 
 So, as I am the world’s laziest developer, I figured it would be very little effort to put such a matrix together by leveraging work I had already done.
 
@@ -58,7 +58,7 @@ SharePoint Server 2016|v1.1|Requires Feature Pack 2
 ## SPFx Development Environment Compatibility
 
 
-**PRO TIP:** If you need to download a previous of Node.js, use the [previous releases page](https://nodejs.org/en/download/releases/) from their download section. You can also use links in the table below to download the vversions of Node.js directly.
+**PRO TIP:** If you need to download a previous of Node.js, use the [previous releases page](https://nodejs.org/en/download/releases/) from their download section. You can also use links in the table below to download the versions of Node.js directly.
 
 SPFx|Node.js|NPM|TypeScript|React
 ---|---|---|---|---

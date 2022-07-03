@@ -500,6 +500,9 @@
   pre {
     padding: 10px 20px;
     background: $light;
+          overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
 
     code {
       border: 0;
@@ -688,3 +691,7 @@
     color: #fff;
   }
 }
+
+.content .highlight pre code {
+        color: #fff;
+      }
