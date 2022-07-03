@@ -1,0 +1,6 @@
+{
+    "frontMatter.framework.startCommand": "hugo serve -D",
+    "frontMatter.content.fmHighlight": true,
+    "[markdown]": {
+    }
+}

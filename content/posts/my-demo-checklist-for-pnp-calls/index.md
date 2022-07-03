@@ -4,7 +4,6 @@ aliases:
 - /2021/01/04/my-demo-checklist-for-pnp-calls
   
 date: 2021-01-04T10:07:47+06:00
-draft: false
 
 # post thumb
 
@@ -22,11 +21,6 @@ categories:
 - "Public speaking"
 tags:
 - "PnP"
-
-# post type
-
-featured: false
-author: "Hugo Bernier"
 ---
 ## Introduction
 

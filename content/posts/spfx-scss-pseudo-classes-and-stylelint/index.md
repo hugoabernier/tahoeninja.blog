@@ -4,7 +4,6 @@ aliases:
 - /2020/06/16/spfx-scss-pseudo-classes-and-stylelint
   
 date: 2020-06-20T10:07:47+06:00
-draft: false
 
 # post thumb
 
@@ -20,11 +19,6 @@ summary: "In this post, I'll show you how you can use SCSS pseudo-classes in you
 categories:
 - "SPFx"
 
-
-# post type
-
-featured: false
-author: "Hugo Bernier"
 ---
 
 Introduction

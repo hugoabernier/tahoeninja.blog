@@ -1,30 +1,25 @@
 ---
-title: "Adding support for theme variants in SPFx web parts"
+title: Adding support for theme variants in SPFx web parts
 aliases:
-- 2020/07/28/adding-support-for-theme-variants-in-spfx-web-parts
-  
+  - /2020/07/28/adding-support-for-theme-variants-in-spfx-web-parts
+
 date: 2020-07-28T10:07:47+06:00
-draft: false
 
 # post thumb
-
-image: "posts/adding-support-for-theme-variants-in-spfx-web-parts/pierre-bamin-eQ_icBB_jFk-unsplash.jpg"
+image: posts/adding-support-for-theme-variants-in-spfx-web-parts/pierre-bamin-eQ_icBB_jFk-unsplash.jpg
 
 # meta description
-
-description: "Like chameleons, SPFx web parts can change colors to adapt to changing environments and blend in. With a few lines of code and some knowledge of which semantic colors you can use, you can built awesome web parts that will look good no matter what theme (or theme variant) your site uses."
-summary: "Like chameleons, SPFx web parts can change colors to adapt to changing environments and blend in. With a few lines of code and some knowledge of which semantic colors you can use, you can built awesome web parts that will look good no matter what theme (or theme variant) your site uses."
+summary: Like chameleons, SPFx web parts can change colors to adapt to changing
+  environments and blend in. Find out how to build good-looking web parts on any
+  theme.
 
 # taxonomies
-
 categories:
-- "SPFx"
-
-
-# post type
-
-featured: false
-author: "Hugo Bernier"
+  - SPFx
+keywords:
+  - SPFx
+  - Theme
+  - SharePoint
 ---
 Introduction
 ------------

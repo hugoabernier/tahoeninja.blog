@@ -1,30 +1,21 @@
 ---
 title: Solving the “Failed to execute ‘removeChild’ on ‘Node'” error on modern SharePoint pages
 aliases:
-- /2020/06/29/data-interception/
+- /2020/06/29/data-interception
   
 date: 2020-06-29T10:07:47+06:00
-draft: false
 
 # post thumb
-
 image: "images/post/uploads/2020/06/agence-olloweb-d9ILr-dbEdg-unsplash.jpg"
 
 # meta description
-
-description: "If you're getting errors in modern SharePoint pages when trying to open a link in a new tab, read this."
 summary: "If you're getting errors in modern SharePoint pages when trying to open a link in a new tab, read this."
 lead: (Or "SharePoint ignores target attributes on hyperlinks")
-# taxonomies
 
+# taxonomies
 categories:
 - "SPFx"
 
-
-# post type
-
-featured: false
-author: "Hugo Bernier"
 ---
 
 

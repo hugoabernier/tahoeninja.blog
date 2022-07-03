@@ -4,8 +4,6 @@ date: 2021-02-07T19:56:25-05:00
 image: "posts/from-powerpoint-to-demos-easily-with-desktops/featured-image.jpg"
 categories: 
 - "Productivity"
-type: "post"
-author: "Hugo Bernier"
 ---
 
 ## Introduction

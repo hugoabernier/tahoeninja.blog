@@ -4,7 +4,7 @@ layout: "speaking"
 image: "images/hugo.jpg"
 background_shape: "images/banner-shape.png"
 draft: false
-
+description: "These are the speaking engagements as per my Sessionize profile."
 engagements:
   enable: true
   title: "Past and future events"

@@ -6,7 +6,7 @@ aliases:
 - /2019/12/30/spfx-compatibility-matrix
 - /2019/12/30/spfx-compatibility-matrix
 date: 2019-12-30T10:07:47+06:00
-draft: false
+
 
 # post thumb
 
@@ -25,10 +25,6 @@ tags:
 - "React"
 - "SPFx"
 
-# post type
-
-featured: true
-author: "Hugo Bernier"
 ---
 
 > **NOTE**: This matrix can now be found in the [SharePoint Framework Developer documentation](https://docs.microsoft.com/sharepoint/dev/spfx/compatibility) where I hope that the community will continue to help me maintain it.

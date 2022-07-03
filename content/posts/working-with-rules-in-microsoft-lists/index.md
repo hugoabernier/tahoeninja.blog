@@ -4,23 +4,16 @@ aliases:
   - /2020/07/30/working-with-rules-in-microsoft-lists
 
 date: 2020-07-30T10:07:47+06:00
-draft: false
 
 # post thumb
 image: "posts/working-with-rules-in-microsoft-lists/featured-image.png"
 
 # meta description
-description: "Microsoft Lists will soon make it easy to create rules to react to changes in your lists. Find out what I've learned so far."
 summary: "Microsoft Lists will soon make it easy to create rules to react to changes in your lists. Find out what I've learned so far."
 
 # taxonomies
 categories:
   - "Microsoft List"
-
-
-# post type
-featured: false
-author: "Hugo Bernier"
 ---
 ## Introduction
 

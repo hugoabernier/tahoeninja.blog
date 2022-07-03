@@ -4,29 +4,18 @@ aliases:
 - /2020/07/30/adding-custom-edge-profile-images
   
 date: 2020-07-30T10:07:47+06:00
-draft: false
 
 # post thumb
-
 image: "posts/adding-custom-edge-profile-images/featured-image.jpg"
 
 # meta description
-
-description: "Edge Chromium lets you use different browsing profiles, but did you know that you could have custom profile images for each one? Here' show."
 summary: "Edge Chromium lets you use different browsing profiles, but did you know that you could have custom profile images for each one? Here' show."
 
 # taxonomies
-
 categories:
-
 - "Productivity"
 tags:
 - "Microsoft Edge"
-
-# post type
-
-featured: false
-author: "Hugo Bernier"
 ---
 ## Introduction
 

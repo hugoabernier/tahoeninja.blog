@@ -4,13 +4,11 @@ aliases:
   - 2019/03/14/ultimate-developer-tool-list-for-spfx
   - /2019/03/14/ultimate-developer-tool-list-for-spfx
 date: 2019-10-29T10:07:47+06:00
-draft: false
 
 # post thumb
 image: "posts/ultimate-developer-tool-list-for-spfx/brushes-3129361.jpg"
 
 # meta description
-description: "I asked the SharePoint Developer Community what development tools they use on their workstations to develop SPFx solutions. They came through!"
 summary: "I asked the SharePoint Developer Community what development tools they use on their workstations to develop SPFx solutions. They came through!"
 
 # taxonomies
@@ -19,10 +17,6 @@ categories:
 tags:
   - "React"
   - "SPFx"
-
-# post type
-featured: true
-author: "Hugo Bernier"
 ---
 
 ## Introduction

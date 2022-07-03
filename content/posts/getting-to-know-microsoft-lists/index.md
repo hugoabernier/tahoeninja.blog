@@ -4,7 +4,6 @@ aliases:
   - /2020/07/28/getting-to-know-microsoft-lists
 
 date: 2020-07-28T10:07:47+06:00
-draft: false
 
 # post thumb
 image: "images/post/uploads/2020/07/2020-07-28_15-55-27.png"
@@ -14,10 +13,6 @@ image: "images/post/uploads/2020/07/2020-07-28_15-55-27.png"
 categories:
   - "Microsoft List"
 
-
-# post type
-featured: false
-author: "Hugo Bernier"
 ---
 ## Introduction
 

@@ -2,20 +2,16 @@
 title: "Launching Edge with different profiles using shortcuts"
 date: 2021-02-06T17:14:00-05:00
 image: "posts/launching-edge-with-different-profiles-using-shortcuts/featured-image.jpg"
-type: "post"
 tags: 
 - "streamdeck" 
 - "microsoftedge"
 - "windows"
 categories: 
 - "Productivity"
-author: "Hugo Bernier"
 
+summary: "Find out how you create create shortcuts that will launch your Edge browser with a different profile. Bonus: find out how to configure your Stream Deck buttons to launch Edge, Teams, and conference calls using different browsers."
 ---
 
-Find out how you create create shortcuts that will launch your Edge browser with a different profile. Bonus: find out how to configure your Stream Deck buttons to launch Edge, Teams, and conference calls using different browsers.
-
-<!--more-->
 
 ## Introduction
 

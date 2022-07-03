@@ -3,7 +3,6 @@
 title: "Wait... where did all the content go?!"
 date: 2022-06-26T05:00:00Z
 summary: "You may have noticed that most of my content is missing. Don't worry, it is coming back... Eventually."
-author: "Hugo Bernier"
 image: "posts/migrating/featured-image.jpg"
 categories:
 - "Life"
