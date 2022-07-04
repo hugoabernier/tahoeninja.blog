@@ -22,7 +22,7 @@ tags:
 
 With Edge Chromium, you can set up multiple profiles with different credentials, history, cookies, extensions, etc.
 
-If, like me, you work with multiple Microsoft 365 tenants, this feature can be a real time saver. I’ve already written about how to configure multiple in [a previous post](https://hugoabernier.github.io/2019/12/12/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/), so I won’t repeat myself here.
+If, like me, you work with multiple Microsoft 365 tenants, this feature can be a real time saver. I’ve already written about how to configure multiple in [a previous post](/2019/12/12/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/), so I won’t repeat myself here.
 
 To keep track of who you’re currently logged on as, Edge displays a profile picture on the upper-right corner.
 

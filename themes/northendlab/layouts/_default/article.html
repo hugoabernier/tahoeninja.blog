@@ -6,6 +6,9 @@
     {{ end }}
   </div>
   <p>{{.Summary}}</p>
+            {{ if .Params.interactive }}
+            <div class="post-interactive">Interactive</div>
+            {{ end }}
   <a href="{{ .Permalink }}" class="btn btn-sm btn-transparent pl-0">read more</a>
   <div style="border: 1px #eee solid; margin-top:40px"></div>
 </article>

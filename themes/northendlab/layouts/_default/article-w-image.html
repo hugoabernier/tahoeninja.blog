@@ -8,6 +8,9 @@
     <div class="card-block">
       <h2 class="h4"><a class="post-title" href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
       <p>{{.Summary}}</p>
+                    {{ if .Params.interactive }}
+                    <div class="post-interactive">Interactive</div>
+                    {{ end }}
       <div class="mt-3 post-meta">
         {{ .PublishDate.Format "Jan 2, 2006" }}
       </div>
