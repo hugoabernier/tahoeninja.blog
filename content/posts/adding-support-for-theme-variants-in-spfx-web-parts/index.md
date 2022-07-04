@@ -34,7 +34,7 @@ You can configure each page section’s background color with one of the four th
 
 When you place a web part on a section with a different background color, the web part has the ability to adapt to that section’s background color.
 
-Microsoft has a great article explaining [how to add section support to your web parts](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/supporting-section-backgrounds), but it does not go into great detail explaining the theme variants.
+Microsoft has a great article explaining [how to add section support to your web parts](https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/guidance/supporting-section-backgrounds), but it does not go into great detail explaining the theme variants.
 
 Theme variants define a lot of different colors, like the background color, body color, button colors, etc.
 
@@ -55,7 +55,7 @@ When you create a new web part using the Yeoman generator, your web part does no
 
 ![This web part is not theme aware](../../images/post/uploads/2020/07/sectionunaware.gif)
 
-To make it support theme variants, you need to follow these steps (this code is extracted from [Microsoft’s article](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/supporting-section-backgrounds):
+To make it support theme variants, you need to follow these steps (this code is extracted from [Microsoft’s article](https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/guidance/supporting-section-backgrounds):
 
 1. In your web part’s `.manifest.json`, add the following (I usually add it above the `preconfiguredEntries`):
 

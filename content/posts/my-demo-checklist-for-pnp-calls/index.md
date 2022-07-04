@@ -223,7 +223,7 @@ When it is your time to demo:
 
 When you want people to focus on something on the screen, it’s always a good idea to zoom in or highlight the screen in some way.
 
-Luckily, there’s free tool by Microsoft called [ZoomIt](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit) which is designed to help during presentations.
+Luckily, there’s free tool by Microsoft called [ZoomIt](https://docs.microsoft.com/sysinternals/downloads/zoomit) which is designed to help during presentations.
 
 After you install ZoomIt, you can use these useful shortcut keys to enable ZoomIt features:
 

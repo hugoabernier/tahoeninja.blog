@@ -211,7 +211,7 @@ let color: string = styles.backgroundColor1;
 ```
 
 
-But you’ll soon find out that stylelint does not like the `:export` pseudo-selector. Again, that’s because as far as stylelint is concerned, anything that starts with `:` is a [pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes).
+But you’ll soon find out that stylelint does not like the `:export` pseudo-selector. Again, that’s because as far as stylelint is concerned, anything that starts with `:` is a [pseudo-class](https://developer.mozilla.org/docs/Web/CSS/Pseudo-classes).
 
 To solve this, simply add the following rule in your `.stylelintrc`:
 

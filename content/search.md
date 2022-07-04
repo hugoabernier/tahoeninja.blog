@@ -1,6 +1,6 @@
 ---
 title: "Search Result"
-description : "Search results from Hugo Bernier's blog"
+description : "Search results from Tahoe Ninja"
 layout: "search"
 draft: false
 sitemapExclude: true

@@ -1,8 +1,8 @@
 ############################ Default configuration #########################
-baseURL = "https://hugoabernier.github.io/"
+baseURL = "https://tahoeninja.blog/"
 
 # site title 
-title = "Hugo Bernier's blog"
+title = "Tahoe Ninja"
 
 # theme
 theme = "northendlab"
@@ -34,7 +34,7 @@ favicon = "images/favicon.svg"
 
 home = "Home"
 # Meta data
-description = "Hugo Bernier's blog"
+description = "Tahoe Ninja"
 author = "Hugo Bernier"
 
 # copyright

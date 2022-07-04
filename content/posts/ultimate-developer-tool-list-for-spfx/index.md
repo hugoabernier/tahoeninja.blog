@@ -178,7 +178,7 @@ CodeTour is an awesome Visual Studio Code extension, which allows you to record 
 
 ## Nice to have
 
-### [Zoomit](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit)
+### [Zoomit](https://docs.microsoft.com/sysinternals/downloads/zoomit)
 
 Be a considerate presenter! If you do presentations and show your code, you should consider installing this tool. Those people in the back of the room (who sat in the back so that they can exit quickly if they find you boring) may not exit so fast if they can actually see what you’re doing.
 
@@ -244,7 +244,7 @@ Get inspired with cool looking SharePoint sites. ![SharePoint Look Book](../../i
 
 Learn how to create great looking SharePoint solutions. ![SharePoint Design Guidance](https://spdesign.azurewebsites.net/images/illustration.png?v=1)
 
-### [Fluent UI](https://developer.microsoft.com/en-us/fluentui#/)
+### [Fluent UI](https://developer.microsoft.com/fluentui#/)
 
 See what components are at your disposal when building awesome Microsoft 365 solutions.
 

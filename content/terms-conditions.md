@@ -1,12 +1,12 @@
 ---
 title: "Terms and Conditions"
-description: "Terms and conditions for Hugo Bernier's blog"
+description: "Terms and conditions for Tahoe Ninja"
 draft: false
 sitemapExclude: true
 ---
 # Terms and Conditions
 
-These terms and conditions (the "Terms and Conditions") govern the use of tahoeninjas.blog (the "Site"). This Site is owned and operated by Hugo Bernier. This Site is a blog.  
+These terms and conditions (the "Terms and Conditions") govern the use of tahoeninja.blog (the "Site"). This Site is owned and operated by Hugo Bernier. This Site is a blog.  
   
 By using this Site, you indicate that you have read and understand these Terms and Conditions and agree to abide by them at all times.
 
