@@ -78,7 +78,7 @@ The gateway service then sends that encrypted request to your on-premises gatewa
 
 And your on-premises gateway decrypts the request, extracts the credentials, and connects to your data source with those credentials. It sends the query to the data source and, when it gets a response, sends the encrypted results back through the gateway service, which sends it to cloud service that requested the data in the first place.
 
-Microsoft has a pretty diagram that explains the concept. I encourage you to [read more about how it works](https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem-indepth) on their site:
+Microsoft has a pretty diagram that explains the concept. I encourage you to [read more about how it works](https://docs.microsoft.com/data-integration/gateway/service-gateway-onprem-indepth) on their site:
 
 ![How the data gateway works](../../images/post/uploads/2020/03/image-1583434888258.png)
 
@@ -110,13 +110,13 @@ How do I install a gateway?
 
 At the risk of repeating myself: you’ll want to install gateways on computers that are always on and connected to the Internet.
 
-The steps below are the [same installation steps provided by Microsoft](https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-install#download-and-install-a-gateway); you should check their instructions to see if they have updated.
+The steps below are the [same installation steps provided by Microsoft](https://docs.microsoft.com/data-integration/gateway/service-gateway-install#download-and-install-a-gateway); you should check their instructions to see if they have updated.
 
 1. [Download the gateway](https://go.microsoft.com/fwlink/?LinkId=820925&clcid=0x409). You can also download the gateway from any cloud service that supports gateways. For example, in Power Apps, you can go to **Data** > **Gateways** > **\+ New gateway**.  
     ![Link to download gateway from Power Apps](../../images/post/uploads/2020/03/image-1583437643456.png)
 2. Launch the installer and select **Next**.  
     ![Installation Wizard](../../images/post/uploads/2020/03/image-1583437782291.png)
-3. When it prompts you to **choose the type of gateway you need**, select **On-premises data gateway (recommended)** and select **Next**. Like I said earlier, there is another version of the gateway called the "personal mode," but it is [intended to be used by you and with Power BI only](https://docs.microsoft.com/en-us/power-bi/service-gateway-personal-mode).  
+3. When it prompts you to **choose the type of gateway you need**, select **On-premises data gateway (recommended)** and select **Next**. Like I said earlier, there is another version of the gateway called the "personal mode," but it is [intended to be used by you and with Power BI only](https://docs.microsoft.com/power-bi/service-gateway-personal-mode).  
     ![Choose a gateway type](../../images/post/uploads/2020/03/image-1583437857426.png)
 4. You may or may not get a warning saying that the gateway should be installed on a computer that is always on. You can just select **Next**.
 5. It’ll prompt you for an installation path and to accept the terms of use. Pretend to read the terms of use and privacy statement, select the checkbox then select **Install**.  
@@ -125,7 +125,7 @@ The steps below are the [same installation steps provided by Microsoft](https://
     ![Enter your organization account email address](../../images/post/uploads/2020/03/image-1583438286296.png)
 7. If all goes well, it’ll say that you’re signed in. It will ask you if you want to register a new gateway or migrate, restore, or takeover another gateway. Since you’re here, I’ll assume you want to select **Register a new gateway on this computer** and select **Next**.  
     ![Register a new gateway](../../images/post/uploads/2020/03/image-1583438491824.png)
-8. It will ask you to enter a **New on-premises data gateway name**. Make sure to use a unique name that will make it easy to distinguish it from others (i.e., not _Gateway_). You’ll also be asked for a **Recovery key** — that’s an 8-character or longer secret you’ll use if you ever need to recover a gateway. You can make up whatever recovery key you want, but make sure you store it somewhere safe! If you were adding a gateway to an existing cluster, this is where you would specify to join the cluster. Feel free to read [Microsoft’s instructions to add to an existing cluster](https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-install#add-another-gateway-to-create-a-cluster) if you want. Select **Configure**.  
+8. It will ask you to enter a **New on-premises data gateway name**. Make sure to use a unique name that will make it easy to distinguish it from others (i.e., not _Gateway_). You’ll also be asked for a **Recovery key** — that’s an 8-character or longer secret you’ll use if you ever need to recover a gateway. You can make up whatever recovery key you want, but make sure you store it somewhere safe! If you were adding a gateway to an existing cluster, this is where you would specify to join the cluster. Feel free to read [Microsoft’s instructions to add to an existing cluster](https://docs.microsoft.com/data-integration/gateway/service-gateway-install#add-another-gateway-to-create-a-cluster) if you want. Select **Configure**.  
     ![Gateway name and recovery key](../../images/post/uploads/2020/03/image-1583438687462.png)
 9. If all goes well, you’ll get a message saying the gateway is online and ready to be used. Yay! Select **Close**. Since the gateway works with Power Apps, Power Automate, Power BI, and Azure, it’ll show you all which services it connects to. Usually, the Azure service is not connected by default, but you can select **Create a gateway in Azure** if you want.  
     ![You're done](../../images/post/uploads/2020/03/image-1583439043723.png)

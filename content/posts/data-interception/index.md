@@ -15,7 +15,10 @@ lead: (Or "SharePoint ignores target attributes on hyperlinks")
 # taxonomies
 categories:
 - "SPFx"
-
+tags:
+- SPFx
+- Data interception
+- Mystery solved
 ---
 
 

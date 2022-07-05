@@ -56,11 +56,11 @@ There was a time where creating devices with accessibility in mind would be an a
 
 But with the XAC, Microsoft is sending a clear message: everyone matters. And everyone should be able to play equally.
 
-The XAC isn’t just some rare device that only a few people can buy at an exorbitant price either; it is available in the [Microsoft Store](https://www.xbox.com/xbox-one/accessories/controllers/xbox-adaptive-controller) for a little more than a regular controller (and less than the [Xbox Elite Wireless Controller](https://www.microsoft.com/en-us/p/xbox-elite-wireless-controller-series-2/8rsn7j6375gg).
+The XAC isn’t just some rare device that only a few people can buy at an exorbitant price either; it is available in the [Microsoft Store](https://www.xbox.com/xbox-one/accessories/controllers/xbox-adaptive-controller) for a little more than a regular controller (and less than the [Xbox Elite Wireless Controller](https://www.microsoft.com/p/xbox-elite-wireless-controller-series-2/8rsn7j6375gg).
 
 The controller has gotten so much press coverage since its release (and won so many cool awards) that other large corporations are following suit.
 
-Logitech, for example, released its [Adaptive Gaming Kit](https://www.logitechg.com/en-us/products/gamepads/adaptive-gaming-kit-accessories.html#943-000318) which gives users more options with customizable controls for the Xbox Adaptive Controller.
+Logitech, for example, released its [Adaptive Gaming Kit](https://www.logitechg.com/products/gamepads/adaptive-gaming-kit-accessories.html#943-000318) which gives users more options with customizable controls for the Xbox Adaptive Controller.
 
 ![The Logitech Adaptive Gaming Kit](../../images/post/uploads/2020/01/agk-gallery-hero.png.imgw_.1318.1318.png)
 
