@@ -76,11 +76,11 @@ Even if your company uses Azure DevOps or TFS for source control, you should ins
 
 ### [Cmder for Windows](https://cmder.net/)
 
-If you’ve ever wondered what that cool command-line they use on the SharePoint Development Community calls, you have found it! Follow [my instructions](https://tahoeninjas.blog/2018/05/27/changing-your-command-prompt-to-display-node-module-and-git-information-like-the-sharepoint-conference-presenters/) if you need help installing it. ![Cmder](../../images/post/uploads/2018/05/cmder-sample-2.webp)
+If you’ve ever wondered what that cool command-line they use on the SharePoint Development Community calls, you have found it! Follow [my instructions](/2018/05/27/changing-your-command-prompt-to-display-node-module-and-git-information-like-the-sharepoint-conference-presenters/) if you need help installing it. ![Cmder](../../images/post/uploads/2018/05/cmder-sample-2.webp)
 
 ### [Fira Code Font](https://github.com/tonsky/FiraCode)
 
-This font will add the cool visualization to the Cmder command prompt. You should also [configure it as your default Visual Studio Code font](https://tahoeninjas.blog/2019/03/16/setting-fira-code-as-your-default-visual-studio-code-font/) ![Fira Code Font](https://camo.githubusercontent.com/3a8948f34284f378ead7af5846aa432035c687ad/687474703a2f2f732e746f6e736b792e6d652f696d67732f666972615f636f64655f6c6f676f2e737667)
+This font will add the cool visualization to the Cmder command prompt. You should also [configure it as your default Visual Studio Code font](/2019/03/16/setting-fira-code-as-your-default-visual-studio-code-font/) ![Fira Code Font](https://camo.githubusercontent.com/3a8948f34284f378ead7af5846aa432035c687ad/687474703a2f2f732e746f6e736b792e6d652f696d67732f666972615f636f64655f6c6f676f2e737667)
 
 ### [Cmder Powerline](https://github.com/AmrEldib/cmder-powerline-prompt)
 
@@ -266,7 +266,7 @@ YouTube channel with SharePoint Dev Weekly videos, SharePoint Framework Tutorial
 
 ### [Base64 Image Encoder](https://www.base64-image.de/)
 
-Use this site to encode your web part icons to base 64. You can also use [my interactive post](https://tahoeninjas.blog/2019/08/31/fixing-base64-svg-icons-in-spfx/) to do all the work for you. ![Base64 Encoder](../../images/post/uploads/2019/03/image-1552589708483.png)
+Use this site to encode your web part icons to base 64. You can also use [my interactive post](/2019/08/31/fixing-base64-svg-icons-in-spfx/) to do all the work for you. ![Base64 Encoder](../../images/post/uploads/2019/03/image-1552589708483.png)
 
 ### [EzGif.com](https://ezgif.com/video-to-gif)
 

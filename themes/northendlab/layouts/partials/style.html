@@ -14,22 +14,14 @@
 
 <style>
   .content ul li:not(.nav-item) {
-    position: relative;
-    margin-bottom: 5px;
-    list-style-type: none;
+    list-style-image: url(/images/star.svg);
   }
   .content ul li:not(.nav-item) svg {
     margin-right: 6px;
     transform: scale(0.8);
     color: {{ with site.Params.variables }} {{.primary_color}} {{ end }};
   }
-  .content ul li:not(.nav-item)::before {
-    font-size: 14px;
-    font-family: "{{ with site.Params.variables }} {{.icon_font}} {{ end }}";
-    font-weight: 900;
-    content: "\f069";
-    display: none;
-  }
+
   .notices p::before {
     position: absolute;
     top: 2px;

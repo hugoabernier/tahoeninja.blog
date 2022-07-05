@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:400");
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Special+Elite&display=swap");
 html {
   font-size: 24px; }
 
@@ -998,11 +999,6 @@ footer img.logo {
   .content ol li {
     margin-bottom: 5px; }
 
-.content ul {
-  padding-left: 0; }
-  .content ul li {
-    list-style-type: none; }
-
 .content table {
   text-align: left;
   width: 100%;
@@ -1032,6 +1028,46 @@ footer img.logo {
     color: #222;
     font-style: italic !important; }
 
+.content blockquote.elite {
+  font-weight: 400;
+  font-size: 2rem;
+  max-width: 600px;
+  line-height: 1.4;
+  position: relative;
+  margin: 0;
+  padding: .5rem;
+  font-family: 'Special Elite';
+  background: none;
+  border-left: none;
+  text-align: center;
+  color: #3f3f5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .content blockquote.elite + cite {
+    line-height: 3;
+    text-align: center;
+    font-style: italic;
+    display: block;
+    font-family: 'Special Elite';
+    max-width: 600px;
+    margin-bottom: 1rem; }
+  .content blockquote.elite:before, .content blockquote.elite:after {
+    position: absolute;
+    color: #ecf0fa;
+    font-size: 8rem;
+    width: 4rem;
+    height: 4rem; }
+  .content blockquote.elite:before {
+    content: '“';
+    left: -5rem;
+    top: -2rem; }
+  .content blockquote.elite:after {
+    content: '”';
+    right: -5rem;
+    bottom: 1rem; }
+
 .content kbd {
   background-color: #21488a; }
 
@@ -1047,12 +1083,17 @@ footer img.logo {
     padding: 0; }
 
 .content a {
-  color: #21488a;
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  text-decoration-thickness: from-font; }
+  color: inherit !important;
+  display: inline;
+  text-decoration: none;
+  background-image: linear-gradient(0deg, #020024 0%, #7290da 5%, #d8e0f5 100%);
+  background-position: 0 110%;
+  background-repeat: no-repeat;
+  background-size: 100% 5px;
+  transition: .3s; }
   .content a:hover {
-    text-decoration: underline; }
+    color: #000;
+    background-size: 100% 100%; }
 
 .content code {
   padding: 3px 5px;

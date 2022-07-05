@@ -58,7 +58,7 @@ Don’t ignore warnings. Fix them, or — once you’ve decided to accept the wa
 The :global switch
 ------------------
 
-I’ve [already written](https://tahoeninjas.blog/2019/07/28/prevent-scss-from-changing-your-css-class-names/) about the `:global` pseudo-class before, so I’ll keep it short.
+I’ve [already written](/2019/07/28/prevent-scss-from-changing-your-css-class-names/) about the `:global` pseudo-class before, so I’ll keep it short.
 
 When you use `.scss` files for your style sheets in a SPFx project, the SASS pre-processor creates unique names for all your CSS classes. It does this to ensure that the CSS from your components does not interfere with the CSS from other components. This is also know as **local scope**.
 

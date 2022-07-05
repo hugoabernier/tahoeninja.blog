@@ -21,13 +21,13 @@ I tried to make myself useful by writing blog posts that I have been meaning to 
 
 If you're like me, you probably have a bazillion accounts on various Microsoft 365 tenants. I have one for each of my clients, sometimes two (one is a regular user, one is an admin user), plus one for each of my developer tenants, my MVP tenant, and one for when I collaborate with the [nicest, most hard-working MVP that I know](https://twitter.com/davidwarnerii).
 
-I have already shared [how to use Edge profiles to log on to different tenants](https://tahoeninjas.blog/2019/12/12/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/) and even how to [add custom images for each profile](https://tahoeninjas.blog/2020/07/30/adding-custom-edge-profile-images/), but today I'll show you the next step: creating shortcuts to launch an instance of the Edge browser as a different profile.
+I have already shared [how to use Edge profiles to log on to different tenants](/2019/12/12/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/) and even how to [add custom images for each profile](/2020/07/30/adding-custom-edge-profile-images/), but today I'll show you the next step: creating shortcuts to launch an instance of the Edge browser as a different profile.
 
 If you use an [Elgato Streamdeck](https://www.elgato.com/en/gaming/stream-deck), I'll also show you how you can create keys to launch your browser as a different profile from your Streamdeck.
 
 ## Creating a shortcut to launch Edge as a different profile
 
-For these instructions, I'll assume that you already have more than one profile on Edge. If you don't, please [follow my instructions](https://tahoeninjas.blog/2019/12/12/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/) and come back when you're done. I'll be right here.
+For these instructions, I'll assume that you already have more than one profile on Edge. If you don't, please [follow my instructions](/2019/12/12/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/) and come back when you're done. I'll be right here.
 
 I recently moved to a new computer and I haven't migrated all my accounts yet, but I'll the profiles that I already have set up as an example.
 

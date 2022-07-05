@@ -79,7 +79,7 @@ enableRobotsTXT = true
 # Give your font name from google font. add font weight using ":wght@" and separate by ";"
 # example: "Work Sans:wght@400;500;600"
 primary_font = "Raleway:wght@400;700"
-secondary_font = ""
+secondary_font = "Special Elite:wght@400"
 icon_font = "Font Awesome 5 Free"
 
 # base font size for full website 

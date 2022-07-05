@@ -16,9 +16,8 @@ But first, I had to prepare for the [Microsoft 365 Conference](https://m365conf.
 
 Of course, my WordPress subscription expired while I was in Vegas, and my old content wasn't moved. "I'll get to it when I get home", I foolishly told myself.
 
-> "I'll get to it when I get home"
-
-<cite>-- A foolish me</cite>
+<blockquote class="elite">"I'll get to it when I get home"</blockquote>
+<cite>A foolish me</cite>
 
 But, shortly after I got home, I heard the good news that I got the new job of Community Program Manager for Power Pages (which was not yet [announced](https://powerapps.microsoft.com/blog/announcing-the-preview-of-microsoft-power-pages/)).
 
