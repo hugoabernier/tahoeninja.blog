@@ -31,12 +31,16 @@
 <meta name="author" content="{{.Site.Author.name}}" />
 {{- with .Params.page_favicon | default .Site.Params.favicon | default "https://www.eclipse.org/favicon.ico"}}
 {{ "<!-- Favicon -->" | safeHTML}}
-<link rel="icon" href="{{ site.Params.favicon | absURL }}" type="image/x-icon">
+<link rel="icon" href="{{ site.Params.favicon | absURL }}" type="image/svg+xml" sizes="any">
 {{- end -}}
 <!-- Social Media Tags -->
 {{- with .Params.share_img | default .Params.image | default .Site.Params.share_img | default .Site.Params.logo }}
 <meta property="og:image" content="{{ . | absURL }}" />
+<!--meta property="og:image:width" content="1240">
+<meta property="og:image:height" content="650"-->
 <meta name="twitter:image" content="{{ . | absURL }}" />
+<meta name="twitter:image:src" content="{{ . | absURL }}" />
+<!--meta name="thumbnail" content="path/to/image/thumb-150x150.png"-->
 {{- end }}
 <meta name="twitter:card" content="summary_large_image" />
 {{- with .Site.Author.twitter }}
