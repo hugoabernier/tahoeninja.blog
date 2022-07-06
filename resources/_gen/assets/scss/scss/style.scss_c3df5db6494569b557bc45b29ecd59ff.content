@@ -531,6 +531,14 @@ footer img.logo {
   text-align: center;
   margin-top: -12px; }
 
+.utterances {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  /* max-width: 760px; */
+  margin-left: 0;
+  margin-right: 0; }
+
 .navigation {
   transition: .3s ease; }
   @media (max-width: 991px) {
@@ -813,9 +821,6 @@ footer img.logo {
       line-height: 0; }
 
 /* blog */
-.block {
-  padding: 40px; }
-
 .author-thumb {
   height: 300px;
   width: 300px;

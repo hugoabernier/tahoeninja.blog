@@ -241,3 +241,8 @@ name = "Terms & Conditions"
 [Author]
 name = "Hugo Bernier"
 twitter = "bernierh"
+
+
+[params.utterances]
+repo="hugoabernier/tahoeninja.blog" # eg: greeninja/devurandom-comments
+theme="github-light"

@@ -28,7 +28,7 @@
       <div class="col-lg-10">
         <div class="block pb-0">
           <h1>{{ .Title | markdownify }}</h1>
-          <div class="content mb-5">
+          <div class="content mb-3">
             {{ .Content }}
           </div>
           <div class="mb-3 post-meta">
@@ -54,12 +54,12 @@
         </div>
         {{ end }}
 
-        {{ if site.DisqusShortname}}
-        <div class="block mt-4">
+        <div class="block">
           <!-- comments -->
-          {{ template "_internal/disqus.html" . }}
+          <h3 class="mb-3">Comments</h3>
+          {{ partial "comments.html" . }}
         </div>
-        {{ end }}
+
       </div>
     </div>
   </div>
