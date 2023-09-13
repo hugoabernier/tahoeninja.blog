@@ -1,72 +1,144 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hugo Bernier</title>
-    <link>https://hugoabernier.github.io/tags/</link>
-    <description>Recent content in Tags on Hugo Bernier</description>
+    <title>Tags on Tahoe Ninja</title>
+    <link>https://tahoeninja.blog/tags/</link>
+    <description>Recent content in Tags on Tahoe Ninja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Feb 2021 17:14:00 -0500</lastBuildDate><atom:link href="https://hugoabernier.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Sep 2023 10:07:47 +0600</lastBuildDate><atom:link href="https://tahoeninja.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>microsoftedge</title>
-      <link>https://hugoabernier.github.io/tags/microsoftedge/</link>
-      <pubDate>Sat, 06 Feb 2021 17:14:00 -0500</pubDate>
+      <title>Node.js</title>
+      <link>https://tahoeninja.blog/tags/node.js/</link>
+      <pubDate>Wed, 13 Sep 2023 10:07:47 +0600</pubDate>
       
-      <guid>https://hugoabernier.github.io/tags/microsoftedge/</guid>
+      <guid>https://tahoeninja.blog/tags/node.js/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>streamdeck</title>
-      <link>https://hugoabernier.github.io/tags/streamdeck/</link>
-      <pubDate>Sat, 06 Feb 2021 17:14:00 -0500</pubDate>
+      <title>NoteToSelf</title>
+      <link>https://tahoeninja.blog/tags/notetoself/</link>
+      <pubDate>Wed, 13 Sep 2023 10:07:47 +0600</pubDate>
       
-      <guid>https://hugoabernier.github.io/tags/streamdeck/</guid>
+      <guid>https://tahoeninja.blog/tags/notetoself/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>windows</title>
-      <link>https://hugoabernier.github.io/tags/windows/</link>
-      <pubDate>Sat, 06 Feb 2021 17:14:00 -0500</pubDate>
+      <title>nvm</title>
+      <link>https://tahoeninja.blog/tags/nvm/</link>
+      <pubDate>Wed, 13 Sep 2023 10:07:47 +0600</pubDate>
       
-      <guid>https://hugoabernier.github.io/tags/windows/</guid>
+      <guid>https://tahoeninja.blog/tags/nvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nvs</title>
+      <link>https://tahoeninja.blog/tags/nvs/</link>
+      <pubDate>Wed, 13 Sep 2023 10:07:47 +0600</pubDate>
+      
+      <guid>https://tahoeninja.blog/tags/nvs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VSCode</title>
+      <link>https://tahoeninja.blog/tags/vscode/</link>
+      <pubDate>Wed, 13 Sep 2023 10:07:47 +0600</pubDate>
+      
+      <guid>https://tahoeninja.blog/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>https://tahoeninja.blog/tags/github/</link>
+      <pubDate>Sun, 07 Feb 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://tahoeninja.blog/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PnP</title>
-      <link>https://hugoabernier.github.io/tags/pnp/</link>
-      <pubDate>Mon, 04 Jan 2021 10:07:47 +0600</pubDate>
+      <link>https://tahoeninja.blog/tags/pnp/</link>
+      <pubDate>Sun, 07 Feb 2021 10:07:47 +0600</pubDate>
       
-      <guid>https://hugoabernier.github.io/tags/pnp/</guid>
+      <guid>https://tahoeninja.blog/tags/pnp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microsoftedge</title>
+      <link>https://tahoeninja.blog/tags/microsoftedge/</link>
+      <pubDate>Sat, 06 Feb 2021 17:14:00 -0500</pubDate>
+      
+      <guid>https://tahoeninja.blog/tags/microsoftedge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>streamdeck</title>
+      <link>https://tahoeninja.blog/tags/streamdeck/</link>
+      <pubDate>Sat, 06 Feb 2021 17:14:00 -0500</pubDate>
+      
+      <guid>https://tahoeninja.blog/tags/streamdeck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://tahoeninja.blog/tags/windows/</link>
+      <pubDate>Sat, 06 Feb 2021 17:14:00 -0500</pubDate>
+      
+      <guid>https://tahoeninja.blog/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microsoft Edge</title>
-      <link>https://hugoabernier.github.io/tags/microsoft-edge/</link>
+      <link>https://tahoeninja.blog/tags/microsoft-edge/</link>
       <pubDate>Thu, 30 Jul 2020 10:07:47 +0600</pubDate>
       
-      <guid>https://hugoabernier.github.io/tags/microsoft-edge/</guid>
+      <guid>https://tahoeninja.blog/tags/microsoft-edge/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>React</title>
-      <link>https://hugoabernier.github.io/tags/react/</link>
-      <pubDate>Mon, 30 Dec 2019 10:07:47 +0600</pubDate>
+      <title>Data interception</title>
+      <link>https://tahoeninja.blog/tags/data-interception/</link>
+      <pubDate>Mon, 29 Jun 2020 10:07:47 +0600</pubDate>
       
-      <guid>https://hugoabernier.github.io/tags/react/</guid>
+      <guid>https://tahoeninja.blog/tags/data-interception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mystery solved</title>
+      <link>https://tahoeninja.blog/tags/mystery-solved/</link>
+      <pubDate>Mon, 29 Jun 2020 10:07:47 +0600</pubDate>
+      
+      <guid>https://tahoeninja.blog/tags/mystery-solved/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SPFx</title>
-      <link>https://hugoabernier.github.io/tags/spfx/</link>
+      <link>https://tahoeninja.blog/tags/spfx/</link>
+      <pubDate>Mon, 29 Jun 2020 10:07:47 +0600</pubDate>
+      
+      <guid>https://tahoeninja.blog/tags/spfx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://tahoeninja.blog/tags/react/</link>
       <pubDate>Mon, 30 Dec 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://hugoabernier.github.io/tags/spfx/</guid>
+      <guid>https://tahoeninja.blog/tags/react/</guid>
       <description></description>
     </item>
     

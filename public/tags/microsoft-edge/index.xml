@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Microsoft Edge on Hugo Bernier</title>
-    <link>https://hugoabernier.github.io/tags/microsoft-edge/</link>
-    <description>Recent content in Microsoft Edge on Hugo Bernier</description>
+    <title>Microsoft Edge on Tahoe Ninja</title>
+    <link>https://tahoeninja.blog/tags/microsoft-edge/</link>
+    <description>Recent content in Microsoft Edge on Tahoe Ninja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jul 2020 10:07:47 +0600</lastBuildDate><atom:link href="https://hugoabernier.github.io/tags/microsoft-edge/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jul 2020 10:07:47 +0600</lastBuildDate><atom:link href="https://tahoeninja.blog/tags/microsoft-edge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adding custom Edge profile images</title>
-      <link>https://hugoabernier.github.io/posts/adding-custom-edge-profile-images/</link>
+      <link>https://tahoeninja.blog/posts/adding-custom-edge-profile-images/</link>
       <pubDate>Thu, 30 Jul 2020 10:07:47 +0600</pubDate>
       
-      <guid>https://hugoabernier.github.io/posts/adding-custom-edge-profile-images/</guid>
-      <description>Edge Chromium lets you use different browsing profiles, but did you know that you could have custom profile images for each one? Here&#39; show.</description>
+      <guid>https://tahoeninja.blog/posts/adding-custom-edge-profile-images/</guid>
+      <description>Edge Chromium lets you use different browsing profiles, but did you know that you could have custom profile images for each one? Here&amp;rsquo; show.</description>
     </item>
     
   </channel>
