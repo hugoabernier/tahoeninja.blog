@@ -33,7 +33,7 @@
         "name": "{{ $author }}",
         "url": "https://twitter.com/{{.Site.Author.twitter}}"
     },
-    "alternateName": "Tahoe Ninjas",
+    "alternateName": "Tahoe Ninja",
     "copyrightHolder" : "{{.Site.Author.name}}",
     "copyrightYear" : "{{ .Date.Format "2006" }}",
     "dateCreated": "{{ .Date.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
@@ -46,7 +46,7 @@
     "keywords" : [ {{ range $index, $keyword := .Params.keywords }}{{ if $index }}, {{ end }}"{{ $keyword }}" {{ end }}],
     "potentialAction": {
         "@type": "SearchAction",
-        "target": "{{ .Site.BaseURL}}search/?s=spfx{search_term}",
+        "target": "{{ .Site.BaseURL}}search/?s={search_term}",
         "query-input": "required name=search_term"
     }
 }
