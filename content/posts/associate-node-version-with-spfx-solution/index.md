@@ -119,7 +119,7 @@ To do this, I prefer to use solution settings in VSCode. Solution settings are s
 
 Feel free to update the command to use the version manager of your choice.
 
-The `.vscode` file is usually ignored by GitHub, so you'll have to look for it in the `.gitignore` file, and remove it.
+The `.vscode` file is usually ignored by GitHub, so you'll have to look for it in the `.gitignore` file, and remove it if you use GitHub to store your code.
 
 > If you use nvm, you can use the [VSCode extension](https://marketplace.visualstudio.com/items?itemName=zqy233.vscode-nvmrc) that automatically loads the right version of Node.js when you open a solution.
 
