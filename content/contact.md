@@ -4,6 +4,7 @@ draft: false
 description : "Use this form to contact me about the this blog"
 image: "images/contact.svg"
 layout : contact
+sitemapExclude: true
 aliases:
  - /terms-conditions/contact
  - /privacy/contact
