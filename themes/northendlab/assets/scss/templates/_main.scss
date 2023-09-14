@@ -473,6 +473,10 @@
     tbody {
       background: $light;
 
+      tr:nth-child(even) {
+          background-color: #dce4f6;
+        }
+
       td {
         text-align: left !important;
       }

@@ -27,7 +27,7 @@ tags:
 
 ---
 
-> **NOTE**: This matrix can now be found in the [SharePoint Framework Developer documentation](https://docs.microsoft.com/sharepoint/dev/spfx/compatibility) where I hope that the community will continue to help me maintain it.
+> **NOTE**: This matrix can also be found in the [SharePoint Framework Developer documentation](https://aka.ms/spfx-matrix) where I hope that the community will continue to help me maintain it.
 
 ## Introduction
 
@@ -58,28 +58,37 @@ SharePoint Server 2016|v1.1|Requires Feature Pack 2
 
 SPFx|Node.js|NPM|TypeScript|React
 ---|---|---|---|---
-[1.15](https://docs.microsoft.com//sharepoint/dev/spfx/release-1.15)         | v12,  v14,  v16 | v5, v6, v7, v8                            | v4.5           | v16.13.1    |
-[1.14](https://docs.microsoft.com//sharepoint/dev/spfx/release-1.14)|[v14.x](https://nodejs.org/dist/latest-v14.x/), [v12.x](https://nodejs.org/dist/latest-v10.x/)|v5, v6|v3.9|v16.13.1
-[1.13.1](https://docs.microsoft.com//sharepoint/dev/spfx/release-1.13.1)|[v14.x](https://nodejs.org/dist/latest-v14.x/), [v12.x](https://nodejs.org/dist/latest-v10.x/)|v5, v6|v3.9|v16.13.1
-[1.13.0](https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/release-1.13.md)|[v14.x](https://nodejs.org/dist/latest-v14.x/), [v12.x](https://nodejs.org/dist/latest-v10.x/)|v5, v6|v3.9|v16.13.1
-[1.12.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.12.1)|[v14.x](https://nodejs.org/dist/latest-v14.x/), [v12.x](https://nodejs.org/dist/latest-v12.x/), [v10.x](https://nodejs.org/dist/latest-v10.x/)|v5, v6|v3.7|v16.9.0
-[~~1.12.0~~](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.12.0)|[v12.x](https://nodejs.org/dist/latest-v12.x/), [v10.x](https://nodejs.org/dist/latest-v10.x/)| v5, v6                                | v3.7       | v16.9.0 |
-[1.11.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.11.0)|[v10.x](https://nodejs.org/dist/latest-v10.x/)|v5, v6|v3.3|v16.8.5
-[1.10.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.10.0)|[v10.x](https://nodejs.org/dist/latest-v10.x/), [v8.x](https://nodejs.org/dist/latest-v8.x/)|v5, v6|v3.3|v16.8.5
-[1.9.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.9.1)|[v10.x](https://nodejs.org/dist/latest-v10.x/), [v8.x](https://nodejs.org/dist/latest-v8.x/)|v5, v6|v2.9|v16.8.5
-[1.8.2](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.8.2)|[v8.x](https://nodejs.org/dist/latest-v8.x/), [v10.x](https://nodejs.org/dist/latest-v10.x/)|v5, v6|v2.9|v16.7.0
-[1.8.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.8.1)|[v8.x](https://nodejs.org/dist/latest-v8.x/)|v5, v6|v2.7, v2.9, v3.x|v16.7.0
-[1.8.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.8.0)|[v8.x](https://nodejs.org/dist/latest-v8.x/)|v5, v6|v2.7, v2.9, v3.x|v16.7.0
-[1.7.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.7.1)|[v8.x](https://nodejs.org/dist/latest-v8.x/)|v5, v6|v2.4|v16.3.2
-[1.7.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.7)|[v8.x](https://nodejs.org/dist/latest-v8.x/)|v5, v6|v2.4|v16.3.2
-[1.6.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.6)|[v6.x](https://nodejs.org/dist/latest-v6.x/), [v8.x](https://nodejs.org/dist/latest-v8.x/)|v3 (w/ Node.js 6.x), v5 (w/ Node.js 8.x)| v2.4|15
-[1.5.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.5.1)|[v6.x](https://nodejs.org/dist/latest-v6.x/), [v8.x](https://nodejs.org/dist/latest-v8.x/)|v3 (w/ Node.js 6.x), v5 (w/ Node.js 8.x)| v2.4|v15
-[1.5.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.5)|[v6.x](https://nodejs.org/dist/latest-v6.x/), [v8.x](https://nodejs.org/dist/latest-v8.x/)|v3 (w/ Node.js 6.x), v5 (w/ Node.js 8.x)| v2.4|v15
-[1.4.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.4.1)|[v6.x](https://nodejs.org/dist/latest-v6.x/), [v8.x](https://nodejs.org/dist/latest-v8.x/)|v3, v4|v2.4|v15
-[1.4.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.4)|[v6.x](https://nodejs.org/dist/latest-v6.x/)|v3, v4|v2.4|v15
-[1.3.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.3)|[v6.x](https://nodejs.org/dist/latest-v6.x/)|v3, v4|v2.4|v15
-[1.1.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.1)|[v6.x](https://nodejs.org/dist/latest-v6.x/)|v3, v4|v2.4|v15
-[1.0.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.0.0)|[v6.x](https://nodejs.org/dist/latest-v6.x/)|v3|v2.4|v15
+[1.18](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.18.md)         | [v16](https://nodejs.org/dist/latest-v16.x/), [v18](https://nodejs.org/dist/latest-v18.x/)        | v5, v6, v7, v8, v9                        | v4.5, v4.7     | v17.0.1     |
+[1.17.4](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.17.4.md)     | [v16.13+](https://nodejs.org/dist/v16.13.0/)         | v5, v6, v7, v8                            | v4.5           | v17.0.1     |
+[1.17.3](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.17.3.md)     | [v16.13+](https://nodejs.org/dist/v16.13.0/)         | v5, v6, v7, v8                            | v4.5           | v17.0.1     |
+[1.17.2](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.17.2.md)     | [v16.13+](https://nodejs.org/dist/v16.13.0/)         | v5, v6, v7, v8                            | v4.5           | v17.0.1     |
+[1.17.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.17.1.md)     | [v16.13+](https://nodejs.org/dist/v16.13.0/)         | v5, v6, v7, v8                            | v4.5           | v17.0.1     |
+[1.17.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.17.md)       | [v16.13+](https://nodejs.org/dist/v16.13.0/)         | v5, v6, v7, v8                            | v4.5           | v17.0.1     |
+[1.16.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.16.1.md)     | [v16.13+](https://nodejs.org/dist/v16.13.0/)         | v5, v6, v7, v8                            | v4.5           | v17.0.1     |
+[1.16.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.16.md)       | [v16.13+](https://nodejs.org/dist/v16.13.0/)         | v5, v6, v7, v8                            | v4.5           | v17.0.1     |
+[1.15.2](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.15.2.md)     | [v12](https://nodejs.org/dist/latest-v12.x/), [v14](https://nodejs.org/dist/latest-v14.x/), [v16](https://nodejs.org/dist/latest-v16.x/)  | v5, v6, v7, v8                            | v4.5           | v16.13.1    |
+[1.15](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.15)         | [v12](https://nodejs.org/dist/latest-v12.x/),  [v14](https://nodejs.org/dist/latest-v14.x/),  [v16](https://nodejs.org/dist/latest-v16.x/) | v5, v6, v7, v8                            | v4.5           | v16.13.1    |
+[1.14](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.14)|[v14](https://nodejs.org/dist/latest-v14.x/), [v12](https://nodejs.org/dist/latest-v10.x/)|v5, v6|v3.9|v16.13.1
+[1.13.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.13.1)|[v14](https://nodejs.org/dist/latest[v12.x](https://nodejs.org/dist/latest-v12.x/)-v14.x/), [v12](https://nodejs.org/dist/latest-v10.x/)|v5, v6|v3.9|v16.13.1
+[1.13.0](https://github.com/SharePoint/sp-dev-docs/blob/master/docs/spfx/release-1.13.md)|[v14](https://nodejs.org/dist/latest-v14.x/), [v12](https://nodejs.org/dist/latest-v10.x/)|v5, v6|v3.9|v16.13.1
+[1.12.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.12.1)|[v14](https://nodejs.org/dist/latest-v14.x/), [v12](https://nodejs.org/dist/latest-v12.x/), [v10](https://nodejs.org/dist/latest-v10.x/)|v5, v6|v3.7|v16.9.0
+[~~1.12.0~~](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.12.0)|[v12](https://nodejs.org/dist/latest-v12.x/), [v10](https://nodejs.org/dist/latest-v10.x/)| v5, v6                                | v3.7       | v16.9.0 |
+[1.11.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.11.0)|[v10](https://nodejs.org/dist/latest-v10.x/)|v5, v6|v3.3|v16.8.5
+[1.10.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.10.0)|[v10](https://nodejs.org/dist/latest-v10.x/), [v8](https://nodejs.org/dist/latest-v8.x/)|v5, v6|v3.3|v16.8.5
+[1.9.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.9.1)|[v10](https://nodejs.org/dist/latest-v10.x/), [v8](https://nodejs.org/dist/latest-v8.x/)|v5, v6|v2.9|v16.8.5
+[1.8.2](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.8.2)|[v8](https://nodejs.org/dist/latest-v8.x/), [v10](https://nodejs.org/dist/latest-v10.x/)|v5, v6|v2.9|v16.7.0
+[1.8.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.8.1)|[v8](https://nodejs.org/dist/latest-v8.x/)|v5, v6|v2.7, v2.9, v3.x|v16.7.0
+[1.8.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.8.0)|[v8](https://nodejs.org/dist/latest-v8.x/)|v5, v6|v2.7, v2.9, v3.x|v16.7.0
+[1.7.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.7.1)|[v8](https://nodejs.org/dist/latest-v8.x/)|v5, v6|v2.4|v16.3.2
+[1.7.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.7)|[v8](https://nodejs.org/dist/latest-v8.x/)|v5, v6|v2.4|v16.3.2
+[1.6.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.6)|[v6](https://nodejs.org/dist/latest-v6.x/), [v8](https://nodejs.org/dist/latest-v8.x/)|v3 (w/ Node.js 6.x), <br/>v5 (w/ Node.js 8.x)| v2.4|15
+[1.5.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.5.1)|[v6](https://nodejs.org/dist/latest-v6.x/), [v8](https://nodejs.org/dist/latest-v8.x/)|v3 (w/ Node.js 6.x),<br/>v5 (w/ Node.js 8.x)| v2.4|v15
+[1.5.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.5)|[v6](https://nodejs.org/dist/latest-v6.x/), [v8](https://nodejs.org/dist/latest-v8.x/)|v3 (w/ Node.js 6.x), <br/>v5 (w/ Node.js 8.x)| v2.4|v15
+[1.4.1](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.4.1)|[v6](https://nodejs.org/dist/latest-v6.x/), [v8](https://nodejs.org/dist/latest-v8.x/)|v3, v4|v2.4|v15
+[1.4.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.4)|[v6](https://nodejs.org/dist/latest-v6.x/)|v3, v4|v2.4|v15
+[1.3.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.3)|[v6](https://nodejs.org/dist/latest-v6.x/)|v3, v4|v2.4|v15
+[1.1.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.1)|[v6](https://nodejs.org/dist/latest-v6.x/)|v3, v4|v2.4|v15
+[1.0.0](https://docs.microsoft.com/sharepoint/dev/spfx/release-1.0.0)|[v6](https://nodejs.org/dist/latest-v6.x/)|v3|v2.4|v15
 
 ## Conclusion
 
@@ -97,6 +106,7 @@ Maybe I should just submit a PR to the [SP Dev Docs repo](https://github.com/Sha
 
 ## Updates
 
+* September 14, 2023: SPFx 1.18 is here! (I know, I'm a little late)
 * June 27, 2022: SPFx 1.15 and updated my blog.
 * Feb 19th, 2022: SPFx 1.14 is here!
 * June 25, 2021: Totally forgot about SPFx 1.12.1

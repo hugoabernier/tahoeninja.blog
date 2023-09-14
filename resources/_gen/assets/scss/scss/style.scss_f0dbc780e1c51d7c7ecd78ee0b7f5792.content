@@ -1020,6 +1020,8 @@ footer img.logo {
     background: #e4eaf8; }
   .content table tbody {
     background: #ecf0fa; }
+    .content table tbody tr:nth-child(even) {
+      background-color: #dce4f6; }
     .content table tbody td {
       text-align: left !important; }
 
