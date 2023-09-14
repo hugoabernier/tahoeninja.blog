@@ -1,5 +1,13 @@
 {{ if .IsHome -}}
 <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "{{ .Site.BaseURL }}",
+        "logo": "{{ .Site.Params.Favicon | absURL }}"
+    }
+    </script>
+<script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -7,7 +15,15 @@
     "url": "{{ .Site.BaseURL }}",
     "description": "{{ .Site.Params.description }}",
     "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}",
-    "license": "{{ .Site.Params.Copyright }}"
+    "license": "{{ .Site.Params.Copyright }}",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "{{ .Site.BaseURL}}search/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+    }
 }
 </script>
 {{ else if .IsPage }}
@@ -33,7 +49,7 @@
         "name": "{{ $author }}",
         "url": "https://twitter.com/{{.Site.Author.twitter}}"
     },
-    "alternateName": "Tahoe Ninjas",
+    "alternateName": "Tahoe Ninja",
     "copyrightHolder" : "{{.Site.Author.name}}",
     "copyrightYear" : "{{ .Date.Format "2006" }}",
     "dateCreated": "{{ .Date.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
@@ -44,11 +60,6 @@
     "wordCount" : "{{ .WordCount }}",
     "genre" : [ {{ range $index, $tag := .Params.tags }}{{ if $index }}, {{ end }}"{{ $tag }}" {{ end }}],
     "keywords" : [ {{ range $index, $keyword := .Params.keywords }}{{ if $index }}, {{ end }}"{{ $keyword }}" {{ end }}],
-    "potentialAction": {
-        "@type": "SearchAction",
-        "target": "{{ .Site.BaseURL}}search/?s=spfx{search_term}",
-        "query-input": "required name=search_term"
-    }
 }
 </script>
 {{ end }}
