@@ -76,3 +76,85 @@
 
 <!-- Clarity -->
 {{ partial "clarity.html" . }}
+
+{{ if .Page.Store.Get "hasMermaid" }}
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+        startOnLoad: true,
+        securityLevel: 'loose',
+        theme: 'neutral',
+        themeVariables: {
+            fontFamily: '"Segoe UI",-apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif; ',
+            primaryTextColor: '#171717',
+        }
+    });
+</script>
+{{ end }}
+
+{{ if .Page.Store.Get "hasFlowchart" }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.17.1/flowchart.min.js"
+    integrity="sha512-emJotoOTtLFZ0H1ruR4v5pqW1mSen/JQCnjD4mcXwDT1sfZQmtqUDYv36X2S/iSun0kpgvvmBUWqpAupN104Kw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    window.onload = function () {
+        var chart;
+        
+        var code = $('#flowchart').text();
+        
+        if (chart) {
+        chart.clean();
+        }
+        
+        chart = flowchart.parse(code);
+        $('#flowchart').empty();
+        chart.drawSVG('flowchart', {
+            'font-size': 14,
+            'font': 'normal',
+            'font-family': 'Raleway',
+            'font-weight': 'normal',
+            'yes-text': 'yes',
+            'no-text': 'no',
+            'arrow-end': 'block',
+            'scale': 1
+                    });
+    };
+    </script>
+{{ end }}
+{{ if .Page.Store.Get "hasTimeline" }}
+<style type="text/css">
+    .tl-timeline {
+    font-family: raleway,sans-serif!important;
+}
+.tl-slidenav-next .tl-slidenav-content-container .tl-slidenav-description, .tl-slidenav-next .tl-slidenav-content-container .tl-slidenav-icon, .tl-slidenav-next .tl-slidenav-content-container .tl-slidenav-title, .tl-slidenav-previous .tl-slidenav-content-container .tl-slidenav-description, .tl-slidenav-previous .tl-slidenav-content-container .tl-slidenav-icon, .tl-slidenav-previous .tl-slidenav-content-container .tl-slidenav-title {
+    text-shadow: none!important;
+    color: #333;
+}
+
+.tl-slidenav-next .tl-slidenav-description, .tl-slidenav-next .tl-slidenav-title, .tl-slidenav-previous .tl-slidenav-description, .tl-slidenav-previous .tl-slidenav-title {
+    filter: none;
+    -khtml-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1!important;
+}
+
+.tl-text .tl-headline-date, .tl-text h3.tl-headline-date {
+    font-family: raleway,sans-serif!important;
+    color: #333!important;
+}
+
+</style>
+<script src="https://cdn.jsdelivr.net/npm/timelinejs3@3.4.0/compiled/js/timeline-min.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/timelinejs3@3.4.0/compiled/css/timeline.min.css">
+<script type="application/javascript">
+    $(document).ready(() =>{
+        var embed = document.getElementById('timeline-embed');
+        var source = embed.getAttribute('data-src');
+        window.timeline = new TL.Timeline('timeline-embed', source, {
+            hash_bookmark: false,
+            font: 'Raleway'
+        });
+    });
+</script>
+{{ end }}

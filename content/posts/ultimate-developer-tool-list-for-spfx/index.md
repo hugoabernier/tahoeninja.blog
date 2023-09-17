@@ -72,7 +72,7 @@ When I first started writing SPFx solutions, I refused to use Visual Studio Code
 
 ### [Git for Windows](https://git-scm.com/downloads)
 
-Even if your company uses Azure DevOps or TFS for source control, you should install Git to make your life easier when downloading [SPFx code samples](https://github.com/SharePoint/sp-dev-fx-webparts).
+Even if your company uses Azure DevOps or TFS for source control, you should install Git to make your life easier when downloading [SPFx code samples](https://github.com/pnp/sp-dev-fx-webparts).
 
 ### [Cmder for Windows](https://cmder.net/)
 
@@ -188,7 +188,7 @@ A great image editing tool that’s fully featured and free. I use it to edit ic
 
 ### [Inkscape](https://inkscape.org/)
 
-A powerful SVG editing tool. I use it to create SVG icons. _If only I could [get SVG icons to work consistently in SPFx](https://github.com/SharePoint/sp-dev-fx-webparts/issues/766), it’d be great_.
+A powerful SVG editing tool. I use it to create SVG icons. _If only I could [get SVG icons to work consistently in SPFx](https://github.com/pnp/sp-dev-fx-webparts/issues/766), it’d be great_.
 
 ### [SnagIt](https://www.techsmith.com/screen-capture.html)
 

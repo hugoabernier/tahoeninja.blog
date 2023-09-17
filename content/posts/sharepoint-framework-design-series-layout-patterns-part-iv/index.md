@@ -219,13 +219,13 @@ That’s really all there is to it! You web part will render something like this
 
 The great thing is that it is entirely up to you how you want to render each item. I chose to use the `DocumentCard` control, but you can replace any part of your `_onRenderGridItem` method to suit your needs.
 
-For example, if you wanted to render a date instead of an thumbnail, you could use something like the [DateBox component](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-calendar-feed/src/shared/components/DateBox) that I wrote for [the React Calendar Feed sample](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-calendar-feed).
+For example, if you wanted to render a date instead of an thumbnail, you could use something like the [DateBox component](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-calendar-feed/src/shared/components/DateBox) that I wrote for [the React Calendar Feed sample](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-calendar-feed).
 
 ![The Datebox control](../../images/post/uploads/2019/08/image-1567306747447.png)
 
 ## Adding pagination
 
-When I first built the [React Calendar Feed sample](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-calendar-feed), the Events web part showed little **Previous** and **Next** buttons at the bottom of the web part when displaying in the compact mode.
+When I first built the [React Calendar Feed sample](https://github.com/pnp/sp-dev-fx-webparts/tree/master/samples/react-calendar-feed), the Events web part showed little **Previous** and **Next** buttons at the bottom of the web part when displaying in the compact mode.
 
 It seems that the pagination has since been removed from the standard web part design. Nevertheless, I have included a sample control to show how you can add pagination to your compact web part.
 

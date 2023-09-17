@@ -532,6 +532,39 @@ footer img.logo {
   margin-top: -12px;
 }
 
+.blink-interactive {
+  -webkit-animation: blink-interactive 0.6s both;
+  animation: blink-interactive 0.6s both;
+}
+
+@-webkit-keyframes blink-interactive {
+
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink-interactive {
+
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
 .utterances {
   position: relative;
   box-sizing: border-box;

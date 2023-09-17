@@ -1,0 +1,715 @@
+{
+    "title": {
+        "text": {
+            "headline": "A Brief History of SharePoint Framework",
+            "text": "<p>Our friends at Microsoft have been working hard to build and constantly improve upon the SharePoint Framework and the Yeoman generator.</p><p>Since 2016, the team behind SPFx has released many versions of the Yeoman generator. A lot of progress has been made since then.</p><p>This timeline celebrates their hard-work.</p><p><b>Thank you to the SPFx team (and everyone else who contributed)!</b></p>"
+        }
+    },
+    "events": [
+        {
+            "start_date": {
+                "month": "8",
+                "day": "17",
+                "year": "2016"
+            },
+            "end_date": {
+                "month": "9",
+                "day": "2",
+                "year": "2016"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Drop-1'>Developer Preview (Drop 1)</a>",
+                "text": "<ul><li>It all started here!<li>SharePoint teams at Microsoft have been building on top of the SharePoint framework for a while.<li>Lot of work went into it; close to production quality, but it hasn't been tested in the <i>real-world</i>, where teams don't always follow patterns and practices.</ul>"
+            },
+            "group": "Pre-Release"
+        },
+        {
+            "start_date": {
+                "month": "9",
+                "day": "2",
+                "year": "2016"
+            },
+            "end_date": {
+                "month": "9",
+                "day": "13",
+                "year": "2016"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes-Drop-2'>v0.1.0 (Drop 2)</a>",
+                "text": "<ul><li>Introduction of <code>gulp serve</code> via <b>https</b>.<li>Completely updated <code>tslint</code> file<li>Removed <code>config/text.json</code> file<li>Added <code>*.spapp</code> to <code>.gitignore</code></ul>"
+            },
+            "group": "Pre-Release"
+        },
+        {
+            "start_date": {
+                "month": "9",
+                "day": "13",
+                "year": "2016"
+            },
+            "end_date": {
+                "month": "9",
+                "day": "21",
+                "year": "2016"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes-Drop-3'>v0.1.2 (Drop 3)</a>",
+                "text": "<ul><li>Few changes to the property pane APIs in the <code>sp-client-preview</code> package, and some small fixes to the build toolchain.</ul>"
+            },
+            "group": "Pre-Release"
+        },
+        {
+            "start_date": {
+                "month": "9",
+                "day": "21",
+                "year": "2016"
+            },
+            "end_date": {
+                "month": "9",
+                "day": "30",
+                "year": "2016"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes-Drop-4-and-MDL2'>v0.2.0 (Drop 4)</a>",
+                "text": "<ul><li>Design language refresh for the SharePoint Framework, changing from <code>office-ui-fabric</code> 2.6.0 to <code>office-ui-fabric-react</code> 0.50.0</ul>"
+            },
+            "group": "Pre-Release"
+        },
+        {
+            "start_date": {
+                "month": "9",
+                "day": "30",
+                "year": "2016"
+            },
+            "end_date": {
+                "month": "10",
+                "day": "14",
+                "year": "2016"
+            },
+            "text": {
+                "headline": "<a href='https://www.microsoft.com/microsoft-365/blog/2016/09/26/sharepoint-innovations-further-advance-intelligence-and-collaboration-in-office-365/'>Ignite 2016</a>",
+                "text": "<h4>The Future of SharePoint</h4><p>Microsoft showed the SharePoint was still alive and that they listen to customers!</p><p>At Microsoft Ignite, they announced the next wave of SharePoint innovations:</p><ul><li>Update to OneDrive browser experience<li>OneDrive sync preview for SharePoint Online document libraries and folders<li>Team news<li>People cards in SharePoint and OneDrive for Business <li>New integration with Microsoft Flow, PowerApps and Yammer.<li>Preview of the SharePoint mobile apps for Windows 10 Mobile and Android.<li>Enhancements for developers including new sites and lists APIs in Microsoft Graph.<li>New security controls including site classification and conditional access based on location and device.<li>Feature Pack 1 for SharePoint Server 2016.<li>Expanded FastTrack services and tools to support hybrid configurations and migration.</ul>"
+            },
+            "group": "Pre-Release"
+        },
+        {
+            "start_date": {
+                "month": "10",
+                "day": "14",
+                "year": "2016"
+            },
+            "end_date": {
+                "month": "11",
+                "day": "21",
+                "year": "2016"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes-Drop-5'>v0.2.1 (Drop 5)</a>",
+                "text": "<p>With Ignite over, the team made a lot of big changes</p><ul><li>Typescript 2<li>PageContext<li>Upgraded <code>office-ui-fabric-react</code> to 0.52.0<li>Fixed mobile preview dimension input in workbench<li>Added more fields to workbench page context<li>Change redirect logic to point at localhost, rather than hostname<li>Workbench uses newest version of Office UI Fabric<li>New commands: <code>gulp trust-dev-cert</code>, <code>gulp untrust-dev-cert</code>, <code>dev-deploy</code></ul>"
+            },
+            "group": "Pre-Release"
+        },
+        {
+            "start_date": {
+                "month": "11",
+                "day": "21",
+                "year": "2016"
+            },
+            "end_date": {
+                "month": "01",
+                "day": "09",
+                "year": "2017"
+            },
+            "media": {
+                "url": "http://ericoverfield.com/wp-content/uploads/2017/01/sharepoint-framework-generator-version.jpg",
+                "credit": "Photo credit: Eric Overfield"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes-Drop-6'>v0.3.2 (Drop 6)</a>",
+                "text": "<ul><li>First release tenants get to use SPFX (although still in preview and not supported for production use)<li>Added <code>openPropertyPane</code> and <code>refreshPropertyPane</code><li>Support for context objects in custom property pane fields<li><code>sp-webpart-base</code> package is default</ul>"
+            },
+            "group": "Pre-Release"
+        },
+        {
+            "start_date": {
+                "month": "01",
+                "day": "09",
+                "year": "2017"
+            },
+            "end_date": {
+                "month": "02",
+                "day": "23",
+                "year": "2017"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes-RC0'>Release Candidate 0</a>",
+                "text": "<ul><li>Hosted workbench available at <code>sites/_layouts/15/workbench.aspx</code><li>Web parts started failing as tenants were being upgraded<li>Migrated from typings to <code>@types</code> for the typescript typings<li>Introduced decorators to help support things like <code>virtual</code>, <code>sealed</code> and <code>override</code><li>Renamed the <code>.spapp</code> extension to <code>.sppkg</code></ul>"
+            },
+            "group": "Pre-Release"
+        },
+        {
+            "start_date": {
+                "month": "02",
+                "day": "23",
+                "year": "2017"
+            },
+            "end_date": {
+                "month": "06",
+                "day": "26",
+                "year": "2017"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes-GA'>SPFx v1.0.0</a>",
+                "text": "<h4>SPFx GA!!!</h4><ul><li>SPFx code starts rolling out on all the farms/tenants -- starting with First Release tenants</ul>"
+            },
+            "media": 
+            {
+                "url": "SPFxEngineeringTeam_hue7ef6908ca00c4c87c6f896795054c65_72336_500x375_resize_q100_h2_box.webp"
+            }
+        },
+        {
+            "start_date": {
+                "month": "06",
+                "day": "06",
+                "year": "2017"
+            },
+            "end_date": {
+                "month": "08",
+                "day": "29",
+                "year": "2017"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes---Extensions-Dev-Preview-Drop-1'>SPFx v1.1.0</a>",
+                "text": "<h4>Extensions Dev Preview Drop 1</h4><ul><li>SPFx extensions</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "08",
+                "day": "29",
+                "year": "2017"
+            },
+            "end_date": {
+                "month": "12",
+                "day": "07",
+                "year": "2017"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes---Extensions-RC-Drop-1.2'>SPFx v1.2.0</a>",
+                "text": "<ul><li>Typescript 2.4<li>React 15<li>Performance fixes<li>Placeholders<li>Events<li>Multi-component bundles<li>Fixes to web part configuration panes</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "09",
+                "day": "25",
+                "year": "2017"
+            },
+            "end_date": {
+                "month": "09",
+                "day": "29",
+                "year": "2017"
+            },
+            "text": {
+                "headline": "Ignite 2017",
+                "text": "<p>Microsoft made a whole bunch of SharePoint-related announcements. The SharePoint team must have put in a lot of hours to prepare for this event!<ul><li>Custom themes<li>SharePoint Hubs<li>SharePoint Search<li>Modern admin center<li>New web parts<ul><li>Document Library<li>Group calendar<li>File Preview<li>Yammer<li>Forms<li>Divider<li>Connector</ul><li>SharePoint Migration Tool<li>Files on Demand<li>Microsoft Teams integration with SharePoint sites<li>Groupify sites<li>SharePoint analytics<li>Updated SharePoint mobile app<li>SharePoint 2019</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "12",
+                "day": "07",
+                "year": "2017"
+            },
+            "end_date": {
+                "month": "02",
+                "day": "12",
+                "year": "2018"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes-for-SPFx-Package-Version-1.4'>SPFx v1.4.0</a>",
+                "text": "<ul><li>Replaced <code>@types/es6-collections</code> with built-in es2015.collection<li>Added <code>no-required-ensure</code> tslist rule to encourage use of import keyword instead of <code>require.ensure()</code><li>Build assets incorporated into <code>.sppkg</code> file and hosted by SharePoint<li>New <code>asyncComponents</code> in <code>config.json</code><li>Deprecated <code>UNIT_TEST</code> webpack macro<li>Fixed issue with <code>--locale</code> parameter being ignored<li>Batching of <code>dev-deploy</code> and <code>upload-cdn</code><li>Fixed issue with icon URL generation<li>Added ability to specify relative path to icons and extension in manifests<li>Updated webpack loader<li>Updated dependencies that caused warnings<li>Added generator support for older <code>config.json</code> files to prevent issues when automatically upgrading<li>Included missing ajv dependency<li>Removed outdated JSON schema settings<li>And <a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes-for-SPFx-Package-Version-1.4'>lots more</a></li></ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "02",
+                "day": "12",
+                "year": "2018"
+            },
+            "end_date": {
+                "month": "06",
+                "day": "05",
+                "year": "2018"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes-for-SPFx-Package-Version-1.4.1'>SPFx v1.4.1</a>",
+                "text": "<ul><li>Node v8 (LTS) and npm v5 Support<li>Fixed issue that prevented activating new versions of SPFx packages<li>Initial beta release of <code>AadHttpClient</code> class<li>Initial beta release of <code>AadTokenProvider</code> class<li>Initial beta release of <code>MSGraphClient</code> class<li><code>AadHttpClient</code><li><code>MSGraphClient</code></ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "06",
+                "day": "05",
+                "year": "2018"
+            },
+            "end_date": {
+                "month": "06",
+                "day": "29",
+                "year": "2018"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes-for-SharePoint-Framework-Package-v1.5'>SPFx v1.5.0</a>",
+                "text": "<ul><li>Added <code>-plusbeta</code> flag<li>Support for PNPM and Yarn package managers<li>Support for customized Yeoman generators<li>Added AAD information to <code>PageContext</code><li>Fixes issues with <code>sp-dialog</code> and other packages not working in workbench<li>New tslint rules from <code>tslint-microsoft-config</code> to detect common security vulnerabilities<li>Fixed issues with <code>package-solution</code> where warnings caused build to fail<li>Added preview for Dynamic Data</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "06",
+                "day": "29",
+                "year": "2018"
+            },
+            "end_date": {
+                "month": "09",
+                "day": "05",
+                "year": "2018"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes-for-SPFx-Package-Version-1.5.1'>SPFx v1.5.1</a>",
+                "text": "Bug fix release to address few regressions which were introduced in the 1.5 release"
+            }
+        },
+        {
+            "start_date": {
+                "month": "09",
+                "day": "05",
+                "year": "2018"
+            },
+            "end_date": {
+                "month": "11",
+                "day": "18",
+                "year": "2018"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/SharePoint-Framework-v1.6-release-notes'>SPFx v1.6.0</a>",
+                "text": "<ul><li>WebAPI<li>Tenant-wide configuration of extensions<li>Needs an <code>index.ts</code> file in the root source directory<li><code>tslint.json</code> moved from <code>\\config</code> to root directory<li>Changes to <code>tsconfig.json</code><li><code>sp-dialog</code> classes moved from Beta</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "09",
+                "day": "24",
+                "year": "2018"
+            },
+            "end_date": {
+                "month": "09",
+                "day": "28",
+                "year": "2018"
+            },
+            "text": {
+                "headline": "<a href='https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-powers-teamwork-in-Office-365-Microsoft-Ignite-2018/ba-p/255465'>Ignite 2018</a>",
+                "text": "<p>It was hot and we walked a lot, but we didn't work nearly as hard as the SharePoint team had to do to prepare for this event!</p><ul><li>Further SharePoint integration with Microsoft Teams<li>Webpart-to-webpart connections<li>New page title region options<li>Page section background shading<li>Page designs<li>Heat maps on site activity to shows site traffic patterns<li>Site classification show policy labels</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "11",
+                "day": "18",
+                "year": "2018"
+            },
+            "end_date": {
+                "month": "12",
+                "day": "18",
+                "year": "2018"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/SharePoint-Framework-v1.7-release-notes'>SPFx v1.7.0</a>",
+                "text": "<p>Probably the biggest release in terms of new features since the original preview and/or extensions preview. Lots of stuff:<ul><li>Dynamic data<li>Built-in page content data source<li>2019 support<li>Preview features:<ul><li>SPFx for Teams Tabs<li>Teams-based Apps in SharePoint<li>Full page apps<li>Domain Isolated WebParts<li><code>ListSubscriptions</code> in the browser<li>Update to <code>ContentPlaceholder</code> lifecycle</ul><li>Removed support for Node 6</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "11",
+                "day": "28",
+                "year": "2018"
+            },
+            "text": {
+                "headline": "<a href='https://news.microsoft.com/en-gb/2018/11/29/microsoft-has-unveiled-colourful-new-icons-for-office/'>New SharePoint Icon</a>",
+                "text": "<p>It didn't change the SharePoint Framework, but if you ever search for SharePoint articles and code samples and notice the old SharePoint logo, chances are it is an older article.</p>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "12",
+                "day": "18",
+                "year": "2018"
+            },
+            "end_date": {
+                "month": "03",
+                "day": "14",
+                "year": "2019"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes-for-SPFx-Package-Version-1.7.1'>SPFx v1.7.1</a>",
+                "text": "<p>Bug fix release to address few regressions and missed bugs introduced in 1.7</p>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "3",
+                "day": "14",
+                "year": "2019"
+            },
+            "end_date": {
+                "month": "04",
+                "day": "06",
+                "year": "2019"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/SharePoint-Framework-v1.8-release-notes'>SPFx v1.8.0</a>",
+                "text": "<ul><li>SPFx development of Teams Tabs<li>App Pages<li>Web parts in isolated Domains<li>Library Components (preview)<li>Support for TypeScript 2.7, 2.9 and 3.x<li>Support for Section background styling on modern pages<li>Deprecating legacy Fabric CSS consumption</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "04",
+                "day": "06",
+                "year": "2019"
+            },
+            "end_date": {
+                "month": "05",
+                "day": "07",
+                "year": "2019"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/SharePoint-Framework-v1.8.1-release-notes'>SPFx v1.8.1</a>",
+                "text": "Minor bump to fix issues with Yeoman generator and SharePoint 2019/2016 and Fabric CSS."
+            }
+        },
+        {
+            "start_date": {
+                "month": "05",
+                "day": "07",
+                "year": "2019"
+            },
+            "end_date": {
+                "month": "07",
+                "day": "19",
+                "year": "2019"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/SharePoint-Framework-v1.8.2-release-notes'>SPFx v1.8.2</a>",
+                "text": "Minor patch release that mostly focuses on build and tooling issues with some changes to the scaffolded projects and APIs.<ul><li>Support for Node.js 10<li>microsoftTeams API in web part context<li>Fixed out of memory exceptions<li>Changes in build tools versions<li>Build tools use <code>rush-stack-compiler-2.9</code><li>office-ui-fabric-react v6</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "07",
+                "day": "19",
+                "year": "2019"
+            },
+            "end_date": {
+                "month": "07",
+                "day": "26",
+                "year": "2019"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/SharePoint-Framework-v1.9-release-notes'>SPFx v1.9.0</a>",
+                "text": "<ul><li>Library Components generally available<li>Webpack 4 (faster builds!)<li>Teams SDK bumped to version 1.4.2<li>Support for React 16.8.5 (support for Hooks?)<li>TypeScript 3.5.3 supported<li>Office Fabric v6.189.2<li><code>SPHttpClientBatch</code> now in GA <li>sdk property in web part context<li><code>microsoftTeams</code> API in web part context marked as deprecated<li>Removed <code>GraphHttpClient</code> from API</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "07",
+                "day": "26",
+                "year": "2019"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/issues/4371'>1.9.0 Pulled from NPM</a>",
+                "text": "<p>After noticing an increased number of reported issues with the hosted workbench, the team pulled SPFx v1.9.0 from NPM to prevent further installations. It will be replaced with v1.9.1. as soon as the issues are resolved.</p><p>If you already have SPFx 1.9 and don't experience issues, you probably don't need to do anything</p><p>These things happen. With an increased release cadence, you also get an increased risk of issues.</p>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "08",
+                "day": "14",
+                "year": "2019"
+            },
+            "end_date": {
+                "month": "01",
+                "day": "07",
+                "year": "2020"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/SharePoint-Framework-v1.9.1-release-notes'>SPFx v1.9.1</a>",
+                "text": "<ul><li>Library Components now generally available and supported for shipping code (not just preview)!<li>Webpack 4<li>Teams SDK bumped to version 1.4.2. Support for Vanity URLs.<li>New <code>sdks</code> property on the web part context<li>Removed the previously deprecated <code>GraphHttpClient</code> from API</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "01",
+                "day": "07",
+                "year": "2019"
+            },
+            "end_date": {
+                "month": "07",
+                "day": "16",
+                "year": "2020"
+            },
+            "text": {
+                "headline": "<a href='https://github.com/SharePoint/sp-dev-docs/wiki/SharePoint-Framework-v1.10-release-notes'>SPFx v1.10.0</a>",
+                "text": "<ul><li>Preview code for Office Add-Ins<li>New Extension type Search Extensions<li>Support for personal apps in Microsoft Teams<li>Support for Teams mobile<li>sp-list-subscription package is now GA<li>Top bottom placeholder application customizer pre-allocated space<li>Default compiler for new projects now TypeScript v3.3<li>Office UI Fabric React 7</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "07",
+                "day": "16",
+                "year": "2020"
+            },
+            "end_date": {
+                "month": "03",
+                "day": "15",
+                "year": "2021"
+            },
+            "text": {
+                "headline": "<a href='https://learn.microsoft.com/sharepoint/dev/spfx/release-1.11.0'>SPFx v1.11.0</a>",
+                "text": "<ul><li>Supporting SharePoint Framework solutions in AppSource and in Marketplace<li>Support Microsoft Teams task modules added<li>Additional metadata for the SharePoint Framework solutions<li>Support defining specific image for app pages<li><strong>REMOVED</strong>: Knockout web framework option when creating SharePoint Framework web parts. You can still use Knockout, but there's no default scaffolding for it.</li><li><strong>REMOVED</strong>: Node.js v8 support.</li><li><strong>REMOVED</strong>: Support for <code>system.js</code> in the local workbench.</li></ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "03",
+                "day": "15",
+                "year": "2021"
+            },
+            "end_date": {
+                "month": "03",
+                "day": "24",
+                "year": "2021"
+            },
+            "text": {
+                "headline": "<a href='https://learn.microsoft.com/sharepoint/dev/spfx/release-1.12.0'>SPFx v1.12.0</a>",
+                "text": "<ul><li>New Sync to Teams button in App Catalog uses Teams app manifest defined in solution <li>If Teams app manifest is not present, SharePoint will automatically generate one<li>New API to detect rendered width and handle changes with event handlers<li>Added support for Node v12.x<li>Requires Gulp v4<li>Default TypeScript v3.7<li>Updates React NPM packages to v16.9.0<li>Updates Office UI Fabric React NPM packages to v7.156.0</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "03",
+                "day": "24",
+                "year": "2021"
+            },
+            "end_date": {
+                "month": "10",
+                "day": "21",
+                "year": "2021"
+            },
+            "text": {
+                "headline": "v1.12.0 Deprecated",
+                "text": "Due to some regression issues, Microsoft recommends that you keep using <a href='https://learn.microsoft.com/sharepoint/dev/spfx/release-1.11.0'>SPFx v1.11.0</a> -- at least until 1.12.1 is available"
+            }
+        },
+        {
+            "start_date": {
+                "month": "10",
+                "day": "21",
+                "year": "2021"
+            },
+            "end_date": {
+                "month": "11",
+                "day": "23",
+                "year": "2021"
+            },
+            "text": {
+                "headline": "<a href='https://devblogs.microsoft.com/microsoft365dev/announcing-sharepoint-framework-1-13-extending-microsoft-viva-connections/'>SPFx v1.13.0</a>",
+                "text": "<ul><li>General availability of the <b>Adaptive Card Extensions for extending Viva Connections Desktop and Mobile experiences</b><li>Support for Teams JS client SDK v1.10<li>Support for TypeScript 3.9<li>Support for Adaptive Card SDK 2.9<li>Release of image rendering APIs<li>No more local workbench!<li>Many, many bugs <a href='https://github.com/SharePoint/sp-dev-docs/issues?q=is:open+is:issue+label:area:spfx+label:status:fixed-next-drop+milestone:1.13'>fixed</a></ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "11",
+                "day": "23",
+                "year": "2021"
+            },
+            "end_date": {
+                "month": "2",
+                "day": "17",
+                "year": "2022"
+            },
+            "text": {
+                "headline": "<a href='https://devblogs.microsoft.com/microsoft365dev/announcing-public-preview-of-sharepoint-framework-1-13-with-viva-connections-extensibility/'>SPFx v1.13.1</a>",
+                "text": "Fixes few regression issues introduced with SPFx 1.13 which were found in very few isolated scenarios.<ul><li>Cannot use custom dialogs<li>Generator creates unusual folder structure when running with CLI arguments<li><code>Deploy-azure-storage</code> command no longer creates containers when it does not exist</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "2",
+                "day": "17",
+                "year": "2022"
+            },
+            "end_date": {
+                "month": "6",
+                "day": "21",
+                "year": "2022"
+            },
+            "text": {
+                "headline": "<a href='https://learn.microsoft.com/sharepoint/dev/spfx/release-1.14'>SPFx v1.14</a>",
+                "text": "Finally, a new generation of solution templates!<ul><li>New look and feel for web part templates that were much needed<li>New lifecycle events for theme changes<li>Less prompts when scaffolding a new solution<li>Detect if a component is loading from localhost<li>Hide a property pane group name<li>IP address property in <code>serve.json</code> to help with remote container development<li>Web part templates now theme-aware out of the box, but you can also create bare bones web parts of you don't want any of the fancy features<li>Updated ACE scaffolding for Adaptive Card Extensions<li>ListView Command Set changes can use raiseOnChange to trigger a reflow of a ListView<li><code>ListViewAccessor</code> state now contains tons of useful info about the current ListView</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "06",
+                "day": "21",
+                "year": "2022"
+            },
+            "end_date": {
+                "month": "8",
+                "day": "2",
+                "year": "2022"
+            },
+            "text": {
+                "headline": "<a href='https://learn.microsoft.com/sharepoint/dev/spfx/release-1.15'>SPFx v1.15</a>",
+                "text": "This release introduces updates across the features around Microsoft Viva, Microsoft Teams, and SharePoint.<ul><li>Form customizer extensions<li>Node.js v16 support<li>Microsoft Graph JavaScript SDK v3 Support<li>TypeScript v4.5 support<li>SPFx solutions now support ESLint 8.x instead of the deprecated TSLint.<li>SharePoint Framework solutions now support Microsoft Teams JavaScript Client SDK v1.12.1.<li>Template was updated to use <code>listViewStateChanged</code> event instead of deprecated <code>onListViewUpdated</code> event.<li>New command line option: <code>--use-heft</code>. If specified, the solution will build the project using Heft.<li>The <code>ImageHelper</code> static class (in @microsoft/sp-image-helper) has been added<li>New Action types for geolocation<li>Preview: Adaptive Card Extensions card view caching<li>Deprecated SPComponentLoader <code>getManifests()</code> method due to runtime performance overhead.<li>Removed API from @microsoft/sp-http - <code>MSGraphClientFactory.getClient()</code></ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "8",
+                "day": "2",
+                "year": "2022"
+            },
+            "end_date": {
+                "month": "11",
+                "day": "15",
+                "year": "2022"
+            },
+            "text": {
+                "headline": "<a href='https://learn.microsoft.com/sharepoint/dev/spfx/release-1.15.2'>SPFx v1.15.2</a>",
+                "text": "<ul><li>Enable Service Principal Registration at Permission Scope Approval Time<li>New Action types for media - General Availability<li>Updates to ESLint rules<li>Defer loading Adaptive Card Extension Quick View</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "11",
+                "day": "15",
+                "year": "2022"
+            },
+            "end_date": {
+                "month": "11",
+                "day": "30",
+                "year": "2022"
+            },
+            "text": {
+                "headline": "<a href='https://learn.microsoft.com/sharepoint/dev/spfx/release-1.16'>SPFx v1.16</a>",
+                "text": "<ul><li>Publish Teams solutions build with SPFx to Outlook and Office<li>Teams JavaScript SDK v2 support<li>teams-js v2 typings support<li>React 17 support<li>Ability to set dataVersion in web part's manifest<li>General availability of Search Query extensions<li>Ability to use tasks and middleware in Microsoft Graph v3<li>EULA folder has been removed from the modules<li>Ability to check supported versions of MS Graph and Teams SDK<li>quietDeps parameter for SASS<li>Ability to render ACE asynchronously<li>Adaptive Card Extension Image Card View to have alt text for Accessibility<li>New Form Customizer context properties<li>Remove NodeJS v12 and v14 support<li>Preview: Web part Top Actions<li>Deprecated <code>@microsoft/office-ui-fabric-react-bundle</code> package. Use <code>@fluentui/react</code> instead.<li>Deprecated <code>context.sdks.microsoftTeams.context</code>. Use <code>context.sdks.microsoftTeams.teamJs.app.getContext</code> instead.</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "11",
+                "day": "30",
+                "year": "2022"
+            },
+            "end_date": {
+                "month": "04",
+                "day": "04",
+                "year": "2023"
+            },
+            "text": {
+                "headline": "<a href='https://learn.microsoft.com/sharepoint/dev/spfx/release-1.16.1'>SPFx v1.16.1</a>",
+                "text": "<ul><li>Promoting <code>config/sass.json</code> file</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "04",
+                "day": "04",
+                "year": "2023"
+            },
+            "end_date": {
+                "month": "04",
+                "day": "12",
+                "year": "2023"
+            },
+            "text": {
+                "headline": "<a href='https://learn.microsoft.com/sharepoint/dev/spfx/release-1.17'>SPFx v1.17</a>",
+                "text": "<ul><li>Updates and improvements on building Microsoft 365 wide experiences with <strong>Microsoft Teams apps build with SharePoint Framework</strong> – This model enables you to build auto-hosted apps in Microsoft 365, which are extended across Microsoft Teams, Outlook and Office 365 app (office.com). Any Microsoft Teams app build with SharePoint Framework is automatically now compliant with the requirements to get the app exposed across Microsoft 365.</li><li>Updates and improvements on the <strong>Microsoft Viva extensibility build with SharePoint Framework</strong>.</li><li>General availability of the <strong>top actions for custom web parts in SharePoint</strong>.</li><li><strong>Authentication improvements</strong> with popup flow support for API authentication.</li><li><strong>Accessibility improvements</strong> for the web part areas.</li><li><strong>Development time improvements</strong> with central configuration of developer tenant details.</li><li><strong>Microsoft Teams JS SDK</strong> version update to version <strong>2.9.1</strong> to support new APIs, such as Live Share SDK.</li><li><em>“Sync to Teams”</em> functionality in SharePoint app catalog update to use <strong>Teams Manifest v1.16</strong> for the automatically created Microsoft Teams solution package – making all SPFx components exposed across the Microsoft 365 also with automatically generated packaging</li><li>Viva Connections <strong>Adaptive Cards Extensions</strong> update to support <strong>Adaptive Cards schema v1.5.</strong> - enabling tables and other new features for ACEs</li><li>Microsoft Teams JS SDK v2.9.1 support<li>Support for Adaptive Cards schema v1.5 in Adaptive Cards Extensions<li>Support for Microsoft Teams Manifest v1.16 in Sync to Teams<li>Ability to use <code>SPFX_SERVE_TENANT_DOMAIN</code> OS environment variable for serve configurations<li>Top Actions-specific types<li><code>onBeforeAction</code> handler for Adaptive Card Extensions<li>Ability to specify initial focus element in an Adaptive Card Extension Quick View<li>Support for SharePoint Pages 'iframing' in Teams applications<li>Ability to specify claims parameter when requesting an Azure Active Directory OAuth2 token<li>Popup flow support in AadTokenProvider<li>Support for <code>aria-label</code> in Property Pane's link control</ul>"
+            }
+        },
+        {
+            "start_date": {
+                "month": "04",
+                "day": "12",
+                "year": "2023"
+            },
+            "end_date": {
+                "month": "05",
+                "day": "09",
+                "year": "2023"
+            },
+            "text": {
+                "headline": "<a href='https://learn.microsoft.com/sharepoint/dev/spfx/release-1.17.1'>SPFx v1.17.1</a>",
+                "text": "This is a minor bump that fixes the issues around SharePoint Framework solution packaging, provides improved default scaffolding and few other minor adjustments, which were in the previous released 1.17 version."
+            }
+        },
+        {
+            "start_date": {
+                "month": "05",
+                "day": "09",
+                "year": "2023"
+            },
+            "end_date": {
+                "month": "05",
+                "day": "31",
+                "year": "2023"
+            },
+            "text": {
+                "headline": "<a href='https://learn.microsoft.com/sharepoint/dev/spfx/release-1.17.2'>SPFx v1.17.2</a>",
+                "text": "This is a minor bump that fixes the issues around SharePoint Framework solution packaging, provides improved default scaffolding and few other minor adjustments, which were in the previous released 1.17 version and 1.17.1 version."
+            }
+        },
+        {
+            "start_date": {
+                "month": "05",
+                "day": "31",
+                "year": "2023"
+            },
+            "end_date": {
+                "month": "06",
+                "day": "21",
+                "year": "2023"
+            },
+            "text": {
+                "headline": "<a href='https://learn.microsoft.com/sharepoint/dev/spfx/release-1.17.3'>SPFx v1.17.3</a>",
+                "text": "This release is a minor bump that fixes the issues around SharePoint Framework solution packaging as listed further down in this document."
+            }
+        },
+        {
+            "start_date": {
+                "month": "06",
+                "day": "21",
+                "year": "2023"
+            },
+            "end_date": {
+                "month": "08",
+                "day": "12",
+                "year": "2023"
+            },
+            "text": {
+                "headline": "<a href='https://learn.microsoft.com/sharepoint/dev/spfx/release-1.17.4'>SPFx v1.17.4</a>",
+                "text": "This release is a minor bump that has minor updates on the default project settings and package dependencies."
+            }
+        },
+        {
+            "start_date": {
+                "month": "08",
+                "day": "12",
+                "year": "2023"
+            },
+            "text": {
+                "headline": "<a href='https://learn.microsoft.com/sharepoint/dev/spfx/release-1.18'>SPFx v1.18</a>",
+                "text": "This release focuses on new features within the Viva Connections side and evolving existing capabilities within the other areas on building Microsoft 365 solutions with SharePoint Framework.<ul><li>NodeJS v18 support<li>Support for Execute Action in Adaptive Card Extensions<li><code>BaseComponentsCardView</code> as a new default card view for Adaptive Card Extensions<li>Adaptive Card Extensions flexible card views<li>Ability to use text input in Adaptive Card Extensions' card views<li>New Search Card Template for Adaptive Card Extensions<li>Support <code>onChange</code> event for ACE <code>TextInput</code> and <code>SearchBox</code><li>Ability to detect host's theme for Viva Connections Mobile<li>Fluent UI React v8 support<li>Transparent outline icon for Teams-hosted web parts<li>TypeScript v4.7 Support<li>Deprecated <code>BaseAdaptiveCardView</code> - use <code>BaseAdaptiveCardQuickView</code> instead</li><li>Deprecated <code>template</code> property in <code>BaseTemplateCardView</code> and its descendants</li></ul>"
+            }
+        }
+    ]
+}

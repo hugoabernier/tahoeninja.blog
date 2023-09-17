@@ -1,12 +1,13 @@
 <!-- font family -->
-<script src="https://cdn.jsdelivr.net/gh/theprojectsomething/webfontloader@feature/google-fonts-v2/webfontloader.js"></script>
+<script
+  src="https://cdn.jsdelivr.net/gh/theprojectsomething/webfontloader@feature/google-fonts-v2/webfontloader.js"></script>
 {{$pf:= site.Params.variables.primary_font}}
 {{$sf:= site.Params.variables.secondary_font}}
 <script>
   WebFont.load({
     google: {
       api: 'https://fonts.googleapis.com/css2',
-      families: ['{{$pf}}{{if not $sf}}&display=swap{{end}}'{{with $sf}},'{{.}}&display=swap'{{end}}],
+      families: ['{{$pf}}{{if not $sf}}&display=swap{{end}}'{{ with $sf }}, '{{.}}&display=swap'{{ end }}],
       version: 2
     },
     active: () => {
@@ -26,13 +27,15 @@
 {{ end }}
 {{ $scripts := $scripts | append (resources.Get "js/script.js" | minify) }}
 {{ $scripts := $scripts | resources.Concat "/js/script.js" | minify | fingerprint "sha512" }}
-<script crossorigin="anonymous" defer="defer" data-turbolinks-suppress-warning integrity="{{ $scripts.Data.Integrity }}" type="application/javascript">{{$scripts.Content | safeJS}}</script>
+<script crossorigin="anonymous" defer="defer" data-turbolinks-suppress-warning integrity="{{ $scripts.Data.Integrity }}"
+  type="application/javascript">{{ $scripts.Content | safeJS }}</script>
 
 <!-- cookie -->
 {{ if site.Params.cookies.enable }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
 <div id="js-cookie-box" class="cookie-box cookie-box-hide">
-  This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary rounded ml-2">I Accept</span>
+  This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button"
+    class="btn btn-sm btn-primary rounded ml-2">I Accept</span>
 </div>
 <script>
   (function ($) {
@@ -43,83 +46,43 @@
       cookieButton.onclick = function () {
         Cookies.set('cookie-box', true, {
           expires: {{ site.Params.cookies.expire_days }}
-        });
-        cookieBox.classList.add('cookie-box-hide');
-      };
+    });
+    cookieBox.classList.add('cookie-box-hide');
+  };
     }
-  })(jQuery);
+  }) (jQuery);
 </script>
 
 <!-- cookie style -->
 <style>
-.cookie-box {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 9999;
-  padding: 1rem 2rem;
-  background: #152035;
-  transition: all .75s cubic-bezier(.19, 1, .22, 1);
-  color: #fdfdfd;
-}
+  .cookie-box {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 9999;
+    padding: 1rem 2rem;
+    background: #152035;
+    transition: all .75s cubic-bezier(.19, 1, .22, 1);
+    color: #fdfdfd;
+  }
 
-.cookie-box-hide {
-  display: none;
-}
+  .cookie-box-hide {
+    display: none;
+  }
 </style>
 {{ end }}
 
-<script type="application/javascript">
-  // clean up tags -- this is temporary until we solve issues with Hugo humanized tag names
-  $(document).ready(function () {
-    $('.card-meta-tag > .list-inline-item').each(function () {
-      cleanTag($(this));
-    });
-
-    $('.widget-categories > ul.widget-categories-list > li > a').each(function () {
-      cleanTag($(this));
-    });
-
-    $('.widget ul.widget-list-inline li.list-inline-item > a').each(function () {
-      cleanTag($(this));
-    });
-  });
-
-  function cleanTag(tag) {
-    var text = tag.text();
-    // find and replace pnp frmo text
-    text = text.replace(/microsoft/gi, 'Microsoft');
-    text = text.replace(/powershell/gi, 'PowerShell');
-    text = text.replace(/power shell/gi, 'PowerShell');
-    text = text.replace(/Pnp/gi, 'PnP');
-    text = text.replace(/Pn p/gi, 'PnP');
-    text = text.replace(/Microsoft teams/gi, 'Microsoft Teams');
-    text = text.replace(/Sharepoint/gi, 'SharePoint');
-    text = text.replace(/Share point/gi, 'SharePoint');
-    text = text.replace(/spfx/gi, 'SPFx');
-    text = text.replace(/pnpjs/gi, 'PnP JS');
-    text = text.replace(/dataverse/gi, 'Dataverse');
-    text = text.replace(/data verse/gi, 'Dataverse');
-    text = text.replace(/power apps/gi, 'Power Apps');
-    text = text.replace(/power automate/gi, 'Power Automate');
-    text = text.replace(/adaptive cards/gi, 'Adaptive Cards');
-    text = text.replace(/adaptive card extensions aces/gi, 'Adaptive Card Extensions ACEs');
-    text = text.replace(/power virtual agents/gi, 'Power Virtual Agents');
-    text = text.replace(/viva/gi, 'Viva');
-    text = text.replace(/Azure ad/gi, 'Azure AD');
-    text = text.replace(/azure/gi, 'Azure');
-    text = text.replace(/Mgt/gi, 'MGT');
-    text = text.replace(/Aces/gi, 'ACEs');
-    text = text.replace(/graph/gi, 'Graph');
-    text = text.replace(/Microsoftedge/gi, 'Microsoft Edge');
-
-
-
-    tag.text(text);
-  }
+<!-- Clarity -->
+<script type="text/javascript">
+  (function (c, l, a, r, i, t, y) {
+    c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+    t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+    y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+  })(window, document, "clarity", "script", "{{ .Site.Params.clarityProjectID }}");
 </script>
+
 {{ if .HasShortcode "mermaid" }}
 <!-- MermaidJS support -->
 <script src="https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"></script>
