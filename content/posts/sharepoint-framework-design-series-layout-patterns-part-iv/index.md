@@ -2,7 +2,7 @@
 title: "SharePoint Framework Design Series: Layout Patterns — Part IV"
 aliases:
   - /2019/08/31/sharepoint-framework-design-series-layout-patterns-part-iv
-
+series: "SharePoint Framework Design Series"
 date: 2019-08-31T10:07:47+06:00
 
 # post thumb
