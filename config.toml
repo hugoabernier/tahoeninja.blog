@@ -12,9 +12,7 @@ theme = "northendlab"
 summaryLength = "10"
 # disqus short name
 # disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
-# google analytics
-google_tag_manager = "G-MWQ05C5D5E" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
-clarityProjectID = "ci586abdwh"
+
 
 # disable language
 disableLanguages = [""] # desable language from here
@@ -36,6 +34,9 @@ home = "Home"
 # Meta data
 description = "Tahoe Ninja is the world's laziest developer. Autistic. ADHD. Microsoft employee. Powered by coffee."
 author = "Hugo Bernier"
+# google analytics
+google_tag_manager = "G-MWQ05C5D5E" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+clarity = "ci586abdwh"
 
 # copyright
 copyright = "&copy; Copyright 2023, Hugo Bernier | Opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
@@ -169,16 +170,17 @@ contentDir = "content"
 weight = 1
 
 ####################### Banner #######################################
-[Languages.en.banner]
-bg_image = "images/banner-shape.png"
-title = "Hi, I'm Hugo! <br> The world's <strong>laziest</strong><br>developer."
-image = "images/banner-image.png"
+
+    [Languages.en.banner]
+        bg_image = "images/banner-shape.png"
+        title = "Hi, I'm Hugo! <br> The world's <strong>laziest</strong><br>developer."
+        image = "images/banner-image.png"
 
 
 ######################## About Me Widget ###############################
-[Languages.en.about_me]
-title = "Hi, I'm Hugo Bernier"
-bio = "World's laziest developer. Autistic. ADHD. Microsoft employee. Powered by coffee."
+    [Languages.en.about_me]
+        title = "Hi, I'm Hugo Bernier"
+        bio = "World's laziest developer. Autistic. ADHD. Microsoft employee. Powered by coffee."
 
 
 [[params.social_profile]]
@@ -193,18 +195,6 @@ title = "GitHub"
 icon = "fab fa-linkedin" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://github.com/hugoabernier"
 title = "LinkedIn"
-
-######################## call to action ###############################
-[params.cta]
-enable = false
-image = "images/hugo-muscot.svg"
-title = "Get the best hugo templates"
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
-
-[params.cta.button]
-enable = false
-label = "Visit Here"
-link = "https://gethugothemes.com/shop/"
 
 ############################# English - Main Menu ########################
   
