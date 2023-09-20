@@ -1,7 +1,6 @@
 <meta charset="utf-8">
-
 {{ "<!-- mobile responsive meta -->" | safeHTML}}
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 <!-- Site Title, Description, Author, and Favicon -->
@@ -20,8 +19,14 @@
 <link rel="canonical" href="{{ .Page.Params.redirect_url }}" />
 <meta name="robots" content="noindex">
 <meta http-equiv="refresh" content="0; url={{ .Page.Params.redirect_url }}" />
+{{ else }}
+{{ if .Params.canonicalUrl }}
+<link rel="canonical" href="{{ .Params.canonicalUrl }}">
+{{ else }}
+<link rel="canonical" href="{{ .Permalink }}">
 {{ end }}
-{{- with .Description | default .Summary }}
+{{ end }}
+{{- with .Site.Params.Description | default .Summary }}
 {{- with . | replaceRE "{{[\\s\\S]*?}}" " " | truncate 160 }}
 <meta name="description" content="{{ . }}">
 <meta property="og:description" content="{{ . }}">
