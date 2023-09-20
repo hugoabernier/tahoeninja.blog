@@ -35,7 +35,7 @@ home = "Home"
 description = "Tahoe Ninja is the world's laziest developer. Autistic. ADHD. Microsoft employee. Powered by coffee."
 author = "Hugo Bernier"
 # google analytics
-google_tag_manager = "G-MWQ05C5D5E" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+google_tag_manager = "G-MZXEZTBHL2" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 clarity = "ci586abdwh"
 
 # copyright
