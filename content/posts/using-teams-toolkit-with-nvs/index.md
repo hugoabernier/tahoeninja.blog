@@ -12,7 +12,6 @@ image: "posts/using-teams-toolkit-with-nvs/featured-image.png"
 summary: "NVS is great when you need to switch between different versions of Node.js within a VSCode project. But Teams Toolkit needs a default version of Node.js installed -- before you start your project. Here is how I fix it."
 
 # taxonomies
-
 - "Copilot"
 tags:
 - VSCode
