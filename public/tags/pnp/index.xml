@@ -6,33 +6,35 @@
     <description>Recent content in PnP on Tahoe Ninja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Feb 2021 10:07:47 +0600</lastBuildDate><atom:link href="https://tahoeninja.blog/tags/pnp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Feb 2021 10:07:47 +0600</lastBuildDate>
+    <atom:link href="https://tahoeninja.blog/tags/pnp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Summarized GitHub cheat sheet for PnP contributions</title>
       <link>https://tahoeninja.blog/posts/summarized-github-cheat-sheet-for-pnp-contributions/</link>
       <pubDate>Sun, 07 Feb 2021 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/summarized-github-cheat-sheet-for-pnp-contributions/</guid>
       <description>This is an interactive post that you can customize to get a personalized list of commands you&amp;rsquo;ll need when contributing to a PnP repository on GitHub.</description>
     </item>
-    
     <item>
       <title>My Demo Checklist for PnP Calls</title>
       <link>https://tahoeninja.blog/posts/my-demo-checklist-for-pnp-calls/</link>
       <pubDate>Mon, 04 Jan 2021 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/my-demo-checklist-for-pnp-calls/</guid>
       <description>I&amp;rsquo;m not a great presenter. I have been working in IT for over thirty years, during which time I have done many technical demos&amp;hellip; and failed many of them.</description>
     </item>
-    
     <item>
       <title>Popular PnP repositories and how to get started contributing</title>
       <link>https://tahoeninja.blog/posts/popular-pnp-repositories-and-how-to-get-started/</link>
       <pubDate>Fri, 23 Aug 2019 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/popular-pnp-repositories-and-how-to-get-started/</guid>
       <description>Here is a list of the most common SharePoint Developer community repositories and information to get started with each one.</description>
     </item>
-    
+    <item>
+      <title>Open Source Contributors are People Too!</title>
+      <link>https://tahoeninja.blog/posts/open-source-contributors-are-people-too/</link>
+      <pubDate>Thu, 21 Feb 2019 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/open-source-contributors-are-people-too/</guid>
+      <description>Microsoft is changing from the company everyone (but me) loves to hate, and it is becoming cool. Well, cooler.</description>
+    </item>
   </channel>
 </rss>

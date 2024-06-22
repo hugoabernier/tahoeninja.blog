@@ -36,7 +36,7 @@ You can configure a different picture for every profile in your browser, but you
 
 Unfortunately, there isn’t a choice for custom profile pictures.
 
-I was collaborating with [David Warner II](/https://twitter.com/davidwarnerii) this evening, solving world problems, when we suddenly got distracted with fixing an issue with one of his profiles.
+I was collaborating with [David Warner II](https://twitter.com/davidwarnerii) this evening, solving world problems, when we suddenly got distracted with fixing an issue with one of his profiles.
 
 In the process of fixing his browser issues, I discovered a way to change my profile images.
 
@@ -67,4 +67,4 @@ I hope this helps?
 
 ## Photo credit
 
-Image by [Andre Mouton](/https://pixabay.com/users/a_m_o_u_t_o_n-9408103/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4788328) from [Pixabay](/https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4788328)
+Image by [Andre Mouton](https://pixabay.com/users/a_m_o_u_t_o_n-9408103/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4788328) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4788328)

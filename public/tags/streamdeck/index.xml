@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>streamdeck on Tahoe Ninja</title>
+    <title>Streamdeck on Tahoe Ninja</title>
     <link>https://tahoeninja.blog/tags/streamdeck/</link>
-    <description>Recent content in streamdeck on Tahoe Ninja</description>
+    <description>Recent content in Streamdeck on Tahoe Ninja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Feb 2021 17:14:00 -0500</lastBuildDate><atom:link href="https://tahoeninja.blog/tags/streamdeck/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Feb 2021 17:14:00 -0500</lastBuildDate>
+    <atom:link href="https://tahoeninja.blog/tags/streamdeck/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Launching Edge with different profiles using shortcuts</title>
       <link>https://tahoeninja.blog/posts/launching-edge-with-different-profiles-using-shortcuts/</link>
       <pubDate>Sat, 06 Feb 2021 17:14:00 -0500</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/launching-edge-with-different-profiles-using-shortcuts/</guid>
       <description>Find out how you create create shortcuts that will launch your Edge browser with a different profile. Bonus: find out how to configure your Stream Deck buttons to launch Edge, Teams, and conference calls using different browsers.</description>
     </item>
-    
   </channel>
 </rss>

@@ -12,6 +12,11 @@ my_experiences:
   description: "I have pretty much worked as an independent consultant since I was 16 years old, so I'm not going to list every company I have worked for!<br/> Every client I have ever worked for matters; here are the highlights."
   
   experiences_item:
+  - title: "Takeda Pharmaceuticals"
+    requisition: "Enterprise Platform Architect - Intelligent Services"
+    time_period: "November 2023 - Present"
+    image: "images/takeda.jpg"
+
   - title: "Microsoft"
     requisition: "Principal Program Manager"
     time_period: "June 2022"
@@ -22,7 +27,6 @@ my_experiences:
     time_period: "March 2021 - June 2022"
     image: "images/mscanada.jpg"
 
-    
   - title: "Self-employed"
     requisition: "Independent consultant"
     time_period: "2001 - 2021"
@@ -52,17 +56,21 @@ about_info:
 # Compatibility
 compatibility:
   enable: true
-  title: "I am compatible with these tools"
+  title: "Compatible with..."
   item:
+    - image: "images/compatibility/copilotstudio.png"
+    - image: "images/compatibility/AIBuilder_scalable.svg"
     - image: "images/compatibility/PowerPlatform_scalable.svg"
     - image: "images/compatibility/PowerPages_scalable.svg"
     - image: "images/compatibility/PowerApps_scalable.svg"
     - image: "images/compatibility/PowerAutomate_scalable.svg"
     - image: "images/compatibility/PowerVirtualAgents_scalable.svg"
     - image: "images/compatibility/Dataverse_scalable.svg"
+    - image: "images/compatibility/wendys.svg"
     - image: "images/compatibility/Dynamics.svg"
     - image: "images/compatibility/SharePoint.svg"
     - image: "images/compatibility/Microsoft_Lists_64x64svg.svg"
+    - image: "images/compatibility/Coca-Cola_Zero_logo.svg"
     - image: "images/compatibility/React.svg"
     - image: "images/compatibility/dotnet.svg"
 ---
@@ -73,7 +81,7 @@ compatibility:
 
 I started working with SharePoint back when it was codenamed **Tahoe** — before it actually became SharePoint 2001. I have been working with it ever since.
 
-This is my least favorite part about blogging: talking about myself. I have no problems talking about the Microsoft Power Platform (especially Power Pages!!!), SharePoint, Dynamics, software development, but I don’t like talking about myself.
+This is my least favorite part about blogging: talking about myself. I have no problems talking about the AI, Microsoft Power Platform (especially Power Pages!!!), SharePoint, Dynamics, software development, but I don’t like talking about myself.
 
 I know, I know, I’m supposed to establish my credibility as an expert, blah, blah, blah… but here’s how I see it: read my blog and see for yourself. Maybe I don’t know what I’m talking about, maybe I do. [There’s really no way for me to tell](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect).
 

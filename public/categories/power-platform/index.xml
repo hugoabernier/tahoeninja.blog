@@ -6,33 +6,28 @@
     <description>Recent content in Power Platform on Tahoe Ninja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Mar 2020 10:07:47 +0600</lastBuildDate><atom:link href="https://tahoeninja.blog/categories/power-platform/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Mar 2020 10:07:47 +0600</lastBuildDate>
+    <atom:link href="https://tahoeninja.blog/categories/power-platform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generate Word documents from a template using Power Automate</title>
       <link>https://tahoeninja.blog/posts/generate-word-documents-from-a-template-using-power-automate/</link>
       <pubDate>Fri, 13 Mar 2020 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/generate-word-documents-from-a-template-using-power-automate/</guid>
       <description>With some Word template know-how and Power Automate, you can dynamically generate documents in your business processes. Find out how!</description>
     </item>
-    
     <item>
       <title>Accessing Your On-Premises Data Using the On-Premises Data Gateway</title>
       <link>https://tahoeninja.blog/posts/accessing-your-on-prem-data-using-on-prem-data-gateway/</link>
       <pubDate>Thu, 05 Mar 2020 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/accessing-your-on-prem-data-using-on-prem-data-gateway/</guid>
       <description>The on-premises data gateway allows your cloud-based Power Platform services to access your on-premises data, such as databases, file shares, and SharePoint data. Find out how it works and how to u…</description>
     </item>
-    
     <item>
       <title>Simplify workflows with desired paths</title>
       <link>https://tahoeninja.blog/posts/simplify-workflows-with-desired-paths/</link>
       <pubDate>Thu, 30 Jan 2020 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/simplify-workflows-with-desired-paths/</guid>
       <description>Find out how designing Power Automate workflows and the Ohio State University campus have in common.</description>
     </item>
-    
   </channel>
 </rss>

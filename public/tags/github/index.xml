@@ -6,24 +6,35 @@
     <description>Recent content in GitHub on Tahoe Ninja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Feb 2021 10:07:47 +0600</lastBuildDate><atom:link href="https://tahoeninja.blog/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Feb 2021 10:07:47 +0600</lastBuildDate>
+    <atom:link href="https://tahoeninja.blog/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Summarized GitHub cheat sheet for PnP contributions</title>
       <link>https://tahoeninja.blog/posts/summarized-github-cheat-sheet-for-pnp-contributions/</link>
       <pubDate>Sun, 07 Feb 2021 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/summarized-github-cheat-sheet-for-pnp-contributions/</guid>
       <description>This is an interactive post that you can customize to get a personalized list of commands you&amp;rsquo;ll need when contributing to a PnP repository on GitHub.</description>
     </item>
-    
     <item>
       <title>Popular PnP repositories and how to get started contributing</title>
       <link>https://tahoeninja.blog/posts/popular-pnp-repositories-and-how-to-get-started/</link>
       <pubDate>Fri, 23 Aug 2019 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/popular-pnp-repositories-and-how-to-get-started/</guid>
       <description>Here is a list of the most common SharePoint Developer community repositories and information to get started with each one.</description>
     </item>
-    
+    <item>
+      <title>Interactive Post: My GitHub cheat sheet for PnP contributions</title>
+      <link>https://tahoeninja.blog/posts/my-github-cheat-sheet-for-pnp-contributions-an-interactive-cheat-sheet/</link>
+      <pubDate>Sun, 18 Aug 2019 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/my-github-cheat-sheet-for-pnp-contributions-an-interactive-cheat-sheet/</guid>
+      <description>This article focuses on the GitHub commands. If you need help with your first contribution, David Warner II has kindly volunteered to help anyone with their first PnP contribution. He’s a true main on the topic.</description>
+    </item>
+    <item>
+      <title>Open Source Contributors are People Too!</title>
+      <link>https://tahoeninja.blog/posts/open-source-contributors-are-people-too/</link>
+      <pubDate>Thu, 21 Feb 2019 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/open-source-contributors-are-people-too/</guid>
+      <description>Microsoft is changing from the company everyone (but me) loves to hate, and it is becoming cool. Well, cooler.</description>
+    </item>
   </channel>
 </rss>

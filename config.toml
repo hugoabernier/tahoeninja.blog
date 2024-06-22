@@ -32,20 +32,20 @@ favicon = "images/favicon.svg"
 
 home = "Home"
 # Meta data
-description = "Tahoe Ninja is the world's laziest developer. Autistic. ADHD. Microsoft employee. Powered by coffee."
+description = "Tahoe Ninja is the world's laziest developer. Autistic. ADHD. Powered by coffee."
 author = "Hugo Bernier"
 # google analytics
 # google_tag_manager = "G-MZXEZTBHL2" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 clarity = "ci586abdwh"
 
 # copyright
-copyright = "&copy; Copyright 2023, Hugo Bernier | Opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
+copyright = "&copy; Copyright 2024, Hugo Bernier | Opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
 
 
 # homepage main section
 mainSections = ["posts"]
 # contact form action
-contact_form_action = "#" # contact form works with : https://formspree.io
+# contact_form_action = "#" # contact form works with : https://formspree.io
 
 # search *** true or false (if Search is disable Menu will align in Right) ***
 search = true
@@ -153,14 +153,22 @@ attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
 icon = "fab fa-twitter" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://twitter.com/bernierh"
 title = "Twitter"
+type = "twitter"
 [[params.social]]
 icon = "fab fa-github" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://github.com/hugoabernier"
 title = "GitHub"
+type = "github"
 [[params.social]]
 icon = "fab fa-linkedin" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://twitter.com/bernierh"
 title = "LinkedIn"
+type = "linkedin"
+[[params.social]]
+icon = "fab fa-discord" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://discordapp.com/users/797629051799994388"
+title = "Discord"
+type = "discord"
 
 ################################### English language #####################################
 [Languages.en]
@@ -180,7 +188,7 @@ weight = 1
 ######################## About Me Widget ###############################
     [Languages.en.about_me]
         title = "Hi, I'm Hugo Bernier"
-        bio = "World's laziest developer. Autistic. ADHD. Microsoft employee. Powered by coffee."
+        bio = "World's laziest developer. Autistic. ADHD. Powered by coffee."
 
 
 [[params.social_profile]]

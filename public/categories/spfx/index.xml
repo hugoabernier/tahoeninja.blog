@@ -6,87 +6,182 @@
     <description>Recent content in SPFx on Tahoe Ninja</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Sep 2023 10:07:47 +0600</lastBuildDate><atom:link href="https://tahoeninja.blog/categories/spfx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Sep 2023 10:07:47 +0600</lastBuildDate>
+    <atom:link href="https://tahoeninja.blog/categories/spfx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Associate Node.js version with your SPFx solutions</title>
       <link>https://tahoeninja.blog/posts/associate-node-version-with-spfx-solution/</link>
       <pubDate>Wed, 13 Sep 2023 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/associate-node-version-with-spfx-solution/</guid>
       <description>If you use a node version manager like nvm or nvs, wouldn&amp;rsquo;t you like to automatically load the right version of Node.js when you open an SPFx solution in VSCode? I know I do. Because I am &lt;em&gt;lazy&lt;/em&gt;.</description>
     </item>
-    
     <item>
       <title>Adding support for theme variants in SPFx web parts</title>
       <link>https://tahoeninja.blog/posts/adding-support-for-theme-variants-in-spfx-web-parts/</link>
       <pubDate>Tue, 28 Jul 2020 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/adding-support-for-theme-variants-in-spfx-web-parts/</guid>
       <description>Like chameleons, SPFx web parts can change colors to adapt to changing environments and blend in. Find out how to build good-looking web parts on any theme.</description>
     </item>
-    
     <item>
       <title>Solving the “Failed to execute ‘removeChild’ on ‘Node&#39;” error on modern SharePoint pages</title>
       <link>https://tahoeninja.blog/posts/data-interception/</link>
       <pubDate>Mon, 29 Jun 2020 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/data-interception/</guid>
       <description>If you&amp;rsquo;re getting errors in modern SharePoint pages when trying to open a link in a new tab, read this.</description>
     </item>
-    
     <item>
       <title>SPFx Projects, SCSS, Pseudo-classes, and Stylelint</title>
       <link>https://tahoeninja.blog/posts/spfx-scss-pseudo-classes-and-stylelint/</link>
       <pubDate>Sat, 20 Jun 2020 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/spfx-scss-pseudo-classes-and-stylelint/</guid>
       <description>In this post, I&amp;rsquo;ll show you how you can use SCSS pseudo-classes in your SPFx projects and configure stylelint so that it doesn&amp;rsquo;t give you any warnings.</description>
     </item>
-    
     <item>
       <title>Display the solution version in your web part</title>
       <link>https://tahoeninja.blog/posts/display-the-solution-version-in-your-web-part/</link>
       <pubDate>Fri, 20 Mar 2020 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/display-the-solution-version-in-your-web-part/</guid>
       <description>Find out how you can automatically synchronize your NodeJS package version with your web part solution version and display it in a web part&amp;rsquo;s property pane.</description>
     </item>
-    
     <item>
       <title>SPFx Compatibility Matrix</title>
       <link>https://tahoeninja.blog/posts/spfx-compatibility-matrix/</link>
       <pubDate>Mon, 30 Dec 2019 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/spfx-compatibility-matrix/</guid>
       <description>Here is a handy compatibility matrix telling you which version of SharePoint and SPFx work together.</description>
     </item>
-    
     <item>
       <title>Ultimate Developer Tool List for SPFx</title>
       <link>https://tahoeninja.blog/posts/ultimate-developer-tool-list-for-spfx/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/ultimate-developer-tool-list-for-spfx/</guid>
       <description>I asked the SharePoint Developer Community what development tools they use on their workstations to develop SPFx solutions. They came through!</description>
     </item>
-    
     <item>
       <title>Fixing base64 SVG icons in SPFx</title>
       <link>https://tahoeninja.blog/posts/fixing-base64-svg-icons-in-spfx/</link>
       <pubDate>Sat, 31 Aug 2019 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/fixing-base64-svg-icons-in-spfx/</guid>
       <description>According to Microsoft, you should be able to use a base64-encoded SVG image for your web part icon, but it hasn&amp;rsquo;t worked in a while. Here is how to fix it.</description>
     </item>
-    
     <item>
       <title>SharePoint Framework Design Series: Layout Patterns — Part IV</title>
       <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-iv/</link>
       <pubDate>Sat, 31 Aug 2019 10:07:47 +0600</pubDate>
-      
       <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-iv/</guid>
       <description>In today’s post in the web part layout series, we discuss the compact layout.</description>
     </item>
-    
+    <item>
+      <title>Disabling Telemetry network traffic on SPFx workbench</title>
+      <link>https://tahoeninja.blog/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</link>
+      <pubDate>Tue, 02 Jul 2019 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</guid>
+      <description>When testing a SharePoint web part on the SPFx workbench, analyzing network traffic using your web browser’s developer tools can get pretty overwhelming; there are so many telemetry calls every few seconds that it becomes impossible to figure out what calls are real API calls, and which ones are telemetry calls.</description>
+    </item>
+    <item>
+      <title>MORE UPDATES: Inject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions</title>
+      <link>https://tahoeninja.blog/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</link>
+      <pubDate>Fri, 03 May 2019 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</guid>
+      <description>A while ago, I wrote an SPFx Application Customizer that allows you to insert custom CSS on your SharePoint modern pages and posted about it. The solution is now a sample in the SharePoint SharePoi…</description>
+    </item>
+    <item>
+      <title>Converting SPFx Web Part from JavaScript to React</title>
+      <link>https://tahoeninja.blog/posts/converting-spfx-from-javascript-to-react/</link>
+      <pubDate>Fri, 19 Apr 2019 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/converting-spfx-from-javascript-to-react/</guid>
+      <description>This article is written as if you’re following along and converting the application yourself. Feel free to skip to the end to get the code and compare Eric’s JavaScript-only SPFx web part with my React version of the same web part.</description>
+    </item>
+    <item>
+      <title>File Picker: Creating a Custom Component for SPFx Web Parts</title>
+      <link>https://tahoeninja.blog/posts/file-picker-creating-a-custom-component-for-spfx-web-parts/</link>
+      <pubDate>Thu, 11 Apr 2019 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/file-picker-creating-a-custom-component-for-spfx-web-parts/</guid>
+      <description>This article will describe some of the techniques and approaches I used to reverse engineer the out-of-the-box File Picker to create my own.</description>
+    </item>
+    <item>
+      <title>Dynamic default properties in SPFx web parts</title>
+      <link>https://tahoeninja.blog/posts/dynamic-default-properties-in-spfx-web-parts/</link>
+      <pubDate>Wed, 13 Feb 2019 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/dynamic-default-properties-in-spfx-web-parts/</guid>
+      <description>SharePoint client-side web parts (SPFx) allow you to define custom properties that your users can use to customize your web parts</description>
+    </item>
+    <item>
+      <title>Getting around CORS issues in SPFx with SPHttpClient</title>
+      <link>https://tahoeninja.blog/posts/getting-around-cors-issues-in-spfx-with-sphttpclient/</link>
+      <pubDate>Tue, 05 Feb 2019 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/getting-around-cors-issues-in-spfx-with-sphttpclient/</guid>
+      <description>This article will explain what CORS is, and how to avoid issues with CORS when making HTTP requests to an external resource.</description>
+    </item>
+    <item>
+      <title>Dynamically Assign Multiple CSS Class Names in SPFx — The Easy Way</title>
+      <link>https://tahoeninja.blog/posts/dynamically-assign-multiple-css-class-names-in-spfx-the-easy-way/</link>
+      <pubDate>Mon, 21 Jan 2019 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/dynamically-assign-multiple-css-class-names-in-spfx-the-easy-way/</guid>
+      <description>If you write SPFx web parts or extensions using React, you may have had to assign more than one or more CSS classes to the same element.</description>
+    </item>
+    <item>
+      <title>UPDATE: Inject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions</title>
+      <link>https://tahoeninja.blog/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</link>
+      <pubDate>Mon, 29 Oct 2018 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</guid>
+      <description>A while ago, I wrote an article describing how you can inject a custom CSS stylesheet on SharePoint modern pages using an SPFx application extension. The code sample is now part of the SharePoint SP-Dev-Fx-Extensions repository on GitHub. Since the article, I have been getting tons of e-mails asking all sorts of questions about the solution. Since SPFx 1.6 was released, I took the opportunity to upgrade the solution to the latest and greatest version of the toolset. You can find the latest code on GitHub, or download the latest SharePoint package. In this post, I’ll (hopefully) answer some questions about how to use it.</description>
+    </item>
+    <item>
+      <title>Upgrade your SPFx solution to SharePoint Framework Package v1.5</title>
+      <link>https://tahoeninja.blog/posts/upgrade-your-spfx-solution-to-sharepoint-framework-package-v1-5/</link>
+      <pubDate>Tue, 12 Jun 2018 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/upgrade-your-spfx-solution-to-sharepoint-framework-package-v1-5/</guid>
+      <description>This article explain a (mostly) pain-free to upgrade your SPFx solution. Waldek explains this process in details, but this is a summary of how to do it.</description>
+    </item>
+    <item>
+      <title>Displaying site information security classification on every page using a custom SPFx extensions — Part I</title>
+      <link>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions/</link>
+      <pubDate>Sat, 21 Apr 2018 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions/</guid>
+      <description>That’s what I hope to do with this series of blog articles: demonstrate easy ways to introduce some level of governance using new enabling technologies — like SPFx web parts, extensions, and site scripts.</description>
+    </item>
+    <item>
+      <title>Displaying site information security classification on every page using a custom SPFx extensions — Part II</title>
+      <link>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-ii/</link>
+      <pubDate>Sat, 21 Apr 2018 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-ii/</guid>
+      <description>In part 1 of this article, I introduced the concept for an SPFx extension that adds a header to every page, showing the classification information for a site. We’ll actually do the coding in this article!</description>
+    </item>
+    <item>
+      <title>Displaying site information security classification on every page using a custom SPFx extensions — Part III</title>
+      <link>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iii/</link>
+      <pubDate>Sat, 21 Apr 2018 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iii/</guid>
+      <description>In this article, we’ll discuss how we use property bags to store the security classification.</description>
+    </item>
+    <item>
+      <title>Displaying site information security classification on every page using a custom SPFx extensions — Part IV</title>
+      <link>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iv/</link>
+      <pubDate>Sat, 21 Apr 2018 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iv/</guid>
+      <description>In this part, we will finally get to add code to our extension that reads the property bag of the current site and displays the appropriate site classification label.</description>
+    </item>
+    <item>
+      <title>Displaying site information security classification on every page using a custom SPFx extensions — Part V</title>
+      <link>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-v/</link>
+      <pubDate>Sat, 21 Apr 2018 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-v/</guid>
+      <description>In this part, we will clean up a few things, package and deploy the extension.</description>
+    </item>
+    <item>
+      <title>Automatically deploy SPFx extension to multiple sites using PowerShell</title>
+      <link>https://tahoeninja.blog/posts/automatically-deploy-spfx-extension-to-multiple-sites-using-powershell/</link>
+      <pubDate>Wed, 18 Apr 2018 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/automatically-deploy-spfx-extension-to-multiple-sites-using-powershell/</guid>
+      <description>In this article, I’ll share a PowerShell script I use to deploy to many sites at once.</description>
+    </item>
+    <item>
+      <title>SPFx, Semantic versioning, and CHANGELOG.md</title>
+      <link>https://tahoeninja.blog/posts/spfx-semantic-versioning-and-changelog-md/</link>
+      <pubDate>Mon, 16 Apr 2018 10:07:47 +0600</pubDate>
+      <guid>https://tahoeninja.blog/posts/spfx-semantic-versioning-and-changelog-md/</guid>
+      <description>This article is a great example of that mentality. I’m really standing on the shoulder of giants and combining a few links and re-using someone else’s code (with credit, &lt;em&gt;of course&lt;/em&gt;) to document what my approach to versioning SPFx packages is, with the hope that it helps someone else.</description>
+    </item>
   </channel>
 </rss>
