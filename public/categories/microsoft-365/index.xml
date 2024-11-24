@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Microsoft 365 on Tahoe Ninja</title>
-    <link>https://tahoeninja.blog/categories/microsoft-365/</link>
+    <link>http://localhost:1313/categories/microsoft-365/</link>
     <description>Recent content in Microsoft 365 on Tahoe Ninja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Mar 2020 10:07:47 +0600</lastBuildDate>
-    <atom:link href="https://tahoeninja.blog/categories/microsoft-365/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/microsoft-365/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Find Your SharePoint Online Tenant ID without tools or code</title>
-      <link>https://tahoeninja.blog/posts/find-your-sharepoint-online-tenant-id/</link>
+      <link>http://localhost:1313/posts/find-your-sharepoint-online-tenant-id/</link>
       <pubDate>Sun, 01 Mar 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/find-your-sharepoint-online-tenant-id/</guid>
+      <guid>http://localhost:1313/posts/find-your-sharepoint-online-tenant-id/</guid>
       <description>Sometimes you just need to find your SharePoint Online tenant ID and you don’t have access to the Azure Admin center.</description>
     </item>
     <item>
       <title>Setting the default timezone for SharePoint Online</title>
-      <link>https://tahoeninja.blog/posts/setting-the-default-timezone-for-sharepoint-online/</link>
+      <link>http://localhost:1313/posts/setting-the-default-timezone-for-sharepoint-online/</link>
       <pubDate>Thu, 25 Apr 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/setting-the-default-timezone-for-sharepoint-online/</guid>
+      <guid>http://localhost:1313/posts/setting-the-default-timezone-for-sharepoint-online/</guid>
       <description>Every once in a while, I write a blog post as a note to myself about something that I couldn’t find easily with the hope that next time I (or someone else in need) look for it, it’ll be easy to find. This is the case with this one.</description>
     </item>
     <item>
       <title>Uploading High Resolution User Profile Pictures in Office 365</title>
-      <link>https://tahoeninja.blog/posts/uploading-high-resolution-user-profile-pictures-in-office-365/</link>
+      <link>http://localhost:1313/posts/uploading-high-resolution-user-profile-pictures-in-office-365/</link>
       <pubDate>Fri, 10 Apr 2015 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/uploading-high-resolution-user-profile-pictures-in-office-365/</guid>
+      <guid>http://localhost:1313/posts/uploading-high-resolution-user-profile-pictures-in-office-365/</guid>
       <description>In Office 365, you can upload profile pictures for each user’s contact card. The contact card will appear in Outlook, SharePoint, Lync, Word, Excel, PowerPoint… well, in any Office product that displays contact cards</description>
     </item>
     <item>
       <title>Uploading High Resolution User Profile Pictures to Office 365 Using PowerShell</title>
-      <link>https://tahoeninja.blog/posts/uploading-high-resolution-user-profile-pictures-to-office-365-using-powershell/</link>
+      <link>http://localhost:1313/posts/uploading-high-resolution-user-profile-pictures-to-office-365-using-powershell/</link>
       <pubDate>Fri, 10 Apr 2015 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/uploading-high-resolution-user-profile-pictures-to-office-365-using-powershell/</guid>
+      <guid>http://localhost:1313/posts/uploading-high-resolution-user-profile-pictures-to-office-365-using-powershell/</guid>
       <description>Although you can use the web-based GUI to update profile pictures on Office 365, sometimes you need to upload many pictures at once.</description>
     </item>
     <item>
       <title>Uploading User Profile Pictures using the Web-Based GUI</title>
-      <link>https://tahoeninja.blog/posts/uploading-user-profile-pictures-using-the-web-based-gui/</link>
+      <link>http://localhost:1313/posts/uploading-user-profile-pictures-using-the-web-based-gui/</link>
       <pubDate>Fri, 10 Apr 2015 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/uploading-user-profile-pictures-using-the-web-based-gui/</guid>
+      <guid>http://localhost:1313/posts/uploading-user-profile-pictures-using-the-web-based-gui/</guid>
       <description>In my previous article, I discuss best practices on how to choose high resolution photos to use in user profile pictures for Office 365.</description>
     </item>
   </channel>

@@ -52,7 +52,7 @@
 <meta name="twitter:description" content="{{ . }}">
 {{- end }}
 {{- end }}
-<meta name="author" content="{{.Site.Author.name}}" />
+<meta name="author" content="{{.Site.Params.Author}}" />
 {{- with .Params.page_favicon | default .Site.Params.favicon | default "https://www.eclipse.org/favicon.ico"}}
 {{ "<!-- Favicon -->" | safeHTML}}
 <link rel="icon" href="{{ site.Params.favicon | absURL }}" type="image/svg+xml" sizes="any">

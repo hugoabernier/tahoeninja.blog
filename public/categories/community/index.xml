@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Community on Tahoe Ninja</title>
-    <link>https://tahoeninja.blog/categories/community/</link>
+    <link>http://localhost:1313/categories/community/</link>
     <description>Recent content in Community on Tahoe Ninja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Nov 2019 10:07:47 +0600</lastBuildDate>
-    <atom:link href="https://tahoeninja.blog/categories/community/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/community/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Sharing is Caring Initiative</title>
-      <link>https://tahoeninja.blog/posts/sharing-is-scaring/</link>
+      <link>http://localhost:1313/posts/sharing-is-scaring/</link>
       <pubDate>Mon, 25 Nov 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharing-is-scaring/</guid>
+      <guid>http://localhost:1313/posts/sharing-is-scaring/</guid>
       <description>Making your first contribution to the SharePoint PnP community can be scary!</description>
     </item>
     <item>
       <title>Why I ♥ the Office 365 Dev Community</title>
-      <link>https://tahoeninja.blog/posts/why-i-heart-officedevpnp/</link>
+      <link>http://localhost:1313/posts/why-i-heart-officedevpnp/</link>
       <pubDate>Thu, 25 Apr 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/why-i-heart-officedevpnp/</guid>
+      <guid>http://localhost:1313/posts/why-i-heart-officedevpnp/</guid>
       <description>This blog post explains why I think the Office 365 Dev Community is awesome and why you should consider becoming part of it.</description>
     </item>
   </channel>

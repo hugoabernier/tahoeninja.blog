@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Productivity on Tahoe Ninja</title>
-    <link>https://tahoeninja.blog/categories/productivity/</link>
+    <link>http://localhost:1313/categories/productivity/</link>
     <description>Recent content in Productivity on Tahoe Ninja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Feb 2021 19:56:25 -0500</lastBuildDate>
-    <atom:link href="https://tahoeninja.blog/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From PowerPoint to Demos Easily With Desktops</title>
-      <link>https://tahoeninja.blog/posts/from-powerpoint-to-demos-easily-with-desktops/</link>
+      <link>http://localhost:1313/posts/from-powerpoint-to-demos-easily-with-desktops/</link>
       <pubDate>Sun, 07 Feb 2021 19:56:25 -0500</pubDate>
-      <guid>https://tahoeninja.blog/posts/from-powerpoint-to-demos-easily-with-desktops/</guid>
-      <description>Introduction If you&amp;rsquo;ve ever tried to give a PowerPoint presentation and switch to your desktop to do a demo, you may have noticed that PowerPoint tends to fight with you to stay in slide show mode.</description>
+      <guid>http://localhost:1313/posts/from-powerpoint-to-demos-easily-with-desktops/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;If you&amp;rsquo;ve ever tried to give a PowerPoint presentation and switch to your desktop to do a demo, you may have noticed that PowerPoint tends to fight with you to stay in slide show mode.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Launching Edge with different profiles using shortcuts</title>
-      <link>https://tahoeninja.blog/posts/launching-edge-with-different-profiles-using-shortcuts/</link>
+      <link>http://localhost:1313/posts/launching-edge-with-different-profiles-using-shortcuts/</link>
       <pubDate>Sat, 06 Feb 2021 17:14:00 -0500</pubDate>
-      <guid>https://tahoeninja.blog/posts/launching-edge-with-different-profiles-using-shortcuts/</guid>
+      <guid>http://localhost:1313/posts/launching-edge-with-different-profiles-using-shortcuts/</guid>
       <description>Find out how you create create shortcuts that will launch your Edge browser with a different profile. Bonus: find out how to configure your Stream Deck buttons to launch Edge, Teams, and conference calls using different browsers.</description>
     </item>
     <item>
       <title>Adding custom Edge profile images</title>
-      <link>https://tahoeninja.blog/posts/adding-custom-edge-profile-images/</link>
+      <link>http://localhost:1313/posts/adding-custom-edge-profile-images/</link>
       <pubDate>Thu, 30 Jul 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/adding-custom-edge-profile-images/</guid>
+      <guid>http://localhost:1313/posts/adding-custom-edge-profile-images/</guid>
       <description>Edge Chromium lets you use different browsing profiles, but did you know that you could have custom profile images for each one? Here&amp;rsquo; show.</description>
     </item>
     <item>
       <title>Working as multiple Office 365 users using user profiles in Edge Chromium</title>
-      <link>https://tahoeninja.blog/posts/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/</link>
+      <link>http://localhost:1313/posts/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/</link>
       <pubDate>Thu, 12 Dec 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/</guid>
+      <guid>http://localhost:1313/posts/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/</guid>
       <description>Using Edge Chromium, you can open multiple browser windows as multiple Office 365 users. Here&amp;rsquo;s how to do it.</description>
     </item>
   </channel>

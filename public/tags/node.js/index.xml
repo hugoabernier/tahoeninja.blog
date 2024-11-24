@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Node.js on Tahoe Ninja</title>
-    <link>https://tahoeninja.blog/tags/node.js/</link>
+    <link>http://localhost:1313/tags/node.js/</link>
     <description>Recent content in Node.js on Tahoe Ninja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Aug 2024 10:07:47 +0600</lastBuildDate>
-    <atom:link href="https://tahoeninja.blog/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Terminate batches quickly in VSCode</title>
-      <link>https://tahoeninja.blog/posts/terminate-batch-quickly-in-vscode/</link>
+      <link>http://localhost:1313/posts/terminate-batch-quickly-in-vscode/</link>
       <pubDate>Sat, 03 Aug 2024 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/terminate-batch-quickly-in-vscode/</guid>
+      <guid>http://localhost:1313/posts/terminate-batch-quickly-in-vscode/</guid>
       <description>Don&amp;rsquo;t you ever get tired of being asked &amp;ldquo;Are you sure you want to terminate the batch?&amp;rdquo; every time you try to terminate a batch in VSCode? I know I do.</description>
     </item>
     <item>
       <title>Using Teams Toolkit with NVS</title>
-      <link>https://tahoeninja.blog/posts/using-teams-toolkit-with-nvs/</link>
+      <link>http://localhost:1313/posts/using-teams-toolkit-with-nvs/</link>
       <pubDate>Wed, 22 Nov 2023 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/using-teams-toolkit-with-nvs/</guid>
+      <guid>http://localhost:1313/posts/using-teams-toolkit-with-nvs/</guid>
       <description>NVS is great when you need to switch between different versions of Node.js within a VSCode project. But Teams Toolkit needs a default version of Node.js installed &amp;ndash; before you start your project. Here is how I fix it.</description>
     </item>
     <item>
       <title>Associate Node.js version with your SPFx solutions</title>
-      <link>https://tahoeninja.blog/posts/associate-node-version-with-spfx-solution/</link>
+      <link>http://localhost:1313/posts/associate-node-version-with-spfx-solution/</link>
       <pubDate>Wed, 13 Sep 2023 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/associate-node-version-with-spfx-solution/</guid>
+      <guid>http://localhost:1313/posts/associate-node-version-with-spfx-solution/</guid>
       <description>If you use a node version manager like nvm or nvs, wouldn&amp;rsquo;t you like to automatically load the right version of Node.js when you open an SPFx solution in VSCode? I know I do. Because I am &lt;em&gt;lazy&lt;/em&gt;.</description>
     </item>
   </channel>

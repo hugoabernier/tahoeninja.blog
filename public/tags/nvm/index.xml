@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nvm on Tahoe Ninja</title>
-    <link>https://tahoeninja.blog/tags/nvm/</link>
+    <link>http://localhost:1313/tags/nvm/</link>
     <description>Recent content in Nvm on Tahoe Ninja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 Sep 2023 10:07:47 +0600</lastBuildDate>
-    <atom:link href="https://tahoeninja.blog/tags/nvm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/nvm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Associate Node.js version with your SPFx solutions</title>
-      <link>https://tahoeninja.blog/posts/associate-node-version-with-spfx-solution/</link>
+      <link>http://localhost:1313/posts/associate-node-version-with-spfx-solution/</link>
       <pubDate>Wed, 13 Sep 2023 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/associate-node-version-with-spfx-solution/</guid>
+      <guid>http://localhost:1313/posts/associate-node-version-with-spfx-solution/</guid>
       <description>If you use a node version manager like nvm or nvs, wouldn&amp;rsquo;t you like to automatically load the right version of Node.js when you open an SPFx solution in VSCode? I know I do. Because I am &lt;em&gt;lazy&lt;/em&gt;.</description>
     </item>
   </channel>

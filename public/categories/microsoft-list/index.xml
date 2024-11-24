@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Microsoft List on Tahoe Ninja</title>
-    <link>https://tahoeninja.blog/categories/microsoft-list/</link>
+    <link>http://localhost:1313/categories/microsoft-list/</link>
     <description>Recent content in Microsoft List on Tahoe Ninja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Jul 2020 10:07:47 +0600</lastBuildDate>
-    <atom:link href="https://tahoeninja.blog/categories/microsoft-list/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/microsoft-list/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Working with rules in Microsoft Lists</title>
-      <link>https://tahoeninja.blog/posts/working-with-rules-in-microsoft-lists/</link>
+      <link>http://localhost:1313/posts/working-with-rules-in-microsoft-lists/</link>
       <pubDate>Thu, 30 Jul 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/working-with-rules-in-microsoft-lists/</guid>
+      <guid>http://localhost:1313/posts/working-with-rules-in-microsoft-lists/</guid>
       <description>Microsoft Lists will soon make it easy to create rules to react to changes in your lists. Find out what I&amp;rsquo;ve learned so far.</description>
     </item>
     <item>
       <title>Getting to know Microsoft Lists</title>
-      <link>https://tahoeninja.blog/posts/getting-to-know-microsoft-lists/</link>
+      <link>http://localhost:1313/posts/getting-to-know-microsoft-lists/</link>
       <pubDate>Tue, 28 Jul 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/getting-to-know-microsoft-lists/</guid>
-      <description>Introduction As Microsoft Lists starts rolling out to Microsoft 365, I find that more and more people seem to get confused about Microsoft Lists vs SharePoint, or complaining about how they’ll have to &amp;ldquo;learn a new product … again!</description>
+      <guid>http://localhost:1313/posts/getting-to-know-microsoft-lists/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;As &lt;a href=&#34;https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-lists-begins-general-availability-roll-out-to/ba-p/1524768&#34;&gt;Microsoft Lists starts rolling out to Microsoft 365&lt;/a&gt;, I find that more and more people seem to get confused about Microsoft Lists vs SharePoint, or complaining about how they’ll have to &amp;ldquo;learn a new product … again!&amp;rdquo;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VS Code on Tahoe Ninja</title>
-    <link>https://tahoeninja.blog/categories/vs-code/</link>
+    <link>http://localhost:1313/categories/vs-code/</link>
     <description>Recent content in VS Code on Tahoe Ninja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Aug 2020 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tahoeninja.blog/categories/vs-code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/vs-code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting rid of JSON validation errors on comments</title>
-      <link>https://tahoeninja.blog/posts/getting-rid-of-json-validation-errors-on-comments/</link>
+      <link>http://localhost:1313/posts/getting-rid-of-json-validation-errors-on-comments/</link>
       <pubDate>Wed, 26 Aug 2020 12:00:00 +0000</pubDate>
-      <guid>https://tahoeninja.blog/posts/getting-rid-of-json-validation-errors-on-comments/</guid>
+      <guid>http://localhost:1313/posts/getting-rid-of-json-validation-errors-on-comments/</guid>
       <description>Introduction If you&amp;rsquo;re an SPFx developer who uses Visual Studio Code, you may have noticed that the JSON files that the Yeoman generator creates contain comments to help you understand how to configure your manifest. The only problem is: JSON files aren&amp;rsquo;t supposed to have comments.</description>
     </item>
   </channel>

@@ -2,157 +2,157 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SPFx on Tahoe Ninja</title>
-    <link>https://tahoeninja.blog/tags/spfx/</link>
+    <link>http://localhost:1313/tags/spfx/</link>
     <description>Recent content in SPFx on Tahoe Ninja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Jun 2020 10:07:47 +0600</lastBuildDate>
-    <atom:link href="https://tahoeninja.blog/tags/spfx/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/spfx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Solving the “Failed to execute ‘removeChild’ on ‘Node&#39;” error on modern SharePoint pages</title>
-      <link>https://tahoeninja.blog/posts/data-interception/</link>
+      <link>http://localhost:1313/posts/data-interception/</link>
       <pubDate>Mon, 29 Jun 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/data-interception/</guid>
+      <guid>http://localhost:1313/posts/data-interception/</guid>
       <description>If you&amp;rsquo;re getting errors in modern SharePoint pages when trying to open a link in a new tab, read this.</description>
     </item>
     <item>
       <title>SPFx Compatibility Matrix</title>
-      <link>https://tahoeninja.blog/posts/spfx-compatibility-matrix/</link>
+      <link>http://localhost:1313/posts/spfx-compatibility-matrix/</link>
       <pubDate>Mon, 30 Dec 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/spfx-compatibility-matrix/</guid>
+      <guid>http://localhost:1313/posts/spfx-compatibility-matrix/</guid>
       <description>Here is a handy compatibility matrix telling you which version of SharePoint and SPFx work together.</description>
     </item>
     <item>
       <title>Ultimate Developer Tool List for SPFx</title>
-      <link>https://tahoeninja.blog/posts/ultimate-developer-tool-list-for-spfx/</link>
+      <link>http://localhost:1313/posts/ultimate-developer-tool-list-for-spfx/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/ultimate-developer-tool-list-for-spfx/</guid>
+      <guid>http://localhost:1313/posts/ultimate-developer-tool-list-for-spfx/</guid>
       <description>I asked the SharePoint Developer Community what development tools they use on their workstations to develop SPFx solutions. They came through!</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Layout Patterns — Part III</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-iii/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-iii/</link>
       <pubDate>Wed, 07 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-iii/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-iii/</guid>
       <description>In today’s post, we’ll continue our discussion about the web part layout patterns and discuss the carousel layout.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Layout Patterns — Part II</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-ii/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-ii/</link>
       <pubDate>Wed, 31 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-ii/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-ii/</guid>
       <description>Today’s post is a companion to the Designing SharePoint web part page.</description>
     </item>
     <item>
       <title>Prevent SCSS from changing your CSS class names</title>
-      <link>https://tahoeninja.blog/posts/prevent-scss-from-changing-your-css-class-names/</link>
+      <link>http://localhost:1313/posts/prevent-scss-from-changing-your-css-class-names/</link>
       <pubDate>Sun, 28 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/prevent-scss-from-changing-your-css-class-names/</guid>
+      <guid>http://localhost:1313/posts/prevent-scss-from-changing-your-css-class-names/</guid>
       <description>Sometimes, when working on a SPFx project, I just want to define a CSS class in my .scss file but I don’t want the SASS pre-processor to append random strings to my class names.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Layout Patterns — Part I</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-i/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-i/</link>
       <pubDate>Sun, 28 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-i/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-i/</guid>
       <description>In today’s post, we’ll begin discussing the web part layout patterns.</description>
     </item>
     <item>
       <title>SharePoint Framework Timeline</title>
-      <link>https://tahoeninja.blog/posts/spfx-timeline/</link>
+      <link>http://localhost:1313/posts/spfx-timeline/</link>
       <pubDate>Wed, 24 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/spfx-timeline/</guid>
+      <guid>http://localhost:1313/posts/spfx-timeline/</guid>
       <description>Here is a timeline which highlights the SPFx Yeoman generator’s history since it first became available.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Property Panes — Part III</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-iii/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-iii/</link>
       <pubDate>Wed, 17 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-iii/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-iii/</guid>
       <description>Today, we’ll look at out-of-the-box web parts and we’ll discuss how to replicate some of their property panes in your own web parts.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Property Panes — Part II</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-ii/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-ii/</link>
       <pubDate>Mon, 15 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-ii/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-ii/</guid>
       <description>Today’s post continues on my previous post. It discusses various aspects of property panes that you may find useful.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Property Panes — Part I</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-1/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-1/</link>
       <pubDate>Fri, 12 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-1/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-1/</guid>
       <description>Today’s post is a companion to the Designing SharePoint web part page.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Web Part Titles and Descriptions</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-web-part-titles-and-descriptions/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-web-part-titles-and-descriptions/</link>
       <pubDate>Wed, 10 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-web-part-titles-and-descriptions/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-web-part-titles-and-descriptions/</guid>
       <description>Anyone who has worked with me on a SharePoint project knows that I firmly believe that a good custom web part must be indistinguishable from the out-of-the-box SharePoint web parts. They need to look and behave like they were written by whichever awesome team at Microsoft is responsible for writing those things.</description>
     </item>
     <item>
       <title>How to tell what version of the SPFx Yeoman generator is installed</title>
-      <link>https://tahoeninja.blog/posts/how-to-tell-what-version-of-the-spfx-yeoman-generator-is-installed/</link>
+      <link>http://localhost:1313/posts/how-to-tell-what-version-of-the-spfx-yeoman-generator-is-installed/</link>
       <pubDate>Tue, 09 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/how-to-tell-what-version-of-the-spfx-yeoman-generator-is-installed/</guid>
+      <guid>http://localhost:1313/posts/how-to-tell-what-version-of-the-spfx-yeoman-generator-is-installed/</guid>
       <description>Sometimes you just need to figure out what version of the SPFx Yeoman generator is installed on someone’s machine.</description>
     </item>
     <item>
       <title>Introducing the SharePoint Framework Design Series</title>
-      <link>https://tahoeninja.blog/posts/introducing-the-sharepoint-framework-design-series/</link>
+      <link>http://localhost:1313/posts/introducing-the-sharepoint-framework-design-series/</link>
       <pubDate>Sat, 06 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/introducing-the-sharepoint-framework-design-series/</guid>
+      <guid>http://localhost:1313/posts/introducing-the-sharepoint-framework-design-series/</guid>
       <description>Anyone who has worked with me on a SharePoint project knows that I firmly believe that a good custom web part must be indistinguishable from the out-of-the-box SharePoint web parts. They need to look and behave like they were written by whichever awesome team at Microsoft is responsible for writing those things.</description>
     </item>
     <item>
       <title>Disabling Telemetry network traffic on SPFx workbench</title>
-      <link>https://tahoeninja.blog/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</link>
+      <link>http://localhost:1313/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</link>
       <pubDate>Tue, 02 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</guid>
+      <guid>http://localhost:1313/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</guid>
       <description>When testing a SharePoint web part on the SPFx workbench, analyzing network traffic using your web browser’s developer tools can get pretty overwhelming; there are so many telemetry calls every few seconds that it becomes impossible to figure out what calls are real API calls, and which ones are telemetry calls.</description>
     </item>
     <item>
       <title>MORE UPDATES: Inject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions</title>
-      <link>https://tahoeninja.blog/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</link>
+      <link>http://localhost:1313/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</link>
       <pubDate>Fri, 03 May 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</guid>
+      <guid>http://localhost:1313/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</guid>
       <description>A while ago, I wrote an SPFx Application Customizer that allows you to insert custom CSS on your SharePoint modern pages and posted about it. The solution is now a sample in the SharePoint SharePoi…</description>
     </item>
     <item>
       <title>UPDATE: Inject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions</title>
-      <link>https://tahoeninja.blog/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</link>
+      <link>http://localhost:1313/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</link>
       <pubDate>Mon, 29 Oct 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</guid>
+      <guid>http://localhost:1313/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</guid>
       <description>A while ago, I wrote an article describing how you can inject a custom CSS stylesheet on SharePoint modern pages using an SPFx application extension. The code sample is now part of the SharePoint SP-Dev-Fx-Extensions repository on GitHub. Since the article, I have been getting tons of e-mails asking all sorts of questions about the solution. Since SPFx 1.6 was released, I took the opportunity to upgrade the solution to the latest and greatest version of the toolset. You can find the latest code on GitHub, or download the latest SharePoint package. In this post, I’ll (hopefully) answer some questions about how to use it.</description>
     </item>
     <item>
       <title>Creating a calendar feed web part – Part II</title>
-      <link>https://tahoeninja.blog/posts/creating-a-calendar-feed-web-part-part-ii/</link>
+      <link>http://localhost:1313/posts/creating-a-calendar-feed-web-part-part-ii/</link>
       <pubDate>Tue, 05 Jun 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/creating-a-calendar-feed-web-part-part-ii/</guid>
+      <guid>http://localhost:1313/posts/creating-a-calendar-feed-web-part-part-ii/</guid>
       <description>In this article, we’ll: create a web part solution, add a mock service to return test events, and we’ll display a simple list of events</description>
     </item>
     <item>
       <title>Creating a calendar feed web part – Part I</title>
-      <link>https://tahoeninja.blog/posts/creating-a-calendar-feed-web-part/</link>
+      <link>http://localhost:1313/posts/creating-a-calendar-feed-web-part/</link>
       <pubDate>Fri, 18 May 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/creating-a-calendar-feed-web-part/</guid>
+      <guid>http://localhost:1313/posts/creating-a-calendar-feed-web-part/</guid>
       <description>So, I thought: why not try re-creating the out-of-the-box SharePoint events web part, but instead of reading events from a SharePoint list (or group calendar), it would read from WordPress?</description>
     </item>
     <item>
       <title>Inject Custom CSS on SharePoint Modern Pages using SPFx Extensions</title>
-      <link>https://tahoeninja.blog/posts/inject-custom-css-on-sharepoint-modern-pages-using-spfx-extensions/</link>
+      <link>http://localhost:1313/posts/inject-custom-css-on-sharepoint-modern-pages-using-spfx-extensions/</link>
       <pubDate>Tue, 08 May 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/inject-custom-css-on-sharepoint-modern-pages-using-spfx-extensions/</guid>
+      <guid>http://localhost:1313/posts/inject-custom-css-on-sharepoint-modern-pages-using-spfx-extensions/</guid>
       <description>If you need to customize the look and feel of modern pages, you can use custom tenant branding, custom site designs, and modern site themes without incurring the wrath of the SharePoint gods.</description>
     </item>
     <item>
       <title>Creating SPFx web part property panes with an Apply button</title>
-      <link>https://tahoeninja.blog/posts/creating-spfx-web-part-property-panes-with-an-apply-button/</link>
+      <link>http://localhost:1313/posts/creating-spfx-web-part-property-panes-with-an-apply-button/</link>
       <pubDate>Mon, 09 Apr 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/creating-spfx-web-part-property-panes-with-an-apply-button/</guid>
+      <guid>http://localhost:1313/posts/creating-spfx-web-part-property-panes-with-an-apply-button/</guid>
       <description>When you create an SPFx web part, the default Property Pane automatically submits changes to the web part. There is no “Apply” button. But sometimes you don’t want changes to the property pane fields to automatically apply. All you have to do is to add this method in your web part class&amp;hellip;</description>
     </item>
   </channel>

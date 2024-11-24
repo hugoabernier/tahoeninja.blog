@@ -2,731 +2,731 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tahoe Ninja</title>
-    <link>https://tahoeninja.blog/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content on Tahoe Ninja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Aug 2024 10:07:47 +0600</lastBuildDate>
-    <atom:link href="https://tahoeninja.blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Terminate batches quickly in VSCode</title>
-      <link>https://tahoeninja.blog/posts/terminate-batch-quickly-in-vscode/</link>
+      <link>http://localhost:1313/posts/terminate-batch-quickly-in-vscode/</link>
       <pubDate>Sat, 03 Aug 2024 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/terminate-batch-quickly-in-vscode/</guid>
+      <guid>http://localhost:1313/posts/terminate-batch-quickly-in-vscode/</guid>
       <description>Don&amp;rsquo;t you ever get tired of being asked &amp;ldquo;Are you sure you want to terminate the batch?&amp;rdquo; every time you try to terminate a batch in VSCode? I know I do.</description>
     </item>
     <item>
       <title>Using Teams Toolkit with NVS</title>
-      <link>https://tahoeninja.blog/posts/using-teams-toolkit-with-nvs/</link>
+      <link>http://localhost:1313/posts/using-teams-toolkit-with-nvs/</link>
       <pubDate>Wed, 22 Nov 2023 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/using-teams-toolkit-with-nvs/</guid>
+      <guid>http://localhost:1313/posts/using-teams-toolkit-with-nvs/</guid>
       <description>NVS is great when you need to switch between different versions of Node.js within a VSCode project. But Teams Toolkit needs a default version of Node.js installed &amp;ndash; before you start your project. Here is how I fix it.</description>
     </item>
     <item>
       <title>Associate Node.js version with your SPFx solutions</title>
-      <link>https://tahoeninja.blog/posts/associate-node-version-with-spfx-solution/</link>
+      <link>http://localhost:1313/posts/associate-node-version-with-spfx-solution/</link>
       <pubDate>Wed, 13 Sep 2023 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/associate-node-version-with-spfx-solution/</guid>
+      <guid>http://localhost:1313/posts/associate-node-version-with-spfx-solution/</guid>
       <description>If you use a node version manager like nvm or nvs, wouldn&amp;rsquo;t you like to automatically load the right version of Node.js when you open an SPFx solution in VSCode? I know I do. Because I am &lt;em&gt;lazy&lt;/em&gt;.</description>
     </item>
     <item>
       <title>Wait... where did all the content go?!</title>
-      <link>https://tahoeninja.blog/posts/migrating/</link>
+      <link>http://localhost:1313/posts/migrating/</link>
       <pubDate>Sun, 26 Jun 2022 05:00:00 +0000</pubDate>
-      <guid>https://tahoeninja.blog/posts/migrating/</guid>
+      <guid>http://localhost:1313/posts/migrating/</guid>
       <description>You may have noticed that most of my content is missing. Don&amp;rsquo;t worry, it is coming back&amp;hellip; Eventually.</description>
     </item>
     <item>
       <title>From PowerPoint to Demos Easily With Desktops</title>
-      <link>https://tahoeninja.blog/posts/from-powerpoint-to-demos-easily-with-desktops/</link>
+      <link>http://localhost:1313/posts/from-powerpoint-to-demos-easily-with-desktops/</link>
       <pubDate>Sun, 07 Feb 2021 19:56:25 -0500</pubDate>
-      <guid>https://tahoeninja.blog/posts/from-powerpoint-to-demos-easily-with-desktops/</guid>
-      <description>Introduction If you&amp;rsquo;ve ever tried to give a PowerPoint presentation and switch to your desktop to do a demo, you may have noticed that PowerPoint tends to fight with you to stay in slide show mode.</description>
+      <guid>http://localhost:1313/posts/from-powerpoint-to-demos-easily-with-desktops/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;If you&amp;rsquo;ve ever tried to give a PowerPoint presentation and switch to your desktop to do a demo, you may have noticed that PowerPoint tends to fight with you to stay in slide show mode.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Summarized GitHub cheat sheet for PnP contributions</title>
-      <link>https://tahoeninja.blog/posts/summarized-github-cheat-sheet-for-pnp-contributions/</link>
+      <link>http://localhost:1313/posts/summarized-github-cheat-sheet-for-pnp-contributions/</link>
       <pubDate>Sun, 07 Feb 2021 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/summarized-github-cheat-sheet-for-pnp-contributions/</guid>
+      <guid>http://localhost:1313/posts/summarized-github-cheat-sheet-for-pnp-contributions/</guid>
       <description>This is an interactive post that you can customize to get a personalized list of commands you&amp;rsquo;ll need when contributing to a PnP repository on GitHub.</description>
     </item>
     <item>
       <title>Launching Edge with different profiles using shortcuts</title>
-      <link>https://tahoeninja.blog/posts/launching-edge-with-different-profiles-using-shortcuts/</link>
+      <link>http://localhost:1313/posts/launching-edge-with-different-profiles-using-shortcuts/</link>
       <pubDate>Sat, 06 Feb 2021 17:14:00 -0500</pubDate>
-      <guid>https://tahoeninja.blog/posts/launching-edge-with-different-profiles-using-shortcuts/</guid>
+      <guid>http://localhost:1313/posts/launching-edge-with-different-profiles-using-shortcuts/</guid>
       <description>Find out how you create create shortcuts that will launch your Edge browser with a different profile. Bonus: find out how to configure your Stream Deck buttons to launch Edge, Teams, and conference calls using different browsers.</description>
     </item>
     <item>
       <title>My Demo Checklist for PnP Calls</title>
-      <link>https://tahoeninja.blog/posts/my-demo-checklist-for-pnp-calls/</link>
+      <link>http://localhost:1313/posts/my-demo-checklist-for-pnp-calls/</link>
       <pubDate>Mon, 04 Jan 2021 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/my-demo-checklist-for-pnp-calls/</guid>
+      <guid>http://localhost:1313/posts/my-demo-checklist-for-pnp-calls/</guid>
       <description>I&amp;rsquo;m not a great presenter. I have been working in IT for over thirty years, during which time I have done many technical demos&amp;hellip; and failed many of them.</description>
     </item>
     <item>
       <title>Getting rid of JSON validation errors on comments</title>
-      <link>https://tahoeninja.blog/posts/getting-rid-of-json-validation-errors-on-comments/</link>
+      <link>http://localhost:1313/posts/getting-rid-of-json-validation-errors-on-comments/</link>
       <pubDate>Wed, 26 Aug 2020 12:00:00 +0000</pubDate>
-      <guid>https://tahoeninja.blog/posts/getting-rid-of-json-validation-errors-on-comments/</guid>
+      <guid>http://localhost:1313/posts/getting-rid-of-json-validation-errors-on-comments/</guid>
       <description>Introduction If you&amp;rsquo;re an SPFx developer who uses Visual Studio Code, you may have noticed that the JSON files that the Yeoman generator creates contain comments to help you understand how to configure your manifest. The only problem is: JSON files aren&amp;rsquo;t supposed to have comments.</description>
     </item>
     <item>
       <title>Adding custom Edge profile images</title>
-      <link>https://tahoeninja.blog/posts/adding-custom-edge-profile-images/</link>
+      <link>http://localhost:1313/posts/adding-custom-edge-profile-images/</link>
       <pubDate>Thu, 30 Jul 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/adding-custom-edge-profile-images/</guid>
+      <guid>http://localhost:1313/posts/adding-custom-edge-profile-images/</guid>
       <description>Edge Chromium lets you use different browsing profiles, but did you know that you could have custom profile images for each one? Here&amp;rsquo; show.</description>
     </item>
     <item>
       <title>Working with rules in Microsoft Lists</title>
-      <link>https://tahoeninja.blog/posts/working-with-rules-in-microsoft-lists/</link>
+      <link>http://localhost:1313/posts/working-with-rules-in-microsoft-lists/</link>
       <pubDate>Thu, 30 Jul 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/working-with-rules-in-microsoft-lists/</guid>
+      <guid>http://localhost:1313/posts/working-with-rules-in-microsoft-lists/</guid>
       <description>Microsoft Lists will soon make it easy to create rules to react to changes in your lists. Find out what I&amp;rsquo;ve learned so far.</description>
     </item>
     <item>
       <title>Adding support for theme variants in SPFx web parts</title>
-      <link>https://tahoeninja.blog/posts/adding-support-for-theme-variants-in-spfx-web-parts/</link>
+      <link>http://localhost:1313/posts/adding-support-for-theme-variants-in-spfx-web-parts/</link>
       <pubDate>Tue, 28 Jul 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/adding-support-for-theme-variants-in-spfx-web-parts/</guid>
+      <guid>http://localhost:1313/posts/adding-support-for-theme-variants-in-spfx-web-parts/</guid>
       <description>Like chameleons, SPFx web parts can change colors to adapt to changing environments and blend in. Find out how to build good-looking web parts on any theme.</description>
     </item>
     <item>
       <title>Getting to know Microsoft Lists</title>
-      <link>https://tahoeninja.blog/posts/getting-to-know-microsoft-lists/</link>
+      <link>http://localhost:1313/posts/getting-to-know-microsoft-lists/</link>
       <pubDate>Tue, 28 Jul 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/getting-to-know-microsoft-lists/</guid>
-      <description>Introduction As Microsoft Lists starts rolling out to Microsoft 365, I find that more and more people seem to get confused about Microsoft Lists vs SharePoint, or complaining about how they’ll have to &amp;ldquo;learn a new product … again!</description>
+      <guid>http://localhost:1313/posts/getting-to-know-microsoft-lists/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;As &lt;a href=&#34;https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-lists-begins-general-availability-roll-out-to/ba-p/1524768&#34;&gt;Microsoft Lists starts rolling out to Microsoft 365&lt;/a&gt;, I find that more and more people seem to get confused about Microsoft Lists vs SharePoint, or complaining about how they’ll have to &amp;ldquo;learn a new product … again!&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Solving the “Failed to execute ‘removeChild’ on ‘Node&#39;” error on modern SharePoint pages</title>
-      <link>https://tahoeninja.blog/posts/data-interception/</link>
+      <link>http://localhost:1313/posts/data-interception/</link>
       <pubDate>Mon, 29 Jun 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/data-interception/</guid>
+      <guid>http://localhost:1313/posts/data-interception/</guid>
       <description>If you&amp;rsquo;re getting errors in modern SharePoint pages when trying to open a link in a new tab, read this.</description>
     </item>
     <item>
       <title>SPFx Projects, SCSS, Pseudo-classes, and Stylelint</title>
-      <link>https://tahoeninja.blog/posts/spfx-scss-pseudo-classes-and-stylelint/</link>
+      <link>http://localhost:1313/posts/spfx-scss-pseudo-classes-and-stylelint/</link>
       <pubDate>Sat, 20 Jun 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/spfx-scss-pseudo-classes-and-stylelint/</guid>
+      <guid>http://localhost:1313/posts/spfx-scss-pseudo-classes-and-stylelint/</guid>
       <description>In this post, I&amp;rsquo;ll show you how you can use SCSS pseudo-classes in your SPFx projects and configure stylelint so that it doesn&amp;rsquo;t give you any warnings.</description>
     </item>
     <item>
       <title>Display the solution version in your web part</title>
-      <link>https://tahoeninja.blog/posts/display-the-solution-version-in-your-web-part/</link>
+      <link>http://localhost:1313/posts/display-the-solution-version-in-your-web-part/</link>
       <pubDate>Fri, 20 Mar 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/display-the-solution-version-in-your-web-part/</guid>
+      <guid>http://localhost:1313/posts/display-the-solution-version-in-your-web-part/</guid>
       <description>Find out how you can automatically synchronize your NodeJS package version with your web part solution version and display it in a web part&amp;rsquo;s property pane.</description>
     </item>
     <item>
       <title>Generate Word documents from a template using Power Automate</title>
-      <link>https://tahoeninja.blog/posts/generate-word-documents-from-a-template-using-power-automate/</link>
+      <link>http://localhost:1313/posts/generate-word-documents-from-a-template-using-power-automate/</link>
       <pubDate>Fri, 13 Mar 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/generate-word-documents-from-a-template-using-power-automate/</guid>
+      <guid>http://localhost:1313/posts/generate-word-documents-from-a-template-using-power-automate/</guid>
       <description>With some Word template know-how and Power Automate, you can dynamically generate documents in your business processes. Find out how!</description>
     </item>
     <item>
       <title>Accessing Your On-Premises Data Using the On-Premises Data Gateway</title>
-      <link>https://tahoeninja.blog/posts/accessing-your-on-prem-data-using-on-prem-data-gateway/</link>
+      <link>http://localhost:1313/posts/accessing-your-on-prem-data-using-on-prem-data-gateway/</link>
       <pubDate>Thu, 05 Mar 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/accessing-your-on-prem-data-using-on-prem-data-gateway/</guid>
+      <guid>http://localhost:1313/posts/accessing-your-on-prem-data-using-on-prem-data-gateway/</guid>
       <description>The on-premises data gateway allows your cloud-based Power Platform services to access your on-premises data, such as databases, file shares, and SharePoint data. Find out how it works and how to u…</description>
     </item>
     <item>
       <title>Find Your SharePoint Online Tenant ID without tools or code</title>
-      <link>https://tahoeninja.blog/posts/find-your-sharepoint-online-tenant-id/</link>
+      <link>http://localhost:1313/posts/find-your-sharepoint-online-tenant-id/</link>
       <pubDate>Sun, 01 Mar 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/find-your-sharepoint-online-tenant-id/</guid>
+      <guid>http://localhost:1313/posts/find-your-sharepoint-online-tenant-id/</guid>
       <description>Sometimes you just need to find your SharePoint Online tenant ID and you don’t have access to the Azure Admin center.</description>
     </item>
     <item>
       <title>Simplify workflows with desired paths</title>
-      <link>https://tahoeninja.blog/posts/simplify-workflows-with-desired-paths/</link>
+      <link>http://localhost:1313/posts/simplify-workflows-with-desired-paths/</link>
       <pubDate>Thu, 30 Jan 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/simplify-workflows-with-desired-paths/</guid>
+      <guid>http://localhost:1313/posts/simplify-workflows-with-desired-paths/</guid>
       <description>Find out how designing Power Automate workflows and the Ohio State University campus have in common.</description>
     </item>
     <item>
       <title>Leveling the playing field with accessibility</title>
-      <link>https://tahoeninja.blog/posts/leveling-the-playing-field-with-accessibility/</link>
+      <link>http://localhost:1313/posts/leveling-the-playing-field-with-accessibility/</link>
       <pubDate>Mon, 20 Jan 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/leveling-the-playing-field-with-accessibility/</guid>
+      <guid>http://localhost:1313/posts/leveling-the-playing-field-with-accessibility/</guid>
       <description>Find out how the Xbox Adaptive Controller gives everyone the opportunity to be anyone they want to be online</description>
     </item>
     <item>
       <title>SPFx Compatibility Matrix</title>
-      <link>https://tahoeninja.blog/posts/spfx-compatibility-matrix/</link>
+      <link>http://localhost:1313/posts/spfx-compatibility-matrix/</link>
       <pubDate>Mon, 30 Dec 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/spfx-compatibility-matrix/</guid>
+      <guid>http://localhost:1313/posts/spfx-compatibility-matrix/</guid>
       <description>Here is a handy compatibility matrix telling you which version of SharePoint and SPFx work together.</description>
     </item>
     <item>
       <title>Redirect your users to SharePoint Online with Smart 404</title>
-      <link>https://tahoeninja.blog/posts/move-your-users-to-sharepoint-online-with-smart404/</link>
+      <link>http://localhost:1313/posts/move-your-users-to-sharepoint-online-with-smart404/</link>
       <pubDate>Mon, 16 Dec 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/move-your-users-to-sharepoint-online-with-smart404/</guid>
+      <guid>http://localhost:1313/posts/move-your-users-to-sharepoint-online-with-smart404/</guid>
       <description>In today&amp;rsquo;s post, we unearth an old SharePoint feature from 2009 and create a more contemporary version of it to help redirect users from your old on-premises SharePoint to SharePoint online.</description>
     </item>
     <item>
       <title>Working as multiple Office 365 users using user profiles in Edge Chromium</title>
-      <link>https://tahoeninja.blog/posts/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/</link>
+      <link>http://localhost:1313/posts/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/</link>
       <pubDate>Thu, 12 Dec 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/</guid>
+      <guid>http://localhost:1313/posts/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/</guid>
       <description>Using Edge Chromium, you can open multiple browser windows as multiple Office 365 users. Here&amp;rsquo;s how to do it.</description>
     </item>
     <item>
       <title>The Sharing is Caring Initiative</title>
-      <link>https://tahoeninja.blog/posts/sharing-is-scaring/</link>
+      <link>http://localhost:1313/posts/sharing-is-scaring/</link>
       <pubDate>Mon, 25 Nov 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharing-is-scaring/</guid>
+      <guid>http://localhost:1313/posts/sharing-is-scaring/</guid>
       <description>Making your first contribution to the SharePoint PnP community can be scary!</description>
     </item>
     <item>
       <title>Ultimate Developer Tool List for SPFx</title>
-      <link>https://tahoeninja.blog/posts/ultimate-developer-tool-list-for-spfx/</link>
+      <link>http://localhost:1313/posts/ultimate-developer-tool-list-for-spfx/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/ultimate-developer-tool-list-for-spfx/</guid>
+      <guid>http://localhost:1313/posts/ultimate-developer-tool-list-for-spfx/</guid>
       <description>I asked the SharePoint Developer Community what development tools they use on their workstations to develop SPFx solutions. They came through!</description>
     </item>
     <item>
       <title>Fixing base64 SVG icons in SPFx</title>
-      <link>https://tahoeninja.blog/posts/fixing-base64-svg-icons-in-spfx/</link>
+      <link>http://localhost:1313/posts/fixing-base64-svg-icons-in-spfx/</link>
       <pubDate>Sat, 31 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/fixing-base64-svg-icons-in-spfx/</guid>
+      <guid>http://localhost:1313/posts/fixing-base64-svg-icons-in-spfx/</guid>
       <description>According to Microsoft, you should be able to use a base64-encoded SVG image for your web part icon, but it hasn&amp;rsquo;t worked in a while. Here is how to fix it.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Layout Patterns — Part IV</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-iv/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-iv/</link>
       <pubDate>Sat, 31 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-iv/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-iv/</guid>
       <description>In today’s post in the web part layout series, we discuss the compact layout.</description>
     </item>
     <item>
       <title>Popular PnP repositories and how to get started contributing</title>
-      <link>https://tahoeninja.blog/posts/popular-pnp-repositories-and-how-to-get-started/</link>
+      <link>http://localhost:1313/posts/popular-pnp-repositories-and-how-to-get-started/</link>
       <pubDate>Fri, 23 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/popular-pnp-repositories-and-how-to-get-started/</guid>
+      <guid>http://localhost:1313/posts/popular-pnp-repositories-and-how-to-get-started/</guid>
       <description>Here is a list of the most common SharePoint Developer community repositories and information to get started with each one.</description>
     </item>
     <item>
       <title>Using Flow to synchronize an iCal feed to a SharePoint event list — Part II</title>
-      <link>https://tahoeninja.blog/posts/using-flow-to-synchronize-an-ical-feed-to-a-sharepoint-event-list-part-ii/</link>
+      <link>http://localhost:1313/posts/using-flow-to-synchronize-an-ical-feed-to-a-sharepoint-event-list-part-ii/</link>
       <pubDate>Thu, 22 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/using-flow-to-synchronize-an-ical-feed-to-a-sharepoint-event-list-part-ii/</guid>
+      <guid>http://localhost:1313/posts/using-flow-to-synchronize-an-ical-feed-to-a-sharepoint-event-list-part-ii/</guid>
       <description>In today’s post, we’ll set up a SharePoint list and walk you through how to implement the flow, step-by-step.</description>
     </item>
     <item>
       <title>Using Flow to synchronize an iCal feed to a SharePoint event list — Part I</title>
-      <link>https://tahoeninja.blog/posts/using-flow-to-synchronize-an-ical-feed-to-a-sharepoint-event-list-part-i/</link>
+      <link>http://localhost:1313/posts/using-flow-to-synchronize-an-ical-feed-to-a-sharepoint-event-list-part-i/</link>
       <pubDate>Wed, 21 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/using-flow-to-synchronize-an-ical-feed-to-a-sharepoint-event-list-part-i/</guid>
+      <guid>http://localhost:1313/posts/using-flow-to-synchronize-an-ical-feed-to-a-sharepoint-event-list-part-i/</guid>
       <description>Today, we’ll explain how to use Flow to import events daily from an iCal feed into a SharePoint list.</description>
     </item>
     <item>
       <title>August 2019 Updates to SharePoint pages and news authoring — updates for busy people</title>
-      <link>https://tahoeninja.blog/posts/august-2019-updates-to-sharepoint-pages-and-news-authoring-updates-for-busy-people/</link>
+      <link>http://localhost:1313/posts/august-2019-updates-to-sharepoint-pages-and-news-authoring-updates-for-busy-people/</link>
       <pubDate>Tue, 20 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/august-2019-updates-to-sharepoint-pages-and-news-authoring-updates-for-busy-people/</guid>
+      <guid>http://localhost:1313/posts/august-2019-updates-to-sharepoint-pages-and-news-authoring-updates-for-busy-people/</guid>
       <description>My goal is to take major SharePoint/Office 365 announcements, videos, and other relevant pieces of information which may require too much time for busy people to read and watch, and to boil it down to the essential.</description>
     </item>
     <item>
       <title>August 2019 Updates to SharePoint pages and news authoring — updates for busy people</title>
-      <link>https://tahoeninja.blog/posts/automatically-make-your-asp-net-web-application-offline-while-deploying-using-web-deploy-in-visual-studio-2017/</link>
+      <link>http://localhost:1313/posts/automatically-make-your-asp-net-web-application-offline-while-deploying-using-web-deploy-in-visual-studio-2017/</link>
       <pubDate>Tue, 20 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/automatically-make-your-asp-net-web-application-offline-while-deploying-using-web-deploy-in-visual-studio-2017/</guid>
+      <guid>http://localhost:1313/posts/automatically-make-your-asp-net-web-application-offline-while-deploying-using-web-deploy-in-visual-studio-2017/</guid>
       <description>If you’ve ever used Visual Studio’s Web Deploy feature to deploy using a file share, you may have experienced issues where some files cannot be overwritten because they are in use. You may not already know this: ASP.NET Core has a built-in mechanism to take applications offline and display a message. This article describes how you can use Visual Studio’s Web Deploy feature to automatically take your web application offline while you deploy a new version, and restore it back online when deployment is complete using (pretty much) all out-of-the-box features of Visual Studio and ASP.NET Core.</description>
     </item>
     <item>
       <title>Create a Link to a Delve Profile</title>
-      <link>https://tahoeninja.blog/posts/create-a-link-to-a-delve-profile/</link>
+      <link>http://localhost:1313/posts/create-a-link-to-a-delve-profile/</link>
       <pubDate>Mon, 19 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/create-a-link-to-a-delve-profile/</guid>
+      <guid>http://localhost:1313/posts/create-a-link-to-a-delve-profile/</guid>
       <description>Sometimes, you just want to create a link to someone’s Delve profile in SharePoint Online.</description>
     </item>
     <item>
       <title>Interactive Post: My GitHub cheat sheet for PnP contributions</title>
-      <link>https://tahoeninja.blog/posts/my-github-cheat-sheet-for-pnp-contributions-an-interactive-cheat-sheet/</link>
+      <link>http://localhost:1313/posts/my-github-cheat-sheet-for-pnp-contributions-an-interactive-cheat-sheet/</link>
       <pubDate>Sun, 18 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/my-github-cheat-sheet-for-pnp-contributions-an-interactive-cheat-sheet/</guid>
+      <guid>http://localhost:1313/posts/my-github-cheat-sheet-for-pnp-contributions-an-interactive-cheat-sheet/</guid>
       <description>This article focuses on the GitHub commands. If you need help with your first contribution, David Warner II has kindly volunteered to help anyone with their first PnP contribution. He’s a true main on the topic.</description>
     </item>
     <item>
       <title>Take your first step and contribute to Microsoft 365 PnP</title>
-      <link>https://tahoeninja.blog/posts/take-your-first-step-and-contribute-to-m365-dev-pnp/</link>
+      <link>http://localhost:1313/posts/take-your-first-step-and-contribute-to-m365-dev-pnp/</link>
       <pubDate>Thu, 15 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/take-your-first-step-and-contribute-to-m365-dev-pnp/</guid>
+      <guid>http://localhost:1313/posts/take-your-first-step-and-contribute-to-m365-dev-pnp/</guid>
       <description>Today’s post is a companion to the Designing SharePoint web part page.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Layout Patterns — Part III</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-iii/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-iii/</link>
       <pubDate>Wed, 07 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-iii/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-iii/</guid>
       <description>In today’s post, we’ll continue our discussion about the web part layout patterns and discuss the carousel layout.</description>
     </item>
     <item>
       <title>SharePoint Migration: Mind the URL Length</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-migration-mind-the-url-length/</link>
+      <link>http://localhost:1313/posts/sharepoint-migration-mind-the-url-length/</link>
       <pubDate>Fri, 02 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-migration-mind-the-url-length/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-migration-mind-the-url-length/</guid>
       <description>This article discusses the current limitation with URL lengths in SharePoint. It discusses how this limitation manifests itself, and how it can impact you during your SharePoint migration.</description>
     </item>
     <item>
       <title>Would you like to create low-fidelity SharePoint wireframes in PowerPoint?</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-wireframes-in-powerpoint/</link>
+      <link>http://localhost:1313/posts/sharepoint-wireframes-in-powerpoint/</link>
       <pubDate>Fri, 02 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-wireframes-in-powerpoint/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-wireframes-in-powerpoint/</guid>
       <description>I’m not a designer or a user experience specialist, but I’ll take the time to do paper napkin drawings, whiteboard drawings, and any other available tools to help work through how my sites are going to be structured and laid out.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Layout Patterns — Part II</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-ii/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-ii/</link>
       <pubDate>Wed, 31 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-ii/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-ii/</guid>
       <description>Today’s post is a companion to the Designing SharePoint web part page.</description>
     </item>
     <item>
       <title>Prevent SCSS from changing your CSS class names</title>
-      <link>https://tahoeninja.blog/posts/prevent-scss-from-changing-your-css-class-names/</link>
+      <link>http://localhost:1313/posts/prevent-scss-from-changing-your-css-class-names/</link>
       <pubDate>Sun, 28 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/prevent-scss-from-changing-your-css-class-names/</guid>
+      <guid>http://localhost:1313/posts/prevent-scss-from-changing-your-css-class-names/</guid>
       <description>Sometimes, when working on a SPFx project, I just want to define a CSS class in my .scss file but I don’t want the SASS pre-processor to append random strings to my class names.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Layout Patterns — Part I</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-i/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-i/</link>
       <pubDate>Sun, 28 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-i/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-i/</guid>
       <description>In today’s post, we’ll begin discussing the web part layout patterns.</description>
     </item>
     <item>
       <title>SharePoint Framework Timeline</title>
-      <link>https://tahoeninja.blog/posts/spfx-timeline/</link>
+      <link>http://localhost:1313/posts/spfx-timeline/</link>
       <pubDate>Wed, 24 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/spfx-timeline/</guid>
+      <guid>http://localhost:1313/posts/spfx-timeline/</guid>
       <description>Here is a timeline which highlights the SPFx Yeoman generator’s history since it first became available.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Property Panes — Part III</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-iii/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-iii/</link>
       <pubDate>Wed, 17 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-iii/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-iii/</guid>
       <description>Today, we’ll look at out-of-the-box web parts and we’ll discuss how to replicate some of their property panes in your own web parts.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Property Panes — Part II</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-ii/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-ii/</link>
       <pubDate>Mon, 15 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-ii/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-ii/</guid>
       <description>Today’s post continues on my previous post. It discusses various aspects of property panes that you may find useful.</description>
     </item>
     <item>
       <title>Making an educated decision when acquiring software — Part II: Total Cost of Ownership</title>
-      <link>https://tahoeninja.blog/posts/making-an-educated-decision-when-acquiring-software-part-ii-total-cost-of-ownership/</link>
+      <link>http://localhost:1313/posts/making-an-educated-decision-when-acquiring-software-part-ii-total-cost-of-ownership/</link>
       <pubDate>Sat, 13 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/making-an-educated-decision-when-acquiring-software-part-ii-total-cost-of-ownership/</guid>
+      <guid>http://localhost:1313/posts/making-an-educated-decision-when-acquiring-software-part-ii-total-cost-of-ownership/</guid>
       <description>This post will explain some of the tips and tricks to use when buying new software that will help you make an educated decision.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Property Panes — Part I</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-1/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-1/</link>
       <pubDate>Fri, 12 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-1/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-1/</guid>
       <description>Today’s post is a companion to the Designing SharePoint web part page.</description>
     </item>
     <item>
       <title>Making an educated decision when acquiring software — Part I: Acquisition Model</title>
-      <link>https://tahoeninja.blog/posts/making-an-educated-decision-when-acquiring-software/</link>
+      <link>http://localhost:1313/posts/making-an-educated-decision-when-acquiring-software/</link>
       <pubDate>Wed, 10 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/making-an-educated-decision-when-acquiring-software/</guid>
+      <guid>http://localhost:1313/posts/making-an-educated-decision-when-acquiring-software/</guid>
       <description>This post will explain some of the tips and tricks to use when buying new software that will help you make an educated decision.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Web Part Titles and Descriptions</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-web-part-titles-and-descriptions/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-web-part-titles-and-descriptions/</link>
       <pubDate>Wed, 10 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-web-part-titles-and-descriptions/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-web-part-titles-and-descriptions/</guid>
       <description>Anyone who has worked with me on a SharePoint project knows that I firmly believe that a good custom web part must be indistinguishable from the out-of-the-box SharePoint web parts. They need to look and behave like they were written by whichever awesome team at Microsoft is responsible for writing those things.</description>
     </item>
     <item>
       <title>How to tell what version of the SPFx Yeoman generator is installed</title>
-      <link>https://tahoeninja.blog/posts/how-to-tell-what-version-of-the-spfx-yeoman-generator-is-installed/</link>
+      <link>http://localhost:1313/posts/how-to-tell-what-version-of-the-spfx-yeoman-generator-is-installed/</link>
       <pubDate>Tue, 09 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/how-to-tell-what-version-of-the-spfx-yeoman-generator-is-installed/</guid>
+      <guid>http://localhost:1313/posts/how-to-tell-what-version-of-the-spfx-yeoman-generator-is-installed/</guid>
       <description>Sometimes you just need to figure out what version of the SPFx Yeoman generator is installed on someone’s machine.</description>
     </item>
     <item>
       <title>Configuring scheduled Flows to skip holidays</title>
-      <link>https://tahoeninja.blog/posts/configuring-scheduled-flows-to-skip-holidays/</link>
+      <link>http://localhost:1313/posts/configuring-scheduled-flows-to-skip-holidays/</link>
       <pubDate>Sat, 06 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/configuring-scheduled-flows-to-skip-holidays/</guid>
+      <guid>http://localhost:1313/posts/configuring-scheduled-flows-to-skip-holidays/</guid>
       <description>In this post, I’ll show you how to count how many items were returned by SharePoint and how to test if any items were found.</description>
     </item>
     <item>
       <title>Introducing the SharePoint Framework Design Series</title>
-      <link>https://tahoeninja.blog/posts/introducing-the-sharepoint-framework-design-series/</link>
+      <link>http://localhost:1313/posts/introducing-the-sharepoint-framework-design-series/</link>
       <pubDate>Sat, 06 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/introducing-the-sharepoint-framework-design-series/</guid>
+      <guid>http://localhost:1313/posts/introducing-the-sharepoint-framework-design-series/</guid>
       <description>Anyone who has worked with me on a SharePoint project knows that I firmly believe that a good custom web part must be indistinguishable from the out-of-the-box SharePoint web parts. They need to look and behave like they were written by whichever awesome team at Microsoft is responsible for writing those things.</description>
     </item>
     <item>
       <title>How to count number of items returned by SharePoint GetItems action in Flow</title>
-      <link>https://tahoeninja.blog/posts/how-to-count-number-of-items-returned-by-sharepoint-getitems-action-in-flow/</link>
+      <link>http://localhost:1313/posts/how-to-count-number-of-items-returned-by-sharepoint-getitems-action-in-flow/</link>
       <pubDate>Thu, 04 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/how-to-count-number-of-items-returned-by-sharepoint-getitems-action-in-flow/</guid>
+      <guid>http://localhost:1313/posts/how-to-count-number-of-items-returned-by-sharepoint-getitems-action-in-flow/</guid>
       <description>In this post, I’ll show you how to count how many items were returned by SharePoint and how to test if any items were found.</description>
     </item>
     <item>
       <title>Using the SharePoint GetItems action in Flow</title>
-      <link>https://tahoeninja.blog/posts/using-the-sharepoint-getitems-action-in-flow/</link>
+      <link>http://localhost:1313/posts/using-the-sharepoint-getitems-action-in-flow/</link>
       <pubDate>Wed, 03 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/using-the-sharepoint-getitems-action-in-flow/</guid>
+      <guid>http://localhost:1313/posts/using-the-sharepoint-getitems-action-in-flow/</guid>
       <description>This article explains how to use the SharePoint connector and the GetItems action to retrieve items from a SharePoint list.</description>
     </item>
     <item>
       <title>Disabling Telemetry network traffic on SPFx workbench</title>
-      <link>https://tahoeninja.blog/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</link>
+      <link>http://localhost:1313/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</link>
       <pubDate>Tue, 02 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</guid>
+      <guid>http://localhost:1313/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</guid>
       <description>When testing a SharePoint web part on the SPFx workbench, analyzing network traffic using your web browser’s developer tools can get pretty overwhelming; there are so many telemetry calls every few seconds that it becomes impossible to figure out what calls are real API calls, and which ones are telemetry calls.</description>
     </item>
     <item>
       <title>Sorting SharePoint List Items Using a Custom Sort</title>
-      <link>https://tahoeninja.blog/posts/sorting-sharepoint-list-items-using-a-custom-sort/</link>
+      <link>http://localhost:1313/posts/sorting-sharepoint-list-items-using-a-custom-sort/</link>
       <pubDate>Fri, 21 Jun 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sorting-sharepoint-list-items-using-a-custom-sort/</guid>
+      <guid>http://localhost:1313/posts/sorting-sharepoint-list-items-using-a-custom-sort/</guid>
       <description>Sometimes, you need to create a view in a SharePoint list where the items are sorted using a custom sort order. For example, if you had a list of items that needs to be sorted by Rating where the possible choices are High, Medium, and Low, your list items would appear in the following order: High, Low, and Medium because SharePoint will want to sort your Rating values alphabetically.</description>
     </item>
     <item>
       <title>MORE UPDATES: Inject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions</title>
-      <link>https://tahoeninja.blog/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</link>
+      <link>http://localhost:1313/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</link>
       <pubDate>Fri, 03 May 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</guid>
+      <guid>http://localhost:1313/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</guid>
       <description>A while ago, I wrote an SPFx Application Customizer that allows you to insert custom CSS on your SharePoint modern pages and posted about it. The solution is now a sample in the SharePoint SharePoi…</description>
     </item>
     <item>
       <title>Setting the default timezone for SharePoint Online</title>
-      <link>https://tahoeninja.blog/posts/setting-the-default-timezone-for-sharepoint-online/</link>
+      <link>http://localhost:1313/posts/setting-the-default-timezone-for-sharepoint-online/</link>
       <pubDate>Thu, 25 Apr 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/setting-the-default-timezone-for-sharepoint-online/</guid>
+      <guid>http://localhost:1313/posts/setting-the-default-timezone-for-sharepoint-online/</guid>
       <description>Every once in a while, I write a blog post as a note to myself about something that I couldn’t find easily with the hope that next time I (or someone else in need) look for it, it’ll be easy to find. This is the case with this one.</description>
     </item>
     <item>
       <title>Why I ♥ the Office 365 Dev Community</title>
-      <link>https://tahoeninja.blog/posts/why-i-heart-officedevpnp/</link>
+      <link>http://localhost:1313/posts/why-i-heart-officedevpnp/</link>
       <pubDate>Thu, 25 Apr 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/why-i-heart-officedevpnp/</guid>
+      <guid>http://localhost:1313/posts/why-i-heart-officedevpnp/</guid>
       <description>This blog post explains why I think the Office 365 Dev Community is awesome and why you should consider becoming part of it.</description>
     </item>
     <item>
       <title>The Mysterious Case of the Checked-Out spcommon[1].png</title>
-      <link>https://tahoeninja.blog/posts/the-mysterious-case-of-the-checked-out-spcommon1-png/</link>
+      <link>http://localhost:1313/posts/the-mysterious-case-of-the-checked-out-spcommon1-png/</link>
       <pubDate>Wed, 24 Apr 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/the-mysterious-case-of-the-checked-out-spcommon1-png/</guid>
+      <guid>http://localhost:1313/posts/the-mysterious-case-of-the-checked-out-spcommon1-png/</guid>
       <description>When migrating from SharePoint on-premises to SharePoint Online/Office 365, you may find that some users have a checked-out file called spcommon[1].png. If you ask users about it, they’ll have no idea what you’re talking about.</description>
     </item>
     <item>
       <title>Converting SPFx Web Part from JavaScript to React</title>
-      <link>https://tahoeninja.blog/posts/converting-spfx-from-javascript-to-react/</link>
+      <link>http://localhost:1313/posts/converting-spfx-from-javascript-to-react/</link>
       <pubDate>Fri, 19 Apr 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/converting-spfx-from-javascript-to-react/</guid>
+      <guid>http://localhost:1313/posts/converting-spfx-from-javascript-to-react/</guid>
       <description>This article is written as if you’re following along and converting the application yourself. Feel free to skip to the end to get the code and compare Eric’s JavaScript-only SPFx web part with my React version of the same web part.</description>
     </item>
     <item>
       <title>File Picker: Creating a Custom Component for SPFx Web Parts</title>
-      <link>https://tahoeninja.blog/posts/file-picker-creating-a-custom-component-for-spfx-web-parts/</link>
+      <link>http://localhost:1313/posts/file-picker-creating-a-custom-component-for-spfx-web-parts/</link>
       <pubDate>Thu, 11 Apr 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/file-picker-creating-a-custom-component-for-spfx-web-parts/</guid>
+      <guid>http://localhost:1313/posts/file-picker-creating-a-custom-component-for-spfx-web-parts/</guid>
       <description>This article will describe some of the techniques and approaches I used to reverse engineer the out-of-the-box File Picker to create my own.</description>
     </item>
     <item>
       <title>Compilation of SharePoint to Office 365 Migration Best Practices</title>
-      <link>https://tahoeninja.blog/posts/compilation-of-sharepoint-to-office-365-migration-best-practices/</link>
+      <link>http://localhost:1313/posts/compilation-of-sharepoint-to-office-365-migration-best-practices/</link>
       <pubDate>Fri, 05 Apr 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/compilation-of-sharepoint-to-office-365-migration-best-practices/</guid>
+      <guid>http://localhost:1313/posts/compilation-of-sharepoint-to-office-365-migration-best-practices/</guid>
       <description>This article is a compilation of the best &amp;ldquo;best practices&amp;rdquo; articles I could find. I have included the list of articles at the end.</description>
     </item>
     <item>
       <title>Multi-Cursor Editing in Visual Studio Code</title>
-      <link>https://tahoeninja.blog/posts/multi-cursor-editing-in-visual-studio-code/</link>
+      <link>http://localhost:1313/posts/multi-cursor-editing-in-visual-studio-code/</link>
       <pubDate>Sat, 30 Mar 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/multi-cursor-editing-in-visual-studio-code/</guid>
+      <guid>http://localhost:1313/posts/multi-cursor-editing-in-visual-studio-code/</guid>
       <description>This article will demonstrate how to use multi-cursor editing. I don’t think it is particularly earth-shattering, but I do hope that someone else will learn ways to save some keystrokes.</description>
     </item>
     <item>
       <title>Information Architecture in SharePoint: 3 Ways We Find Content</title>
-      <link>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-3-ways-we-find-content/</link>
+      <link>http://localhost:1313/posts/information-architecture-in-sharepoint-3-ways-we-find-content/</link>
       <pubDate>Sat, 23 Mar 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-3-ways-we-find-content/</guid>
+      <guid>http://localhost:1313/posts/information-architecture-in-sharepoint-3-ways-we-find-content/</guid>
       <description>If you’ve ever tried to Google something when you don’t have the right keywords, you know how hard it is to find information.</description>
     </item>
     <item>
       <title>The Reason I Consult: The Inner Voice of a 40-Something-Year Old with Autism</title>
-      <link>https://tahoeninja.blog/posts/the-reason-i-consult-the-inner-voice-of-a-40-something-year-old-with-autism/</link>
+      <link>http://localhost:1313/posts/the-reason-i-consult-the-inner-voice-of-a-40-something-year-old-with-autism/</link>
       <pubDate>Thu, 21 Mar 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/the-reason-i-consult-the-inner-voice-of-a-40-something-year-old-with-autism/</guid>
+      <guid>http://localhost:1313/posts/the-reason-i-consult-the-inner-voice-of-a-40-something-year-old-with-autism/</guid>
       <description>Being autistic does not mean being condemned to never achieve anything in life. It comes with its own set of challenges, neither better nor worse than any person — neuro-typical or not.</description>
     </item>
     <item>
       <title>Surefire ways to fail a SharePoint migration to Office 365</title>
-      <link>https://tahoeninja.blog/posts/surefire-ways-to-fail-a-sharepoint-migration-to-office-365/</link>
+      <link>http://localhost:1313/posts/surefire-ways-to-fail-a-sharepoint-migration-to-office-365/</link>
       <pubDate>Mon, 18 Mar 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/surefire-ways-to-fail-a-sharepoint-migration-to-office-365/</guid>
+      <guid>http://localhost:1313/posts/surefire-ways-to-fail-a-sharepoint-migration-to-office-365/</guid>
       <description>This article will give you pro tips to guarantee your migration from SharePoint to Office 365 will fail.</description>
     </item>
     <item>
       <title>The Cone of Uncertainty</title>
-      <link>https://tahoeninja.blog/posts/the-cone-of-uncertainty/</link>
+      <link>http://localhost:1313/posts/the-cone-of-uncertainty/</link>
       <pubDate>Mon, 18 Mar 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/the-cone-of-uncertainty/</guid>
+      <guid>http://localhost:1313/posts/the-cone-of-uncertainty/</guid>
       <description>In software projects, we have a tendency to repeat the same mistakes over and over again.</description>
     </item>
     <item>
       <title>Setting Fira Code as your default Visual Studio Code font</title>
-      <link>https://tahoeninja.blog/posts/setting-fira-code-as-your-default-visual-studio-code-font/</link>
+      <link>http://localhost:1313/posts/setting-fira-code-as-your-default-visual-studio-code-font/</link>
       <pubDate>Sat, 16 Mar 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/setting-fira-code-as-your-default-visual-studio-code-font/</guid>
+      <guid>http://localhost:1313/posts/setting-fira-code-as-your-default-visual-studio-code-font/</guid>
       <description>I recently published the list of developer tools that I use as a SharePoint Framework developer. The list was inspired from Scott Hanselman’s own list — he deserves all the credit for the idea.</description>
     </item>
     <item>
       <title>Information Architecture in SharePoint: The Logical Dimension</title>
-      <link>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-the-logical-dimension/</link>
+      <link>http://localhost:1313/posts/information-architecture-in-sharepoint-the-logical-dimension/</link>
       <pubDate>Fri, 22 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-the-logical-dimension/</guid>
+      <guid>http://localhost:1313/posts/information-architecture-in-sharepoint-the-logical-dimension/</guid>
       <description>In this article, we’ll discuss the logical dimension of IA.</description>
     </item>
     <item>
       <title>Information Architecture in SharePoint: The Logical Dimension</title>
-      <link>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-the-metadata-dimension/</link>
+      <link>http://localhost:1313/posts/information-architecture-in-sharepoint-the-metadata-dimension/</link>
       <pubDate>Fri, 22 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-the-metadata-dimension/</guid>
+      <guid>http://localhost:1313/posts/information-architecture-in-sharepoint-the-metadata-dimension/</guid>
       <description>In the last article, we looked at the logical IA. While the physical IA caters to your authors, the logical IA should cater to your readers. But there is one more dimension to consider: the metadata dimension.</description>
     </item>
     <item>
       <title>Open Source Contributors are People Too!</title>
-      <link>https://tahoeninja.blog/posts/open-source-contributors-are-people-too/</link>
+      <link>http://localhost:1313/posts/open-source-contributors-are-people-too/</link>
       <pubDate>Thu, 21 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/open-source-contributors-are-people-too/</guid>
+      <guid>http://localhost:1313/posts/open-source-contributors-are-people-too/</guid>
       <description>Microsoft is changing from the company everyone (but me) loves to hate, and it is becoming cool. Well, cooler.</description>
     </item>
     <item>
       <title>Information Architecture in SharePoint: Data, Information, Knowledge</title>
-      <link>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-one-size-does-not-fit-all/</link>
+      <link>http://localhost:1313/posts/information-architecture-in-sharepoint-one-size-does-not-fit-all/</link>
       <pubDate>Mon, 18 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-one-size-does-not-fit-all/</guid>
+      <guid>http://localhost:1313/posts/information-architecture-in-sharepoint-one-size-does-not-fit-all/</guid>
       <description>In this article, I’ll discuss how to avoid the &amp;ldquo;One size fits all&amp;rdquo; approach for IA, and how it should constantly evolve.</description>
     </item>
     <item>
       <title>Effective SharePoint news posts your employees will read</title>
-      <link>https://tahoeninja.blog/posts/effective-sharepoint-news-posts-that-employees-will-read/</link>
+      <link>http://localhost:1313/posts/effective-sharepoint-news-posts-that-employees-will-read/</link>
       <pubDate>Fri, 15 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/effective-sharepoint-news-posts-that-employees-will-read/</guid>
+      <guid>http://localhost:1313/posts/effective-sharepoint-news-posts-that-employees-will-read/</guid>
       <description>In this article, we’ll discuss how to create news that will make your employees pay attention to.</description>
     </item>
     <item>
       <title>Information Architecture in SharePoint: 3 Dimensions of IA</title>
-      <link>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-3-dimensions-of-ia/</link>
+      <link>http://localhost:1313/posts/information-architecture-in-sharepoint-3-dimensions-of-ia/</link>
       <pubDate>Fri, 15 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-3-dimensions-of-ia/</guid>
+      <guid>http://localhost:1313/posts/information-architecture-in-sharepoint-3-dimensions-of-ia/</guid>
       <description>In my previous post on Information Architecture (IA), I explained how using your organization’s Org Chart leads to bad IA. Unfortunately, creating an IA that caters to every user in your organization, then trying to fit it all in a single navigation structure would be difficult to achieve.</description>
     </item>
     <item>
       <title>Information Architecture in SharePoint: Data, Information, Knowledge</title>
-      <link>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-data-information-knowledgei/</link>
+      <link>http://localhost:1313/posts/information-architecture-in-sharepoint-data-information-knowledgei/</link>
       <pubDate>Fri, 15 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-data-information-knowledgei/</guid>
+      <guid>http://localhost:1313/posts/information-architecture-in-sharepoint-data-information-knowledgei/</guid>
       <description>This is the first in a series of articles discussing various aspects of Information Architecture within SharePoint.</description>
     </item>
     <item>
       <title>Dynamic default properties in SPFx web parts</title>
-      <link>https://tahoeninja.blog/posts/dynamic-default-properties-in-spfx-web-parts/</link>
+      <link>http://localhost:1313/posts/dynamic-default-properties-in-spfx-web-parts/</link>
       <pubDate>Wed, 13 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/dynamic-default-properties-in-spfx-web-parts/</guid>
+      <guid>http://localhost:1313/posts/dynamic-default-properties-in-spfx-web-parts/</guid>
       <description>SharePoint client-side web parts (SPFx) allow you to define custom properties that your users can use to customize your web parts</description>
     </item>
     <item>
       <title>Getting around CORS issues in SPFx with SPHttpClient</title>
-      <link>https://tahoeninja.blog/posts/getting-around-cors-issues-in-spfx-with-sphttpclient/</link>
+      <link>http://localhost:1313/posts/getting-around-cors-issues-in-spfx-with-sphttpclient/</link>
       <pubDate>Tue, 05 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/getting-around-cors-issues-in-spfx-with-sphttpclient/</guid>
+      <guid>http://localhost:1313/posts/getting-around-cors-issues-in-spfx-with-sphttpclient/</guid>
       <description>This article will explain what CORS is, and how to avoid issues with CORS when making HTTP requests to an external resource.</description>
     </item>
     <item>
       <title>Dynamically Assign Multiple CSS Class Names in SPFx — The Easy Way</title>
-      <link>https://tahoeninja.blog/posts/dynamically-assign-multiple-css-class-names-in-spfx-the-easy-way/</link>
+      <link>http://localhost:1313/posts/dynamically-assign-multiple-css-class-names-in-spfx-the-easy-way/</link>
       <pubDate>Mon, 21 Jan 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/dynamically-assign-multiple-css-class-names-in-spfx-the-easy-way/</guid>
+      <guid>http://localhost:1313/posts/dynamically-assign-multiple-css-class-names-in-spfx-the-easy-way/</guid>
       <description>If you write SPFx web parts or extensions using React, you may have had to assign more than one or more CSS classes to the same element.</description>
     </item>
     <item>
       <title>Change default project folder in Visual Studio 2017 to a OneDrive folder</title>
-      <link>https://tahoeninja.blog/posts/change-default-project-folder-in-visual-studio-2017-to-a-onedrive-folder/</link>
+      <link>http://localhost:1313/posts/change-default-project-folder-in-visual-studio-2017-to-a-onedrive-folder/</link>
       <pubDate>Sat, 17 Nov 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/change-default-project-folder-in-visual-studio-2017-to-a-onedrive-folder/</guid>
+      <guid>http://localhost:1313/posts/change-default-project-folder-in-visual-studio-2017-to-a-onedrive-folder/</guid>
       <description>This article will show you how you too can install and configure this command line interface.</description>
     </item>
     <item>
       <title>UPDATE: Inject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions</title>
-      <link>https://tahoeninja.blog/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</link>
+      <link>http://localhost:1313/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</link>
       <pubDate>Mon, 29 Oct 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</guid>
+      <guid>http://localhost:1313/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</guid>
       <description>A while ago, I wrote an article describing how you can inject a custom CSS stylesheet on SharePoint modern pages using an SPFx application extension. The code sample is now part of the SharePoint SP-Dev-Fx-Extensions repository on GitHub. Since the article, I have been getting tons of e-mails asking all sorts of questions about the solution. Since SPFx 1.6 was released, I took the opportunity to upgrade the solution to the latest and greatest version of the toolset. You can find the latest code on GitHub, or download the latest SharePoint package. In this post, I’ll (hopefully) answer some questions about how to use it.</description>
     </item>
     <item>
       <title>Upgrade your SPFx solution to SharePoint Framework Package v1.5</title>
-      <link>https://tahoeninja.blog/posts/upgrade-your-spfx-solution-to-sharepoint-framework-package-v1-5/</link>
+      <link>http://localhost:1313/posts/upgrade-your-spfx-solution-to-sharepoint-framework-package-v1-5/</link>
       <pubDate>Tue, 12 Jun 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/upgrade-your-spfx-solution-to-sharepoint-framework-package-v1-5/</guid>
+      <guid>http://localhost:1313/posts/upgrade-your-spfx-solution-to-sharepoint-framework-package-v1-5/</guid>
       <description>This article explain a (mostly) pain-free to upgrade your SPFx solution. Waldek explains this process in details, but this is a summary of how to do it.</description>
     </item>
     <item>
       <title>Creating a calendar feed web part – Part II</title>
-      <link>https://tahoeninja.blog/posts/creating-a-calendar-feed-web-part-part-ii/</link>
+      <link>http://localhost:1313/posts/creating-a-calendar-feed-web-part-part-ii/</link>
       <pubDate>Tue, 05 Jun 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/creating-a-calendar-feed-web-part-part-ii/</guid>
+      <guid>http://localhost:1313/posts/creating-a-calendar-feed-web-part-part-ii/</guid>
       <description>In this article, we’ll: create a web part solution, add a mock service to return test events, and we’ll display a simple list of events</description>
     </item>
     <item>
       <title>Changing your command prompt to display node module and Git information like the SharePoint Conference presenters</title>
-      <link>https://tahoeninja.blog/posts/changing-your-command-prompt-to-display-node-module-and-git-information-like-the-sharepoint-conference-presenters/</link>
+      <link>http://localhost:1313/posts/changing-your-command-prompt-to-display-node-module-and-git-information-like-the-sharepoint-conference-presenters/</link>
       <pubDate>Sun, 27 May 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/changing-your-command-prompt-to-display-node-module-and-git-information-like-the-sharepoint-conference-presenters/</guid>
+      <guid>http://localhost:1313/posts/changing-your-command-prompt-to-display-node-module-and-git-information-like-the-sharepoint-conference-presenters/</guid>
       <description>This article will show you how you too can install and configure this command line interface.</description>
     </item>
     <item>
       <title>Creating a calendar feed web part – Part I</title>
-      <link>https://tahoeninja.blog/posts/creating-a-calendar-feed-web-part/</link>
+      <link>http://localhost:1313/posts/creating-a-calendar-feed-web-part/</link>
       <pubDate>Fri, 18 May 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/creating-a-calendar-feed-web-part/</guid>
+      <guid>http://localhost:1313/posts/creating-a-calendar-feed-web-part/</guid>
       <description>So, I thought: why not try re-creating the out-of-the-box SharePoint events web part, but instead of reading events from a SharePoint list (or group calendar), it would read from WordPress?</description>
     </item>
     <item>
       <title>Inject Custom CSS on SharePoint Modern Pages using SPFx Extensions</title>
-      <link>https://tahoeninja.blog/posts/inject-custom-css-on-sharepoint-modern-pages-using-spfx-extensions/</link>
+      <link>http://localhost:1313/posts/inject-custom-css-on-sharepoint-modern-pages-using-spfx-extensions/</link>
       <pubDate>Tue, 08 May 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/inject-custom-css-on-sharepoint-modern-pages-using-spfx-extensions/</guid>
+      <guid>http://localhost:1313/posts/inject-custom-css-on-sharepoint-modern-pages-using-spfx-extensions/</guid>
       <description>If you need to customize the look and feel of modern pages, you can use custom tenant branding, custom site designs, and modern site themes without incurring the wrath of the SharePoint gods.</description>
     </item>
     <item>
       <title>Displaying site information security classification on every page using a custom SPFx extensions — Part I</title>
-      <link>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions/</link>
+      <link>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions/</link>
       <pubDate>Sat, 21 Apr 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions/</guid>
+      <guid>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions/</guid>
       <description>That’s what I hope to do with this series of blog articles: demonstrate easy ways to introduce some level of governance using new enabling technologies — like SPFx web parts, extensions, and site scripts.</description>
     </item>
     <item>
       <title>Displaying site information security classification on every page using a custom SPFx extensions — Part II</title>
-      <link>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-ii/</link>
+      <link>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-ii/</link>
       <pubDate>Sat, 21 Apr 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-ii/</guid>
+      <guid>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-ii/</guid>
       <description>In part 1 of this article, I introduced the concept for an SPFx extension that adds a header to every page, showing the classification information for a site. We’ll actually do the coding in this article!</description>
     </item>
     <item>
       <title>Displaying site information security classification on every page using a custom SPFx extensions — Part III</title>
-      <link>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iii/</link>
+      <link>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iii/</link>
       <pubDate>Sat, 21 Apr 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iii/</guid>
+      <guid>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iii/</guid>
       <description>In this article, we’ll discuss how we use property bags to store the security classification.</description>
     </item>
     <item>
       <title>Displaying site information security classification on every page using a custom SPFx extensions — Part IV</title>
-      <link>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iv/</link>
+      <link>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iv/</link>
       <pubDate>Sat, 21 Apr 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iv/</guid>
+      <guid>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iv/</guid>
       <description>In this part, we will finally get to add code to our extension that reads the property bag of the current site and displays the appropriate site classification label.</description>
     </item>
     <item>
       <title>Displaying site information security classification on every page using a custom SPFx extensions — Part V</title>
-      <link>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-v/</link>
+      <link>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-v/</link>
       <pubDate>Sat, 21 Apr 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-v/</guid>
+      <guid>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-v/</guid>
       <description>In this part, we will clean up a few things, package and deploy the extension.</description>
     </item>
     <item>
       <title>Automatically deploy SPFx extension to multiple sites using PowerShell</title>
-      <link>https://tahoeninja.blog/posts/automatically-deploy-spfx-extension-to-multiple-sites-using-powershell/</link>
+      <link>http://localhost:1313/posts/automatically-deploy-spfx-extension-to-multiple-sites-using-powershell/</link>
       <pubDate>Wed, 18 Apr 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/automatically-deploy-spfx-extension-to-multiple-sites-using-powershell/</guid>
+      <guid>http://localhost:1313/posts/automatically-deploy-spfx-extension-to-multiple-sites-using-powershell/</guid>
       <description>In this article, I’ll share a PowerShell script I use to deploy to many sites at once.</description>
     </item>
     <item>
       <title>SPFx, Semantic versioning, and CHANGELOG.md</title>
-      <link>https://tahoeninja.blog/posts/spfx-semantic-versioning-and-changelog-md/</link>
+      <link>http://localhost:1313/posts/spfx-semantic-versioning-and-changelog-md/</link>
       <pubDate>Mon, 16 Apr 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/spfx-semantic-versioning-and-changelog-md/</guid>
+      <guid>http://localhost:1313/posts/spfx-semantic-versioning-and-changelog-md/</guid>
       <description>This article is a great example of that mentality. I’m really standing on the shoulder of giants and combining a few links and re-using someone else’s code (with credit, &lt;em&gt;of course&lt;/em&gt;) to document what my approach to versioning SPFx packages is, with the hope that it helps someone else.</description>
     </item>
     <item>
       <title>Creating SPFx web part property panes with an Apply button</title>
-      <link>https://tahoeninja.blog/posts/creating-spfx-web-part-property-panes-with-an-apply-button/</link>
+      <link>http://localhost:1313/posts/creating-spfx-web-part-property-panes-with-an-apply-button/</link>
       <pubDate>Mon, 09 Apr 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/creating-spfx-web-part-property-panes-with-an-apply-button/</guid>
+      <guid>http://localhost:1313/posts/creating-spfx-web-part-property-panes-with-an-apply-button/</guid>
       <description>When you create an SPFx web part, the default Property Pane automatically submits changes to the web part. There is no “Apply” button. But sometimes you don’t want changes to the property pane fields to automatically apply. All you have to do is to add this method in your web part class&amp;hellip;</description>
     </item>
     <item>
       <title>Getting to know SharePoint Hub sites</title>
-      <link>https://tahoeninja.blog/posts/getting-to-know-sharepoint-hub-sites/</link>
+      <link>http://localhost:1313/posts/getting-to-know-sharepoint-hub-sites/</link>
       <pubDate>Thu, 29 Mar 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/getting-to-know-sharepoint-hub-sites/</guid>
+      <guid>http://localhost:1313/posts/getting-to-know-sharepoint-hub-sites/</guid>
       <description>Unless you’re a SharePoint geek like me, you may not have been eagerly waiting for this new feature announced at Ignite 2017 in Orlando. Hub sites are a special site template that allows you to logically group team sites and communication sites under another site, with a shared navigation, theme, and logo.</description>
     </item>
     <item>
       <title>Saving files from a SharePoint document library to a local folder using CSOM</title>
-      <link>https://tahoeninja.blog/posts/saving-files-from-a-sharepoint-document-library-to-a-local-folder-using-csom/</link>
+      <link>http://localhost:1313/posts/saving-files-from-a-sharepoint-document-library-to-a-local-folder-using-csom/</link>
       <pubDate>Wed, 28 Mar 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/saving-files-from-a-sharepoint-document-library-to-a-local-folder-using-csom/</guid>
+      <guid>http://localhost:1313/posts/saving-files-from-a-sharepoint-document-library-to-a-local-folder-using-csom/</guid>
       <description>I was trying to write a little app to programmatically download files from a SharePoint instance on Office 365 to a local folder on my hard-drive/network file share — something I’ve probably done a thousand times</description>
     </item>
     <item>
       <title>Getting Windows 10 Build 10122 to install on a Surface Pro 3</title>
-      <link>https://tahoeninja.blog/posts/getting-windows-10-build-10122-to-install-on-a-surface-pro-3/</link>
+      <link>http://localhost:1313/posts/getting-windows-10-build-10122-to-install-on-a-surface-pro-3/</link>
       <pubDate>Thu, 21 May 2015 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/getting-windows-10-build-10122-to-install-on-a-surface-pro-3/</guid>
+      <guid>http://localhost:1313/posts/getting-windows-10-build-10122-to-install-on-a-surface-pro-3/</guid>
       <description></description>
     </item>
     <item>
       <title>View an Article Page in Edit Mode using Query String Parameters</title>
-      <link>https://tahoeninja.blog/posts/view-an-article-page-in-edit-mode-using-query-string-parameters/</link>
+      <link>http://localhost:1313/posts/view-an-article-page-in-edit-mode-using-query-string-parameters/</link>
       <pubDate>Mon, 04 May 2015 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/view-an-article-page-in-edit-mode-using-query-string-parameters/</guid>
+      <guid>http://localhost:1313/posts/view-an-article-page-in-edit-mode-using-query-string-parameters/</guid>
       <description>You may never need this tip, but I recently ran into an issue where my article page’s Edit Page button stopped working in SharePoint 2013 (probably something I messed up with the master page… I’ll fix it later). I Googled and Binged everywhere, but couldn’t find how to switch an article page to edit mode.</description>
     </item>
     <item>
       <title>Uploading High Resolution User Profile Pictures in Office 365</title>
-      <link>https://tahoeninja.blog/posts/uploading-high-resolution-user-profile-pictures-in-office-365/</link>
+      <link>http://localhost:1313/posts/uploading-high-resolution-user-profile-pictures-in-office-365/</link>
       <pubDate>Fri, 10 Apr 2015 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/uploading-high-resolution-user-profile-pictures-in-office-365/</guid>
+      <guid>http://localhost:1313/posts/uploading-high-resolution-user-profile-pictures-in-office-365/</guid>
       <description>In Office 365, you can upload profile pictures for each user’s contact card. The contact card will appear in Outlook, SharePoint, Lync, Word, Excel, PowerPoint… well, in any Office product that displays contact cards</description>
     </item>
     <item>
       <title>Uploading High Resolution User Profile Pictures to Office 365 Using PowerShell</title>
-      <link>https://tahoeninja.blog/posts/uploading-high-resolution-user-profile-pictures-to-office-365-using-powershell/</link>
+      <link>http://localhost:1313/posts/uploading-high-resolution-user-profile-pictures-to-office-365-using-powershell/</link>
       <pubDate>Fri, 10 Apr 2015 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/uploading-high-resolution-user-profile-pictures-to-office-365-using-powershell/</guid>
+      <guid>http://localhost:1313/posts/uploading-high-resolution-user-profile-pictures-to-office-365-using-powershell/</guid>
       <description>Although you can use the web-based GUI to update profile pictures on Office 365, sometimes you need to upload many pictures at once.</description>
     </item>
     <item>
       <title>Uploading User Profile Pictures using the Web-Based GUI</title>
-      <link>https://tahoeninja.blog/posts/uploading-user-profile-pictures-using-the-web-based-gui/</link>
+      <link>http://localhost:1313/posts/uploading-user-profile-pictures-using-the-web-based-gui/</link>
       <pubDate>Fri, 10 Apr 2015 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/uploading-user-profile-pictures-using-the-web-based-gui/</guid>
+      <guid>http://localhost:1313/posts/uploading-user-profile-pictures-using-the-web-based-gui/</guid>
       <description>In my previous article, I discuss best practices on how to choose high resolution photos to use in user profile pictures for Office 365.</description>
     </item>
     <item>
       <title>Play SketchFlow/WPF Animation Programmatically</title>
-      <link>https://tahoeninja.blog/posts/play-sketchflowwpf-animation-programmatically/</link>
+      <link>http://localhost:1313/posts/play-sketchflowwpf-animation-programmatically/</link>
       <pubDate>Fri, 20 Aug 2010 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/play-sketchflowwpf-animation-programmatically/</guid>
+      <guid>http://localhost:1313/posts/play-sketchflowwpf-animation-programmatically/</guid>
       <description>Microsoft Expression Blend makes it easy launch animations. It is easy to launch animations with a few clicks… But sometimes, you need to launch animations from within your code – for example, to launch an animation after performing calculations. This article will show you how to play an animation from within your code.</description>
     </item>
     <item>
       <title>Customizing New, Edit, and Display List Forms using InfoPath</title>
-      <link>https://tahoeninja.blog/posts/customizing-new-edit-and-display-list-forms-using-infopath/</link>
+      <link>http://localhost:1313/posts/customizing-new-edit-and-display-list-forms-using-infopath/</link>
       <pubDate>Sat, 07 Aug 2010 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/customizing-new-edit-and-display-list-forms-using-infopath/</guid>
+      <guid>http://localhost:1313/posts/customizing-new-edit-and-display-list-forms-using-infopath/</guid>
       <description>A new feature in SharePoint 2010 is that you can customize the form that is displayed when you create a new list item by using InfoPath. That means that you can leverage the extensive capabilities of InfoPath without having to write a single line of code – and that’s a good thing, if you’re as lazy as I am and want to avoid resorting to custom code.</description>
     </item>
   </channel>

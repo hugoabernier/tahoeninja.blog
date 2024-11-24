@@ -34,6 +34,7 @@ home = "Home"
 # Meta data
 description = "Tahoe Ninja is the world's laziest developer. Autistic. ADHD. Powered by coffee."
 author = "Hugo Bernier"
+
 # google analytics
 # google_tag_manager = "G-MZXEZTBHL2" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 clarity = "ci586abdwh"
@@ -144,31 +145,36 @@ link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
 [[params.plugins.js]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+link = "https://kit.fontawesome.com/ccac3e1d62.js"
 attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
 
 
 ############################## Social Site ##########################
 [[params.social]]
-icon = "fab fa-twitter" # Fontawesome icon pack https://fontawesome.com/icons
-link = "https://twitter.com/bernierh"
-title = "Twitter"
-type = "twitter"
+icon = "fab fa-linkedin" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://www.linkedin.com/in/bernierh/"
+title = "LinkedIn"
+type = "linkedin"
+[[params.social]]
+icon = "fab fa-bluesky" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://bsky.app/profile/bernierh.bsky.social"
+title = "Bluesky"
+type = "bluesky"
 [[params.social]]
 icon = "fab fa-github" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://github.com/hugoabernier"
 title = "GitHub"
 type = "github"
 [[params.social]]
-icon = "fab fa-linkedin" # Fontawesome icon pack https://fontawesome.com/icons
-link = "https://twitter.com/bernierh"
-title = "LinkedIn"
-type = "linkedin"
-[[params.social]]
 icon = "fab fa-discord" # Fontawesome icon pack https://fontawesome.com/icons
 link = "https://discordapp.com/users/797629051799994388"
 title = "Discord"
 type = "discord"
+[[params.social]]
+icon = "fab fa-twitter" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://twitter.com/bernierh"
+title = "Twitter"
+type = "twitter"
 
 ################################### English language #####################################
 [Languages.en]
@@ -235,11 +241,6 @@ name = "Privacy"
 weight = 4
 url = "terms-conditions/"
 name = "Terms & Conditions"
-
-[Author]
-name = "Hugo Bernier"
-twitter = "bernierh"
-
 
 [params.utterances]
 repo="hugoabernier/tahoeninja.blog" # eg: greeninja/devurandom-comments

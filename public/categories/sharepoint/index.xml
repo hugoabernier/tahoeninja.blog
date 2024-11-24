@@ -2,262 +2,262 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SharePoint on Tahoe Ninja</title>
-    <link>https://tahoeninja.blog/categories/sharepoint/</link>
+    <link>http://localhost:1313/categories/sharepoint/</link>
     <description>Recent content in SharePoint on Tahoe Ninja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Dec 2019 10:07:47 +0600</lastBuildDate>
-    <atom:link href="https://tahoeninja.blog/categories/sharepoint/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/sharepoint/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Redirect your users to SharePoint Online with Smart 404</title>
-      <link>https://tahoeninja.blog/posts/move-your-users-to-sharepoint-online-with-smart404/</link>
+      <link>http://localhost:1313/posts/move-your-users-to-sharepoint-online-with-smart404/</link>
       <pubDate>Mon, 16 Dec 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/move-your-users-to-sharepoint-online-with-smart404/</guid>
+      <guid>http://localhost:1313/posts/move-your-users-to-sharepoint-online-with-smart404/</guid>
       <description>In today&amp;rsquo;s post, we unearth an old SharePoint feature from 2009 and create a more contemporary version of it to help redirect users from your old on-premises SharePoint to SharePoint online.</description>
     </item>
     <item>
       <title>August 2019 Updates to SharePoint pages and news authoring — updates for busy people</title>
-      <link>https://tahoeninja.blog/posts/august-2019-updates-to-sharepoint-pages-and-news-authoring-updates-for-busy-people/</link>
+      <link>http://localhost:1313/posts/august-2019-updates-to-sharepoint-pages-and-news-authoring-updates-for-busy-people/</link>
       <pubDate>Tue, 20 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/august-2019-updates-to-sharepoint-pages-and-news-authoring-updates-for-busy-people/</guid>
+      <guid>http://localhost:1313/posts/august-2019-updates-to-sharepoint-pages-and-news-authoring-updates-for-busy-people/</guid>
       <description>My goal is to take major SharePoint/Office 365 announcements, videos, and other relevant pieces of information which may require too much time for busy people to read and watch, and to boil it down to the essential.</description>
     </item>
     <item>
       <title>Create a Link to a Delve Profile</title>
-      <link>https://tahoeninja.blog/posts/create-a-link-to-a-delve-profile/</link>
+      <link>http://localhost:1313/posts/create-a-link-to-a-delve-profile/</link>
       <pubDate>Mon, 19 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/create-a-link-to-a-delve-profile/</guid>
+      <guid>http://localhost:1313/posts/create-a-link-to-a-delve-profile/</guid>
       <description>Sometimes, you just want to create a link to someone’s Delve profile in SharePoint Online.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Layout Patterns — Part III</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-iii/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-iii/</link>
       <pubDate>Wed, 07 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-iii/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-iii/</guid>
       <description>In today’s post, we’ll continue our discussion about the web part layout patterns and discuss the carousel layout.</description>
     </item>
     <item>
       <title>SharePoint Migration: Mind the URL Length</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-migration-mind-the-url-length/</link>
+      <link>http://localhost:1313/posts/sharepoint-migration-mind-the-url-length/</link>
       <pubDate>Fri, 02 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-migration-mind-the-url-length/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-migration-mind-the-url-length/</guid>
       <description>This article discusses the current limitation with URL lengths in SharePoint. It discusses how this limitation manifests itself, and how it can impact you during your SharePoint migration.</description>
     </item>
     <item>
       <title>Would you like to create low-fidelity SharePoint wireframes in PowerPoint?</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-wireframes-in-powerpoint/</link>
+      <link>http://localhost:1313/posts/sharepoint-wireframes-in-powerpoint/</link>
       <pubDate>Fri, 02 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-wireframes-in-powerpoint/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-wireframes-in-powerpoint/</guid>
       <description>I’m not a designer or a user experience specialist, but I’ll take the time to do paper napkin drawings, whiteboard drawings, and any other available tools to help work through how my sites are going to be structured and laid out.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Layout Patterns — Part II</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-ii/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-ii/</link>
       <pubDate>Wed, 31 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-ii/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-ii/</guid>
       <description>Today’s post is a companion to the Designing SharePoint web part page.</description>
     </item>
     <item>
       <title>Prevent SCSS from changing your CSS class names</title>
-      <link>https://tahoeninja.blog/posts/prevent-scss-from-changing-your-css-class-names/</link>
+      <link>http://localhost:1313/posts/prevent-scss-from-changing-your-css-class-names/</link>
       <pubDate>Sun, 28 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/prevent-scss-from-changing-your-css-class-names/</guid>
+      <guid>http://localhost:1313/posts/prevent-scss-from-changing-your-css-class-names/</guid>
       <description>Sometimes, when working on a SPFx project, I just want to define a CSS class in my .scss file but I don’t want the SASS pre-processor to append random strings to my class names.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Layout Patterns — Part I</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-i/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-i/</link>
       <pubDate>Sun, 28 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-i/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-i/</guid>
       <description>In today’s post, we’ll begin discussing the web part layout patterns.</description>
     </item>
     <item>
       <title>SharePoint Framework Timeline</title>
-      <link>https://tahoeninja.blog/posts/spfx-timeline/</link>
+      <link>http://localhost:1313/posts/spfx-timeline/</link>
       <pubDate>Wed, 24 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/spfx-timeline/</guid>
+      <guid>http://localhost:1313/posts/spfx-timeline/</guid>
       <description>Here is a timeline which highlights the SPFx Yeoman generator’s history since it first became available.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Property Panes — Part III</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-iii/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-iii/</link>
       <pubDate>Wed, 17 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-iii/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-iii/</guid>
       <description>Today, we’ll look at out-of-the-box web parts and we’ll discuss how to replicate some of their property panes in your own web parts.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Property Panes — Part II</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-ii/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-ii/</link>
       <pubDate>Mon, 15 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-ii/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-ii/</guid>
       <description>Today’s post continues on my previous post. It discusses various aspects of property panes that you may find useful.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Property Panes — Part I</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-1/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-1/</link>
       <pubDate>Fri, 12 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-1/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-1/</guid>
       <description>Today’s post is a companion to the Designing SharePoint web part page.</description>
     </item>
     <item>
       <title>SharePoint Framework Design Series: Web Part Titles and Descriptions</title>
-      <link>https://tahoeninja.blog/posts/sharepoint-framework-design-series-web-part-titles-and-descriptions/</link>
+      <link>http://localhost:1313/posts/sharepoint-framework-design-series-web-part-titles-and-descriptions/</link>
       <pubDate>Wed, 10 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sharepoint-framework-design-series-web-part-titles-and-descriptions/</guid>
+      <guid>http://localhost:1313/posts/sharepoint-framework-design-series-web-part-titles-and-descriptions/</guid>
       <description>Anyone who has worked with me on a SharePoint project knows that I firmly believe that a good custom web part must be indistinguishable from the out-of-the-box SharePoint web parts. They need to look and behave like they were written by whichever awesome team at Microsoft is responsible for writing those things.</description>
     </item>
     <item>
       <title>How to tell what version of the SPFx Yeoman generator is installed</title>
-      <link>https://tahoeninja.blog/posts/how-to-tell-what-version-of-the-spfx-yeoman-generator-is-installed/</link>
+      <link>http://localhost:1313/posts/how-to-tell-what-version-of-the-spfx-yeoman-generator-is-installed/</link>
       <pubDate>Tue, 09 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/how-to-tell-what-version-of-the-spfx-yeoman-generator-is-installed/</guid>
+      <guid>http://localhost:1313/posts/how-to-tell-what-version-of-the-spfx-yeoman-generator-is-installed/</guid>
       <description>Sometimes you just need to figure out what version of the SPFx Yeoman generator is installed on someone’s machine.</description>
     </item>
     <item>
       <title>Configuring scheduled Flows to skip holidays</title>
-      <link>https://tahoeninja.blog/posts/configuring-scheduled-flows-to-skip-holidays/</link>
+      <link>http://localhost:1313/posts/configuring-scheduled-flows-to-skip-holidays/</link>
       <pubDate>Sat, 06 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/configuring-scheduled-flows-to-skip-holidays/</guid>
+      <guid>http://localhost:1313/posts/configuring-scheduled-flows-to-skip-holidays/</guid>
       <description>In this post, I’ll show you how to count how many items were returned by SharePoint and how to test if any items were found.</description>
     </item>
     <item>
       <title>Introducing the SharePoint Framework Design Series</title>
-      <link>https://tahoeninja.blog/posts/introducing-the-sharepoint-framework-design-series/</link>
+      <link>http://localhost:1313/posts/introducing-the-sharepoint-framework-design-series/</link>
       <pubDate>Sat, 06 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/introducing-the-sharepoint-framework-design-series/</guid>
+      <guid>http://localhost:1313/posts/introducing-the-sharepoint-framework-design-series/</guid>
       <description>Anyone who has worked with me on a SharePoint project knows that I firmly believe that a good custom web part must be indistinguishable from the out-of-the-box SharePoint web parts. They need to look and behave like they were written by whichever awesome team at Microsoft is responsible for writing those things.</description>
     </item>
     <item>
       <title>How to count number of items returned by SharePoint GetItems action in Flow</title>
-      <link>https://tahoeninja.blog/posts/how-to-count-number-of-items-returned-by-sharepoint-getitems-action-in-flow/</link>
+      <link>http://localhost:1313/posts/how-to-count-number-of-items-returned-by-sharepoint-getitems-action-in-flow/</link>
       <pubDate>Thu, 04 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/how-to-count-number-of-items-returned-by-sharepoint-getitems-action-in-flow/</guid>
+      <guid>http://localhost:1313/posts/how-to-count-number-of-items-returned-by-sharepoint-getitems-action-in-flow/</guid>
       <description>In this post, I’ll show you how to count how many items were returned by SharePoint and how to test if any items were found.</description>
     </item>
     <item>
       <title>Using the SharePoint GetItems action in Flow</title>
-      <link>https://tahoeninja.blog/posts/using-the-sharepoint-getitems-action-in-flow/</link>
+      <link>http://localhost:1313/posts/using-the-sharepoint-getitems-action-in-flow/</link>
       <pubDate>Wed, 03 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/using-the-sharepoint-getitems-action-in-flow/</guid>
+      <guid>http://localhost:1313/posts/using-the-sharepoint-getitems-action-in-flow/</guid>
       <description>This article explains how to use the SharePoint connector and the GetItems action to retrieve items from a SharePoint list.</description>
     </item>
     <item>
       <title>Sorting SharePoint List Items Using a Custom Sort</title>
-      <link>https://tahoeninja.blog/posts/sorting-sharepoint-list-items-using-a-custom-sort/</link>
+      <link>http://localhost:1313/posts/sorting-sharepoint-list-items-using-a-custom-sort/</link>
       <pubDate>Fri, 21 Jun 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/sorting-sharepoint-list-items-using-a-custom-sort/</guid>
+      <guid>http://localhost:1313/posts/sorting-sharepoint-list-items-using-a-custom-sort/</guid>
       <description>Sometimes, you need to create a view in a SharePoint list where the items are sorted using a custom sort order. For example, if you had a list of items that needs to be sorted by Rating where the possible choices are High, Medium, and Low, your list items would appear in the following order: High, Low, and Medium because SharePoint will want to sort your Rating values alphabetically.</description>
     </item>
     <item>
       <title>The Mysterious Case of the Checked-Out spcommon[1].png</title>
-      <link>https://tahoeninja.blog/posts/the-mysterious-case-of-the-checked-out-spcommon1-png/</link>
+      <link>http://localhost:1313/posts/the-mysterious-case-of-the-checked-out-spcommon1-png/</link>
       <pubDate>Wed, 24 Apr 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/the-mysterious-case-of-the-checked-out-spcommon1-png/</guid>
+      <guid>http://localhost:1313/posts/the-mysterious-case-of-the-checked-out-spcommon1-png/</guid>
       <description>When migrating from SharePoint on-premises to SharePoint Online/Office 365, you may find that some users have a checked-out file called spcommon[1].png. If you ask users about it, they’ll have no idea what you’re talking about.</description>
     </item>
     <item>
       <title>Compilation of SharePoint to Office 365 Migration Best Practices</title>
-      <link>https://tahoeninja.blog/posts/compilation-of-sharepoint-to-office-365-migration-best-practices/</link>
+      <link>http://localhost:1313/posts/compilation-of-sharepoint-to-office-365-migration-best-practices/</link>
       <pubDate>Fri, 05 Apr 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/compilation-of-sharepoint-to-office-365-migration-best-practices/</guid>
+      <guid>http://localhost:1313/posts/compilation-of-sharepoint-to-office-365-migration-best-practices/</guid>
       <description>This article is a compilation of the best &amp;ldquo;best practices&amp;rdquo; articles I could find. I have included the list of articles at the end.</description>
     </item>
     <item>
       <title>Information Architecture in SharePoint: 3 Ways We Find Content</title>
-      <link>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-3-ways-we-find-content/</link>
+      <link>http://localhost:1313/posts/information-architecture-in-sharepoint-3-ways-we-find-content/</link>
       <pubDate>Sat, 23 Mar 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-3-ways-we-find-content/</guid>
+      <guid>http://localhost:1313/posts/information-architecture-in-sharepoint-3-ways-we-find-content/</guid>
       <description>If you’ve ever tried to Google something when you don’t have the right keywords, you know how hard it is to find information.</description>
     </item>
     <item>
       <title>Information Architecture in SharePoint: The Logical Dimension</title>
-      <link>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-the-logical-dimension/</link>
+      <link>http://localhost:1313/posts/information-architecture-in-sharepoint-the-logical-dimension/</link>
       <pubDate>Fri, 22 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-the-logical-dimension/</guid>
+      <guid>http://localhost:1313/posts/information-architecture-in-sharepoint-the-logical-dimension/</guid>
       <description>In this article, we’ll discuss the logical dimension of IA.</description>
     </item>
     <item>
       <title>Information Architecture in SharePoint: The Logical Dimension</title>
-      <link>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-the-metadata-dimension/</link>
+      <link>http://localhost:1313/posts/information-architecture-in-sharepoint-the-metadata-dimension/</link>
       <pubDate>Fri, 22 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-the-metadata-dimension/</guid>
+      <guid>http://localhost:1313/posts/information-architecture-in-sharepoint-the-metadata-dimension/</guid>
       <description>In the last article, we looked at the logical IA. While the physical IA caters to your authors, the logical IA should cater to your readers. But there is one more dimension to consider: the metadata dimension.</description>
     </item>
     <item>
       <title>Information Architecture in SharePoint: Data, Information, Knowledge</title>
-      <link>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-one-size-does-not-fit-all/</link>
+      <link>http://localhost:1313/posts/information-architecture-in-sharepoint-one-size-does-not-fit-all/</link>
       <pubDate>Mon, 18 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-one-size-does-not-fit-all/</guid>
+      <guid>http://localhost:1313/posts/information-architecture-in-sharepoint-one-size-does-not-fit-all/</guid>
       <description>In this article, I’ll discuss how to avoid the &amp;ldquo;One size fits all&amp;rdquo; approach for IA, and how it should constantly evolve.</description>
     </item>
     <item>
       <title>Effective SharePoint news posts your employees will read</title>
-      <link>https://tahoeninja.blog/posts/effective-sharepoint-news-posts-that-employees-will-read/</link>
+      <link>http://localhost:1313/posts/effective-sharepoint-news-posts-that-employees-will-read/</link>
       <pubDate>Fri, 15 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/effective-sharepoint-news-posts-that-employees-will-read/</guid>
+      <guid>http://localhost:1313/posts/effective-sharepoint-news-posts-that-employees-will-read/</guid>
       <description>In this article, we’ll discuss how to create news that will make your employees pay attention to.</description>
     </item>
     <item>
       <title>Information Architecture in SharePoint: 3 Dimensions of IA</title>
-      <link>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-3-dimensions-of-ia/</link>
+      <link>http://localhost:1313/posts/information-architecture-in-sharepoint-3-dimensions-of-ia/</link>
       <pubDate>Fri, 15 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-3-dimensions-of-ia/</guid>
+      <guid>http://localhost:1313/posts/information-architecture-in-sharepoint-3-dimensions-of-ia/</guid>
       <description>In my previous post on Information Architecture (IA), I explained how using your organization’s Org Chart leads to bad IA. Unfortunately, creating an IA that caters to every user in your organization, then trying to fit it all in a single navigation structure would be difficult to achieve.</description>
     </item>
     <item>
       <title>Information Architecture in SharePoint: Data, Information, Knowledge</title>
-      <link>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-data-information-knowledgei/</link>
+      <link>http://localhost:1313/posts/information-architecture-in-sharepoint-data-information-knowledgei/</link>
       <pubDate>Fri, 15 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-data-information-knowledgei/</guid>
+      <guid>http://localhost:1313/posts/information-architecture-in-sharepoint-data-information-knowledgei/</guid>
       <description>This is the first in a series of articles discussing various aspects of Information Architecture within SharePoint.</description>
     </item>
     <item>
       <title>Creating a calendar feed web part – Part II</title>
-      <link>https://tahoeninja.blog/posts/creating-a-calendar-feed-web-part-part-ii/</link>
+      <link>http://localhost:1313/posts/creating-a-calendar-feed-web-part-part-ii/</link>
       <pubDate>Tue, 05 Jun 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/creating-a-calendar-feed-web-part-part-ii/</guid>
+      <guid>http://localhost:1313/posts/creating-a-calendar-feed-web-part-part-ii/</guid>
       <description>In this article, we’ll: create a web part solution, add a mock service to return test events, and we’ll display a simple list of events</description>
     </item>
     <item>
       <title>Creating a calendar feed web part – Part I</title>
-      <link>https://tahoeninja.blog/posts/creating-a-calendar-feed-web-part/</link>
+      <link>http://localhost:1313/posts/creating-a-calendar-feed-web-part/</link>
       <pubDate>Fri, 18 May 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/creating-a-calendar-feed-web-part/</guid>
+      <guid>http://localhost:1313/posts/creating-a-calendar-feed-web-part/</guid>
       <description>So, I thought: why not try re-creating the out-of-the-box SharePoint events web part, but instead of reading events from a SharePoint list (or group calendar), it would read from WordPress?</description>
     </item>
     <item>
       <title>Inject Custom CSS on SharePoint Modern Pages using SPFx Extensions</title>
-      <link>https://tahoeninja.blog/posts/inject-custom-css-on-sharepoint-modern-pages-using-spfx-extensions/</link>
+      <link>http://localhost:1313/posts/inject-custom-css-on-sharepoint-modern-pages-using-spfx-extensions/</link>
       <pubDate>Tue, 08 May 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/inject-custom-css-on-sharepoint-modern-pages-using-spfx-extensions/</guid>
+      <guid>http://localhost:1313/posts/inject-custom-css-on-sharepoint-modern-pages-using-spfx-extensions/</guid>
       <description>If you need to customize the look and feel of modern pages, you can use custom tenant branding, custom site designs, and modern site themes without incurring the wrath of the SharePoint gods.</description>
     </item>
     <item>
       <title>Creating SPFx web part property panes with an Apply button</title>
-      <link>https://tahoeninja.blog/posts/creating-spfx-web-part-property-panes-with-an-apply-button/</link>
+      <link>http://localhost:1313/posts/creating-spfx-web-part-property-panes-with-an-apply-button/</link>
       <pubDate>Mon, 09 Apr 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/creating-spfx-web-part-property-panes-with-an-apply-button/</guid>
+      <guid>http://localhost:1313/posts/creating-spfx-web-part-property-panes-with-an-apply-button/</guid>
       <description>When you create an SPFx web part, the default Property Pane automatically submits changes to the web part. There is no “Apply” button. But sometimes you don’t want changes to the property pane fields to automatically apply. All you have to do is to add this method in your web part class&amp;hellip;</description>
     </item>
     <item>
       <title>Getting to know SharePoint Hub sites</title>
-      <link>https://tahoeninja.blog/posts/getting-to-know-sharepoint-hub-sites/</link>
+      <link>http://localhost:1313/posts/getting-to-know-sharepoint-hub-sites/</link>
       <pubDate>Thu, 29 Mar 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/getting-to-know-sharepoint-hub-sites/</guid>
+      <guid>http://localhost:1313/posts/getting-to-know-sharepoint-hub-sites/</guid>
       <description>Unless you’re a SharePoint geek like me, you may not have been eagerly waiting for this new feature announced at Ignite 2017 in Orlando. Hub sites are a special site template that allows you to logically group team sites and communication sites under another site, with a shared navigation, theme, and logo.</description>
     </item>
     <item>
       <title>Saving files from a SharePoint document library to a local folder using CSOM</title>
-      <link>https://tahoeninja.blog/posts/saving-files-from-a-sharepoint-document-library-to-a-local-folder-using-csom/</link>
+      <link>http://localhost:1313/posts/saving-files-from-a-sharepoint-document-library-to-a-local-folder-using-csom/</link>
       <pubDate>Wed, 28 Mar 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/saving-files-from-a-sharepoint-document-library-to-a-local-folder-using-csom/</guid>
+      <guid>http://localhost:1313/posts/saving-files-from-a-sharepoint-document-library-to-a-local-folder-using-csom/</guid>
       <description>I was trying to write a little app to programmatically download files from a SharePoint instance on Office 365 to a local folder on my hard-drive/network file share — something I’ve probably done a thousand times</description>
     </item>
     <item>
       <title>View an Article Page in Edit Mode using Query String Parameters</title>
-      <link>https://tahoeninja.blog/posts/view-an-article-page-in-edit-mode-using-query-string-parameters/</link>
+      <link>http://localhost:1313/posts/view-an-article-page-in-edit-mode-using-query-string-parameters/</link>
       <pubDate>Mon, 04 May 2015 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/view-an-article-page-in-edit-mode-using-query-string-parameters/</guid>
+      <guid>http://localhost:1313/posts/view-an-article-page-in-edit-mode-using-query-string-parameters/</guid>
       <description>You may never need this tip, but I recently ran into an issue where my article page’s Edit Page button stopped working in SharePoint 2013 (probably something I messed up with the master page… I’ll fix it later). I Googled and Binged everywhere, but couldn’t find how to switch an article page to edit mode.</description>
     </item>
   </channel>

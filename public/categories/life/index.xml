@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life on Tahoe Ninja</title>
-    <link>https://tahoeninja.blog/categories/life/</link>
+    <link>http://localhost:1313/categories/life/</link>
     <description>Recent content in Life on Tahoe Ninja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Jun 2022 05:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tahoeninja.blog/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wait... where did all the content go?!</title>
-      <link>https://tahoeninja.blog/posts/migrating/</link>
+      <link>http://localhost:1313/posts/migrating/</link>
       <pubDate>Sun, 26 Jun 2022 05:00:00 +0000</pubDate>
-      <guid>https://tahoeninja.blog/posts/migrating/</guid>
+      <guid>http://localhost:1313/posts/migrating/</guid>
       <description>You may have noticed that most of my content is missing. Don&amp;rsquo;t worry, it is coming back&amp;hellip; Eventually.</description>
     </item>
     <item>
       <title>Leveling the playing field with accessibility</title>
-      <link>https://tahoeninja.blog/posts/leveling-the-playing-field-with-accessibility/</link>
+      <link>http://localhost:1313/posts/leveling-the-playing-field-with-accessibility/</link>
       <pubDate>Mon, 20 Jan 2020 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/leveling-the-playing-field-with-accessibility/</guid>
+      <guid>http://localhost:1313/posts/leveling-the-playing-field-with-accessibility/</guid>
       <description>Find out how the Xbox Adaptive Controller gives everyone the opportunity to be anyone they want to be online</description>
     </item>
   </channel>

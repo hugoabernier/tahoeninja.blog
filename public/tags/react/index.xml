@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React on Tahoe Ninja</title>
-    <link>https://tahoeninja.blog/tags/react/</link>
+    <link>http://localhost:1313/tags/react/</link>
     <description>Recent content in React on Tahoe Ninja</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Dec 2019 10:07:47 +0600</lastBuildDate>
-    <atom:link href="https://tahoeninja.blog/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SPFx Compatibility Matrix</title>
-      <link>https://tahoeninja.blog/posts/spfx-compatibility-matrix/</link>
+      <link>http://localhost:1313/posts/spfx-compatibility-matrix/</link>
       <pubDate>Mon, 30 Dec 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/spfx-compatibility-matrix/</guid>
+      <guid>http://localhost:1313/posts/spfx-compatibility-matrix/</guid>
       <description>Here is a handy compatibility matrix telling you which version of SharePoint and SPFx work together.</description>
     </item>
     <item>
       <title>Ultimate Developer Tool List for SPFx</title>
-      <link>https://tahoeninja.blog/posts/ultimate-developer-tool-list-for-spfx/</link>
+      <link>http://localhost:1313/posts/ultimate-developer-tool-list-for-spfx/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/ultimate-developer-tool-list-for-spfx/</guid>
+      <guid>http://localhost:1313/posts/ultimate-developer-tool-list-for-spfx/</guid>
       <description>I asked the SharePoint Developer Community what development tools they use on their workstations to develop SPFx solutions. They came through!</description>
     </item>
     <item>
       <title>Disabling Telemetry network traffic on SPFx workbench</title>
-      <link>https://tahoeninja.blog/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</link>
+      <link>http://localhost:1313/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</link>
       <pubDate>Tue, 02 Jul 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</guid>
+      <guid>http://localhost:1313/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</guid>
       <description>When testing a SharePoint web part on the SPFx workbench, analyzing network traffic using your web browser’s developer tools can get pretty overwhelming; there are so many telemetry calls every few seconds that it becomes impossible to figure out what calls are real API calls, and which ones are telemetry calls.</description>
     </item>
     <item>
       <title>MORE UPDATES: Inject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions</title>
-      <link>https://tahoeninja.blog/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</link>
+      <link>http://localhost:1313/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</link>
       <pubDate>Fri, 03 May 2019 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</guid>
+      <guid>http://localhost:1313/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</guid>
       <description>A while ago, I wrote an SPFx Application Customizer that allows you to insert custom CSS on your SharePoint modern pages and posted about it. The solution is now a sample in the SharePoint SharePoi…</description>
     </item>
     <item>
       <title>UPDATE: Inject Custom CSS on SharePoint Modern Pages using SPFx Application Extensions</title>
-      <link>https://tahoeninja.blog/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</link>
+      <link>http://localhost:1313/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</link>
       <pubDate>Mon, 29 Oct 2018 10:07:47 +0600</pubDate>
-      <guid>https://tahoeninja.blog/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</guid>
+      <guid>http://localhost:1313/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</guid>
       <description>A while ago, I wrote an article describing how you can inject a custom CSS stylesheet on SharePoint modern pages using an SPFx application extension. The code sample is now part of the SharePoint SP-Dev-Fx-Extensions repository on GitHub. Since the article, I have been getting tons of e-mails asking all sorts of questions about the solution. Since SPFx 1.6 was released, I took the opportunity to upgrade the solution to the latest and greatest version of the toolset. You can find the latest code on GitHub, or download the latest SharePoint package. In this post, I’ll (hopefully) answer some questions about how to use it.</description>
     </item>
   </channel>

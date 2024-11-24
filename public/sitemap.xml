@@ -2,319 +2,319 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-        <loc>https://tahoeninja.blog/posts/terminate-batch-quickly-in-vscode/</loc>
+        <loc>http://localhost:1313/posts/terminate-batch-quickly-in-vscode/</loc>
         <lastmod>2024-08-03T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/using-teams-toolkit-with-nvs/</loc>
+        <loc>http://localhost:1313/posts/using-teams-toolkit-with-nvs/</loc>
         <lastmod>2023-11-22T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/associate-node-version-with-spfx-solution/</loc>
+        <loc>http://localhost:1313/posts/associate-node-version-with-spfx-solution/</loc>
         <lastmod>2023-09-13T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/migrating/</loc>
+        <loc>http://localhost:1313/posts/migrating/</loc>
         <lastmod>2022-06-26T05:00:00+00:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/from-powerpoint-to-demos-easily-with-desktops/</loc>
+        <loc>http://localhost:1313/posts/from-powerpoint-to-demos-easily-with-desktops/</loc>
         <lastmod>2021-02-07T19:56:25-05:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/summarized-github-cheat-sheet-for-pnp-contributions/</loc>
+        <loc>http://localhost:1313/posts/summarized-github-cheat-sheet-for-pnp-contributions/</loc>
         <lastmod>2021-02-07T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/launching-edge-with-different-profiles-using-shortcuts/</loc>
+        <loc>http://localhost:1313/posts/launching-edge-with-different-profiles-using-shortcuts/</loc>
         <lastmod>2021-02-06T17:14:00-05:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/my-demo-checklist-for-pnp-calls/</loc>
+        <loc>http://localhost:1313/posts/my-demo-checklist-for-pnp-calls/</loc>
         <lastmod>2021-01-04T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/getting-rid-of-json-validation-errors-on-comments/</loc>
+        <loc>http://localhost:1313/posts/getting-rid-of-json-validation-errors-on-comments/</loc>
         <lastmod>2020-08-26T12:00:00+00:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/adding-custom-edge-profile-images/</loc>
+        <loc>http://localhost:1313/posts/adding-custom-edge-profile-images/</loc>
         <lastmod>2020-07-30T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/working-with-rules-in-microsoft-lists/</loc>
+        <loc>http://localhost:1313/posts/working-with-rules-in-microsoft-lists/</loc>
         <lastmod>2020-07-30T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/adding-support-for-theme-variants-in-spfx-web-parts/</loc>
+        <loc>http://localhost:1313/posts/adding-support-for-theme-variants-in-spfx-web-parts/</loc>
         <lastmod>2020-07-28T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/getting-to-know-microsoft-lists/</loc>
+        <loc>http://localhost:1313/posts/getting-to-know-microsoft-lists/</loc>
         <lastmod>2020-07-28T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/data-interception/</loc>
+        <loc>http://localhost:1313/posts/data-interception/</loc>
         <lastmod>2020-06-29T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/spfx-scss-pseudo-classes-and-stylelint/</loc>
+        <loc>http://localhost:1313/posts/spfx-scss-pseudo-classes-and-stylelint/</loc>
         <lastmod>2020-06-20T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/display-the-solution-version-in-your-web-part/</loc>
+        <loc>http://localhost:1313/posts/display-the-solution-version-in-your-web-part/</loc>
         <lastmod>2020-03-20T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/generate-word-documents-from-a-template-using-power-automate/</loc>
+        <loc>http://localhost:1313/posts/generate-word-documents-from-a-template-using-power-automate/</loc>
         <lastmod>2020-03-13T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/accessing-your-on-prem-data-using-on-prem-data-gateway/</loc>
+        <loc>http://localhost:1313/posts/accessing-your-on-prem-data-using-on-prem-data-gateway/</loc>
         <lastmod>2020-03-05T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/find-your-sharepoint-online-tenant-id/</loc>
+        <loc>http://localhost:1313/posts/find-your-sharepoint-online-tenant-id/</loc>
         <lastmod>2020-03-01T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/simplify-workflows-with-desired-paths/</loc>
+        <loc>http://localhost:1313/posts/simplify-workflows-with-desired-paths/</loc>
         <lastmod>2020-01-30T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/leveling-the-playing-field-with-accessibility/</loc>
+        <loc>http://localhost:1313/posts/leveling-the-playing-field-with-accessibility/</loc>
         <lastmod>2020-01-20T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/spfx-compatibility-matrix/</loc>
+        <loc>http://localhost:1313/posts/spfx-compatibility-matrix/</loc>
         <lastmod>2019-12-30T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/move-your-users-to-sharepoint-online-with-smart404/</loc>
+        <loc>http://localhost:1313/posts/move-your-users-to-sharepoint-online-with-smart404/</loc>
         <lastmod>2019-12-16T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/</loc>
+        <loc>http://localhost:1313/posts/working-as-multiple-office-365-users-using-user-profiles-in-edge-chromium/</loc>
         <lastmod>2019-12-12T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/sharing-is-scaring/</loc>
+        <loc>http://localhost:1313/posts/sharing-is-scaring/</loc>
         <lastmod>2019-11-25T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/ultimate-developer-tool-list-for-spfx/</loc>
+        <loc>http://localhost:1313/posts/ultimate-developer-tool-list-for-spfx/</loc>
         <lastmod>2019-10-29T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/fixing-base64-svg-icons-in-spfx/</loc>
+        <loc>http://localhost:1313/posts/fixing-base64-svg-icons-in-spfx/</loc>
         <lastmod>2019-08-31T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-iv/</loc>
+        <loc>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-iv/</loc>
         <lastmod>2019-08-31T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/popular-pnp-repositories-and-how-to-get-started/</loc>
+        <loc>http://localhost:1313/posts/popular-pnp-repositories-and-how-to-get-started/</loc>
         <lastmod>2019-08-23T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/using-flow-to-synchronize-an-ical-feed-to-a-sharepoint-event-list-part-ii/</loc>
+        <loc>http://localhost:1313/posts/using-flow-to-synchronize-an-ical-feed-to-a-sharepoint-event-list-part-ii/</loc>
         <lastmod>2019-08-22T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/using-flow-to-synchronize-an-ical-feed-to-a-sharepoint-event-list-part-i/</loc>
+        <loc>http://localhost:1313/posts/using-flow-to-synchronize-an-ical-feed-to-a-sharepoint-event-list-part-i/</loc>
         <lastmod>2019-08-21T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/august-2019-updates-to-sharepoint-pages-and-news-authoring-updates-for-busy-people/</loc>
+        <loc>http://localhost:1313/posts/august-2019-updates-to-sharepoint-pages-and-news-authoring-updates-for-busy-people/</loc>
         <lastmod>2019-08-20T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/automatically-make-your-asp-net-web-application-offline-while-deploying-using-web-deploy-in-visual-studio-2017/</loc>
+        <loc>http://localhost:1313/posts/automatically-make-your-asp-net-web-application-offline-while-deploying-using-web-deploy-in-visual-studio-2017/</loc>
         <lastmod>2019-08-20T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/create-a-link-to-a-delve-profile/</loc>
+        <loc>http://localhost:1313/posts/create-a-link-to-a-delve-profile/</loc>
         <lastmod>2019-08-19T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/my-github-cheat-sheet-for-pnp-contributions-an-interactive-cheat-sheet/</loc>
+        <loc>http://localhost:1313/posts/my-github-cheat-sheet-for-pnp-contributions-an-interactive-cheat-sheet/</loc>
         <lastmod>2019-08-18T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/take-your-first-step-and-contribute-to-m365-dev-pnp/</loc>
+        <loc>http://localhost:1313/posts/take-your-first-step-and-contribute-to-m365-dev-pnp/</loc>
         <lastmod>2019-08-15T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-iii/</loc>
+        <loc>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-iii/</loc>
         <lastmod>2019-08-07T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/sharepoint-migration-mind-the-url-length/</loc>
+        <loc>http://localhost:1313/posts/sharepoint-migration-mind-the-url-length/</loc>
         <lastmod>2019-08-02T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/sharepoint-wireframes-in-powerpoint/</loc>
+        <loc>http://localhost:1313/posts/sharepoint-wireframes-in-powerpoint/</loc>
         <lastmod>2019-08-02T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-part-ii/</loc>
+        <loc>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-part-ii/</loc>
         <lastmod>2019-07-31T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/prevent-scss-from-changing-your-css-class-names/</loc>
+        <loc>http://localhost:1313/posts/prevent-scss-from-changing-your-css-class-names/</loc>
         <lastmod>2019-07-28T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/sharepoint-framework-design-series-layout-patterns-i/</loc>
+        <loc>http://localhost:1313/posts/sharepoint-framework-design-series-layout-patterns-i/</loc>
         <lastmod>2019-07-28T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/spfx-timeline/</loc>
+        <loc>http://localhost:1313/posts/spfx-timeline/</loc>
         <lastmod>2019-07-24T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-iii/</loc>
+        <loc>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-iii/</loc>
         <lastmod>2019-07-17T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-ii/</loc>
+        <loc>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-ii/</loc>
         <lastmod>2019-07-15T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/making-an-educated-decision-when-acquiring-software-part-ii-total-cost-of-ownership/</loc>
+        <loc>http://localhost:1313/posts/making-an-educated-decision-when-acquiring-software-part-ii-total-cost-of-ownership/</loc>
         <lastmod>2019-07-13T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/sharepoint-framework-design-series-property-panes-part-1/</loc>
+        <loc>http://localhost:1313/posts/sharepoint-framework-design-series-property-panes-part-1/</loc>
         <lastmod>2019-07-12T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/making-an-educated-decision-when-acquiring-software/</loc>
+        <loc>http://localhost:1313/posts/making-an-educated-decision-when-acquiring-software/</loc>
         <lastmod>2019-07-10T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/sharepoint-framework-design-series-web-part-titles-and-descriptions/</loc>
+        <loc>http://localhost:1313/posts/sharepoint-framework-design-series-web-part-titles-and-descriptions/</loc>
         <lastmod>2019-07-10T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/how-to-tell-what-version-of-the-spfx-yeoman-generator-is-installed/</loc>
+        <loc>http://localhost:1313/posts/how-to-tell-what-version-of-the-spfx-yeoman-generator-is-installed/</loc>
         <lastmod>2019-07-09T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/configuring-scheduled-flows-to-skip-holidays/</loc>
+        <loc>http://localhost:1313/posts/configuring-scheduled-flows-to-skip-holidays/</loc>
         <lastmod>2019-07-06T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/introducing-the-sharepoint-framework-design-series/</loc>
+        <loc>http://localhost:1313/posts/introducing-the-sharepoint-framework-design-series/</loc>
         <lastmod>2019-07-06T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/how-to-count-number-of-items-returned-by-sharepoint-getitems-action-in-flow/</loc>
+        <loc>http://localhost:1313/posts/how-to-count-number-of-items-returned-by-sharepoint-getitems-action-in-flow/</loc>
         <lastmod>2019-07-04T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/using-the-sharepoint-getitems-action-in-flow/</loc>
+        <loc>http://localhost:1313/posts/using-the-sharepoint-getitems-action-in-flow/</loc>
         <lastmod>2019-07-03T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</loc>
+        <loc>http://localhost:1313/posts/disabling-telemetry-network-traffic-on-spfx-workbench/</loc>
         <lastmod>2019-07-02T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/sorting-sharepoint-list-items-using-a-custom-sort/</loc>
+        <loc>http://localhost:1313/posts/sorting-sharepoint-list-items-using-a-custom-sort/</loc>
         <lastmod>2019-06-21T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</loc>
+        <loc>http://localhost:1313/posts/more-updates-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</loc>
         <lastmod>2019-05-03T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/setting-the-default-timezone-for-sharepoint-online/</loc>
+        <loc>http://localhost:1313/posts/setting-the-default-timezone-for-sharepoint-online/</loc>
         <lastmod>2019-04-25T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/why-i-heart-officedevpnp/</loc>
+        <loc>http://localhost:1313/posts/why-i-heart-officedevpnp/</loc>
         <lastmod>2019-04-25T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/the-mysterious-case-of-the-checked-out-spcommon1-png/</loc>
+        <loc>http://localhost:1313/posts/the-mysterious-case-of-the-checked-out-spcommon1-png/</loc>
         <lastmod>2019-04-24T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/converting-spfx-from-javascript-to-react/</loc>
+        <loc>http://localhost:1313/posts/converting-spfx-from-javascript-to-react/</loc>
         <lastmod>2019-04-19T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/file-picker-creating-a-custom-component-for-spfx-web-parts/</loc>
+        <loc>http://localhost:1313/posts/file-picker-creating-a-custom-component-for-spfx-web-parts/</loc>
         <lastmod>2019-04-11T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/compilation-of-sharepoint-to-office-365-migration-best-practices/</loc>
+        <loc>http://localhost:1313/posts/compilation-of-sharepoint-to-office-365-migration-best-practices/</loc>
         <lastmod>2019-04-05T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/multi-cursor-editing-in-visual-studio-code/</loc>
+        <loc>http://localhost:1313/posts/multi-cursor-editing-in-visual-studio-code/</loc>
         <lastmod>2019-03-30T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-3-ways-we-find-content/</loc>
+        <loc>http://localhost:1313/posts/information-architecture-in-sharepoint-3-ways-we-find-content/</loc>
         <lastmod>2019-03-23T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/the-reason-i-consult-the-inner-voice-of-a-40-something-year-old-with-autism/</loc>
+        <loc>http://localhost:1313/posts/the-reason-i-consult-the-inner-voice-of-a-40-something-year-old-with-autism/</loc>
         <lastmod>2019-03-21T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/surefire-ways-to-fail-a-sharepoint-migration-to-office-365/</loc>
+        <loc>http://localhost:1313/posts/surefire-ways-to-fail-a-sharepoint-migration-to-office-365/</loc>
         <lastmod>2019-03-18T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/the-cone-of-uncertainty/</loc>
+        <loc>http://localhost:1313/posts/the-cone-of-uncertainty/</loc>
         <lastmod>2019-03-18T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/setting-fira-code-as-your-default-visual-studio-code-font/</loc>
+        <loc>http://localhost:1313/posts/setting-fira-code-as-your-default-visual-studio-code-font/</loc>
         <lastmod>2019-03-16T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-the-logical-dimension/</loc>
+        <loc>http://localhost:1313/posts/information-architecture-in-sharepoint-the-logical-dimension/</loc>
         <lastmod>2019-02-22T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-the-metadata-dimension/</loc>
+        <loc>http://localhost:1313/posts/information-architecture-in-sharepoint-the-metadata-dimension/</loc>
         <lastmod>2019-02-22T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/open-source-contributors-are-people-too/</loc>
+        <loc>http://localhost:1313/posts/open-source-contributors-are-people-too/</loc>
         <lastmod>2019-02-21T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-one-size-does-not-fit-all/</loc>
+        <loc>http://localhost:1313/posts/information-architecture-in-sharepoint-one-size-does-not-fit-all/</loc>
         <lastmod>2019-02-18T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/effective-sharepoint-news-posts-that-employees-will-read/</loc>
+        <loc>http://localhost:1313/posts/effective-sharepoint-news-posts-that-employees-will-read/</loc>
         <lastmod>2019-02-15T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-3-dimensions-of-ia/</loc>
+        <loc>http://localhost:1313/posts/information-architecture-in-sharepoint-3-dimensions-of-ia/</loc>
         <lastmod>2019-02-15T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/information-architecture-in-sharepoint-data-information-knowledgei/</loc>
+        <loc>http://localhost:1313/posts/information-architecture-in-sharepoint-data-information-knowledgei/</loc>
         <lastmod>2019-02-15T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/dynamic-default-properties-in-spfx-web-parts/</loc>
+        <loc>http://localhost:1313/posts/dynamic-default-properties-in-spfx-web-parts/</loc>
         <lastmod>2019-02-13T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/getting-around-cors-issues-in-spfx-with-sphttpclient/</loc>
+        <loc>http://localhost:1313/posts/getting-around-cors-issues-in-spfx-with-sphttpclient/</loc>
         <lastmod>2019-02-05T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/dynamically-assign-multiple-css-class-names-in-spfx-the-easy-way/</loc>
+        <loc>http://localhost:1313/posts/dynamically-assign-multiple-css-class-names-in-spfx-the-easy-way/</loc>
         <lastmod>2019-01-21T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/change-default-project-folder-in-visual-studio-2017-to-a-onedrive-folder/</loc>
+        <loc>http://localhost:1313/posts/change-default-project-folder-in-visual-studio-2017-to-a-onedrive-folder/</loc>
         <lastmod>2018-11-17T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</loc>
+        <loc>http://localhost:1313/posts/update-inject-custom-css-on-sharepoint-modern-pages-using-spfx-application-extensions/</loc>
         <lastmod>2018-10-29T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/upgrade-your-spfx-solution-to-sharepoint-framework-package-v1-5/</loc>
+        <loc>http://localhost:1313/posts/upgrade-your-spfx-solution-to-sharepoint-framework-package-v1-5/</loc>
         <lastmod>2018-06-12T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/creating-a-calendar-feed-web-part-part-ii/</loc>
+        <loc>http://localhost:1313/posts/creating-a-calendar-feed-web-part-part-ii/</loc>
         <lastmod>2018-06-05T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/changing-your-command-prompt-to-display-node-module-and-git-information-like-the-sharepoint-conference-presenters/</loc>
+        <loc>http://localhost:1313/posts/changing-your-command-prompt-to-display-node-module-and-git-information-like-the-sharepoint-conference-presenters/</loc>
         <lastmod>2018-05-27T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/creating-a-calendar-feed-web-part/</loc>
+        <loc>http://localhost:1313/posts/creating-a-calendar-feed-web-part/</loc>
         <lastmod>2018-05-18T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/inject-custom-css-on-sharepoint-modern-pages-using-spfx-extensions/</loc>
+        <loc>http://localhost:1313/posts/inject-custom-css-on-sharepoint-modern-pages-using-spfx-extensions/</loc>
         <lastmod>2018-05-08T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions/</loc>
+        <loc>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions/</loc>
         <lastmod>2018-04-21T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-ii/</loc>
+        <loc>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-ii/</loc>
         <lastmod>2018-04-21T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iii/</loc>
+        <loc>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iii/</loc>
         <lastmod>2018-04-21T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iv/</loc>
+        <loc>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-iv/</loc>
         <lastmod>2018-04-21T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-v/</loc>
+        <loc>http://localhost:1313/posts/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-v/</loc>
         <lastmod>2018-04-21T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/automatically-deploy-spfx-extension-to-multiple-sites-using-powershell/</loc>
+        <loc>http://localhost:1313/posts/automatically-deploy-spfx-extension-to-multiple-sites-using-powershell/</loc>
         <lastmod>2018-04-18T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/spfx-semantic-versioning-and-changelog-md/</loc>
+        <loc>http://localhost:1313/posts/spfx-semantic-versioning-and-changelog-md/</loc>
         <lastmod>2018-04-16T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/creating-spfx-web-part-property-panes-with-an-apply-button/</loc>
+        <loc>http://localhost:1313/posts/creating-spfx-web-part-property-panes-with-an-apply-button/</loc>
         <lastmod>2018-04-09T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/getting-to-know-sharepoint-hub-sites/</loc>
+        <loc>http://localhost:1313/posts/getting-to-know-sharepoint-hub-sites/</loc>
         <lastmod>2018-03-29T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/saving-files-from-a-sharepoint-document-library-to-a-local-folder-using-csom/</loc>
+        <loc>http://localhost:1313/posts/saving-files-from-a-sharepoint-document-library-to-a-local-folder-using-csom/</loc>
         <lastmod>2018-03-28T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/getting-windows-10-build-10122-to-install-on-a-surface-pro-3/</loc>
+        <loc>http://localhost:1313/posts/getting-windows-10-build-10122-to-install-on-a-surface-pro-3/</loc>
         <lastmod>2015-05-21T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/view-an-article-page-in-edit-mode-using-query-string-parameters/</loc>
+        <loc>http://localhost:1313/posts/view-an-article-page-in-edit-mode-using-query-string-parameters/</loc>
         <lastmod>2015-05-04T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/uploading-high-resolution-user-profile-pictures-in-office-365/</loc>
+        <loc>http://localhost:1313/posts/uploading-high-resolution-user-profile-pictures-in-office-365/</loc>
         <lastmod>2015-04-10T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/uploading-high-resolution-user-profile-pictures-to-office-365-using-powershell/</loc>
+        <loc>http://localhost:1313/posts/uploading-high-resolution-user-profile-pictures-to-office-365-using-powershell/</loc>
         <lastmod>2015-04-10T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/uploading-user-profile-pictures-using-the-web-based-gui/</loc>
+        <loc>http://localhost:1313/posts/uploading-user-profile-pictures-using-the-web-based-gui/</loc>
         <lastmod>2015-04-10T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/play-sketchflowwpf-animation-programmatically/</loc>
+        <loc>http://localhost:1313/posts/play-sketchflowwpf-animation-programmatically/</loc>
         <lastmod>2010-08-20T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/posts/customizing-new-edit-and-display-list-forms-using-infopath/</loc>
+        <loc>http://localhost:1313/posts/customizing-new-edit-and-display-list-forms-using-infopath/</loc>
         <lastmod>2010-08-07T10:07:47+06:00</lastmod>
     </url><url>
-        <loc>https://tahoeninja.blog/about/</loc>
+        <loc>http://localhost:1313/about/</loc>
     </url><url>
-        <loc>https://tahoeninja.blog/homepage/creative/</loc>
+        <loc>http://localhost:1313/homepage/creative/</loc>
     </url><url>
-        <loc>https://tahoeninja.blog/public-speaking/</loc>
+        <loc>http://localhost:1313/public-speaking/</loc>
     </url>
 </urlset>
