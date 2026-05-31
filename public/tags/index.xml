@@ -2,318 +2,318 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Tahoe Ninja</title>
-    <link>http://localhost:55982/tags/</link>
+    <link>http://localhost:53224/tags/</link>
     <description>Recent content in Tags on Tahoe Ninja</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Aug 2024 10:07:47 +0600</lastBuildDate>
-    <atom:link href="http://localhost:55982/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53224/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gulp</title>
-      <link>http://localhost:55982/tags/gulp/</link>
+      <link>http://localhost:53224/tags/gulp/</link>
       <pubDate>Sat, 03 Aug 2024 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/gulp/</guid>
+      <guid>http://localhost:53224/tags/gulp/</guid>
       <description></description>
     </item>
     <item>
       <title>Node.js</title>
-      <link>http://localhost:55982/tags/node.js/</link>
+      <link>http://localhost:53224/tags/node.js/</link>
       <pubDate>Sat, 03 Aug 2024 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/node.js/</guid>
+      <guid>http://localhost:53224/tags/node.js/</guid>
       <description></description>
     </item>
     <item>
       <title>NoteToSelf</title>
-      <link>http://localhost:55982/tags/notetoself/</link>
+      <link>http://localhost:53224/tags/notetoself/</link>
       <pubDate>Sat, 03 Aug 2024 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/notetoself/</guid>
+      <guid>http://localhost:53224/tags/notetoself/</guid>
       <description></description>
     </item>
     <item>
       <title>NPM</title>
-      <link>http://localhost:55982/tags/npm/</link>
+      <link>http://localhost:53224/tags/npm/</link>
       <pubDate>Sat, 03 Aug 2024 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/npm/</guid>
+      <guid>http://localhost:53224/tags/npm/</guid>
       <description></description>
     </item>
     <item>
       <title>VSCode</title>
-      <link>http://localhost:55982/tags/vscode/</link>
+      <link>http://localhost:53224/tags/vscode/</link>
       <pubDate>Sat, 03 Aug 2024 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/vscode/</guid>
+      <guid>http://localhost:53224/tags/vscode/</guid>
       <description></description>
     </item>
     <item>
       <title>Nvs</title>
-      <link>http://localhost:55982/tags/nvs/</link>
+      <link>http://localhost:53224/tags/nvs/</link>
       <pubDate>Wed, 22 Nov 2023 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/nvs/</guid>
+      <guid>http://localhost:53224/tags/nvs/</guid>
       <description></description>
     </item>
     <item>
       <title>TeamsToolkit</title>
-      <link>http://localhost:55982/tags/teamstoolkit/</link>
+      <link>http://localhost:53224/tags/teamstoolkit/</link>
       <pubDate>Wed, 22 Nov 2023 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/teamstoolkit/</guid>
+      <guid>http://localhost:53224/tags/teamstoolkit/</guid>
       <description></description>
     </item>
     <item>
       <title>Nvm</title>
-      <link>http://localhost:55982/tags/nvm/</link>
+      <link>http://localhost:53224/tags/nvm/</link>
       <pubDate>Wed, 13 Sep 2023 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/nvm/</guid>
+      <guid>http://localhost:53224/tags/nvm/</guid>
       <description></description>
     </item>
     <item>
       <title>GitHub</title>
-      <link>http://localhost:55982/tags/github/</link>
+      <link>http://localhost:53224/tags/github/</link>
       <pubDate>Sun, 07 Feb 2021 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/github/</guid>
+      <guid>http://localhost:53224/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>PnP</title>
-      <link>http://localhost:55982/tags/pnp/</link>
+      <link>http://localhost:53224/tags/pnp/</link>
       <pubDate>Sun, 07 Feb 2021 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/pnp/</guid>
+      <guid>http://localhost:53224/tags/pnp/</guid>
       <description></description>
     </item>
     <item>
       <title>Microsoftedge</title>
-      <link>http://localhost:55982/tags/microsoftedge/</link>
+      <link>http://localhost:53224/tags/microsoftedge/</link>
       <pubDate>Sat, 06 Feb 2021 17:14:00 -0500</pubDate>
-      <guid>http://localhost:55982/tags/microsoftedge/</guid>
+      <guid>http://localhost:53224/tags/microsoftedge/</guid>
       <description></description>
     </item>
     <item>
       <title>Streamdeck</title>
-      <link>http://localhost:55982/tags/streamdeck/</link>
+      <link>http://localhost:53224/tags/streamdeck/</link>
       <pubDate>Sat, 06 Feb 2021 17:14:00 -0500</pubDate>
-      <guid>http://localhost:55982/tags/streamdeck/</guid>
+      <guid>http://localhost:53224/tags/streamdeck/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>http://localhost:55982/tags/windows/</link>
+      <link>http://localhost:53224/tags/windows/</link>
       <pubDate>Sat, 06 Feb 2021 17:14:00 -0500</pubDate>
-      <guid>http://localhost:55982/tags/windows/</guid>
+      <guid>http://localhost:53224/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>Microsoft Edge</title>
-      <link>http://localhost:55982/tags/microsoft-edge/</link>
+      <link>http://localhost:53224/tags/microsoft-edge/</link>
       <pubDate>Thu, 30 Jul 2020 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/microsoft-edge/</guid>
+      <guid>http://localhost:53224/tags/microsoft-edge/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Interception</title>
-      <link>http://localhost:55982/tags/data-interception/</link>
+      <link>http://localhost:53224/tags/data-interception/</link>
       <pubDate>Mon, 29 Jun 2020 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/data-interception/</guid>
+      <guid>http://localhost:53224/tags/data-interception/</guid>
       <description></description>
     </item>
     <item>
       <title>Mystery Solved</title>
-      <link>http://localhost:55982/tags/mystery-solved/</link>
+      <link>http://localhost:53224/tags/mystery-solved/</link>
       <pubDate>Mon, 29 Jun 2020 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/mystery-solved/</guid>
+      <guid>http://localhost:53224/tags/mystery-solved/</guid>
       <description></description>
     </item>
     <item>
       <title>SPFx</title>
-      <link>http://localhost:55982/tags/spfx/</link>
+      <link>http://localhost:53224/tags/spfx/</link>
       <pubDate>Mon, 29 Jun 2020 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/spfx/</guid>
+      <guid>http://localhost:53224/tags/spfx/</guid>
       <description></description>
     </item>
     <item>
       <title>React</title>
-      <link>http://localhost:55982/tags/react/</link>
+      <link>http://localhost:53224/tags/react/</link>
       <pubDate>Mon, 30 Dec 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/react/</guid>
+      <guid>http://localhost:53224/tags/react/</guid>
       <description></description>
     </item>
     <item>
       <title>ICal</title>
-      <link>http://localhost:55982/tags/ical/</link>
+      <link>http://localhost:53224/tags/ical/</link>
       <pubDate>Thu, 22 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/ical/</guid>
+      <guid>http://localhost:53224/tags/ical/</guid>
       <description></description>
     </item>
     <item>
       <title>Power Automate</title>
-      <link>http://localhost:55982/tags/power-automate/</link>
+      <link>http://localhost:53224/tags/power-automate/</link>
       <pubDate>Thu, 22 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/power-automate/</guid>
+      <guid>http://localhost:53224/tags/power-automate/</guid>
       <description></description>
     </item>
     <item>
       <title>MindMap</title>
-      <link>http://localhost:55982/tags/mindmap/</link>
+      <link>http://localhost:53224/tags/mindmap/</link>
       <pubDate>Tue, 20 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/mindmap/</guid>
+      <guid>http://localhost:53224/tags/mindmap/</guid>
       <description></description>
     </item>
     <item>
       <title>Updates for Busy People</title>
-      <link>http://localhost:55982/tags/updates-for-busy-people/</link>
+      <link>http://localhost:53224/tags/updates-for-busy-people/</link>
       <pubDate>Tue, 20 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/updates-for-busy-people/</guid>
+      <guid>http://localhost:53224/tags/updates-for-busy-people/</guid>
       <description></description>
     </item>
     <item>
       <title>Visual Studio</title>
-      <link>http://localhost:55982/tags/visual-studio/</link>
+      <link>http://localhost:53224/tags/visual-studio/</link>
       <pubDate>Tue, 20 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/visual-studio/</guid>
+      <guid>http://localhost:53224/tags/visual-studio/</guid>
       <description></description>
     </item>
     <item>
       <title>Delve</title>
-      <link>http://localhost:55982/tags/delve/</link>
+      <link>http://localhost:53224/tags/delve/</link>
       <pubDate>Mon, 19 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/delve/</guid>
+      <guid>http://localhost:53224/tags/delve/</guid>
       <description></description>
     </item>
     <item>
       <title>Interactive</title>
-      <link>http://localhost:55982/tags/interactive/</link>
+      <link>http://localhost:53224/tags/interactive/</link>
       <pubDate>Mon, 19 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/interactive/</guid>
+      <guid>http://localhost:53224/tags/interactive/</guid>
       <description></description>
     </item>
     <item>
       <title>Sharing Is Caring</title>
-      <link>http://localhost:55982/tags/sharing-is-caring/</link>
+      <link>http://localhost:53224/tags/sharing-is-caring/</link>
       <pubDate>Sun, 18 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/sharing-is-caring/</guid>
+      <guid>http://localhost:53224/tags/sharing-is-caring/</guid>
       <description></description>
     </item>
     <item>
       <title>Migration</title>
-      <link>http://localhost:55982/tags/migration/</link>
+      <link>http://localhost:53224/tags/migration/</link>
       <pubDate>Fri, 02 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/migration/</guid>
+      <guid>http://localhost:53224/tags/migration/</guid>
       <description></description>
     </item>
     <item>
       <title>PowerPoint</title>
-      <link>http://localhost:55982/tags/powerpoint/</link>
+      <link>http://localhost:53224/tags/powerpoint/</link>
       <pubDate>Fri, 02 Aug 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/powerpoint/</guid>
+      <guid>http://localhost:53224/tags/powerpoint/</guid>
       <description></description>
     </item>
     <item>
       <title>SharePoint</title>
-      <link>http://localhost:55982/tags/sharepoint/</link>
+      <link>http://localhost:53224/tags/sharepoint/</link>
       <pubDate>Thu, 25 Apr 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/sharepoint/</guid>
+      <guid>http://localhost:53224/tags/sharepoint/</guid>
       <description></description>
     </item>
     <item>
       <title>Bug Investigation</title>
-      <link>http://localhost:55982/tags/bug-investigation/</link>
+      <link>http://localhost:53224/tags/bug-investigation/</link>
       <pubDate>Wed, 24 Apr 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/bug-investigation/</guid>
+      <guid>http://localhost:53224/tags/bug-investigation/</guid>
       <description></description>
     </item>
     <item>
       <title>JavaScript</title>
-      <link>http://localhost:55982/tags/javascript/</link>
+      <link>http://localhost:53224/tags/javascript/</link>
       <pubDate>Fri, 19 Apr 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/javascript/</guid>
+      <guid>http://localhost:53224/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>IA</title>
-      <link>http://localhost:55982/tags/ia/</link>
+      <link>http://localhost:53224/tags/ia/</link>
       <pubDate>Sat, 23 Mar 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/ia/</guid>
+      <guid>http://localhost:53224/tags/ia/</guid>
       <description></description>
     </item>
     <item>
       <title>Information Architecture</title>
-      <link>http://localhost:55982/tags/information-architecture/</link>
+      <link>http://localhost:53224/tags/information-architecture/</link>
       <pubDate>Sat, 23 Mar 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/information-architecture/</guid>
+      <guid>http://localhost:53224/tags/information-architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>ADHD</title>
-      <link>http://localhost:55982/tags/adhd/</link>
+      <link>http://localhost:53224/tags/adhd/</link>
       <pubDate>Thu, 21 Mar 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/adhd/</guid>
+      <guid>http://localhost:53224/tags/adhd/</guid>
       <description></description>
     </item>
     <item>
       <title>Autism</title>
-      <link>http://localhost:55982/tags/autism/</link>
+      <link>http://localhost:53224/tags/autism/</link>
       <pubDate>Thu, 21 Mar 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/autism/</guid>
+      <guid>http://localhost:53224/tags/autism/</guid>
       <description></description>
     </item>
     <item>
       <title>Software Estimate</title>
-      <link>http://localhost:55982/tags/software-estimate/</link>
+      <link>http://localhost:53224/tags/software-estimate/</link>
       <pubDate>Mon, 18 Mar 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/software-estimate/</guid>
+      <guid>http://localhost:53224/tags/software-estimate/</guid>
       <description></description>
     </item>
     <item>
       <title>Community</title>
-      <link>http://localhost:55982/tags/community/</link>
+      <link>http://localhost:53224/tags/community/</link>
       <pubDate>Thu, 21 Feb 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/community/</guid>
+      <guid>http://localhost:53224/tags/community/</guid>
       <description></description>
     </item>
     <item>
       <title>OneDrive</title>
-      <link>http://localhost:55982/tags/onedrive/</link>
+      <link>http://localhost:53224/tags/onedrive/</link>
       <pubDate>Sat, 17 Nov 2018 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/onedrive/</guid>
+      <guid>http://localhost:53224/tags/onedrive/</guid>
       <description></description>
     </item>
     <item>
       <title>Command Prompt</title>
-      <link>http://localhost:55982/tags/command-prompt/</link>
+      <link>http://localhost:53224/tags/command-prompt/</link>
       <pubDate>Sun, 27 May 2018 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/command-prompt/</guid>
+      <guid>http://localhost:53224/tags/command-prompt/</guid>
       <description></description>
     </item>
     <item>
       <title>Agile North</title>
-      <link>http://localhost:55982/tags/agile-north/</link>
+      <link>http://localhost:53224/tags/agile-north/</link>
       <pubDate>Thu, 26 Apr 2018 19:26:07 -0500</pubDate>
-      <guid>http://localhost:55982/tags/agile-north/</guid>
+      <guid>http://localhost:53224/tags/agile-north/</guid>
       <description></description>
     </item>
     <item>
       <title>Meetup</title>
-      <link>http://localhost:55982/tags/meetup/</link>
+      <link>http://localhost:53224/tags/meetup/</link>
       <pubDate>Thu, 26 Apr 2018 19:26:07 -0500</pubDate>
-      <guid>http://localhost:55982/tags/meetup/</guid>
+      <guid>http://localhost:53224/tags/meetup/</guid>
       <description></description>
     </item>
     <item>
       <title>PowerShell</title>
-      <link>http://localhost:55982/tags/powershell/</link>
+      <link>http://localhost:53224/tags/powershell/</link>
       <pubDate>Wed, 18 Apr 2018 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/powershell/</guid>
+      <guid>http://localhost:53224/tags/powershell/</guid>
       <description></description>
     </item>
     <item>
       <title>CSOM</title>
-      <link>http://localhost:55982/tags/csom/</link>
+      <link>http://localhost:53224/tags/csom/</link>
       <pubDate>Wed, 28 Mar 2018 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/csom/</guid>
+      <guid>http://localhost:53224/tags/csom/</guid>
       <description></description>
     </item>
     <item>
       <title>WPF</title>
-      <link>http://localhost:55982/tags/wpf/</link>
+      <link>http://localhost:53224/tags/wpf/</link>
       <pubDate>Fri, 20 Aug 2010 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/tags/wpf/</guid>
+      <guid>http://localhost:53224/tags/wpf/</guid>
       <description></description>
     </item>
   </channel>

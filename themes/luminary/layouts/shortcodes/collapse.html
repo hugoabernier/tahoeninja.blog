@@ -1,0 +1,4 @@
+<div class="collapse-wrapper">
+  <button class="collapse-trigger">{{ .Get "title" | default "Details" }} <span class="collapse-icon">+</span></button>
+  <div class="collapse-content">{{ .Inner | markdownify }}</div>
+</div>

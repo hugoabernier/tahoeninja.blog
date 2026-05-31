@@ -1,0 +1,11 @@
+{{ if site.Params.utterances.repo }}
+<div class="comments-wrapper">
+  <script src="https://utteranc.es/client.js"
+    repo="{{ site.Params.utterances.repo }}"
+    issue-term="title"
+    theme="{{ site.Params.utterances.theme | default "github-light" }}"
+    crossorigin="anonymous"
+    async>
+  </script>
+</div>
+{{ end }}

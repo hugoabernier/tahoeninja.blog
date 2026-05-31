@@ -1,0 +1,16 @@
+<div class="sidebar-card author-card">
+  <h3 class="widget-title">About</h3>
+  <img
+    src="/images/author/hugo.jpg"
+    alt="{{ site.Params.author | default "Hugo Bernier" }}"
+    class="author-photo"
+    width="72" height="72"
+    loading="lazy"
+  >
+  <p class="author-name">
+    {{ with site.Params.about_me }}{{ .title }}{{ else }}{{ site.Params.author | default "Hugo Bernier" }}{{ end }}
+  </p>
+  <p class="author-bio">
+    {{ with site.Params.about_me }}{{ .bio }}{{ else }}{{ site.Params.description }}{{ end }}
+  </p>
+</div>

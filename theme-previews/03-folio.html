@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Folio — Theme Preview 3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f9f6f0;
+    --surface: #ffffff;
+    --ink: #141210;
+    --ink2: #3d3830;
+    --ink3: #7a7060;
+    --ink4: #b5a898;
+    --rule: #e0d8cc;
+    --accent: #b5451b;
+    --accent2: #1b5fb5;
+    --accent-bg: #fdf0eb;
+    --col-width: 680px;
+    --code-bg: #1c1917;
+    --kw: #fda4af;
+    --fn: #86efac;
+    --str: #fde68a;
+    --ty: #93c5fd;
+    --num: #c4b5fd;
+    --cm: #78716c;
+  }
+  [data-theme="dark"] {
+    --bg: #131210;
+    --surface: #1a1816;
+    --ink: #f0ece4;
+    --ink2: #c8bfb0;
+    --ink3: #8a8070;
+    --ink4: #4a4438;
+    --rule: #2a2620;
+    --accent: #e8623a;
+    --accent2: #4a90d9;
+    --accent-bg: #2a1a12;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    transition: background 0.3s, color 0.3s;
+  }
+
+  .preview-badge {
+    position: fixed; bottom: 16px; left: 16px; z-index: 1000;
+    background: var(--accent); color: white;
+    padding: 6px 14px; border-radius: 100px;
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase; font-family: 'DM Sans', sans-serif;
+  }
+
+  /* MASTHEAD */
+  .masthead {
+    border-bottom: 3px double var(--rule);
+    background: var(--surface);
+    transition: background 0.3s, border-color 0.3s;
+  }
+  .masthead-top {
+    max-width: 1160px; margin: 0 auto;
+    padding: 12px 32px;
+    display: flex; align-items: center; justify-content: space-between;
+    border-bottom: 1px solid var(--rule);
+  }
+  .masthead-date {
+    font-size: 11px; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--ink3);
+    font-family: 'DM Sans', sans-serif;
+  }
+  .masthead-social { display: flex; gap: 14px; }
+  .masthead-social a {
+    font-size: 11px; color: var(--ink3); text-decoration: none;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    transition: color 0.2s;
+  }
+  .masthead-social a:hover { color: var(--accent); }
+  .masthead-center {
+    padding: 32px;
+    text-align: center;
+  }
+  .site-name {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(40px, 6vw, 72px);
+    font-weight: 800; letter-spacing: -0.03em;
+    color: var(--ink); line-height: 1;
+    margin-bottom: 10px;
+  }
+  .site-tagline {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    color: var(--ink3); letter-spacing: 0.01em;
+  }
+  .masthead-nav {
+    max-width: 1160px; margin: 0 auto;
+    padding: 0 32px;
+    display: flex; align-items: center; justify-content: center; gap: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .masthead-nav a {
+    display: block; padding: 12px 20px;
+    font-size: 12px; font-weight: 500; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--ink2);
+    text-decoration: none; border-right: 1px solid var(--rule);
+    transition: background 0.15s, color 0.15s;
+  }
+  .masthead-nav a:first-child { border-left: 1px solid var(--rule); }
+  .masthead-nav a:hover { background: var(--accent-bg); color: var(--accent); }
+  .masthead-nav a.active { background: var(--ink); color: var(--bg); }
+  .theme-toggle {
+    margin-left: auto; padding: 12px 16px;
+    background: transparent; border: none; border-left: 1px solid var(--rule);
+    cursor: pointer; font-size: 14px; color: var(--ink3);
+  }
+
+  /* FEATURED */
+  .featured {
+    max-width: 1160px; margin: 0 auto;
+    padding: 48px 32px;
+    display: grid; grid-template-columns: 1fr 320px;
+    gap: 48px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .featured-main {}
+  .section-label {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 10px; font-weight: 500; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--accent);
+    margin-bottom: 20px;
+  }
+  .section-label::after {
+    content: ''; flex: 1; height: 1px; background: var(--rule);
+  }
+  .featured-title {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(28px, 3.5vw, 44px);
+    font-weight: 700; line-height: 1.15;
+    color: var(--ink); margin-bottom: 16px;
+    letter-spacing: -0.02em;
+  }
+  .featured-title a { text-decoration: none; color: inherit; }
+  .featured-title a:hover { color: var(--accent); }
+  .featured-excerpt {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px; line-height: 1.7;
+    color: var(--ink2); margin-bottom: 20px;
+  }
+  .featured-byline {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 12px; color: var(--ink3);
+    border-top: 1px solid var(--rule); padding-top: 16px;
+    letter-spacing: 0.02em;
+  }
+  .byline-avatar {
+    width: 28px; height: 28px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--accent), #e08060);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px;
+  }
+  .byline-sep { color: var(--rule); }
+  .byline-tag {
+    text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--accent2); font-size: 11px; font-weight: 500;
+  }
+
+  /* SIDEBAR ARTICLES */
+  .featured-sidebar { border-left: 1px solid var(--rule); padding-left: 40px; }
+  .sidebar-art {
+    padding: 0 0 20px; margin-bottom: 20px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-art:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .sidebar-art-cat {
+    font-size: 10px; font-weight: 500; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--accent2);
+    margin-bottom: 8px;
+  }
+  .sidebar-art-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 18px; font-weight: 700; line-height: 1.3;
+    color: var(--ink); margin-bottom: 8px;
+    text-decoration: none; display: block;
+  }
+  .sidebar-art-title:hover { color: var(--accent); }
+  .sidebar-art-meta { font-size: 11px; color: var(--ink3); }
+
+  /* ARTICLE VIEW */
+  .article-wrap {
+    max-width: 1160px; margin: 0 auto;
+    padding: 48px 32px;
+    display: grid; grid-template-columns: 1fr 260px;
+    gap: 64px;
+  }
+  article {}
+  article h2 {
+    font-family: 'Syne', sans-serif;
+    font-size: 26px; font-weight: 700;
+    color: var(--ink); margin: 44px 0 16px;
+    line-height: 1.25;
+  }
+  article p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px; line-height: 1.85;
+    color: var(--ink2); margin-bottom: 22px;
+  }
+  article p:first-child { font-size: 20px; color: var(--ink); }
+  .dropcap::first-letter {
+    font-family: 'Syne', sans-serif;
+    font-size: 72px; font-weight: 800;
+    line-height: 0.75; float: left;
+    margin: 8px 8px 0 0;
+    color: var(--accent);
+  }
+
+  /* PULL QUOTE */
+  .pullquote {
+    margin: 40px -20px;
+    padding: 24px 32px;
+    border-top: 2px solid var(--ink);
+    border-bottom: 2px solid var(--ink);
+  }
+  .pullquote p {
+    font-family: 'Syne', sans-serif !important;
+    font-size: 24px !important; font-weight: 700;
+    line-height: 1.3 !important; color: var(--ink) !important;
+    text-align: center; margin: 0 !important;
+    letter-spacing: -0.02em;
+  }
+
+  /* CODE */
+  .code-block {
+    background: var(--code-bg);
+    border-radius: 4px; margin: 28px 0;
+    overflow: hidden;
+  }
+  .code-head {
+    display: flex; align-items: center;
+    padding: 10px 16px; gap: 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .code-head-file {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px; color: #a8a29e;
+    flex: 1;
+  }
+  .code-head-lang {
+    font-size: 11px; color: #57534e;
+    text-transform: uppercase; letter-spacing: 0.08em;
+  }
+  pre {
+    padding: 20px 16px; overflow-x: auto;
+    font-family: 'DM Mono', monospace;
+    font-size: 13px; line-height: 1.7;
+  }
+  .kw { color: var(--kw); }
+  .fn { color: var(--fn); }
+  .str { color: var(--str); }
+  .ty { color: var(--ty); }
+  .num { color: var(--num); }
+  .cm { color: var(--cm); font-style: italic; }
+  code:not(pre code) {
+    font-family: 'DM Mono', monospace; font-size: 0.85em;
+    background: var(--accent-bg); color: var(--accent);
+    padding: 2px 6px; border-radius: 3px;
+  }
+
+  /* ARTICLE SIDEBAR */
+  .art-sidebar {}
+  .art-sidebar-block { margin-bottom: 36px; }
+  .art-sidebar-label {
+    font-size: 10px; font-weight: 500; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--ink4);
+    margin-bottom: 14px;
+    padding-bottom: 8px; border-bottom: 1px solid var(--rule);
+  }
+  .toc-item {
+    display: flex; gap: 8px; align-items: baseline;
+    font-size: 13px; color: var(--ink3); margin-bottom: 10px;
+    text-decoration: none; transition: color 0.2s;
+  }
+  .toc-item:hover { color: var(--accent); }
+  .toc-num { font-size: 11px; color: var(--ink4); min-width: 18px; }
+  .toc-item.active { color: var(--accent); font-weight: 500; }
+  .toc-item.active .toc-num { color: var(--accent); }
+
+  footer {
+    border-top: 3px double var(--rule);
+    background: var(--surface); padding: 32px;
+    text-align: center; font-size: 12px; color: var(--ink3);
+    letter-spacing: 0.04em;
+    transition: background 0.3s;
+  }
+</style>
+</head>
+<body>
+
+<div class="preview-badge">Preview 3 — Folio</div>
+
+<header class="masthead">
+  <div class="masthead-top">
+    <span class="masthead-date">Saturday, May 31, 2025</span>
+    <div class="masthead-social">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Bluesky</a>
+      <a href="#">RSS</a>
+    </div>
+  </div>
+  <div class="masthead-center">
+    <div class="site-name">Tahoe Ninja</div>
+    <div class="site-tagline">The world's laziest developer. Autistic. ADHD. Powered by coffee.</div>
+  </div>
+  <nav class="masthead-nav">
+    <a href="#" class="active">Writing</a>
+    <a href="#">Speaking</a>
+    <a href="#">Microsoft 365</a>
+    <a href="#">SharePoint</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <button class="theme-toggle" onclick="toggleTheme()">◑</button>
+  </nav>
+</header>
+
+<section class="featured">
+  <div class="featured-main">
+    <div class="section-label">Featured</div>
+    <h2 class="featured-title">
+      <a href="#">Building a Multi-Step Form with SPFx and React Hooks</a>
+    </h2>
+    <p class="featured-excerpt">Multi-step forms are one of the most-requested UI patterns in SharePoint development. Done well, they reduce cognitive load and improve completion rates dramatically. Let's walk through a clean, type-safe implementation.</p>
+    <div class="featured-byline">
+      <div class="byline-avatar">🥷</div>
+      <span>Hugo Bernier</span>
+      <span class="byline-sep">|</span>
+      <span>May 28, 2025</span>
+      <span class="byline-sep">|</span>
+      <span class="byline-tag">SharePoint</span>
+      <span class="byline-sep">|</span>
+      <span>8 min read</span>
+    </div>
+  </div>
+  <div class="featured-sidebar">
+    <div class="sidebar-art">
+      <div class="sidebar-art-cat">Microsoft 365</div>
+      <a href="#" class="sidebar-art-title">Using PnP.js v4 with Modern SharePoint</a>
+      <div class="sidebar-art-meta">Apr 12, 2025 · 6 min</div>
+    </div>
+    <div class="sidebar-art">
+      <div class="sidebar-art-cat">React</div>
+      <a href="#" class="sidebar-art-title">React Hooks Patterns Every SPFx Developer Should Know</a>
+      <div class="sidebar-art-meta">Mar 3, 2025 · 10 min</div>
+    </div>
+    <div class="sidebar-art">
+      <div class="sidebar-art-cat">Accessibility</div>
+      <a href="#" class="sidebar-art-title">Accessible Form Design in Microsoft Teams Apps</a>
+      <div class="sidebar-art-meta">Feb 18, 2025 · 7 min</div>
+    </div>
+  </div>
+</section>
+
+<div class="article-wrap">
+  <article>
+    <div class="section-label">In Depth</div>
+    <p class="dropcap">When building enterprise SharePoint solutions, multi-step forms often feel like the right call — but the implementation details can make or break the experience for users who interact with these forms dozens of times a day.</p>
+
+    <p>The psychology is simple: presenting twenty fields at once is intimidating. Breaking them into logical groups — identity, preferences, confirmation — reduces perceived complexity and keeps users moving through the flow.</p>
+
+    <div class="pullquote">
+      <p>"The best interface is the one your users don't have to think about."</p>
+    </div>
+
+    <h2>Modeling the State</h2>
+    <p>We'll keep all form data in a single object at the top level. This makes the final submission straightforward and avoids the common pitfall of losing earlier step data when navigating between steps.</p>
+
+    <div class="code-block">
+      <div class="code-head">
+        <span class="code-head-file">MultiStepForm.tsx</span>
+        <span class="code-head-lang">TSX</span>
+      </div>
+      <pre><span class="kw">interface</span> <span class="ty">FormData</span> {
+  displayName: <span class="kw">string</span>;
+  email: <span class="kw">string</span>;
+  department: <span class="kw">string</span>;
+  notifyByEmail: <span class="kw">boolean</span>;
+  frequency: <span class="str">'daily'</span> | <span class="str">'weekly'</span> | <span class="str">'monthly'</span>;
+}
+
+<span class="kw">const</span> <span class="fn">MultiStepForm</span>: <span class="ty">React.FC</span> = () => {
+  <span class="kw">const</span> [step, setStep] = <span class="fn">useState</span>(<span class="num">0</span>);
+  <span class="kw">const</span> [data, setData] = <span class="fn">useState</span>&lt;<span class="ty">Partial</span>&lt;<span class="ty">FormData</span>&gt;&gt;({});
+
+  <span class="cm">// Generic update preserves existing keys</span>
+  <span class="kw">const</span> <span class="fn">update</span> = &lt;K <span class="kw">extends keyof</span> <span class="ty">FormData</span>&gt;(k: K, v: <span class="ty">FormData</span>[K]) =>
+    <span class="fn">setData</span>(prev => ({ ...prev, [k]: v }));
+
+  <span class="kw">return</span> (
+    &lt;<span class="ty">Wizard</span>
+      step={step}
+      onNext={() => <span class="fn">setStep</span>(s => s + <span class="num">1</span>)}
+      onBack={() => <span class="fn">setStep</span>(s => s - <span class="num">1</span>)}
+    &gt;
+      {step === <span class="num">0</span> &amp;&amp; &lt;<span class="ty">IdentityStep</span> data={data} onChange={update} /&gt;}
+      {step === <span class="num">1</span> &amp;&amp; &lt;<span class="ty">PreferencesStep</span> data={data} onChange={update} /&gt;}
+      {step === <span class="num">2</span> &amp;&amp; &lt;<span class="ty">ConfirmStep</span> data={data} /&gt;}
+    &lt;/<span class="ty">Wizard</span>&gt;
+  );
+};</pre>
+    </div>
+
+    <h2>Accessible Step Indicators</h2>
+    <p>Step indicators are often an afterthought, but they're critical for users relying on assistive technology. The ARIA spec gives us everything we need: <code>aria-current="step"</code> for the active step, and a live region to announce transitions.</p>
+  </article>
+
+  <aside class="art-sidebar">
+    <div class="art-sidebar-block">
+      <div class="art-sidebar-label">In this article</div>
+      <a href="#" class="toc-item active"><span class="toc-num">01</span>Modeling the State</a>
+      <a href="#" class="toc-item"><span class="toc-num">02</span>Accessible Step Indicators</a>
+      <a href="#" class="toc-item"><span class="toc-num">03</span>Validation Strategy</a>
+      <a href="#" class="toc-item"><span class="toc-num">04</span>The Step Container</a>
+      <a href="#" class="toc-item"><span class="toc-num">05</span>Final Submission</a>
+    </div>
+    <div class="art-sidebar-block">
+      <div class="art-sidebar-label">Filed under</div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;">
+        <a href="#" style="font-size:12px;color:var(--accent2);text-decoration:none;letter-spacing:0.04em;">SharePoint</a>
+        <a href="#" style="font-size:12px;color:var(--accent2);text-decoration:none;letter-spacing:0.04em;">React</a>
+        <a href="#" style="font-size:12px;color:var(--accent2);text-decoration:none;letter-spacing:0.04em;">TypeScript</a>
+        <a href="#" style="font-size:12px;color:var(--accent2);text-decoration:none;letter-spacing:0.04em;">SPFx</a>
+        <a href="#" style="font-size:12px;color:var(--accent2);text-decoration:none;letter-spacing:0.04em;">Accessibility</a>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <p>© 2025 Hugo Bernier &nbsp;·&nbsp; Tahoe Ninja &nbsp;·&nbsp; All Rights Reserved</p>
+</footer>
+
+<script>
+  function toggleTheme() {
+    document.documentElement.dataset.theme =
+      document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+  }
+</script>
+</body>
+</html>

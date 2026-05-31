@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luminary Grid — Theme Preview 7</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f8f7f5;
+    --surface: #ffffff;
+    --surface2: #f0ede8;
+    --text: #18170f;
+    --text-muted: #6b6860;
+    --text-soft: #b0ada6;
+    --accent: #059669;
+    --accent-mid: #047857;
+    --accent-soft: #ecfdf5;
+    --accent-border: #a7f3d0;
+    --border: #e5e2dc;
+    --code-bg: #0f1c14;
+    --kw: #86efac;
+    --fn: #67e8f9;
+    --str: #fde68a;
+    --ty: #c4b5fd;
+    --num: #fdba74;
+    --cm: #4d6b54;
+    --ct: #f87171;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.07);
+    --shadow: 0 4px 16px rgba(0,0,0,0.08);
+    --shadow-hover: 0 8px 28px rgba(0,0,0,0.12);
+  }
+  [data-theme="dark"] {
+    --bg: #0c110e;
+    --surface: #111712;
+    --surface2: #18201a;
+    --text: #e8f0ea;
+    --text-muted: #8aaa8e;
+    --text-soft: #3a4f3c;
+    --accent: #34d399;
+    --accent-mid: #10b981;
+    --accent-soft: #0a1f12;
+    --accent-border: #064e2e;
+    --border: #1e2e20;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
+    --shadow: 0 4px 16px rgba(0,0,0,0.5);
+    --shadow-hover: 0 8px 28px rgba(0,0,0,0.6);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background: var(--bg); color: var(--text);
+    font-size: 15px; line-height: 1.6;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  .preview-badge {
+    position: fixed; bottom: 16px; left: 16px; z-index: 1000;
+    background: var(--accent-mid); color: #ffffff;
+    padding: 6px 14px; border-radius: 100px;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; font-family: 'Inter', sans-serif;
+  }
+
+  /* NAV */
+  nav {
+    background: var(--surface); border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; z-index: 100;
+    transition: background 0.3s, border-color 0.3s;
+  }
+  .nav-inner {
+    max-width: 1280px; margin: 0 auto; padding: 0 32px;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 60px;
+  }
+  .site-title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 19px; font-weight: 800; letter-spacing: -0.02em;
+    color: var(--text); text-decoration: none;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .title-mark {
+    width: 28px; height: 28px; border-radius: 7px;
+    background: var(--accent); font-size: 14px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .nav-right { display: flex; align-items: center; gap: 2px; }
+  .nav-link {
+    padding: 7px 14px; border-radius: 7px;
+    font-size: 13px; font-weight: 500; color: var(--text-muted);
+    text-decoration: none; transition: background 0.15s, color 0.15s;
+  }
+  .nav-link:hover { background: var(--surface2); color: var(--text); }
+  .nav-link.active { background: var(--accent-soft); color: var(--accent-mid); }
+  .theme-btn {
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 7px; padding: 7px 12px; cursor: pointer;
+    font-size: 13px; color: var(--text-muted); margin-left: 8px;
+    transition: border-color 0.2s;
+  }
+  .theme-btn:hover { border-color: var(--accent); }
+
+  /* HERO BANNER */
+  .hero {
+    background: var(--surface); border-bottom: 1px solid var(--border);
+    padding: 56px 32px;
+    transition: background 0.3s, border-color 0.3s;
+  }
+  .hero-inner {
+    max-width: 1280px; margin: 0 auto;
+    display: grid; grid-template-columns: 1fr auto;
+    align-items: center; gap: 32px;
+  }
+  .hero-greeting {
+    font-size: 12px; font-weight: 600; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--accent);
+    margin-bottom: 12px;
+  }
+  .hero h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: clamp(28px, 4vw, 48px);
+    font-weight: 800; letter-spacing: -0.03em;
+    color: var(--text); line-height: 1.1; margin-bottom: 12px;
+  }
+  .hero-sub {
+    font-size: 16px; color: var(--text-muted); max-width: 480px;
+  }
+  .hero-stats { display: flex; gap: 28px; }
+  .stat { text-align: right; }
+  .stat-num {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 32px; font-weight: 800; letter-spacing: -0.03em;
+    color: var(--text); line-height: 1;
+  }
+  .stat-label { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+
+  /* FILTER BAR */
+  .filter-bar {
+    background: var(--surface); border-bottom: 1px solid var(--border);
+    transition: background 0.3s, border-color 0.3s;
+  }
+  .filter-inner {
+    max-width: 1280px; margin: 0 auto; padding: 0 32px;
+    display: flex; align-items: center; gap: 6px; height: 52px;
+    overflow-x: auto;
+  }
+  .filter-label { font-size: 12px; font-weight: 600; color: var(--text-soft); margin-right: 8px; white-space: nowrap; }
+  .filter-chip {
+    padding: 5px 14px; border-radius: 20px; white-space: nowrap;
+    font-size: 13px; font-weight: 500; cursor: pointer;
+    border: 1px solid var(--border); background: transparent;
+    color: var(--text-muted); transition: all 0.15s;
+    font-family: 'Inter', sans-serif;
+  }
+  .filter-chip:hover { border-color: var(--accent); color: var(--accent); }
+  .filter-chip.on { background: var(--accent-soft); border-color: var(--accent-border); color: var(--accent-mid); }
+
+  /* FEATURED POST */
+  .featured {
+    max-width: 1280px; margin: 0 auto; padding: 40px 32px 0;
+  }
+  .section-head {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 24px;
+  }
+  .section-head-label {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--text-soft);
+  }
+  .section-head-line { flex: 1; height: 1px; background: var(--border); }
+  .featured-card {
+    display: grid; grid-template-columns: 1fr 380px;
+    gap: 0; border-radius: 16px; overflow: hidden;
+    background: var(--surface); border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.25s; cursor: pointer;
+    text-decoration: none;
+  }
+  .featured-card:hover { box-shadow: var(--shadow-hover); }
+  .featured-body { padding: 36px; }
+  .featured-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+  .fc-tag {
+    padding: 3px 10px; border-radius: 5px;
+    font-size: 11px; font-weight: 600;
+    background: var(--accent-soft); color: var(--accent-mid);
+    border: 1px solid var(--accent-border);
+  }
+  .featured-body h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: clamp(22px, 2.5vw, 30px);
+    font-weight: 800; letter-spacing: -0.025em;
+    color: var(--text); line-height: 1.2; margin-bottom: 14px;
+  }
+  .featured-body p {
+    font-size: 15px; line-height: 1.75;
+    color: var(--text-muted); margin-bottom: 24px;
+  }
+  .featured-meta { display: flex; align-items: center; gap: 10px; }
+  .feat-avatar {
+    width: 34px; height: 34px; border-radius: 9px;
+    background: var(--accent); display: flex; align-items: center;
+    justify-content: center; font-size: 15px; flex-shrink: 0;
+  }
+  .feat-name { font-size: 13px; font-weight: 600; color: var(--text); }
+  .feat-date { font-size: 12px; color: var(--text-muted); }
+  .feat-read { margin-left: auto; font-size: 12px; font-weight: 600; color: var(--accent); }
+  .featured-img {
+    background: linear-gradient(145deg, #0f1c14 0%, #1a3022 40%, #0d2418 100%);
+    display: flex; align-items: center; justify-content: center;
+    padding: 32px;
+    position: relative; overflow: hidden;
+  }
+  .featured-img::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 30% 50%, rgba(52,211,153,0.15), transparent 60%);
+  }
+  .featured-code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px; color: #6ee7b7; line-height: 1.7; position: relative;
+  }
+  .fc-kw { color: #86efac; }
+  .fc-fn { color: #67e8f9; }
+  .fc-str { color: #fde68a; }
+  .fc-ty { color: #c4b5fd; }
+
+  /* POST GRID */
+  .grid-section {
+    max-width: 1280px; margin: 0 auto; padding: 40px 32px 64px;
+  }
+  .post-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .post-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; overflow: hidden;
+    text-decoration: none; display: flex; flex-direction: column;
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+  }
+  .post-card:hover {
+    box-shadow: var(--shadow-hover); border-color: var(--accent-border);
+    transform: translateY(-2px);
+  }
+  .card-img {
+    height: 140px;
+    background: linear-gradient(135deg, #0f1c14, #1a3022);
+    position: relative; overflow: hidden;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .card-img-2 { background: linear-gradient(135deg, #1c1917, #292524); }
+  .card-img-3 { background: linear-gradient(135deg, #0f172a, #1e1b4b); }
+  .card-img-4 { background: linear-gradient(135deg, #1c0a0a, #3b0c0c); }
+  .card-img-5 { background: linear-gradient(135deg, #0a1628, #1e3a5f); }
+  .card-img-6 { background: linear-gradient(135deg, #14120a, #2e2a04); }
+  .card-img-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; color: rgba(255,255,255,0.25); letter-spacing: 0.05em;
+  }
+  .card-cat {
+    position: absolute; top: 10px; left: 10px;
+    font-size: 10px; font-weight: 700; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--accent);
+    background: rgba(0,0,0,0.6); padding: 3px 8px; border-radius: 4px;
+  }
+  .card-body { padding: 20px; flex: 1; display: flex; flex-direction: column; }
+  .card-title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px; font-weight: 700; letter-spacing: -0.01em;
+    color: var(--text); line-height: 1.35; margin-bottom: 8px;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card-excerpt {
+    font-size: 13px; line-height: 1.6; color: var(--text-muted);
+    flex: 1; margin-bottom: 16px;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card-footer {
+    display: flex; align-items: center; justify-content: space-between;
+    border-top: 1px solid var(--border); padding-top: 14px; margin-top: auto;
+  }
+  .card-date { font-size: 11px; color: var(--text-soft); }
+  .card-read { font-size: 11px; font-weight: 600; color: var(--accent); }
+
+  footer {
+    background: var(--surface); border-top: 1px solid var(--border);
+    padding: 32px; text-align: center;
+    font-size: 13px; color: var(--text-muted);
+    transition: background 0.3s;
+  }
+</style>
+</head>
+<body>
+
+<div class="preview-badge">Preview 7 — Luminary Grid</div>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="site-title">
+      <span class="title-mark">🥷</span>
+      TahoeNinja
+    </a>
+    <div class="nav-right">
+      <a href="#" class="nav-link active">Writing</a>
+      <a href="#" class="nav-link">Speaking</a>
+      <a href="#" class="nav-link">About</a>
+      <a href="#" class="nav-link">Contact</a>
+      <button class="theme-btn" onclick="toggleTheme()">☀️ / 🌙</button>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-greeting">Welcome to the blog</div>
+      <h1>Writing about SharePoint,<br>React, and the web.</h1>
+      <p class="hero-sub">The world's laziest developer. Autistic. ADHD. Powered by coffee.</p>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">106+</div>
+        <div class="stat-label">Articles</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">5yr</div>
+        <div class="stat-label">Writing</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="filter-bar">
+  <div class="filter-inner">
+    <span class="filter-label">Filter:</span>
+    <button class="filter-chip on">All</button>
+    <button class="filter-chip">SharePoint</button>
+    <button class="filter-chip">React</button>
+    <button class="filter-chip">TypeScript</button>
+    <button class="filter-chip">Microsoft 365</button>
+    <button class="filter-chip">Power Platform</button>
+    <button class="filter-chip">Accessibility</button>
+    <button class="filter-chip">Teams</button>
+  </div>
+</div>
+
+<section class="featured">
+  <div class="section-head">
+    <span class="section-head-label">Featured</span>
+    <div class="section-head-line"></div>
+  </div>
+  <a href="#" class="featured-card">
+    <div class="featured-body">
+      <div class="featured-tags">
+        <span class="fc-tag">SharePoint</span>
+        <span class="fc-tag">React</span>
+        <span class="fc-tag">TypeScript</span>
+      </div>
+      <h2>Building a Multi-Step Form with SPFx and React Hooks</h2>
+      <p>Multi-step forms reduce cognitive load and improve completion rates. Here's a clean, type-safe implementation for SharePoint Framework that scales to real enterprise requirements.</p>
+      <div class="featured-meta">
+        <div class="feat-avatar">🥷</div>
+        <div>
+          <div class="feat-name">Hugo Bernier</div>
+          <div class="feat-date">May 28, 2025</div>
+        </div>
+        <span class="feat-read">8 min read →</span>
+      </div>
+    </div>
+    <div class="featured-img">
+      <div class="featured-code">
+        <span class="fc-kw">const</span> [step, setStep] =<br>
+        &nbsp;&nbsp;<span class="fc-fn">useState</span>(<span style="color:#fdba74">0</span>);<br><br>
+        <span class="fc-kw">const</span> <span class="fc-fn">update</span> =<br>
+        &nbsp;&nbsp;&lt;K <span class="fc-kw">extends keyof</span> <span class="fc-ty">FormData</span>&gt;<br>
+        &nbsp;&nbsp;(k: K, v: <span class="fc-ty">FormData</span>[K]) =><br>
+        &nbsp;&nbsp;<span class="fc-fn">setData</span>(p => ({...p, [k]: v}));
+      </div>
+    </div>
+  </a>
+</section>
+
+<section class="grid-section">
+  <div class="section-head">
+    <span class="section-head-label">Recent Posts</span>
+    <div class="section-head-line"></div>
+  </div>
+  <div class="post-grid">
+
+    <a href="#" class="post-card">
+      <div class="card-img card-img-2">
+        <span class="card-img-label">PnP.js</span>
+        <span class="card-cat">SharePoint</span>
+      </div>
+      <div class="card-body">
+        <div class="card-title">Using PnP.js v4 with Modern SharePoint</div>
+        <div class="card-excerpt">PnP.js v4 brings a cleaner, tree-shakable API. Here's how to migrate and get the most out of it.</div>
+        <div class="card-footer">
+          <span class="card-date">Apr 12, 2025</span>
+          <span class="card-read">6 min →</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="#" class="post-card">
+      <div class="card-img card-img-3">
+        <span class="card-img-label">React Hooks</span>
+        <span class="card-cat">React</span>
+      </div>
+      <div class="card-body">
+        <div class="card-title">React Hooks Patterns Every SPFx Developer Should Know</div>
+        <div class="card-excerpt">From useReducer to custom hooks, these patterns will level up your web part code.</div>
+        <div class="card-footer">
+          <span class="card-date">Mar 3, 2025</span>
+          <span class="card-read">10 min →</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="#" class="post-card">
+      <div class="card-img card-img-4">
+        <span class="card-img-label">a11y</span>
+        <span class="card-cat">Accessibility</span>
+      </div>
+      <div class="card-body">
+        <div class="card-title">Accessible Form Design in Microsoft Teams Apps</div>
+        <div class="card-excerpt">ARIA attributes, keyboard navigation, and color contrast — all the things that matter most.</div>
+        <div class="card-footer">
+          <span class="card-date">Feb 18, 2025</span>
+          <span class="card-read">7 min →</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="#" class="post-card">
+      <div class="card-img card-img-5">
+        <span class="card-img-label">Power Automate</span>
+        <span class="card-cat">Power Platform</span>
+      </div>
+      <div class="card-body">
+        <div class="card-title">Triggering Power Automate Flows from SPFx</div>
+        <div class="card-excerpt">Call a flow directly from your web part without exposing client secrets or API keys.</div>
+        <div class="card-footer">
+          <span class="card-date">Jan 30, 2025</span>
+          <span class="card-read">5 min →</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="#" class="post-card">
+      <div class="card-img card-img-6">
+        <span class="card-img-label">TypeScript</span>
+        <span class="card-cat">TypeScript</span>
+      </div>
+      <div class="card-body">
+        <div class="card-title">Advanced TypeScript Generics for SharePoint Developers</div>
+        <div class="card-excerpt">Generic constraints, conditional types, and mapped types — made practical with real SPFx examples.</div>
+        <div class="card-footer">
+          <span class="card-date">Jan 12, 2025</span>
+          <span class="card-read">12 min →</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="#" class="post-card">
+      <div class="card-img">
+        <span class="card-img-label">Microsoft 365</span>
+        <span class="card-cat">M365</span>
+      </div>
+      <div class="card-body">
+        <div class="card-title">Managing Permissions in Modern SharePoint without Classic Mode</div>
+        <div class="card-excerpt">A practical guide to fine-grained permissions that doesn't rely on switching to Classic mode.</div>
+        <div class="card-footer">
+          <span class="card-date">Dec 5, 2024</span>
+          <span class="card-read">9 min →</span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Tahoe Ninja · Hugo Bernier · All Rights Reserved</p>
+</footer>
+
+<script>
+  function toggleTheme() {
+    document.documentElement.dataset.theme =
+      document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+  }
+</script>
+</body>
+</html>

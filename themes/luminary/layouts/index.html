@@ -1,0 +1,102 @@
+{{ define "main" }}
+{{ $mainSections := site.Params.mainSections | default (slice "posts") }}
+{{ $pages := where site.RegularPages "Section" "in" $mainSections }}
+{{ $featured := index $pages 0 }}
+
+<!-- Hero -->
+<section class="home-hero">
+  <div class="home-hero-inner">
+    <div class="hero-text">
+      <span class="hero-eyebrow">Latest writing</span>
+      <h1 class="hero-title">{{ site.Title }}</h1>
+      <p class="hero-tagline">{{ site.Params.description }}</p>
+      <div class="hero-ctas">
+        <a href="{{ "/posts/" | relURL }}" class="btn btn-primary">Read the blog</a>
+        <a href="{{ "/about/" | relURL }}" class="btn btn-secondary">About me</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      {{ with $featured }}
+      <a href="{{ .RelPermalink }}" class="hero-featured-card">
+        <div class="hero-card-image">
+          {{ with .Params.image }}
+          <img src="{{ . | absURL }}" alt="{{ $featured.Title }}" loading="eager">
+          {{ else }}
+          <div class="gradient-placeholder">
+            <span class="gradient-placeholder-text">// featured post</span>
+          </div>
+          {{ end }}
+        </div>
+        <div class="hero-card-body">
+          {{ with .Params.categories }}
+          <p class="hero-card-category">{{ index . 0 }}</p>
+          {{ end }}
+          <h2 class="hero-card-title">{{ .Title }}</h2>
+          <p class="hero-card-date">{{ .Date.Format "January 2, 2006" }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- Recent Posts -->
+<div class="section-header">
+  <h2 class="section-label">Recent Posts</h2>
+</div>
+
+<div class="main-layout">
+  <main class="main-content">
+    <div class="post-list">
+      {{ range first 10 $pages }}
+      <article class="post-list-item">
+        <div class="post-list-thumb">
+          {{ with .Params.image }}
+          <img src="{{ . | absURL }}" alt="{{ $.Title }}" loading="lazy">
+          {{ else }}
+          <div class="gradient-placeholder">
+            <span class="gradient-placeholder-text">{{ $.Title | truncate 30 }}</span>
+          </div>
+          {{ end }}
+        </div>
+        <div class="post-list-body">
+          {{ with .Params.categories }}
+          <a href="{{ (index . 0) | urlize | relURL }}" class="post-category">{{ index . 0 }}</a>
+          {{ end }}
+          <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <div class="post-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            {{ with .ReadingTime }}
+            <span class="post-meta-sep">·</span>
+            <span>{{ . }} min read</span>
+            {{ end }}
+          </div>
+          {{ with .Summary }}
+          <p class="post-excerpt">{{ . | plainify | truncate 160 }}</p>
+          {{ end }}
+          {{ with .Params.tags }}
+          <div class="post-tags">
+            <ul class="card-meta-tag list-inline">
+              {{ range first 4 . }}
+              <li class="list-inline-item">
+                <a href="{{ . | urlize | printf "/tags/%s/" | relURL }}">{{ . }}</a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </main>
+
+  <aside class="sidebar">
+    {{ partial "widgets/author.html" . }}
+    {{ partial "widgets/categories.html" . }}
+    {{ partial "widgets/tags.html" . }}
+    {{ partial "widgets/social.html" . }}
+  </aside>
+</div>
+{{ end }}

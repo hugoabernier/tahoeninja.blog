@@ -1,0 +1,59 @@
+{{ define "main" }}
+{{ $pages := .Paginator.Pages }}
+<div class="list-page">
+  <div class="list-header">
+    {{ if .IsHome }}
+    <p class="list-header-eyebrow">All Posts</p>
+    {{ else if .IsNode }}
+    <p class="list-header-eyebrow">{{ .Kind | title }}</p>
+    {{ end }}
+    <h1 class="list-header-title">{{ .Title }}</h1>
+    <p class="list-header-count">{{ len .Pages }} {{ if eq (len .Pages) 1 }}post{{ else }}posts{{ end }}</p>
+  </div>
+
+  {{ if $pages }}
+  <div class="post-grid">
+    {{ range $pages }}
+    <article class="post-card">
+      <a href="{{ .RelPermalink }}" class="post-card-image" tabindex="-1" aria-hidden="true">
+        {{ with .Params.image }}
+        <img src="{{ . | absURL }}" alt="{{ $.Title }}" loading="lazy">
+        {{ else }}
+        <div class="gradient-placeholder">
+          <span class="gradient-placeholder-text">{{ .Title | truncate 40 }}</span>
+        </div>
+        {{ end }}
+      </a>
+      <div class="post-card-body">
+        {{ with .Params.categories }}
+        <a href="{{ (index . 0) | urlize | printf "/categories/%s/" | relURL }}" class="post-category">{{ index . 0 }}</a>
+        {{ end }}
+        <h2 class="post-card-title">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+        {{ with .Summary }}
+        <p class="post-card-excerpt">{{ . | plainify | truncate 120 }}</p>
+        {{ end }}
+        <div class="post-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+          {{ with .ReadingTime }}
+          <span class="post-meta-sep">·</span>
+          <span>{{ . }} min read</span>
+          {{ end }}
+        </div>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+
+  <!-- Pagination -->
+  {{ template "_internal/pagination.html" . }}
+
+  {{ else }}
+  <div class="no-posts">
+    <h2>No posts yet</h2>
+    <p>Check back soon!</p>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

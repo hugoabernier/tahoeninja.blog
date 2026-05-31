@@ -1,133 +1,42 @@
 {{ define "main" }}
+<div class="contact-page-wrapper">
 
-<style>
-  body,
-html {
-  /* you can add overflow:hidden here to make the scrollbar disappear */
-    
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    background-image: url(/images/toronto-73508_1920.jpg);
-    background-size: cover;
-}
+  <!-- Contact hero -->
+  <div class="contact-hero">
+    <div class="contact-hero-inner">
+      <div class="contact-author">
+        {{ with .Params.image }}
+        <img src="{{ . | absURL }}" alt="{{ site.Params.author }}" class="contact-author-photo">
+        {{ end }}
+        <h1 class="contact-author-name">{{ site.Params.author }}</h1>
+        <p class="contact-author-tagline">{{ site.Params.description }}</p>
 
-.profile-body{
-margin: 25px;
-}
-
-.profile {
-margin-top: -45px;
-margin-left: auto;
-margin-right: auto;
-border-radius: 25px;
-background-color: #ddd;
-padding: 20px;
-z-index: 0;
-}
-
-.socialmedia {
-    text-align: center;
-}
-
-.photo {
-    margin: 25px;
-    margin-top: 50px;
-}
-
-.image--cover {
-    width: 170px;
-    height: 170px;
-    border: #fff 3px solid;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-top: -40px;    
-}
-
-.username,
-.profession,
-.locationname,
-.description {
-    text-align: center;
-    padding: 0;
-    margin: 1px;
-}
-
-.username {
-    margin: 2px
-}
-
-.profession {
-    font-size: 14pt;
-}
-
-.locationname {
-    font-size: 14pt;
-    margin: 2px
-}
-
-.description {
-    border-top: #969696 solid 1px;
-    padding: 10px;
-    margin: 5px;
-}
-
-.button-github,
-.button-discord,
-.button-twitter,
-.button-bluesky,  
-.button-linkedin {
-    padding: 5px;
-    font-size: 30pt;
-}
-.button-linkedin {
-    color: #0A66C2;
-}
-.button-discord {
-  color: #7289da;
-}
-.button-twitter {
-    color: #1DA1F2;
-}
-.button-github {
-    color: #000;
-}
-
-.button-bluesky {
-    color: #0168D5;
-}
-
-</style>
-<section class="section">
-  
-  <div class="container">
-  <div class="profile-body">
-    {{ with .Params.image }}
-    <div class="photo">
-      <img src="{{ . | absURL }}" class="image--cover" title="Hugo Bernier"/>
-    </div>
-    {{ end }}
-    <div class="profile">
-  
-  
-      <h1 class="username">{{ site.Params.author }}</h1>
-      <h2 class="profession"> World's Laziest Developer </h2>
-      <h3 class="locationname"><i class="fas fa-map-marker-alt"></i> Barrie, ON </h3>
-
-  
-      <div class="socialmedia">
-                  {{ range site.Params.social }}
-                  <a href="{{ .link | safeURL }}" class="button-{{.type}}" title="{{ .title }}"><i class="{{ .icon }}"></i></a>
-                  {{ end }}
+        <!-- Social links -->
+        <div class="contact-social">
+          {{ range site.Params.social }}
+          <a href="{{ .link | safeURL }}" class="contact-social-link" title="{{ .title }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .title }}">
+            <i class="{{ .icon }}" aria-hidden="true"></i>
+            <span>{{ .title }}</span>
+          </a>
+          {{ end }}
+        </div>
       </div>
-            <p class="description">{{ .Content }}</p>
+
+      <!-- Contact content / message -->
+      <div class="contact-content">
+        <div class="contact-content-header">
+          <span class="contact-eyebrow">Get in touch</span>
+          <h2 class="contact-content-title">{{ .Title }}</h2>
+        </div>
+        <div class="post-body contact-body">
+          {{ .Content }}
+        </div>
+      </div>
     </div>
   </div>
-</section>
 
+</div>
+
+<!-- Footer is skipped by baseof.html for contact layout, so include it here -->
+{{ partialCached "footer.html" . }}
 {{ end }}

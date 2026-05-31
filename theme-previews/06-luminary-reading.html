@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luminary Reading — Theme Preview 6</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f6f3;
+    --surface: #ffffff;
+    --surface2: #f0ede8;
+    --text: #1a1916;
+    --text-muted: #64625a;
+    --text-soft: #b0ada6;
+    --accent: #d97706;
+    --accent-soft: #fffbeb;
+    --accent-border: #fde68a;
+    --border: #e8e4de;
+    --code-bg: #1c1917;
+    --kw: #fda4af;
+    --fn: #86efac;
+    --str: #fde68a;
+    --ty: #93c5fd;
+    --num: #c4b5fd;
+    --cm: #78716c;
+    --ct: #f87171;
+    --shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  [data-theme="dark"] {
+    --bg: #141210;
+    --surface: #1c1917;
+    --surface2: #242018;
+    --text: #f5f0e8;
+    --text-muted: #a09880;
+    --text-soft: #4a4640;
+    --accent: #fbbf24;
+    --accent-soft: #1f1800;
+    --accent-border: #3a2e00;
+    --border: #2c2820;
+    --shadow: 0 2px 8px rgba(0,0,0,0.4);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background: var(--bg); color: var(--text);
+    font-size: 16px; line-height: 1.6;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  .preview-badge {
+    position: fixed; bottom: 16px; left: 16px; z-index: 1000;
+    background: var(--accent); color: #1c1917;
+    padding: 6px 14px; border-radius: 100px;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; font-family: 'Inter', sans-serif;
+  }
+
+  /* READING PROGRESS */
+  .progress-bar {
+    position: fixed; top: 0; left: 0; right: 0;
+    height: 3px; background: transparent; z-index: 200;
+  }
+  .progress-fill {
+    height: 100%; width: 38%;
+    background: linear-gradient(90deg, var(--accent), #f59e0b);
+    border-radius: 0 2px 2px 0;
+  }
+
+  /* NAV — minimal top bar */
+  nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; z-index: 100;
+    transition: background 0.3s, border-color 0.3s;
+  }
+  .nav-inner {
+    max-width: 900px; margin: 0 auto; padding: 0 32px;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 54px;
+  }
+  .site-title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 17px; font-weight: 800; letter-spacing: -0.02em;
+    color: var(--text); text-decoration: none;
+  }
+  .site-title em { color: var(--accent); font-style: normal; }
+  .nav-right { display: flex; align-items: center; gap: 20px; }
+  .nav-link {
+    font-size: 13px; font-weight: 500; color: var(--text-muted);
+    text-decoration: none; transition: color 0.15s;
+  }
+  .nav-link:hover { color: var(--text); }
+  .theme-toggle {
+    display: flex; align-items: center; gap: 6px;
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 20px; padding: 4px 14px;
+    cursor: pointer; font-size: 12px; font-weight: 500;
+    color: var(--text-muted); transition: border-color 0.2s;
+  }
+  .theme-toggle:hover { border-color: var(--accent); }
+
+  /* PAGE LAYOUT — two sidebars (reading view) */
+  .page-shell {
+    max-width: 1180px; margin: 0 auto;
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    gap: 0;
+    align-items: start;
+  }
+
+  /* LEFT — sticky TOC */
+  .toc-panel {
+    position: sticky; top: 70px;
+    padding: 48px 24px 48px 0;
+  }
+  .toc-label {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--text-soft);
+    margin-bottom: 14px;
+  }
+  .toc-item {
+    display: block; padding: 5px 0;
+    font-size: 13px; color: var(--text-muted);
+    text-decoration: none; line-height: 1.4;
+    border-left: 2px solid var(--border);
+    padding-left: 12px; margin-bottom: 2px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .toc-item:hover { color: var(--text); border-color: var(--text-soft); }
+  .toc-item.active { color: var(--accent); border-color: var(--accent); font-weight: 500; }
+
+  /* RIGHT — metadata panel */
+  .meta-panel {
+    position: sticky; top: 70px;
+    padding: 48px 0 48px 32px;
+  }
+  .meta-block { margin-bottom: 28px; }
+  .meta-label {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--text-soft);
+    margin-bottom: 10px;
+  }
+  .meta-author { display: flex; align-items: center; gap: 10px; }
+  .meta-avatar {
+    width: 36px; height: 36px; border-radius: 10px; flex-shrink: 0;
+    background: linear-gradient(135deg, var(--accent), #f59e0b);
+    display: flex; align-items: center; justify-content: center; font-size: 16px;
+  }
+  .meta-name { font-size: 13px; font-weight: 600; color: var(--text); }
+  .meta-sub { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+  .meta-stat {
+    font-size: 13px; color: var(--text-muted);
+    display: flex; align-items: center; gap: 8px; margin-bottom: 6px;
+  }
+  .meta-stat-icon { color: var(--accent); font-size: 14px; }
+  .share-btn {
+    display: block; width: 100%; padding: 8px;
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 8px; font-size: 12px; font-weight: 500;
+    color: var(--text-muted); text-align: center;
+    cursor: pointer; margin-bottom: 6px; transition: border-color 0.15s;
+    font-family: 'Inter', sans-serif;
+  }
+  .share-btn:hover { border-color: var(--accent); color: var(--text); }
+  .tag-sm {
+    display: inline-block; padding: 3px 8px; border-radius: 4px;
+    font-size: 11px; font-weight: 500; margin: 2px;
+    background: var(--accent-soft); color: var(--accent);
+    border: 1px solid var(--accent-border);
+    text-decoration: none;
+  }
+
+  /* CENTER — article */
+  .article {
+    padding: 48px 40px;
+    border-left: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+    min-height: 100vh;
+  }
+  .article-kicker {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--accent);
+    margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
+  }
+  .article-kicker::before { content: ''; width: 20px; height: 2px; background: var(--accent); }
+  .article h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: clamp(28px, 3.5vw, 44px);
+    font-weight: 800; line-height: 1.15; letter-spacing: -0.025em;
+    color: var(--text); margin-bottom: 16px;
+  }
+  .article-lead {
+    font-size: 18px; line-height: 1.75; color: var(--text-muted);
+    margin-bottom: 28px; padding-bottom: 28px;
+    border-bottom: 1px solid var(--border);
+  }
+  .article h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 22px; font-weight: 700; letter-spacing: -0.02em;
+    color: var(--text); margin: 48px 0 14px;
+  }
+  .article p {
+    font-size: 17px; line-height: 1.85;
+    color: var(--text-muted); margin-bottom: 22px;
+  }
+  .article p:first-of-type { color: var(--text); }
+  code:not(pre code) {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.875em;
+    background: var(--surface2); color: var(--accent);
+    padding: 2px 7px; border-radius: 4px;
+    border: 1px solid var(--border);
+  }
+
+  /* HIGHLIGHT CALLOUT */
+  .callout {
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-border);
+    border-radius: 10px; padding: 16px 18px;
+    margin: 28px 0; display: flex; gap: 12px;
+  }
+  .callout-icon { font-size: 18px; flex-shrink: 0; }
+  .callout p { font-size: 14px !important; color: var(--text) !important; margin: 0 !important; }
+
+  /* CODE */
+  .code-block {
+    background: var(--code-bg); border-radius: 12px;
+    overflow: hidden; margin: 28px 0;
+    box-shadow: var(--shadow);
+  }
+  .code-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 11px 16px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .code-file { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #78716c; }
+  .code-copy {
+    background: transparent; border: 1px solid rgba(255,255,255,0.08);
+    color: #78716c; padding: 3px 9px; border-radius: 5px;
+    font-size: 11px; cursor: pointer; font-family: 'Inter', sans-serif;
+  }
+  pre {
+    padding: 22px; overflow-x: auto;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px; line-height: 1.75;
+  }
+  .kw { color: var(--kw); }
+  .fn { color: var(--fn); }
+  .str { color: var(--str); }
+  .num { color: var(--num); }
+  .cm { color: var(--cm); font-style: italic; }
+  .ct { color: var(--ct); }
+
+  /* POST NAV */
+  .post-nav {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 12px; margin-top: 56px; padding-top: 40px;
+    border-top: 1px solid var(--border);
+  }
+  .post-nav-card {
+    padding: 18px; border-radius: 10px;
+    background: var(--surface); border: 1px solid var(--border);
+    text-decoration: none; display: block;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .post-nav-card:hover { border-color: var(--accent); box-shadow: var(--shadow); }
+  .post-nav-dir { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-soft); margin-bottom: 6px; }
+  .post-nav-title { font-size: 14px; font-weight: 600; color: var(--text); line-height: 1.4; }
+  .post-nav-card:last-child { text-align: right; }
+
+  footer {
+    border-top: 1px solid var(--border);
+    background: var(--surface);
+    padding: 32px; text-align: center;
+    font-size: 13px; color: var(--text-muted);
+    transition: background 0.3s;
+  }
+</style>
+</head>
+<body>
+
+<div class="preview-badge">Preview 6 — Luminary Reading</div>
+
+<div class="progress-bar"><div class="progress-fill"></div></div>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="site-title">Tahoe<em>Ninja</em></a>
+    <div class="nav-right">
+      <a href="#" class="nav-link">Writing</a>
+      <a href="#" class="nav-link">Speaking</a>
+      <a href="#" class="nav-link">About</a>
+      <button class="theme-toggle" onclick="toggleTheme()">☀️ / 🌙</button>
+    </div>
+  </div>
+</nav>
+
+<div class="page-shell">
+
+  <!-- LEFT: sticky table of contents -->
+  <aside class="toc-panel">
+    <div class="toc-label">In this post</div>
+    <a href="#" class="toc-item active">Why Multi-Step Forms?</a>
+    <a href="#" class="toc-item">Modeling the State</a>
+    <a href="#" class="toc-item">Validation Strategy</a>
+    <a href="#" class="toc-item">The Step Container</a>
+    <a href="#" class="toc-item">Accessibility</a>
+    <a href="#" class="toc-item">Putting It Together</a>
+  </aside>
+
+  <!-- CENTER: article content -->
+  <main class="article">
+    <div class="article-kicker">Featured Post</div>
+    <h1>Building a Multi-Step Form with SPFx and React Hooks</h1>
+    <p class="article-lead">Multi-step forms are one of the most requested UI patterns in SharePoint development. Done well, they reduce cognitive load and improve completion rates dramatically.</p>
+
+    <p>When building enterprise SharePoint solutions, multi-step forms often feel like the right call — but the implementation details can make or break the user experience for the people who use these forms every day.</p>
+
+    <h2>Why Multi-Step Forms?</h2>
+    <p>The psychology is simple: presenting 20 fields at once is intimidating. Breaking them into logical groups — identity, preferences, confirmation — reduces perceived complexity and keeps users moving forward through the flow.</p>
+
+    <div class="callout">
+      <span class="callout-icon">💡</span>
+      <p>Always ensure step indicators are accessible to screen readers. Use <code>aria-current="step"</code> and announce step changes with a live region.</p>
+    </div>
+
+    <h2>Modeling the State</h2>
+    <p>We'll manage all form state in a single object at the top level. This makes it trivial to pass data between steps and to submit everything at once with no awkward merging.</p>
+
+    <div class="code-block">
+      <div class="code-header">
+        <span class="code-file">MultiStepForm.tsx</span>
+        <button class="code-copy">Copy</button>
+      </div>
+      <pre><span class="kw">interface</span> <span class="ct">FormData</span> {
+  displayName: <span class="kw">string</span>;
+  email: <span class="kw">string</span>;
+  notifyByEmail: <span class="kw">boolean</span>;
+  frequency: <span class="str">'daily'</span> | <span class="str">'weekly'</span> | <span class="str">'monthly'</span>;
+}
+
+<span class="kw">const</span> <span class="fn">MultiStepForm</span> = () => {
+  <span class="kw">const</span> [step, setStep] = <span class="fn">useState</span>(<span class="num">0</span>);
+  <span class="kw">const</span> [data, setData] = <span class="fn">useState</span>&lt;<span class="ct">Partial</span>&lt;<span class="ct">FormData</span>&gt;&gt;({});
+
+  <span class="kw">const</span> <span class="fn">update</span> = &lt;K <span class="kw">extends keyof</span> <span class="ct">FormData</span>&gt;(k: K, v: <span class="ct">FormData</span>[K]) =>
+    <span class="fn">setData</span>(prev => ({ ...prev, [k]: v }));
+
+  <span class="kw">return</span> (
+    &lt;<span class="ct">Wizard</span> step={step}
+      onNext={() => <span class="fn">setStep</span>(s => s + <span class="num">1</span>)}
+      onBack={() => <span class="fn">setStep</span>(s => s - <span class="num">1</span>)}&gt;
+      {step === <span class="num">0</span> &amp;&amp; &lt;<span class="ct">IdentityStep</span> data={data} onChange={update} /&gt;}
+      {step === <span class="num">1</span> &amp;&amp; &lt;<span class="ct">PrefsStep</span> data={data} onChange={update} /&gt;}
+      {step === <span class="num">2</span> &amp;&amp; &lt;<span class="ct">ConfirmStep</span> data={data} /&gt;}
+    &lt;/<span class="ct">Wizard</span>&gt;
+  );
+};</pre>
+    </div>
+
+    <h2>Validation Strategy</h2>
+    <p>Validate on step transition, not on submit. This surfaces errors early and keeps the user's attention focused on the fields that need fixing — not a long error list at the end of a 3-step process.</p>
+
+    <div class="post-nav">
+      <a href="#" class="post-nav-card">
+        <div class="post-nav-dir">← Previous</div>
+        <div class="post-nav-title">Using PnP.js v4 with Modern SharePoint</div>
+      </a>
+      <a href="#" class="post-nav-card">
+        <div class="post-nav-dir">Next →</div>
+        <div class="post-nav-title">React Hooks Patterns Every SPFx Developer Should Know</div>
+      </a>
+    </div>
+  </main>
+
+  <!-- RIGHT: sticky meta panel -->
+  <aside class="meta-panel">
+    <div class="meta-block">
+      <div class="meta-label">Author</div>
+      <div class="meta-author">
+        <div class="meta-avatar">🥷</div>
+        <div>
+          <div class="meta-name">Hugo Bernier</div>
+          <div class="meta-sub">tahoeninja.blog</div>
+        </div>
+      </div>
+    </div>
+    <div class="meta-block">
+      <div class="meta-label">Details</div>
+      <div class="meta-stat"><span class="meta-stat-icon">📅</span> May 28, 2025</div>
+      <div class="meta-stat"><span class="meta-stat-icon">⏱</span> 8 min read</div>
+      <div class="meta-stat"><span class="meta-stat-icon">📝</span> 5 sections</div>
+    </div>
+    <div class="meta-block">
+      <div class="meta-label">Share</div>
+      <button class="share-btn">🦋 Bluesky</button>
+      <button class="share-btn">💼 LinkedIn</button>
+      <button class="share-btn">🔗 Copy link</button>
+    </div>
+    <div class="meta-block">
+      <div class="meta-label">Tags</div>
+      <a href="#" class="tag-sm">SharePoint</a>
+      <a href="#" class="tag-sm">React</a>
+      <a href="#" class="tag-sm">TypeScript</a>
+      <a href="#" class="tag-sm">SPFx</a>
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <p>© 2025 Tahoe Ninja · Hugo Bernier · All Rights Reserved</p>
+</footer>
+
+<script>
+  function toggleTheme() {
+    document.documentElement.dataset.theme =
+      document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+  }
+</script>
+</body>
+</html>

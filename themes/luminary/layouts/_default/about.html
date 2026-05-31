@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="about-page">
+  <div class="about-hero">
+    <img
+      src="/images/author/hugo.jpg"
+      alt="{{ site.Params.author | default "Hugo Bernier" }}"
+      class="about-photo"
+      width="120" height="120"
+      loading="eager"
+    >
+    <h1 class="hero-title" style="font-size:2rem;margin-bottom:0.5rem;">{{ .Title }}</h1>
+  </div>
+  <div class="post-body">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

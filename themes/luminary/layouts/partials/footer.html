@@ -1,0 +1,43 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="footer-brand-name" href="{{ "/" | relURL }}">
+          <span class="logo-dot"></span>
+          {{ site.Title }}
+        </a>
+        <p class="footer-tagline">{{ site.Params.description }}</p>
+        <div class="footer-social">
+          {{ range site.Params.social }}
+          <a href="{{ .link }}" title="{{ .title }}" target="_blank" rel="noopener noreferrer" class="social-link social-link--{{ .type }}">
+            <i class="{{ .icon }}" aria-hidden="true"></i>
+            <span class="visually-hidden">{{ .title }}</span>
+          </a>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-col-title">Navigation</h3>
+        <ul class="footer-links">
+          {{ range site.Menus.main }}
+          <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-col-title">Legal</h3>
+        <ul class="footer-links">
+          {{ range site.Menus.footer }}
+          <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      {{ with site.Params.copyright }}{{ . | safeHTML }}{{ else }}&copy; {{ now.Year }} {{ site.Title }}{{ end }}
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,54 @@
+<header class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="{{ "/" | relURL }}">
+      <span class="logo-dot"></span>
+      {{ site.Title }}
+    </a>
+
+    <nav class="nav-menu" aria-label="Main navigation">
+      {{ range site.Menus.main }}
+      <a href="{{ .URL | relURL }}" {{ if eq $.RelPermalink (.URL | relURL) }}class="active"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+    </nav>
+
+    <div class="nav-actions">
+      {{ if site.Params.search }}
+      <button class="nav-search-toggle" aria-label="Toggle search" aria-expanded="false">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+      </button>
+      {{ end }}
+
+      <button class="nav-theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </span>
+      </button>
+
+      <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+{{ if site.Params.search }}
+<div class="search-panel" role="search" aria-label="Site search">
+  <form class="search-panel-inner" action="{{ "search/" | relURL }}" method="get">
+    <input
+      type="search"
+      id="search-query"
+      name="s"
+      placeholder="Search posts…"
+      autocomplete="off"
+      spellcheck="false"
+      aria-label="Search"
+    >
+  </form>
+</div>
+{{ end }}

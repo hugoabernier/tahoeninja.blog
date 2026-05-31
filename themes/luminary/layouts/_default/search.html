@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="search-page">
+
+  <div class="search-page-header">
+    <h1 class="search-page-title">Search</h1>
+    <p class="search-page-desc">Search across all posts, tags, and categories.</p>
+  </div>
+
+  <div id="search-results" class="search-results-list" aria-live="polite"></div>
+
+  <script id="search-result-template" type="text/x-js-template">
+    <article class="search-result-item">
+      <h2 class="search-result-title"><a href="${link}">${title}</a></h2>
+      <p class="search-result-snippet" id="summary-${key}">${snippet}</p>
+      ${ isset tags }<p class="search-result-meta">Tags: ${tags}</p>${ end }
+      ${ isset categories }<p class="search-result-meta">Category: ${categories}</p>${ end }
+    </article>
+  </script>
+
+</div>
+
+<script>
+  window.indexURL = "{{ "index.json" | absURL }}";
+</script>
+{{ end }}

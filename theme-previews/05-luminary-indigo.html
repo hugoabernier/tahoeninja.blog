@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luminary Indigo — Theme Preview 5</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fafafa;
+    --bg2: #f0eef8;
+    --surface: #ffffff;
+    --text: #0f0e1a;
+    --text-muted: #5c5880;
+    --text-soft: #aaa9c0;
+    --accent: #5b21b6;
+    --accent-mid: #7c3aed;
+    --accent-soft: #ede9fe;
+    --border: #e4e0f0;
+    --code-bg: #13111c;
+    --kw: #cba6f7;
+    --fn: #89dceb;
+    --str: #a6e3a1;
+    --num: #fab387;
+    --cm: #585475;
+    --ct: #f38ba8;
+    --shadow: 0 1px 3px rgba(91,33,182,0.08), 0 4px 20px rgba(91,33,182,0.06);
+  }
+  [data-theme="dark"] {
+    --bg: #0d0b14;
+    --bg2: #14111f;
+    --surface: #181424;
+    --text: #e8e4f8;
+    --text-muted: #8b87b0;
+    --text-soft: #46435c;
+    --accent: #a78bfa;
+    --accent-mid: #8b5cf6;
+    --accent-soft: #1e1535;
+    --border: #252238;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4), 0 4px 20px rgba(0,0,0,0.3);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background: var(--bg); color: var(--text);
+    font-size: 16px; line-height: 1.6;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  .preview-badge {
+    position: fixed; bottom: 16px; left: 16px; z-index: 1000;
+    background: var(--accent-mid); color: white;
+    padding: 6px 14px; border-radius: 100px;
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase; font-family: 'Inter', sans-serif;
+  }
+
+  /* NAV */
+  nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; z-index: 100;
+    backdrop-filter: blur(10px);
+    transition: background 0.3s, border-color 0.3s;
+  }
+  .nav-inner {
+    max-width: 1200px; margin: 0 auto; padding: 0 32px;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 60px;
+  }
+  .site-title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px; font-weight: 800;
+    color: var(--text); text-decoration: none;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .site-title-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--accent), var(--accent-mid));
+  }
+  .nav-links { display: flex; align-items: center; gap: 4px; list-style: none; }
+  .nav-links a {
+    padding: 6px 12px; border-radius: 6px;
+    font-size: 14px; font-weight: 500; color: var(--text-muted);
+    text-decoration: none; transition: background 0.15s, color 0.15s;
+  }
+  .nav-links a:hover { background: var(--bg2); color: var(--text); }
+  .theme-btn {
+    background: var(--bg2); border: 1px solid var(--border);
+    border-radius: 8px; padding: 6px 12px; cursor: pointer;
+    font-size: 13px; font-weight: 500; color: var(--text-muted);
+    transition: border-color 0.2s, color 0.2s; margin-left: 12px;
+  }
+  .theme-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* HERO */
+  .hero {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 72px 32px 64px;
+    transition: background 0.3s, border-color 0.3s;
+  }
+  .hero-inner { max-width: 740px; margin: 0 auto; }
+  .hero-eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 11px; font-weight: 600; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--accent);
+    margin-bottom: 20px;
+    background: var(--accent-soft); padding: 5px 12px; border-radius: 100px;
+  }
+  .hero h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: clamp(34px, 5vw, 54px);
+    font-weight: 800; line-height: 1.1; letter-spacing: -0.03em;
+    color: var(--text); margin-bottom: 20px;
+  }
+  .hero-meta {
+    display: flex; align-items: center; gap: 12px;
+    font-size: 14px; color: var(--text-muted); margin-bottom: 16px;
+  }
+  .hero-meta .sep { color: var(--text-soft); }
+  .tags { display: flex; gap: 6px; margin-bottom: 20px; flex-wrap: wrap; }
+  .tag {
+    background: var(--accent-soft); color: var(--accent);
+    padding: 4px 12px; border-radius: 6px;
+    font-size: 12px; font-weight: 600; letter-spacing: 0.03em;
+    text-decoration: none; transition: background 0.15s;
+  }
+  [data-theme="dark"] .tag { background: var(--accent-soft); }
+  .hero p {
+    font-size: 18px; line-height: 1.75;
+    color: var(--text-muted); max-width: 600px;
+  }
+
+  /* GRADIENT BANNER */
+  .hero-banner {
+    margin-top: 40px;
+    height: 280px; border-radius: 16px; overflow: hidden;
+    background: linear-gradient(135deg, #13111c 0%, #1e1535 40%, #2d1b69 70%, #13111c 100%);
+    position: relative;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .hero-banner-code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px; line-height: 1.8; color: #cdd6f4;
+    text-align: left; padding: 0 40px;
+  }
+  .hbc-kw { color: #cba6f7; }
+  .hbc-fn { color: #89dceb; }
+  .hbc-str { color: #a6e3a1; }
+  .hbc-ty { color: #89b4fa; }
+  .hbc-num { color: #fab387; }
+  .hero-banner::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 70% 50%, rgba(124,58,237,0.25), transparent 60%);
+    pointer-events: none;
+  }
+
+  /* MAIN */
+  .main {
+    max-width: 1200px; margin: 0 auto;
+    padding: 64px 32px;
+    display: grid; grid-template-columns: 1fr 288px; gap: 64px;
+  }
+
+  /* ARTICLE */
+  .article-body h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 26px; font-weight: 700; letter-spacing: -0.02em;
+    color: var(--text); margin: 52px 0 16px; line-height: 1.25;
+  }
+  .article-body p {
+    font-size: 17px; line-height: 1.85; color: var(--text); margin-bottom: 24px;
+  }
+  .article-body p:first-of-type { font-size: 19px; color: var(--text-muted); }
+
+  .callout {
+    border-left: 3px solid var(--accent);
+    background: var(--accent-soft);
+    padding: 16px 20px; border-radius: 0 10px 10px 0; margin: 32px 0;
+  }
+  .callout p { font-size: 15px !important; color: var(--text) !important; margin: 0 !important; }
+  .callout strong { color: var(--accent); }
+
+  .code-block {
+    background: var(--code-bg); border-radius: 14px; overflow: hidden;
+    margin: 32px 0; box-shadow: var(--shadow);
+    border: 1px solid rgba(167,139,250,0.08);
+  }
+  .code-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 18px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .code-lang { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #585475; }
+  .code-copy {
+    background: transparent; border: 1px solid rgba(167,139,250,0.2);
+    color: #585475; padding: 4px 10px; border-radius: 6px;
+    font-size: 12px; cursor: pointer; font-family: 'Inter', sans-serif;
+  }
+  pre {
+    padding: 24px; overflow-x: auto;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13.5px; line-height: 1.75;
+  }
+  .kw { color: var(--kw); }
+  .fn { color: var(--fn); }
+  .str { color: var(--str); }
+  .num { color: var(--num); }
+  .cm { color: var(--cm); font-style: italic; }
+  .ct { color: var(--ct); }
+  code:not(pre code) {
+    background: var(--bg2); color: var(--accent);
+    padding: 2px 7px; border-radius: 5px;
+    font-family: 'JetBrains Mono', monospace; font-size: 0.875em;
+    border: 1px solid var(--border);
+  }
+
+  /* SIDEBAR */
+  .sidebar { display: flex; flex-direction: column; gap: 28px; }
+  .sidebar-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 14px; padding: 22px;
+    transition: background 0.3s, border-color 0.3s;
+  }
+  .sidebar-card h3 {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--text-soft); margin-bottom: 16px;
+  }
+  .author-info { display: flex; align-items: center; gap: 12px; }
+  .author-avatar {
+    width: 48px; height: 48px; border-radius: 12px; flex-shrink: 0;
+    background: linear-gradient(135deg, var(--accent), var(--accent-mid));
+    display: flex; align-items: center; justify-content: center; font-size: 20px;
+  }
+  .author-name { font-weight: 700; font-size: 14px; color: var(--text); }
+  .author-bio { font-size: 12px; color: var(--text-muted); margin-top: 4px; line-height: 1.4; }
+
+  .related-post {
+    display: flex; gap: 12px; padding: 12px 0;
+    border-bottom: 1px solid var(--border); text-decoration: none;
+    align-items: flex-start;
+  }
+  .related-post:last-child { border-bottom: none; padding-bottom: 0; }
+  .related-post:first-child { padding-top: 0; }
+  .related-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; color: var(--accent); font-weight: 500;
+    min-width: 20px; margin-top: 2px;
+  }
+  .related-post-title {
+    font-size: 13px; font-weight: 500; color: var(--text);
+    line-height: 1.4; display: block; margin-bottom: 3px;
+  }
+  .related-date { font-size: 11px; color: var(--text-soft); }
+
+  .tags-list { display: flex; flex-wrap: wrap; gap: 6px; }
+
+  footer {
+    background: var(--surface); border-top: 1px solid var(--border);
+    padding: 36px 32px; text-align: center;
+    font-size: 13px; color: var(--text-muted);
+    transition: background 0.3s, border-color 0.3s;
+  }
+</style>
+</head>
+<body>
+
+<div class="preview-badge">Preview 5 — Luminary Indigo</div>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="site-title">
+      <span class="site-title-dot"></span>
+      TahoeNinja
+    </a>
+    <ul class="nav-links">
+      <li><a href="#">Writing</a></li>
+      <li><a href="#">Speaking</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li>
+        <button class="theme-btn" onclick="toggleTheme()">☀ / 🌙</button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">✦ Featured Post</div>
+    <h1>Building a Multi-Step Form with SPFx and React Hooks</h1>
+    <div class="hero-meta">
+      <span>Hugo Bernier</span>
+      <span class="sep">·</span>
+      <span>May 28, 2025</span>
+      <span class="sep">·</span>
+      <span>8 min read</span>
+    </div>
+    <div class="tags">
+      <a href="#" class="tag">SharePoint</a>
+      <a href="#" class="tag">React</a>
+      <a href="#" class="tag">TypeScript</a>
+      <a href="#" class="tag">SPFx</a>
+    </div>
+    <p>Multi-step forms are one of the most requested UI patterns in SharePoint development. Done well, they reduce cognitive load and improve completion rates dramatically.</p>
+    <div class="hero-banner">
+      <div class="hero-banner-code">
+        <span class="hbc-kw">interface</span> <span class="hbc-ty">FormData</span> {<br>
+        &nbsp;&nbsp;displayName: <span class="hbc-kw">string</span>;<br>
+        &nbsp;&nbsp;frequency: <span class="hbc-str">'daily'</span> | <span class="hbc-str">'weekly'</span>;<br>
+        }<br><br>
+        <span class="hbc-kw">const</span> [step, setStep] = <span class="hbc-fn">useState</span>(<span class="hbc-num">0</span>);<br>
+        <span class="hbc-kw">const</span> [data, setData] = <span class="hbc-fn">useState</span>&lt;<span class="hbc-ty">Partial</span>&lt;<span class="hbc-ty">FormData</span>&gt;&gt;({});
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <article class="article-body">
+    <p>When building enterprise SharePoint solutions, multi-step forms often feel like the right call — but the implementation details can make or break the user experience. Let's walk through a clean approach using React's <code>useState</code> hook.</p>
+
+    <h2>Why Multi-Step Forms?</h2>
+    <p>The psychology is simple: presenting 20 fields at once is intimidating. Breaking them into logical groups — identity, preferences, confirmation — reduces perceived complexity and keeps users moving forward.</p>
+
+    <div class="callout">
+      <p><strong>Accessibility note:</strong> Always ensure step indicators are accessible to screen readers. Use <code>aria-current="step"</code> and announce step changes with a live region.</p>
+    </div>
+
+    <h2>Setting Up the State</h2>
+    <p>We'll manage all form state in a single object at the top level. This makes it trivial to pass data between steps and to submit everything at once.</p>
+
+    <div class="code-block">
+      <div class="code-header">
+        <span class="code-lang">MultiStepForm.tsx · TypeScript</span>
+        <button class="code-copy">Copy</button>
+      </div>
+      <pre><span class="kw">interface</span> <span class="ct">FormData</span> {
+  displayName: <span class="kw">string</span>;
+  email: <span class="kw">string</span>;
+  notifyByEmail: <span class="kw">boolean</span>;
+  frequency: <span class="str">'daily'</span> | <span class="str">'weekly'</span> | <span class="str">'monthly'</span>;
+}
+
+<span class="kw">const</span> <span class="fn">MultiStepForm</span> = () => {
+  <span class="kw">const</span> [step, setStep] = <span class="fn">useState</span>(<span class="num">0</span>);
+  <span class="kw">const</span> [data, setData] = <span class="fn">useState</span>&lt;<span class="ct">Partial</span>&lt;<span class="ct">FormData</span>&gt;&gt;({});
+
+  <span class="kw">const</span> <span class="fn">update</span> = &lt;K <span class="kw">extends keyof</span> <span class="ct">FormData</span>&gt;(k: K, v: <span class="ct">FormData</span>[K]) =>
+    <span class="fn">setData</span>(prev => ({ ...prev, [k]: v }));
+
+  <span class="kw">return</span> (
+    &lt;<span class="ct">Wizard</span> step={step}
+      onNext={() => <span class="fn">setStep</span>(s => s + <span class="num">1</span>)}
+      onBack={() => <span class="fn">setStep</span>(s => s - <span class="num">1</span>)}&gt;
+      {step === <span class="num">0</span> &amp;&amp; &lt;<span class="ct">IdentityStep</span> data={data} onChange={update} /&gt;}
+      {step === <span class="num">1</span> &amp;&amp; &lt;<span class="ct">PrefsStep</span> data={data} onChange={update} /&gt;}
+      {step === <span class="num">2</span> &amp;&amp; &lt;<span class="ct">ConfirmStep</span> data={data} /&gt;}
+    &lt;/<span class="ct">Wizard</span>&gt;
+  );
+};</pre>
+    </div>
+
+    <h2>The Step Container</h2>
+    <p>The container is deliberately thin — it handles navigation logic and progress display, nothing else. Business logic stays in the individual step components where it belongs.</p>
+  </article>
+
+  <aside class="sidebar">
+    <div class="sidebar-card">
+      <h3>Author</h3>
+      <div class="author-info">
+        <div class="author-avatar">🥷</div>
+        <div>
+          <div class="author-name">Hugo Bernier</div>
+          <div class="author-bio">World's laziest developer. Autistic. ADHD. Powered by coffee.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-card">
+      <h3>Related Posts</h3>
+      <a href="#" class="related-post">
+        <span class="related-num">01</span>
+        <div>
+          <span class="related-post-title">Using PnP.js v4 with Modern SharePoint</span>
+          <span class="related-date">Apr 12, 2025</span>
+        </div>
+      </a>
+      <a href="#" class="related-post">
+        <span class="related-num">02</span>
+        <div>
+          <span class="related-post-title">React Hooks Patterns for SPFx</span>
+          <span class="related-date">Mar 3, 2025</span>
+        </div>
+      </a>
+      <a href="#" class="related-post">
+        <span class="related-num">03</span>
+        <div>
+          <span class="related-post-title">Accessible Form Design in Teams Apps</span>
+          <span class="related-date">Feb 18, 2025</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="sidebar-card">
+      <h3>Tags</h3>
+      <div class="tags-list">
+        <a href="#" class="tag">SharePoint</a>
+        <a href="#" class="tag">TypeScript</a>
+        <a href="#" class="tag">React</a>
+        <a href="#" class="tag">SPFx</a>
+        <a href="#" class="tag">M365</a>
+        <a href="#" class="tag">Teams</a>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <p>© 2025 Tahoe Ninja · Hugo Bernier</p>
+</footer>
+
+<script>
+  function toggleTheme() {
+    const html = document.documentElement;
+    html.dataset.theme = html.dataset.theme === 'dark' ? 'light' : 'dark';
+  }
+</script>
+</body>
+</html>

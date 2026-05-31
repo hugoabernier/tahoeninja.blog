@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Interception on Tahoe Ninja</title>
-    <link>http://localhost:55982/tags/data-interception/</link>
+    <link>http://localhost:53224/tags/data-interception/</link>
     <description>Recent content in Data Interception on Tahoe Ninja</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Jun 2020 10:07:47 +0600</lastBuildDate>
-    <atom:link href="http://localhost:55982/tags/data-interception/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53224/tags/data-interception/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Solving the “Failed to execute ‘removeChild’ on ‘Node&#39;” error on modern SharePoint pages</title>
-      <link>http://localhost:55982/posts/data-interception/</link>
+      <link>http://localhost:53224/posts/data-interception/</link>
       <pubDate>Mon, 29 Jun 2020 10:07:47 +0600</pubDate>
-      <guid>http://localhost:55982/posts/data-interception/</guid>
+      <guid>http://localhost:53224/posts/data-interception/</guid>
       <description>If you&amp;rsquo;re getting errors in modern SharePoint pages when trying to open a link in a new tab, read this.</description>
     </item>
   </channel>

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cascade — Theme Preview 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root[data-theme="dark"] {
+    --bg: #0a0a0a;
+    --bg2: #111111;
+    --surface: #141414;
+    --surface2: #1a1a1a;
+    --text: #ededed;
+    --text-muted: #888;
+    --text-soft: #444;
+    --accent: #0070f3;
+    --accent-glow: rgba(0, 112, 243, 0.15);
+    --accent2: #7928ca;
+    --green: #50e3c2;
+    --border: #222;
+    --border-bright: #333;
+    --code-bg: #0d0d0d;
+    --code-line: #1a1a1a;
+    --kw: #ff79c6;
+    --fn: #50fa7b;
+    --str: #f1fa8c;
+    --num: #bd93f9;
+    --cm: #6272a4;
+    --ty: #8be9fd;
+    --op: #ff79c6;
+  }
+  :root[data-theme="light"] {
+    --bg: #ffffff;
+    --bg2: #f7f7f7;
+    --surface: #fafafa;
+    --surface2: #f0f0f0;
+    --text: #111;
+    --text-muted: #555;
+    --text-soft: #bbb;
+    --accent: #0070f3;
+    --accent-glow: rgba(0, 112, 243, 0.08);
+    --accent2: #7928ca;
+    --green: #0070f3;
+    --border: #e5e5e5;
+    --border-bright: #ddd;
+    --code-bg: #111;
+    --code-line: #1a1a1a;
+    --kw: #ff79c6;
+    --fn: #50fa7b;
+    --str: #f1fa8c;
+    --num: #bd93f9;
+    --cm: #6272a4;
+    --ty: #8be9fd;
+    --op: #ff79c6;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Geist', -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.6;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .preview-badge {
+    position: fixed; bottom: 16px; left: 16px; z-index: 1000;
+    background: #0070f3; color: white;
+    padding: 6px 14px; border-radius: 100px;
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* NAV */
+  nav {
+    border-bottom: 1px solid var(--border);
+    background: rgba(10,10,10,0.85);
+    backdrop-filter: blur(12px);
+    position: sticky; top: 0; z-index: 100;
+  }
+  [data-theme="light"] nav {
+    background: rgba(255,255,255,0.85);
+  }
+  .nav-inner {
+    max-width: 1100px; margin: 0 auto;
+    padding: 0 24px;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 56px;
+  }
+  .wordmark {
+    display: flex; align-items: center; gap: 10px;
+    text-decoration: none;
+  }
+  .wordmark-icon {
+    width: 28px; height: 28px; border-radius: 6px;
+    background: linear-gradient(135deg, #0070f3, #7928ca);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+  }
+  .wordmark-text {
+    font-size: 15px; font-weight: 600; color: var(--text);
+    letter-spacing: -0.02em;
+  }
+  .nav-right { display: flex; align-items: center; gap: 4px; }
+  .nav-link {
+    padding: 6px 12px; border-radius: 6px;
+    font-size: 13px; font-weight: 500; color: var(--text-muted);
+    text-decoration: none;
+    transition: background 0.15s, color 0.15s;
+  }
+  .nav-link:hover { background: var(--surface2); color: var(--text); }
+  .nav-btn {
+    background: var(--surface2); border: 1px solid var(--border-bright);
+    border-radius: 6px; padding: 6px 10px;
+    cursor: pointer; font-size: 13px; color: var(--text-muted);
+    margin-left: 8px; transition: border-color 0.2s;
+  }
+  .nav-btn:hover { border-color: var(--accent); color: var(--text); }
+
+  /* POST HEADER */
+  .post-header {
+    max-width: 680px; margin: 0 auto;
+    padding: 64px 24px 40px;
+  }
+  .breadcrumb {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 12px; color: var(--text-muted);
+    margin-bottom: 24px;
+  }
+  .breadcrumb a { color: var(--text-muted); text-decoration: none; }
+  .breadcrumb a:hover { color: var(--accent); }
+  .breadcrumb-sep { color: var(--text-soft); }
+  .post-tags { display: flex; gap: 6px; margin-bottom: 20px; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 5px;
+    border: 1px solid var(--border-bright);
+    border-radius: 4px; padding: 3px 9px;
+    font-size: 11px; font-weight: 500; letter-spacing: 0.04em;
+    color: var(--text-muted); text-decoration: none;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .badge:hover { border-color: var(--accent); color: var(--accent); }
+  .badge-dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--accent);
+  }
+  h1 {
+    font-size: clamp(28px, 4vw, 44px);
+    font-weight: 700; line-height: 1.15;
+    letter-spacing: -0.03em;
+    color: var(--text); margin-bottom: 20px;
+  }
+  .post-desc {
+    font-size: 17px; line-height: 1.7;
+    color: var(--text-muted); margin-bottom: 28px;
+  }
+  .post-meta {
+    display: flex; align-items: center; gap: 0;
+    padding: 16px 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  .meta-avatar {
+    width: 32px; height: 32px; border-radius: 50%;
+    background: linear-gradient(135deg, #0070f3, #7928ca);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; margin-right: 10px; flex-shrink: 0;
+  }
+  .meta-author { font-size: 13px; font-weight: 500; }
+  .meta-date { font-size: 13px; color: var(--text-muted); }
+  .meta-sep { color: var(--text-soft); margin: 0 8px; }
+  .meta-read-time { font-size: 13px; color: var(--text-muted); }
+  .meta-right { margin-left: auto; display: flex; gap: 8px; }
+  .icon-btn {
+    width: 32px; height: 32px; border-radius: 6px;
+    border: 1px solid var(--border-bright);
+    background: transparent;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; color: var(--text-muted); font-size: 14px;
+    transition: border-color 0.15s;
+  }
+  .icon-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* BODY */
+  .post-body {
+    max-width: 680px; margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  .post-body p {
+    font-size: 16px; line-height: 1.8;
+    color: var(--text); margin-bottom: 20px;
+  }
+  .post-body p:first-child {
+    font-size: 18px; color: var(--text-muted);
+  }
+  .post-body h2 {
+    font-size: 22px; font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--text); margin: 48px 0 16px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .post-body h2::before {
+    content: '';
+    width: 4px; height: 20px;
+    background: linear-gradient(180deg, var(--accent), var(--accent2));
+    border-radius: 2px; flex-shrink: 0;
+  }
+  code:not(pre code) {
+    font-family: 'Geist Mono', monospace;
+    font-size: 0.875em;
+    background: var(--surface2);
+    border: 1px solid var(--border-bright);
+    padding: 2px 6px; border-radius: 4px;
+    color: var(--green);
+  }
+
+  /* CODE BLOCK */
+  .code-wrap {
+    margin: 28px -24px;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  .code-toolbar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 24px;
+    border-bottom: 1px solid var(--border);
+    background: var(--code-bg);
+  }
+  .code-filename {
+    font-family: 'Geist Mono', monospace;
+    font-size: 12px; color: var(--text-muted);
+    display: flex; align-items: center; gap: 6px;
+  }
+  .file-icon { color: var(--accent); }
+  .toolbar-actions { display: flex; gap: 6px; }
+  .tb-btn {
+    font-size: 11px; color: var(--text-muted);
+    background: transparent; border: 1px solid var(--border-bright);
+    border-radius: 4px; padding: 3px 8px; cursor: pointer;
+    font-family: 'Geist', sans-serif;
+  }
+  pre {
+    background: var(--code-bg);
+    padding: 20px 24px; overflow-x: auto;
+    font-family: 'Geist Mono', monospace;
+    font-size: 13.5px; line-height: 1.75;
+  }
+  .line-num {
+    color: var(--text-soft); user-select: none;
+    display: inline-block; width: 28px;
+    text-align: right; margin-right: 20px;
+  }
+  .hl-line {
+    display: block; margin: 0 -24px;
+    padding: 0 24px;
+    background: rgba(0, 112, 243, 0.08);
+    border-left: 2px solid var(--accent);
+  }
+  .kw { color: var(--kw); }
+  .fn { color: var(--fn); }
+  .str { color: var(--str); }
+  .num { color: var(--num); }
+  .cm { color: var(--cm); font-style: italic; }
+  .ty { color: var(--ty); }
+  .op { color: var(--op); }
+
+  /* CALLOUT */
+  .callout {
+    display: flex; gap: 12px;
+    background: var(--accent-glow);
+    border: 1px solid rgba(0, 112, 243, 0.2);
+    border-radius: 8px; padding: 16px;
+    margin: 24px 0;
+  }
+  .callout-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+  .callout p {
+    font-size: 14px !important; color: var(--text-muted) !important;
+    margin: 0 !important;
+  }
+
+  /* TABLE */
+  .table-wrap { overflow-x: auto; margin: 28px 0; }
+  table {
+    width: 100%; border-collapse: collapse;
+    font-size: 14px;
+  }
+  th {
+    text-align: left; padding: 10px 16px;
+    border-bottom: 1px solid var(--border-bright);
+    font-size: 11px; font-weight: 600; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--text-muted);
+  }
+  td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+  }
+  tr:hover td { background: var(--surface2); }
+  .td-code { font-family: 'Geist Mono', monospace; font-size: 13px; color: var(--green); }
+  .td-badge {
+    display: inline-block; padding: 2px 8px; border-radius: 100px;
+    font-size: 11px; font-weight: 500;
+  }
+  .td-badge.good { background: rgba(80, 227, 194, 0.15); color: var(--green); }
+  .td-badge.warn { background: rgba(255, 185, 0, 0.15); color: #ffb900; }
+
+  /* FOOTER */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 32px 24px; text-align: center;
+    font-size: 13px; color: var(--text-muted);
+    max-width: 680px; margin: 0 auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="preview-badge">Preview 2 — Cascade</div>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="wordmark">
+      <div class="wordmark-icon">🥷</div>
+      <span class="wordmark-text">tahoe<span style="color:var(--text-muted)">ninja</span></span>
+    </a>
+    <div class="nav-right">
+      <a href="#" class="nav-link">Writing</a>
+      <a href="#" class="nav-link">Speaking</a>
+      <a href="#" class="nav-link">About</a>
+      <button class="nav-btn" onclick="toggleTheme()">☀️ / 🌙</button>
+    </div>
+  </div>
+</nav>
+
+<header class="post-header">
+  <div class="breadcrumb">
+    <a href="#">Home</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href="#">Writing</a>
+    <span class="breadcrumb-sep">/</span>
+    <span>Multi-Step Forms in SPFx</span>
+  </div>
+  <div class="post-tags">
+    <a href="#" class="badge"><span class="badge-dot"></span>SharePoint</a>
+    <a href="#" class="badge"><span class="badge-dot" style="background:#7928ca"></span>React</a>
+    <a href="#" class="badge"><span class="badge-dot" style="background:#50e3c2"></span>TypeScript</a>
+  </div>
+  <h1>Building a Multi-Step Form with SPFx and React Hooks</h1>
+  <p class="post-desc">Multi-step forms reduce cognitive load and improve completion rates. Here's a clean, type-safe approach using modern React patterns in a SharePoint Framework web part.</p>
+  <div class="post-meta">
+    <div class="meta-avatar">🥷</div>
+    <div>
+      <div class="meta-author">Hugo Bernier</div>
+      <div class="meta-date" style="display:flex;gap:4px;align-items:center">
+        <span>May 28, 2025</span>
+        <span class="meta-sep">·</span>
+        <span class="meta-read-time">8 min read</span>
+      </div>
+    </div>
+    <div class="meta-right">
+      <button class="icon-btn" title="Bookmark">🔖</button>
+      <button class="icon-btn" title="Share">↗</button>
+    </div>
+  </div>
+</header>
+
+<div class="post-body">
+  <p>When building enterprise SharePoint solutions, multi-step forms are one of the most-requested UI patterns — and one of the trickiest to get right. Let's build one properly, with full TypeScript safety and accessible step navigation.</p>
+
+  <h2>Modeling the State</h2>
+  <p>The first decision is how to store form state. A single object at the top level keeps things predictable and makes the final submission straightforward. Use a generic update helper to get compile-time key safety.</p>
+
+  <div class="code-wrap">
+    <div class="code-toolbar">
+      <div class="code-filename">
+        <span class="file-icon">◆</span>
+        <span>MultiStepForm.tsx</span>
+      </div>
+      <div class="toolbar-actions">
+        <button class="tb-btn">Raw</button>
+        <button class="tb-btn">Copy</button>
+      </div>
+    </div>
+    <pre><span class="line-num">1</span><span class="kw">interface</span> <span class="ty">FormData</span> {
+<span class="line-num">2</span>  displayName: <span class="kw">string</span>;
+<span class="line-num">3</span>  email: <span class="kw">string</span>;
+<span class="line-num">4</span>  notifyByEmail: <span class="kw">boolean</span>;
+<span class="line-num">5</span>  frequency: <span class="str">'daily'</span> | <span class="str">'weekly'</span> | <span class="str">'monthly'</span>;
+<span class="line-num">6</span>}
+<span class="line-num">7</span>
+<span class="hl-line"><span class="line-num">8</span><span class="kw">const</span> <span class="fn">MultiStepForm</span>: <span class="ty">React.FC</span> = () => {</span>
+<span class="line-num">9</span>  <span class="kw">const</span> [step, setStep] = <span class="fn">useState</span>(<span class="num">0</span>);
+<span class="hl-line"><span class="line-num">10</span>  <span class="kw">const</span> [data, setData] = <span class="fn">useState</span>&lt;<span class="ty">Partial</span>&lt;<span class="ty">FormData</span>&gt;&gt;({});</span>
+<span class="line-num">11</span>
+<span class="line-num">12</span>  <span class="kw">const</span> <span class="fn">update</span> = &lt;K <span class="kw">extends keyof</span> <span class="ty">FormData</span>&gt;(k: K, v: <span class="ty">FormData</span>[K]) =>
+<span class="line-num">13</span>    <span class="fn">setData</span>(prev => ({ ...prev, [k]: v }));
+<span class="line-num">14</span>
+<span class="line-num">15</span>  <span class="kw">return</span> &lt;<span class="ty">Wizard</span> step={step} onNext={() => <span class="fn">setStep</span>(s => s+<span class="num">1</span>)} /&gt;;
+<span class="line-num">16</span>};</pre>
+  </div>
+
+  <div class="callout">
+    <span class="callout-icon">💡</span>
+    <p>The <code>Partial&lt;FormData&gt;</code> initial state lets TypeScript know that fields may not be filled in yet — avoiding runtime errors when accessing data before the user reaches that step.</p>
+  </div>
+
+  <h2>Step Validation Strategy</h2>
+  <p>Validate on step transition, not on submit. This surfaces errors early without overwhelming the user. Here's how the step config maps validators to each step:</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Step</th>
+          <th>Fields</th>
+          <th>Validator</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>0 — Identity</td>
+          <td class="td-code">displayName, email</td>
+          <td class="td-code">validateIdentity()</td>
+          <td><span class="td-badge good">Implemented</span></td>
+        </tr>
+        <tr>
+          <td>1 — Preferences</td>
+          <td class="td-code">notifyByEmail, frequency</td>
+          <td class="td-code">validatePrefs()</td>
+          <td><span class="td-badge good">Implemented</span></td>
+        </tr>
+        <tr>
+          <td>2 — Confirm</td>
+          <td>—</td>
+          <td>—</td>
+          <td><span class="td-badge warn">Review only</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Keeping validators pure functions makes them trivial to unit-test in isolation — no component mounting required.</p>
+</div>
+
+<footer>
+  <p>© 2025 Hugo Bernier · <a href="#" style="color:var(--accent);text-decoration:none;">tahoeninja.blog</a></p>
+</footer>
+
+<script>
+  function toggleTheme() {
+    const html = document.documentElement;
+    html.dataset.theme = html.dataset.theme === 'dark' ? 'light' : 'dark';
+  }
+</script>
+</body>
+</html>

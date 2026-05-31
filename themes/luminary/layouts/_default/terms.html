@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="list-page">
+  <div class="list-header">
+    <p class="list-header-eyebrow">{{ .Kind | title }}</p>
+    <h1 class="list-header-title">{{ .Title }}</h1>
+    <p class="list-header-count">{{ len .Pages }} {{ if eq (len .Pages) 1 }}term{{ else }}terms{{ end }}</p>
+  </div>
+  <div class="terms-grid">
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}" class="term-card">
+      <span class="term-name">{{ .Title }}</span>
+      <span class="term-count">{{ len .Pages }}</span>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

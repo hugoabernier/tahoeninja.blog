@@ -1,0 +1,115 @@
+{{ define "main" }}
+<article>
+  <!-- Post Hero -->
+  <div class="post-hero">
+    {{ with .Params.image }}
+    <img src="{{ . | absURL }}" alt="{{ $.Title }}" loading="eager">
+    {{ else }}
+    <div class="post-hero-gradient">
+      <div class="post-hero-code" aria-hidden="true">
+        <span class="cm">// {{ .Title | truncate 60 }}</span><br>
+        <span class="kw">const</span> <span class="fn">post</span> = {<br>
+        &nbsp;&nbsp;date: <span class="str">"{{ .Date.Format "2006-01-02" }}"</span>,<br>
+        {{ with .ReadingTime }}&nbsp;&nbsp;readingTime: <span class="mi">{{ . }}</span>,<br>{{ end }}
+        {{ with .Params.categories }}&nbsp;&nbsp;category: <span class="str">"{{ index . 0 }}"</span>,<br>{{ end }}
+        }
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <!-- Article layout -->
+  <div class="article-layout">
+    <div class="article-content">
+      <!-- Eyebrow categories -->
+      <div class="post-eyebrow">
+        {{ with .Params.categories }}
+        {{ range . }}
+        <a href="{{ . | urlize | printf "/categories/%s/" | relURL }}" class="post-category">{{ . }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+
+      <h1 class="post-headline">{{ .Title }}</h1>
+
+      <!-- Byline -->
+      <div class="post-byline">
+        <img src="/images/author/hugo.jpg" alt="{{ site.Params.author }}" class="byline-avatar" width="36" height="36" loading="lazy">
+        <div>
+          <div class="byline-author">{{ site.Params.author | default "Hugo Bernier" }}</div>
+          <div class="byline-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            {{ with .ReadingTime }}
+            <span>·</span>
+            <span>{{ . }} min read</span>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+
+      {{ if .Params.interactive }}
+      <p class="post-interactive">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="10"/></svg>
+        Interactive
+      </p>
+      {{ end }}
+
+      <!-- Body -->
+      <div class="post-body">
+        {{ .Content }}
+      </div>
+
+      <!-- Tags footer -->
+      {{ with .Params.tags }}
+      <div class="post-tags-footer">
+        <p class="post-tags-footer-label">Tagged</p>
+        <ul class="card-meta-tag list-inline">
+          {{ range . }}
+          <li class="list-inline-item">
+            <a href="{{ . | urlize | printf "/tags/%s/" | relURL }}">{{ . }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      <!-- Related posts -->
+      {{ $related := site.RegularPages.Related . | first 3 }}
+      {{ with $related }}
+      <div class="related-posts">
+        <h2 class="related-posts-title">Related Posts</h2>
+        {{ range . }}
+        <div class="related-post">
+          {{ with .Params.image }}
+          <img src="{{ . | absURL }}" alt="{{ $.Title }}" class="related-post-thumb" loading="lazy" width="64" height="64">
+          {{ else }}
+          <div class="related-post-thumb gradient-placeholder" style="width:64px;height:64px;min-height:unset;border-radius:6px;"></div>
+          {{ end }}
+          <div class="related-post-info">
+            <a href="{{ .RelPermalink }}" class="related-post-title">{{ .Title }}</a>
+            <span class="related-post-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      <!-- Comments -->
+      {{ partial "comments.html" . }}
+
+      <!-- Custom script -->
+      {{ with .Params.script }}
+      <script src="{{ . | absURL }}" defer></script>
+      {{ end }}
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar article-sidebar">
+      {{ partial "widgets/author.html" . }}
+      {{ partial "widgets/categories.html" . }}
+      {{ partial "widgets/tags.html" . }}
+      {{ partial "widgets/social.html" . }}
+    </aside>
+  </div>
+</article>
+{{ end }}

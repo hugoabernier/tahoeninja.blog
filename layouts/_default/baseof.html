@@ -1,23 +1,18 @@
 <!DOCTYPE html>
-<html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-
+<html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}" data-theme="dark">
 
 <head>
+  <script>(function(){var t=localStorage.getItem('luminary-theme')||'dark';document.documentElement.setAttribute('data-theme',t);})();</script>
   {{ partial "head.html" . }}
   {{ partialCached "style.html" . }}
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58JZVJXB" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  {{- partial "preloader.html" . -}}
   {{- partial "header.html" . -}}
-	{{ partial "gtm-noscript.html" . }}
+  {{ partial "gtm-noscript.html" . }}
   {{- block "main" . }}
   {{- end }}
-  
+
   {{ if ne .Layout "contact" }}
   {{ partialCached "footer.html" . }}
   {{ end }}

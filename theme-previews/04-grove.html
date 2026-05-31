@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grove — Theme Preview 4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Instrument+Sans:wght@400;500;600&family=Zed+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f4f1eb;
+    --surface: #fdfcfa;
+    --surface2: #ede9e0;
+    --ink: #1c1a16;
+    --ink2: #4a4538;
+    --ink3: #8a8270;
+    --ink4: #c0b8a8;
+    --rule: #ddd8cc;
+    --accent: #2d6a4f;
+    --accent2: #40916c;
+    --accent-muted: #d8f3dc;
+    --amber: #b7791f;
+    --amber-bg: #fef9ef;
+    --code-bg: #1a1f2e;
+    --reading-width: 680px;
+    --kw: #ff9ac1;
+    --fn: #8aff80;
+    --str: #ffff80;
+    --ty: #9aedfe;
+    --num: #d6acff;
+    --cm: #636d83;
+    --op: #ff9580;
+  }
+  [data-theme="dark"] {
+    --bg: #12110e;
+    --surface: #18170f;
+    --surface2: #1f1e15;
+    --ink: #f0ece0;
+    --ink2: #c8c0a8;
+    --ink3: #7a7060;
+    --ink4: #3a3828;
+    --rule: #282618;
+    --accent: #52b788;
+    --accent2: #74c69d;
+    --accent-muted: #132218;
+    --amber: #e9a84c;
+    --amber-bg: #1e1608;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    transition: background 0.4s, color 0.4s;
+  }
+
+  .preview-badge {
+    position: fixed; bottom: 16px; left: 16px; z-index: 1000;
+    background: var(--accent); color: white;
+    padding: 6px 14px; border-radius: 100px;
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* TOPBAR */
+  .topbar {
+    background: var(--surface);
+    border-bottom: 1px solid var(--rule);
+    transition: background 0.4s, border-color 0.4s;
+  }
+  .topbar-inner {
+    max-width: 1120px; margin: 0 auto;
+    padding: 0 32px;
+    height: 58px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .logo {
+    display: flex; align-items: center; gap: 10px;
+    text-decoration: none;
+  }
+  .logo-mark {
+    width: 34px; height: 34px; border-radius: 8px;
+    background: var(--accent);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; flex-shrink: 0;
+  }
+  .logo-type {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px; font-weight: 700;
+    color: var(--ink); letter-spacing: -0.02em;
+  }
+  .logo-type span { color: var(--accent); }
+  .topbar-nav { display: flex; align-items: center; gap: 2px; }
+  .topbar-link {
+    padding: 7px 14px; border-radius: 6px;
+    font-size: 13px; font-weight: 500;
+    color: var(--ink3); text-decoration: none;
+    transition: background 0.15s, color 0.15s;
+  }
+  .topbar-link:hover { background: var(--surface2); color: var(--ink); }
+  .topbar-link.active { background: var(--accent-muted); color: var(--accent); }
+  .theme-switch {
+    display: flex; align-items: center;
+    background: var(--surface2); border: 1px solid var(--rule);
+    border-radius: 20px; padding: 3px;
+    margin-left: 12px; cursor: pointer;
+    gap: 2px;
+  }
+  .theme-opt {
+    padding: 4px 10px; border-radius: 16px;
+    font-size: 12px; color: var(--ink3); cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    background: transparent; border: none;
+  }
+  .theme-opt.on { background: var(--surface); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+
+  /* HERO STRIP */
+  .hero-strip {
+    background: var(--surface);
+    border-bottom: 1px solid var(--rule);
+  }
+  .hero-strip-inner {
+    max-width: 1120px; margin: 0 auto;
+    padding: 60px 32px 56px;
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 64px; align-items: center;
+  }
+  .hero-kicker {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent); margin-bottom: 16px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .hero-kicker::before {
+    content: ''; width: 24px; height: 2px; background: var(--accent);
+  }
+  .hero-h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: clamp(30px, 3.5vw, 48px);
+    font-weight: 700; line-height: 1.15;
+    letter-spacing: -0.02em; color: var(--ink);
+    margin-bottom: 20px;
+  }
+  .hero-desc {
+    font-size: 17px; line-height: 1.75;
+    color: var(--ink3); margin-bottom: 28px;
+  }
+  .hero-meta { display: flex; align-items: center; gap: 12px; }
+  .hero-avatar {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: var(--accent);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+  }
+  .hero-meta-text { font-size: 13px; }
+  .hero-meta-name { font-weight: 600; color: var(--ink); }
+  .hero-meta-detail { color: var(--ink3); margin-top: 2px; }
+  .hero-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag {
+    padding: 5px 12px; border-radius: 6px;
+    font-size: 12px; font-weight: 500;
+    background: var(--surface2); color: var(--ink3);
+    text-decoration: none; border: 1px solid var(--rule);
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+  .tag:hover { background: var(--accent-muted); color: var(--accent); border-color: var(--accent2); }
+  .tag.primary { background: var(--accent-muted); color: var(--accent); border-color: var(--accent2); }
+  .hero-img-block {
+    border-radius: 16px; overflow: hidden;
+    background: linear-gradient(135deg, #1a1f2e 0%, #2d3748 60%, #1a2a1a 100%);
+    height: 320px; position: relative;
+    display: flex; align-items: flex-end;
+  }
+  .hero-img-overlay {
+    padding: 24px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    width: 100%;
+  }
+  .code-snippet-preview {
+    font-family: 'Zed Mono', 'JetBrains Mono', monospace;
+    font-size: 13px; color: #cdd6f4; line-height: 1.6;
+  }
+  .cs-kw { color: #cba6f7; }
+  .cs-fn { color: #89dceb; }
+  .cs-str { color: #a6e3a1; }
+  .cs-ty { color: #89b4fa; }
+
+  /* READING AREA */
+  .reading {
+    max-width: var(--reading-width);
+    margin: 0 auto; padding: 56px 32px 80px;
+  }
+
+  /* PROGRESS BAR */
+  .reading-progress {
+    position: fixed; top: 58px; left: 0; right: 0;
+    height: 2px; background: transparent; z-index: 99;
+  }
+  .reading-progress-bar {
+    height: 100%; background: var(--accent);
+    width: 45%; transition: width 0.1s;
+  }
+
+  /* ARTICLE HEADER */
+  .art-header { margin-bottom: 40px; }
+  .art-header h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 700; line-height: 1.15;
+    letter-spacing: -0.02em; color: var(--ink);
+    margin-bottom: 16px;
+  }
+  .art-header-desc {
+    font-size: 18px; line-height: 1.7;
+    color: var(--ink3); margin-bottom: 24px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 400;
+  }
+  .art-header-meta {
+    display: flex; align-items: center;
+    padding: 16px 0; gap: 14px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  .art-avatar {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: var(--accent);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px; flex-shrink: 0;
+  }
+  .art-author { font-size: 14px; font-weight: 600; color: var(--ink); }
+  .art-date { font-size: 13px; color: var(--ink3); margin-top: 2px; }
+  .art-stats { margin-left: auto; display: flex; gap: 16px; }
+  .art-stat { font-size: 12px; color: var(--ink3); text-align: center; }
+  .art-stat-val { font-size: 16px; font-weight: 600; color: var(--ink2); display: block; }
+
+  /* BODY TEXT */
+  .art-body p {
+    font-size: 17.5px; line-height: 1.85;
+    color: var(--ink2); margin-bottom: 24px;
+    font-family: 'Instrument Sans', sans-serif;
+  }
+  .art-body p:first-child {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 20px; color: var(--ink);
+    font-weight: 400;
+  }
+  .art-body h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 26px; font-weight: 700;
+    letter-spacing: -0.02em; color: var(--ink);
+    margin: 52px 0 18px;
+  }
+  .art-body h3 {
+    font-size: 16px; font-weight: 600; color: var(--ink);
+    letter-spacing: 0.01em; text-transform: uppercase;
+    font-size: 12px; letter-spacing: 0.1em;
+    color: var(--ink3); margin: 36px 0 14px;
+  }
+
+  /* INLINE CODE */
+  code:not(pre code) {
+    font-family: 'Zed Mono', monospace; font-size: 0.85em;
+    background: var(--surface2); color: var(--accent);
+    padding: 2px 7px; border-radius: 4px;
+    border: 1px solid var(--rule);
+  }
+
+  /* CODE BLOCK */
+  .code-block {
+    margin: 32px -4px;
+    border-radius: 12px; overflow: hidden;
+    background: var(--code-bg);
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+  .code-top {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 18px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .code-file {
+    display: flex; align-items: center; gap: 8px;
+    font-family: 'Zed Mono', monospace;
+    font-size: 12px; color: #6c7086;
+  }
+  .code-file-icon {
+    width: 16px; height: 16px; border-radius: 3px;
+    background: rgba(137, 220, 235, 0.2);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 9px; color: #89dceb;
+  }
+  .code-actions { display: flex; gap: 6px; }
+  .code-action {
+    font-size: 11px; color: #6c7086; background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 4px; padding: 3px 9px; cursor: pointer;
+    font-family: 'Instrument Sans', sans-serif;
+    transition: color 0.15s;
+  }
+  .code-action:hover { color: #cdd6f4; }
+  pre {
+    padding: 20px 18px; overflow-x: auto;
+    font-family: 'Zed Mono', 'JetBrains Mono', monospace;
+    font-size: 13.5px; line-height: 1.75;
+  }
+  .kw { color: var(--kw); }
+  .fn { color: var(--fn); }
+  .str { color: var(--str); }
+  .ty { color: var(--ty); }
+  .num { color: var(--num); }
+  .cm { color: var(--cm); font-style: italic; }
+  .op { color: var(--op); }
+  .hl { display: block; background: rgba(82,183,136,0.1); margin: 0 -18px; padding: 0 18px; border-left: 2px solid var(--accent); }
+
+  /* CALLOUT VARIANTS */
+  .callout {
+    border-radius: 10px; padding: 18px 20px;
+    margin: 28px 0;
+    display: flex; gap: 14px;
+  }
+  .callout.note { background: var(--accent-muted); border: 1px solid rgba(82,183,136,0.25); }
+  .callout.warning { background: var(--amber-bg); border: 1px solid rgba(183,121,31,0.25); }
+  .callout-ico { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+  .callout-title { font-size: 13px; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
+  .callout p { font-size: 14px !important; color: var(--ink3) !important; margin: 0 !important; line-height: 1.6 !important; }
+
+  /* ANNOTATION ASIDE (unique feature) */
+  .annotated { position: relative; }
+  .annotation {
+    position: absolute; right: -240px; top: 0;
+    width: 200px;
+    font-size: 12px; color: var(--ink3);
+    border-left: 2px solid var(--accent);
+    padding-left: 12px; line-height: 1.5;
+  }
+
+  /* NEXT/PREV NAV */
+  .post-nav {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 16px; margin-top: 64px;
+    border-top: 1px solid var(--rule);
+    padding-top: 40px;
+  }
+  .post-nav-item {
+    padding: 20px; border-radius: 10px;
+    background: var(--surface); border: 1px solid var(--rule);
+    text-decoration: none; transition: border-color 0.2s;
+  }
+  .post-nav-item:hover { border-color: var(--accent); }
+  .post-nav-dir { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink4); margin-bottom: 6px; }
+  .post-nav-title { font-family: 'Outfit', sans-serif; font-size: 15px; font-weight: 600; color: var(--ink); line-height: 1.4; }
+  .post-nav-item:nth-child(2) { text-align: right; }
+
+  /* FOOTER */
+  footer {
+    background: var(--surface); border-top: 1px solid var(--rule);
+    padding: 48px 32px;
+    transition: background 0.4s;
+  }
+  .footer-inner {
+    max-width: 1120px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .footer-logo {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px; font-weight: 600; color: var(--ink3);
+  }
+  .footer-links { display: flex; gap: 20px; }
+  .footer-links a { font-size: 13px; color: var(--ink3); text-decoration: none; }
+  .footer-links a:hover { color: var(--accent); }
+  .footer-copy { font-size: 12px; color: var(--ink4); }
+</style>
+</head>
+<body>
+
+<div class="preview-badge">Preview 4 — Grove</div>
+
+<div class="reading-progress"><div class="reading-progress-bar"></div></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#" class="logo">
+      <div class="logo-mark">🥷</div>
+      <span class="logo-type">tahoe<span>ninja</span></span>
+    </a>
+    <nav class="topbar-nav">
+      <a href="#" class="topbar-link active">Writing</a>
+      <a href="#" class="topbar-link">Speaking</a>
+      <a href="#" class="topbar-link">About</a>
+      <a href="#" class="topbar-link">Contact</a>
+      <div class="theme-switch">
+        <button class="theme-opt on" id="btn-light" onclick="setTheme('light')">☀ Light</button>
+        <button class="theme-opt" id="btn-dark" onclick="setTheme('dark')">🌙 Dark</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- HOME HERO (shows on first scroll position) -->
+<section class="hero-strip">
+  <div class="hero-strip-inner">
+    <div>
+      <div class="hero-kicker">Latest post</div>
+      <h1 class="hero-h1">Building a Multi-Step Form with SPFx and React Hooks</h1>
+      <p class="hero-desc">Multi-step forms reduce cognitive load and keep users moving. Here's a clean, type-safe implementation for SharePoint Framework.</p>
+      <div class="hero-meta" style="margin-bottom:20px;">
+        <div class="hero-avatar">🥷</div>
+        <div class="hero-meta-text">
+          <div class="hero-meta-name">Hugo Bernier</div>
+          <div class="hero-meta-detail">May 28, 2025 · 8 min read</div>
+        </div>
+      </div>
+      <div class="hero-tags">
+        <a href="#" class="tag primary">SharePoint</a>
+        <a href="#" class="tag">React</a>
+        <a href="#" class="tag">TypeScript</a>
+        <a href="#" class="tag">SPFx</a>
+        <a href="#" class="tag">Accessibility</a>
+      </div>
+    </div>
+    <div class="hero-img-block">
+      <div class="hero-img-overlay">
+        <div class="code-snippet-preview">
+          <span class="cs-kw">const</span> [step, setStep] =<br>
+          &nbsp;&nbsp;<span class="cs-fn">useState</span>(<span style="color:#fab387">0</span>);<br>
+          <span class="cs-kw">const</span> [data, setData] =<br>
+          &nbsp;&nbsp;<span class="cs-fn">useState</span>&lt;<span class="cs-ty">Partial</span>&lt;<span class="cs-ty">FormData</span>&gt;&gt;({});
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ARTICLE READING VIEW -->
+<main class="reading">
+  <header class="art-header">
+    <h1>Building a Multi-Step Form with SPFx and React Hooks</h1>
+    <p class="art-header-desc">Multi-step forms feel complex to build — but with the right state model and a touch of TypeScript discipline, they come together cleanly.</p>
+    <div class="art-header-meta">
+      <div class="art-avatar">🥷</div>
+      <div>
+        <div class="art-author">Hugo Bernier</div>
+        <div class="art-date">May 28, 2025</div>
+      </div>
+      <div class="art-stats">
+        <div class="art-stat"><span class="art-stat-val">8</span>min read</div>
+        <div class="art-stat"><span class="art-stat-val">4</span>sections</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="art-body">
+    <p>When building enterprise SharePoint solutions, multi-step forms often feel like the right call — but the implementation details can make or break the user experience for the people who interact with these forms daily.</p>
+
+    <p>The psychology is well-established: presenting twenty fields at once is intimidating. Breaking them into logical groups reduces perceived complexity and keeps users in a forward-moving flow. But doing this well in SPFx takes some care.</p>
+
+    <h2>Modeling the State</h2>
+
+    <p>Keep all form data in a single object at the top level of your wizard component. This eliminates an entire class of bugs — the kind where navigating back to a previous step discards what the user already entered.</p>
+
+    <div class="callout note">
+      <span class="callout-ico">🌱</span>
+      <div>
+        <div class="callout-title">Design decision</div>
+        <p>Using <code>Partial&lt;FormData&gt;</code> as the initial state means TypeScript knows that fields may be undefined until the user fills them in. This beats both <code>null</code> and empty strings for correctness.</p>
+      </div>
+    </div>
+
+    <div class="code-block">
+      <div class="code-top">
+        <div class="code-file">
+          <div class="code-file-icon">T</div>
+          <span>MultiStepForm.tsx</span>
+        </div>
+        <div class="code-actions">
+          <button class="code-action">Copy</button>
+        </div>
+      </div>
+      <pre><span class="kw">interface</span> <span class="ty">FormData</span> {
+  displayName: <span class="kw">string</span>;
+  email: <span class="kw">string</span>;
+  department: <span class="kw">string</span>;
+  notifyByEmail: <span class="kw">boolean</span>;
+  frequency: <span class="str">'daily'</span> <span class="op">|</span> <span class="str">'weekly'</span> <span class="op">|</span> <span class="str">'monthly'</span>;
+}
+
+<span class="kw">const</span> <span class="fn">MultiStepForm</span>: <span class="ty">React.FC</span> = () => {
+<span class="hl">  <span class="kw">const</span> [step, setStep] = <span class="fn">useState</span>(<span class="num">0</span>);</span>
+<span class="hl">  <span class="kw">const</span> [data, setData] = <span class="fn">useState</span>&lt;<span class="ty">Partial</span>&lt;<span class="ty">FormData</span>&gt;&gt;({});</span>
+
+  <span class="cm">// A generic updater — TypeScript enforces key/value compatibility</span>
+  <span class="kw">const</span> <span class="fn">update</span> = &lt;K <span class="kw">extends</span> <span class="kw">keyof</span> <span class="ty">FormData</span>&gt;(
+    key: K, value: <span class="ty">FormData</span>[K]
+  ) => <span class="fn">setData</span>(prev => ({ ...prev, [key]: value }));
+
+  <span class="kw">return</span> (
+    &lt;<span class="ty">Wizard</span> step={step}
+      onNext={() => <span class="fn">setStep</span>(s => s + <span class="num">1</span>)}
+      onBack={() => <span class="fn">setStep</span>(s => s - <span class="num">1</span>)}&gt;
+      {step === <span class="num">0</span> &amp;&amp; &lt;<span class="ty">IdentityStep</span> data={data} onChange={update} /&gt;}
+      {step === <span class="num">1</span> &amp;&amp; &lt;<span class="ty">PrefsStep</span> data={data} onChange={update} /&gt;}
+      {step === <span class="num">2</span> &amp;&amp; &lt;<span class="ty">ConfirmStep</span> data={data} /&gt;}
+    &lt;/<span class="ty">Wizard</span>&gt;
+  );
+};</pre>
+    </div>
+
+    <h2>Accessible Step Navigation</h2>
+
+    <p>Step indicators are often treated as decoration, but they carry real semantic weight. A screen reader user needs to know where they are in a process — and the browser won't tell them unless you do.</p>
+
+    <div class="callout warning">
+      <span class="callout-ico">⚠️</span>
+      <div>
+        <div class="callout-title">Accessibility pitfall</div>
+        <p>Don't rely on visual position alone. Add <code>aria-current="step"</code> to the active indicator and wrap the container in <code>role="list"</code> so the count is announced automatically.</p>
+      </div>
+    </div>
+
+    <p>Use a live region to announce step transitions. When the view changes, update the live region text: <em>"Step 2 of 3: Notification Preferences"</em>. This costs ten lines of code and saves your users genuine confusion.</p>
+
+    <div class="post-nav">
+      <a href="#" class="post-nav-item">
+        <div class="post-nav-dir">← Previous</div>
+        <div class="post-nav-title">Using PnP.js v4 with Modern SharePoint</div>
+      </a>
+      <a href="#" class="post-nav-item">
+        <div class="post-nav-dir">Next →</div>
+        <div class="post-nav-title">React Hooks Patterns Every SPFx Developer Should Know</div>
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">Tahoe Ninja</div>
+    <div class="footer-links">
+      <a href="#">Writing</a>
+      <a href="#">Speaking</a>
+      <a href="#">About</a>
+      <a href="#">RSS</a>
+    </div>
+    <div class="footer-copy">© 2025 Hugo Bernier</div>
+  </div>
+</footer>
+
+<script>
+  function setTheme(t) {
+    document.documentElement.dataset.theme = t;
+    document.getElementById('btn-light').className = 'theme-opt' + (t === 'light' ? ' on' : '');
+    document.getElementById('btn-dark').className  = 'theme-opt' + (t === 'dark'  ? ' on' : '');
+  }
+</script>
+</body>
+</html>

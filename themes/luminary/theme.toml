@@ -1,0 +1,7 @@
+name = "Luminary"
+license = "MIT"
+licenselink = "https://github.com/hugoabernier/tahoeninja.blog"
+description = "Luminary Indigo theme for Tahoe Ninja"
+homepage = "https://tahoeninja.blog"
+tags = ["blog", "dark", "minimal"]
+min_version = "0.100.0"

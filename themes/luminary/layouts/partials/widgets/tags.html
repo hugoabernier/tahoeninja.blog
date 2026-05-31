@@ -1,0 +1,10 @@
+<div class="sidebar-card widget widget-tags">
+  <h3 class="widget-title">Tags</h3>
+  <ul class="widget-list-inline list-inline">
+    {{ range $.Site.Taxonomies.tags.ByCount | first 20 }}
+    <li class="list-inline-item">
+      <a href="{{ .Page.RelPermalink }}" class="tag">{{ .Page.Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>

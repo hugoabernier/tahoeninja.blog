@@ -5,7 +5,7 @@ baseURL = "https://tahoeninja.blog/"
 title = "Tahoe Ninja"
 
 # theme
-theme = "northendlab"
+theme = "luminary"
 # post pagination
 #paginate = "10"
 # post excerpt
@@ -124,20 +124,9 @@ expire_days = 2
 
 ########################## Plugings ######################################
 # css plugins
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
-[[params.plugins.css]]
-link = "plugins/slick/slick.min.css"
-
 # js plugins
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
-[[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-link = "plugins/shuffle/shuffle.min.js"
 [[params.plugins.js]]
 link = "plugins/search/fuse.min.js"
 [[params.plugins.js]]

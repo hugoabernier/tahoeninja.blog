@@ -1,0 +1,4 @@
+<div class="tab-panel" data-tab="{{ .Get "name" }}">
+  <button class="tab-trigger">{{ .Get "name" }}</button>
+  <div class="tab-content">{{ .Inner | markdownify }}</div>
+</div>
