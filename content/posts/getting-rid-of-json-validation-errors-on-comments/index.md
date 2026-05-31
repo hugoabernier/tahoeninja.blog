@@ -1,7 +1,7 @@
 ---
 title: "Getting rid of JSON validation errors on comments"
 date: 2020-08-26T12:00:00Z
-summary: "Introduction If you're an SPFx developer who uses Visual Studio Code, you may have noticed that the JSON files that the Yeoman generator creates contain comments to help you understand how to configure your manifest. The only problem is: JSON files aren't supposed to have comments."
+summary: "If you're an SPFx developer who uses Visual Studio Code, you may have noticed that the JSON files that the Yeoman generator creates contain comments to help you understand how to configure your manifest. The only problem is: JSON files aren't supposed to have comments."
 image: "images/post/uploads/2020/08/badschema.png"
 categories:
 - "VS Code"

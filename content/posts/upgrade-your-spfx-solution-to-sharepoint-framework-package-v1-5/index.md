@@ -136,13 +136,13 @@ But the next sections in the report will include more changes to the .yo-rc.json
 
 Once you’ve made all your changes, test your solution and (hopefully) it will work with SPFx 1.5!
 
-# Conclusion
+## Conclusion
 
 You shouldn’t need to upgrade your solution every single time Microsoft releases a new version of SPFx.
 
 If you have to upgrade your solution, however, the Office 365 CLI **spfx upgrade project** command can save you a lot of time.
 
-# For more information
+## For more information
 
 This article is mostly a note to myself on how to upgrade an SPFx project. For the real deal, I encourage you to read Waldek’s [detailed article](https://blog.mastykarz.nl/upgrade-sharepoint-framework-project-office-365-cli/), from where I learned about the spfx project upgrade command. (Thanks Waldek for being awesome!)
 

@@ -101,7 +101,7 @@ The remote server returned an error: (413) Request Entity Too Large
 
 I hope the information above helped?
 
-# For more information
+## For more information
 
 Set-UserPhoto CmdLet  
 [http://technet.microsoft.com/en-us/library/jj218694.aspx](http://technet.microsoft.com/en-us/library/jj218694.aspx)

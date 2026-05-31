@@ -18,7 +18,7 @@ keywords:
   - Microsoft 365 PnP
   - Sharing is Caring
 ---
-# Introduction
+## Introduction
 
 Making your first contribution to the SharePoint PnP community can be scary!
 

@@ -20,7 +20,7 @@ In [part 1 of this article](/posts/displaying-site-information-security-classifi
 
 We’ll actually do the coding in this article!
 
-# Creating the SPFx extension solution
+## Creating the SPFx extension solution
 
 1. Using the command line, create a new project directory
 

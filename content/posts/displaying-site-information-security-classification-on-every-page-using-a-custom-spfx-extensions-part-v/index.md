@@ -27,7 +27,7 @@ In [part 4](/2018/04/21/displaying-site-information-security-classification-on-e
 
 In this part, we will clean up a few things, package and deploy the extension.
 
-# Preparing to deploy to production
+## Preparing to deploy to production
 
 The extension we wrote in parts 1-4 of this article works, but it isn’t really production ready.
 

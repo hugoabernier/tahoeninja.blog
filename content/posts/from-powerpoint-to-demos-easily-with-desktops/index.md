@@ -2,11 +2,10 @@
 title: "From PowerPoint to Demos Easily With Desktops"
 date: 2021-02-07T19:56:25-05:00
 image: "posts/from-powerpoint-to-demos-easily-with-desktops/featured-image.jpg"
+summary: "Use Windows desktops to switch between a PowerPoint slide show, live demos, and Teams without dropping out of presentation mode."
 categories: 
 - "Productivity"
 ---
-
-## Introduction
 
 If you've ever tried to give a PowerPoint presentation and switch to your desktop to do a demo, you may have noticed that PowerPoint tends to fight with you to stay in slide show mode.
 

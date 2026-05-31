@@ -126,6 +126,6 @@ I know I did!
 
 [Sahil Malik](https://winsmarts.com/using-cmder-as-integrated-shell-in-vscode-c3340714fe3c) has detailed instructions (and a video!) to to integrate with Cmder Visual Studio Code.
 
-# Update
+## Update
 
 In the previous revision of this article, I had forgotten to include the steps to copy the .lua files to the config folder. It works much better when you include _all_ the steps, it turns out 🙂

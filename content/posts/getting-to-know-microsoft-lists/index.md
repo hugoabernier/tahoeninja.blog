@@ -8,13 +8,15 @@ date: 2020-07-28T10:07:47+06:00
 # post thumb
 image: "images/post/uploads/2020/07/2020-07-28_15-55-27.png"
 
+# meta description
+summary: "Microsoft Lists brings familiar SharePoint list capabilities into a new Microsoft 365 experience. Here is a tour of the list templates available at launch."
+
 
 # taxonomies
 categories:
   - "Microsoft List"
 
 ---
-## Introduction
 
 As [Microsoft Lists starts rolling out to Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-lists-begins-general-availability-roll-out-to/ba-p/1524768), I find that more and more people seem to get confused about Microsoft Lists vs SharePoint, or complaining about how they’ll have to "learn a new product … again!".
 

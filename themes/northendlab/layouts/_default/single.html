@@ -13,7 +13,7 @@
         <div class="post-date  animation--floating animation--title-in">
           <span>{{ .PublishDate.Format "Jan 2, 2006" }}</span>
         </div>
-        <h2 class="post-title  animation--floating animation--title-in">{{ .Title | markdownify }}</h2>
+        <h1 class="post-title  animation--floating animation--title-in">{{ .Title | markdownify }}</h1>
         {{ if .Params.interactive }}
         <div class="post-interactive animation--floating animation--title-in">Interactive</div>
         {{ end }}
@@ -27,7 +27,6 @@
     <div class="row justify-content-center">
       <div class="col-lg-10">
         <div class="block pb-0">
-          <h1>{{ .Title | markdownify }}</h1>
           <div class="content mb-3">
             {{ .Content }}
           </div>

@@ -428,7 +428,7 @@ and add the web part we created to the page. The events will render as a list:
 
 ![CalendarFeedPart1](CalendarFeedPart1.png)
 
-# Conclusion
+## Conclusion
 
 Although it isn’t very exciting (yet), the web part we created creates a bunch of events, simulates retrieving them from an HTTP request and renders them in a list.
 

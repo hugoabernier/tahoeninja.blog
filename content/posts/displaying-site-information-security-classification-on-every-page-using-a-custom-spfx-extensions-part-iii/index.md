@@ -22,7 +22,7 @@ Yes, _static._ As in _hard-coded_. I try to write these articles for people who
 
 In this article, we’ll discuss how we use property bags to store the security classification.
 
-# What are property bags anyway?
+## What are property bags anyway?
 
 _Property bags_ is a term used when describing a serialized list of properties. It isn’t unique to SharePoint — I remember using them in the good old C days, but SharePoint has been using them for a long time. Remember this screen from SharePoint Designer?
 
@@ -44,7 +44,7 @@ Here is what the property bag looks like in SharePoint Designer 2013:
 
 ![PropertyBagSharePoint](PropertyBagSharePoint.png)
 
-# Storing custom properties in site property bags
+## Storing custom properties in site property bags
 
 In the [previous article](/2018/04/21/displaying-site-information-security-classification-on-every-page-using-a-custom-spfx-extensions-part-ii/), I asked you to create test sites for LBI, MBI, and HBI tests. Now we’ll store the values **LBI**, **MBI**, and **HBI** in the **sc\_BusinessImpact** property in each respective site’s property bags.
 

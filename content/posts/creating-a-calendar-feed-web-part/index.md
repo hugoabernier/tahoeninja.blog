@@ -146,7 +146,7 @@ Like the SharePoint events web part, there is a next and previous arrow when you
 
 Finally, the **Add to my calendar** button creates a dynamic ICS file, allowing you to import the event to most calendars on most devices.
 
-# Conclusion
+## Conclusion
 
 In [upcoming articles](/2018/06/05/creating-a-calendar-feed-web-part-part-ii), I’ll show how to build this, component by component.
 

@@ -24,7 +24,7 @@ In [part 2](/2018/04/21/displaying-site-information-security-classification-on-e
 
 In this part, we will finally get to add code to our extension that reads the property bag of the current site and displays the appropriate site classification label.
 
-# Reading the classification from the site’s property bag
+## Reading the classification from the site’s property bag
 
 You can get the property bag of a site using a simple REST call to **[https://yourtenant.sharepoint.com/sites/yoursite/\_api/web/allProperties](https://yourtenant.sharepoint.com/sites/yoursite/_api/web/allProperties)**  but it is even easier to use the SP PnP JS library make queries like these.
 
